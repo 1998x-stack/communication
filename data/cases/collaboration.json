@@ -1,0 +1,3542 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-001",
+    "category": "collaboration",
+    "title": "统一字段命名",
+    "level": 1,
+    "difficulty": "low",
+    "background": "两人共同整理客户表单。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "两份表格对同一字段用了不同名称"
+    ],
+    "objective": "共同确认字段词典并更新共享文档",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“两份表格对同一字段用了不同名称”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“我这里叫用户ID”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“怎么确保下次不混？”的再次追问后，争取一个明确落点：“共同确认字段词典并更新共享文档”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你说的“客户号”是哪一列？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：两份表格对同一字段用了不同名称。我的建议是共同确认字段词典并更新共享文档，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我这里叫用户ID"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么确保下次不混？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“共同确认字段词典并更新共享文档”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我这里叫用户ID",
+      "怎么确保下次不混？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“共同确认字段词典并更新共享文档”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "low",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-002",
+    "category": "collaboration",
+    "title": "会议后确认分工",
+    "level": 2,
+    "difficulty": "low",
+    "background": "开会大家都表示同意方案。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "会上决定了三项工作但无人明确负责"
+    ],
+    "objective": "在共享清单上标明每项负责人和截止日期",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“会上决定了三项工作但无人明确负责”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“为什么还要写负责人？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“下次会议什么时候？”的再次追问后，争取一个明确落点：“在共享清单上标明每项负责人和截止日期”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "不是已经讨论完了吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：会上决定了三项工作但无人明确负责。我的建议是在共享清单上标明每项负责人和截止日期，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么还要写负责人？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下次会议什么时候？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“在共享清单上标明每项负责人和截止日期”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么还要写负责人？",
+      "下次会议什么时候？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“在共享清单上标明每项负责人和截止日期”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "low",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-003",
+    "category": "collaboration",
+    "title": "请求同事核对",
+    "level": 3,
+    "difficulty": "low",
+    "background": "你做完报告希望同事复核。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "报告将于后天交付，数据由对方团队维护"
+    ],
+    "objective": "请同事明天下午前核对数据摘要",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“报告将于后天交付，数据由对方团队维护”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“为什么一定要我看？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“最迟什么时候需要？”的再次追问后，争取一个明确落点：“请同事明天下午前核对数据摘要”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我现在手头有其他工作"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：报告将于后天交付，数据由对方团队维护。我的建议是请同事明天下午前核对数据摘要，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么一定要我看？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "最迟什么时候需要？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“请同事明天下午前核对数据摘要”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么一定要我看？",
+      "最迟什么时候需要？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“请同事明天下午前核对数据摘要”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "low",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-004",
+    "category": "collaboration",
+    "title": "对齐交付格式",
+    "level": 4,
+    "difficulty": "low",
+    "background": "文案和设计输出尺寸不一致。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "群聊里存在两个版本的规格说明"
+    ],
+    "objective": "以最终需求单为准并冻结版式标准",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“群聊里存在两个版本的规格说明”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“我理解的是另一套尺寸”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“下次用什么版本？”的再次追问后，争取一个明确落点：“以最终需求单为准并冻结版式标准”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你为什么没按我说的做？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：群聊里存在两个版本的规格说明。我的建议是以最终需求单为准并冻结版式标准，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我理解的是另一套尺寸"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下次用什么版本？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“以最终需求单为准并冻结版式标准”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我理解的是另一套尺寸",
+      "下次用什么版本？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“以最终需求单为准并冻结版式标准”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "low",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-005",
+    "category": "collaboration",
+    "title": "迟到的进度同步",
+    "level": 5,
+    "difficulty": "low",
+    "background": "同事未及时更新任务状态。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "任务卡连续三天没有状态更新"
+    ],
+    "objective": "每天傍晚在看板更新风险与状态",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“任务卡连续三天没有状态更新”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“难道还要天天汇报？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“要怎么更新才不费劲？”的再次追问后，争取一个明确落点：“每天傍晚在看板更新风险与状态”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我以为你已经知道了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：任务卡连续三天没有状态更新。我的建议是每天傍晚在看板更新风险与状态，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "难道还要天天汇报？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "要怎么更新才不费劲？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“每天傍晚在看板更新风险与状态”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "难道还要天天汇报？",
+      "要怎么更新才不费劲？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“每天傍晚在看板更新风险与状态”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "low",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-006",
+    "category": "collaboration",
+    "title": "交接未完成",
+    "level": 6,
+    "difficulty": "low",
+    "background": "临时接手同事的客户沟通。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "共享文件缺少客户最新决策记录"
+    ],
+    "objective": "补一份关键联系人和待办列表",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“共享文件缺少客户最新决策记录”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“我现在已经不负责了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“还有什么没交接？”的再次追问后，争取一个明确落点：“补一份关键联系人和待办列表”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "资料不是都发你了吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：共享文件缺少客户最新决策记录。我的建议是补一份关键联系人和待办列表，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我现在已经不负责了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "还有什么没交接？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“补一份关键联系人和待办列表”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我现在已经不负责了",
+      "还有什么没交接？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“补一份关键联系人和待办列表”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "low",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-007",
+    "category": "collaboration",
+    "title": "同步需求变更",
+    "level": 7,
+    "difficulty": "low",
+    "background": "产品经理临时修改按钮文案。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "文案变更会触发多语言和自动化测试"
+    ],
+    "objective": "先更新需求版本并同步测试团队",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“文案变更会触发多语言和自动化测试”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“为什么你们要重新排期？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“谁来通知测试？”的再次追问后，争取一个明确落点：“先更新需求版本并同步测试团队”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "只是改几个字而已"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：文案变更会触发多语言和自动化测试。我的建议是先更新需求版本并同步测试团队，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么你们要重新排期？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "谁来通知测试？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“先更新需求版本并同步测试团队”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么你们要重新排期？",
+      "谁来通知测试？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先更新需求版本并同步测试团队”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "low",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-008",
+    "category": "collaboration",
+    "title": "邀请跨部门参加会",
+    "level": 8,
+    "difficulty": "low",
+    "background": "需要财务同事解释成本口径。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "项目组对税前税后成本存在分歧"
+    ],
+    "objective": "邀请财务参加十五分钟定义口径",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“项目组对税前税后成本存在分歧”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“我参加有什么价值？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“会议要多久？”的再次追问后，争取一个明确落点：“邀请财务参加十五分钟定义口径”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们内部聊不就行了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：项目组对税前税后成本存在分歧。我的建议是邀请财务参加十五分钟定义口径，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我参加有什么价值？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "会议要多久？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“邀请财务参加十五分钟定义口径”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我参加有什么价值？",
+      "会议要多久？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“邀请财务参加十五分钟定义口径”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "low",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-009",
+    "category": "collaboration",
+    "title": "明确验收条件",
+    "level": 9,
+    "difficulty": "low",
+    "background": "开发声称功能已经完成。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "验收标准尚未书面确认"
+    ],
+    "objective": "按双方确认的清单逐项验收",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“验收标准尚未书面确认”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“还要测什么？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“谁决定验收通过？”的再次追问后，争取一个明确落点：“按双方确认的清单逐项验收”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "功能能跑不就是做完了吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：验收标准尚未书面确认。我的建议是按双方确认的清单逐项验收，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "还要测什么？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "谁决定验收通过？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“按双方确认的清单逐项验收”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "还要测什么？",
+      "谁决定验收通过？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“按双方确认的清单逐项验收”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "low",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-010",
+    "category": "collaboration",
+    "title": "项目收尾致谢",
+    "level": 10,
+    "difficulty": "low",
+    "background": "跨部门项目顺利结束。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "对方及时支援帮助项目提前交付"
+    ],
+    "objective": "共同整理成功做法和待改进点",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“对方及时支援帮助项目提前交付”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“你特意找我有什么事？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“经验要留在哪？”的再次追问后，争取一个明确落点：“共同整理成功做法和待改进点”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这不是大家正常工作吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：对方及时支援帮助项目提前交付。我的建议是共同整理成功做法和待改进点，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你特意找我有什么事？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "经验要留在哪？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“共同整理成功做法和待改进点”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你特意找我有什么事？",
+      "经验要留在哪？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“共同整理成功做法和待改进点”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "low",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-011",
+    "category": "collaboration",
+    "title": "同事连续拖延",
+    "level": 11,
+    "difficulty": "medium",
+    "background": "联调依赖重复错过节点。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "接口交付已经两次延期"
+    ],
+    "objective": "重新确认依赖项交付日和阻塞升级条件",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“接口交付已经两次延期”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“你们不能先做别的吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“这次能给我具体日期吗？”的再次追问后，争取一个明确落点：“重新确认依赖项交付日和阻塞升级条件”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "最近确实太忙了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：接口交付已经两次延期。我的建议是重新确认依赖项交付日和阻塞升级条件，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们不能先做别的吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "这次能给我具体日期吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“重新确认依赖项交付日和阻塞升级条件”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们不能先做别的吗？",
+      "这次能给我具体日期吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“重新确认依赖项交付日和阻塞升级条件”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "medium",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-012",
+    "category": "collaboration",
+    "title": "边界模糊的请求",
+    "level": 12,
+    "difficulty": "medium",
+    "background": "同事长期把杂务推给你。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "该事项不在你的职责范围内"
+    ],
+    "objective": "将事务交回正确负责人并提供一次交接",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“该事项不在你的职责范围内”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“你做这个不是更熟吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“那现在谁来负责？”的再次追问后，争取一个明确落点：“将事务交回正确负责人并提供一次交接”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "帮一下有什么关系？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：该事项不在你的职责范围内。我的建议是将事务交回正确负责人并提供一次交接，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你做这个不是更熟吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "那现在谁来负责？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“将事务交回正确负责人并提供一次交接”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你做这个不是更熟吗？",
+      "那现在谁来负责？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“将事务交回正确负责人并提供一次交接”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "medium",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-013",
+    "category": "collaboration",
+    "title": "跨时区合作",
+    "level": 13,
+    "difficulty": "medium",
+    "background": "海外同事经常凌晨发消息。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "双方工作时间只有两小时重叠"
+    ],
+    "objective": "约定重叠时段和紧急联系机制",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“双方工作时间只有两小时重叠”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“时差不是理由吧？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“怎么保证紧急事项响应？”的再次追问后，争取一个明确落点：“约定重叠时段和紧急联系机制”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你怎么总不及时回复？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：双方工作时间只有两小时重叠。我的建议是约定重叠时段和紧急联系机制，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "时差不是理由吧？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么保证紧急事项响应？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“约定重叠时段和紧急联系机制”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "时差不是理由吧？",
+      "怎么保证紧急事项响应？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“约定重叠时段和紧急联系机制”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "medium",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-014",
+    "category": "collaboration",
+    "title": "需求频繁反复",
+    "level": 14,
+    "difficulty": "medium",
+    "background": "需求方一周改了四次范围。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "变动已导致两次开发返工"
+    ],
+    "objective": "建立变更记录与影响确认流程",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“变动已导致两次开发返工”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“你们就不能灵活一点？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“怎样保证下次不返工？”的再次追问后，争取一个明确落点：“建立变更记录与影响确认流程”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "改需求不是很正常吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：变动已导致两次开发返工。我的建议是建立变更记录与影响确认流程，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们就不能灵活一点？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎样保证下次不返工？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“建立变更记录与影响确认流程”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们就不能灵活一点？",
+      "怎样保证下次不返工？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“建立变更记录与影响确认流程”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "medium",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-015",
+    "category": "collaboration",
+    "title": "团队资源冲突",
+    "level": 15,
+    "difficulty": "medium",
+    "background": "两个同事争抢同一测试环境。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "环境同一时间只能支持一组回归"
+    ],
+    "objective": "共同排定测试环境时段和优先规则",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“环境同一时间只能支持一组回归”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“我们也有上线时间”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“有没有公平的安排？”的再次追问后，争取一个明确落点：“共同排定测试环境时段和优先规则”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么先给他们使用？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：环境同一时间只能支持一组回归。我的建议是共同排定测试环境时段和优先规则，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我们也有上线时间"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有没有公平的安排？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“共同排定测试环境时段和优先规则”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我们也有上线时间",
+      "有没有公平的安排？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“共同排定测试环境时段和优先规则”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "medium",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-016",
+    "category": "collaboration",
+    "title": "修正公开误解",
+    "level": 16,
+    "difficulty": "medium",
+    "background": "群里有人误读了你的数据结论。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "原消息只指出样本不足并未否定方向"
+    ],
+    "objective": "发布一条包含口径与链接的澄清信息",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“原消息只指出样本不足并未否定方向”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“那你的真实意思是什么？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“需要谁同步澄清？”的再次追问后，争取一个明确落点：“发布一条包含口径与链接的澄清信息”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你是不是在否定我们？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：原消息只指出样本不足并未否定方向。我的建议是发布一条包含口径与链接的澄清信息，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "那你的真实意思是什么？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "需要谁同步澄清？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“发布一条包含口径与链接的澄清信息”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "那你的真实意思是什么？",
+      "需要谁同步澄清？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“发布一条包含口径与链接的澄清信息”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "medium",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-017",
+    "category": "collaboration",
+    "title": "同事语气生硬",
+    "level": 17,
+    "difficulty": "medium",
+    "background": "跨部门沟通多次使用命令式语气。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "对方在群里多次要求立即返工但未说明原因"
+    ],
+    "objective": "先谈具体表达再约定协作方式",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“对方在群里多次要求立即返工但未说明原因”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“你是不是太敏感了？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“到底怎么沟通才有效？”的再次追问后，争取一个明确落点：“先谈具体表达再约定协作方式”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我只是说话直接"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：对方在群里多次要求立即返工但未说明原因。我的建议是先谈具体表达再约定协作方式，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是太敏感了？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "到底怎么沟通才有效？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“先谈具体表达再约定协作方式”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是太敏感了？",
+      "到底怎么沟通才有效？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先谈具体表达再约定协作方式”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "medium",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-018",
+    "category": "collaboration",
+    "title": "联名任务归属",
+    "level": 18,
+    "difficulty": "medium",
+    "background": "成果汇报仅写了一个人的名字。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "多个关键模块由双方共同完成"
+    ],
+    "objective": "在汇报中补充实际贡献及各负责人",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“多个关键模块由双方共同完成”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“你想怎么写？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“以后如何避免？”的再次追问后，争取一个明确落点：“在汇报中补充实际贡献及各负责人”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这点事情还要计较署名？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：多个关键模块由双方共同完成。我的建议是在汇报中补充实际贡献及各负责人，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你想怎么写？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "以后如何避免？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“在汇报中补充实际贡献及各负责人”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你想怎么写？",
+      "以后如何避免？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“在汇报中补充实际贡献及各负责人”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "medium",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-019",
+    "category": "collaboration",
+    "title": "会议讨论跑偏",
+    "level": 19,
+    "difficulty": "medium",
+    "background": "会上反复讨论早已确定的细节。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "会议剩十分钟但关键方案尚未定稿"
+    ],
+    "objective": "先回到本次决策问题并记录停车场议题",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“会议剩十分钟但关键方案尚未定稿”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“为什么不能现在聊？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“谁来记录待讨论事项？”的再次追问后，争取一个明确落点：“先回到本次决策问题并记录停车场议题”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这个问题很重要啊"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：会议剩十分钟但关键方案尚未定稿。我的建议是先回到本次决策问题并记录停车场议题，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么不能现在聊？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "谁来记录待讨论事项？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“先回到本次决策问题并记录停车场议题”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么不能现在聊？",
+      "谁来记录待讨论事项？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先回到本次决策问题并记录停车场议题”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "medium",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-020",
+    "category": "collaboration",
+    "title": "同事不同意方案",
+    "level": 20,
+    "difficulty": "medium",
+    "background": "两个人对上线顺序意见相反。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "两种顺序各有成本与风险"
+    ],
+    "objective": "用影响范围和依赖关系共同评估排序",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“两种顺序各有成本与风险”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“我的版本风险更低”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“我们用什么标准比较？”的再次追问后，争取一个明确落点：“用影响范围和依赖关系共同评估排序”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么一定按你的顺序？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：两种顺序各有成本与风险。我的建议是用影响范围和依赖关系共同评估排序，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我的版本风险更低"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我们用什么标准比较？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“用影响范围和依赖关系共同评估排序”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我的版本风险更低",
+      "我们用什么标准比较？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“用影响范围和依赖关系共同评估排序”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "medium",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-021",
+    "category": "collaboration",
+    "title": "被同事公开甩锅",
+    "level": 21,
+    "difficulty": "high",
+    "background": "会议上同事说延期是你没配合。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "资料提交时间可在共享记录中核实"
+    ],
+    "objective": "基于时间线明确阻塞原因并制定补救计划",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“资料提交时间可在共享记录中核实”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“你现在是在推给我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“那现在到底怎么办？”的再次追问后，争取一个明确落点：“基于时间线明确阻塞原因并制定补救计划”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "不是因为你没给资料吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：资料提交时间可在共享记录中核实。我的建议是基于时间线明确阻塞原因并制定补救计划，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你现在是在推给我？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "那现在到底怎么办？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“基于时间线明确阻塞原因并制定补救计划”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你现在是在推给我？",
+      "那现在到底怎么办？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“基于时间线明确阻塞原因并制定补救计划”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "high",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-022",
+    "category": "collaboration",
+    "title": "被越级安排任务",
+    "level": 22,
+    "difficulty": "high",
+    "background": "其他部门主管直接要求你加班。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "新任务与直属主管已批准的交付冲突"
+    ],
+    "objective": "请求两位直属负责人统一资源安排",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“新任务与直属主管已批准的交付冲突”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“你这是不配合吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“谁来决定优先级？”的再次追问后，争取一个明确落点：“请求两位直属负责人统一资源安排”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我让你做你就做"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：新任务与直属主管已批准的交付冲突。我的建议是请求两位直属负责人统一资源安排，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你这是不配合吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "谁来决定优先级？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“请求两位直属负责人统一资源安排”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你这是不配合吗？",
+      "谁来决定优先级？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“请求两位直属负责人统一资源安排”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "high",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-023",
+    "category": "collaboration",
+    "title": "涉及隐私的数据请求",
+    "level": 23,
+    "difficulty": "high",
+    "background": "合作同事索要完整用户手机号。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "业务验证只需要识别去重，无需手机号明文"
+    ],
+    "objective": "改用脱敏数据并走授权流程",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“业务验证只需要识别去重，无需手机号明文”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“不发就影响效率”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“有没有别的办法？”的再次追问后，争取一个明确落点：“改用脱敏数据并走授权流程”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "只是内部查看一下"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：业务验证只需要识别去重，无需手机号明文。我的建议是改用脱敏数据并走授权流程，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "不发就影响效率"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有没有别的办法？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“改用脱敏数据并走授权流程”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "不发就影响效率",
+      "有没有别的办法？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“改用脱敏数据并走授权流程”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "high",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-024",
+    "category": "collaboration",
+    "title": "团队信任受损",
+    "level": 24,
+    "difficulty": "high",
+    "background": "同事未经沟通修改了你的方案。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "未通知的修改影响了原有设计假设"
+    ],
+    "objective": "约定评审后再合并关键修改",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“未通知的修改影响了原有设计假设”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“为什么你这么较真？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“之后共同文件怎么维护？”的再次追问后，争取一个明确落点：“约定评审后再合并关键修改”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我只是帮你优化"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：未通知的修改影响了原有设计假设。我的建议是约定评审后再合并关键修改，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么你这么较真？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "之后共同文件怎么维护？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“约定评审后再合并关键修改”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么你这么较真？",
+      "之后共同文件怎么维护？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“约定评审后再合并关键修改”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "high",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-025",
+    "category": "collaboration",
+    "title": "对方拒绝负责",
+    "level": 25,
+    "difficulty": "high",
+    "background": "关键任务无人认领。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "任务跨越两个部门职责边界"
+    ],
+    "objective": "根据流程确定唯一负责人并记录交付节点",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“任务跨越两个部门职责边界”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“你们也没说由我做”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“要不一起找负责人？”的再次追问后，争取一个明确落点：“根据流程确定唯一负责人并记录交付节点”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这本来就不是我的活"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：任务跨越两个部门职责边界。我的建议是根据流程确定唯一负责人并记录交付节点，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们也没说由我做"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "要不一起找负责人？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“根据流程确定唯一负责人并记录交付节点”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们也没说由我做",
+      "要不一起找负责人？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“根据流程确定唯一负责人并记录交付节点”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "high",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-026",
+    "category": "collaboration",
+    "title": "协作利益不对等",
+    "level": 26,
+    "difficulty": "high",
+    "background": "某部门获得成果却不给资源。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "当前投入主要来自你们团队"
+    ],
+    "objective": "将资源承诺与共同指标写进计划",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“当前投入主要来自你们团队”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“我们也有自己的KPI”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“能怎么双赢？”的再次追问后，争取一个明确落点：“将资源承诺与共同指标写进计划”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们先做出成绩再说"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：当前投入主要来自你们团队。我的建议是将资源承诺与共同指标写进计划，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我们也有自己的KPI"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能怎么双赢？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“将资源承诺与共同指标写进计划”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我们也有自己的KPI",
+      "能怎么双赢？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“将资源承诺与共同指标写进计划”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "high",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-027",
+    "category": "collaboration",
+    "title": "供应商与内部扯皮",
+    "level": 27,
+    "difficulty": "high",
+    "background": "供应商认为接口问题在你方。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "两端日志对错误发生时间记录一致"
+    ],
+    "objective": "安排联合日志排查和责任确认",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“两端日志对错误发生时间记录一致”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“我们已经按合同交付”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“如何共同定位？”的再次追问后，争取一个明确落点：“安排联合日志排查和责任确认”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们文档就是不清楚"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：两端日志对错误发生时间记录一致。我的建议是安排联合日志排查和责任确认，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我们已经按合同交付"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "如何共同定位？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“安排联合日志排查和责任确认”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我们已经按合同交付",
+      "如何共同定位？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“安排联合日志排查和责任确认”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "high",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-028",
+    "category": "collaboration",
+    "title": "事故现场多方争执",
+    "level": 28,
+    "difficulty": "high",
+    "background": "生产事故期间各团队互相指责。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "服务中断正在扩大而争执没有帮助"
+    ],
+    "objective": "先统一应急指挥与恢复动作再做复盘",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“服务中断正在扩大而争执没有帮助”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“我们没有任何改动”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“现在要谁先动手？”的再次追问后，争取一个明确落点：“先统一应急指挥与恢复动作再做复盘”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这明显是你们发布造成的"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：服务中断正在扩大而争执没有帮助。我的建议是先统一应急指挥与恢复动作再做复盘，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我们没有任何改动"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "现在要谁先动手？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“先统一应急指挥与恢复动作再做复盘”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我们没有任何改动",
+      "现在要谁先动手？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先统一应急指挥与恢复动作再做复盘”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "high",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-029",
+    "category": "collaboration",
+    "title": "同事泄露会议内容",
+    "level": 29,
+    "difficulty": "high",
+    "background": "敏感策略被转发到外部群。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "材料含尚未公开的经营信息"
+    ],
+    "objective": "立即限制传播并按组织流程报告",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“材料含尚未公开的经营信息”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“你别上纲上线”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“怎么处理这次泄露？”的再次追问后，争取一个明确落点：“立即限制传播并按组织流程报告”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我只是顺手转给熟人"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：材料含尚未公开的经营信息。我的建议是立即限制传播并按组织流程报告，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你别上纲上线"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么处理这次泄露？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“立即限制传播并按组织流程报告”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你别上纲上线",
+      "怎么处理这次泄露？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“立即限制传播并按组织流程报告”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "high",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "collaboration-030",
+    "category": "collaboration",
+    "title": "面对被孤立的协作",
+    "level": 30,
+    "difficulty": "high",
+    "background": "长期合作群中有人故意不通知你。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "多次关键会议未邀请你却要求你承担结果"
+    ],
+    "objective": "要求关键决策进入共享记录并指定同步人",
+    "method": "Closed-loop / RACI",
+    "pillars": [
+      "目标一致",
+      "责任清晰",
+      "执行闭环"
+    ],
+    "steps": [
+      {
+        "name": "目标一致",
+        "instruction": "开场先围绕已知事实“多次关键会议未邀请你却要求你承担结果”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "责任清晰",
+        "instruction": "听到“这不是我们的责任”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "执行闭环",
+        "instruction": "遭遇“之后谁保证信息同步？”的再次追问后，争取一个明确落点：“要求关键决策进入共享记录并指定同步人”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "群消息你自己不会看吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "目标一致",
+        "text": "我们先对齐任务事实：多次关键会议未邀请你却要求你承担结果。我的建议是要求关键决策进入共享记录并指定同步人，然后明确双方负责什么、何时交付。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "这不是我们的责任"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "责任清晰",
+        "text": "你的排期或想法也重要。我们不急着分对错，可以对照现有记录，找出分歧在哪里。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "之后谁保证信息同步？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "执行闭环",
+        "text": "如果认可“要求关键决策进入共享记录并指定同步人”，我们把负责人、截止时间和风险通报方式写下来，避免下次再猜。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "这不是我们的责任",
+      "之后谁保证信息同步？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“要求关键决策进入共享记录并指定同步人”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "tags": [
+      "collaboration",
+      "high",
+      "Closed-loop / RACI"
+    ],
+    "created": "2026-11-10"
+  }
+]

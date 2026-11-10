@@ -1,0 +1,3542 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "partner-001",
+    "category": "partner",
+    "title": "晚归没有提前说",
+    "level": 1,
+    "difficulty": "low",
+    "background": "伴侣等你吃饭却一直没消息。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "临时会议延长但你忘了通知"
+    ],
+    "objective": "以后晚于约定半小时就提前说明",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“临时会议延长但你忘了通知”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你就不能提前发消息吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“下次还会这样吗？”的再次追问后，争取一个明确落点：“以后晚于约定半小时就提前说明”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你怎么这么晚才回？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：临时会议延长但你忘了通知。我希望以后晚于约定半小时就提前说明，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你就不能提前发消息吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下次还会这样吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认以后晚于约定半小时就提前说明能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你就不能提前发消息吗？",
+      "下次还会这样吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“以后晚于约定半小时就提前说明”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "low",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-002",
+    "category": "partner",
+    "title": "家务分配不均",
+    "level": 2,
+    "difficulty": "low",
+    "background": "周末伴侣独自做了大部分家务。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你最近忙但确实忽略了清洁任务"
+    ],
+    "objective": "一起列出固定家务分工",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“你最近忙但确实忽略了清洁任务”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你是不是根本看不见？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“下周怎么分？”的再次追问后，争取一个明确落点：“一起列出固定家务分工”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么总是我在收拾？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：你最近忙但确实忽略了清洁任务。我希望一起列出固定家务分工，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是根本看不见？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下周怎么分？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认一起列出固定家务分工能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是根本看不见？",
+      "下周怎么分？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“一起列出固定家务分工”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "low",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-003",
+    "category": "partner",
+    "title": "忘记重要纪念日",
+    "level": 3,
+    "difficulty": "low",
+    "background": "你忘了两个人约好的纪念日安排。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "当天临时加班却未提前沟通"
+    ],
+    "objective": "主动补一次约会并设置共同提醒",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“当天临时加班却未提前沟通”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“道歉有什么用？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“你准备怎样补救？”的再次追问后，争取一个明确落点：“主动补一次约会并设置共同提醒”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你连这一天都不记得？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：当天临时加班却未提前沟通。我希望主动补一次约会并设置共同提醒，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "道歉有什么用？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你准备怎样补救？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认主动补一次约会并设置共同提醒能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "道歉有什么用？",
+      "你准备怎样补救？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“主动补一次约会并设置共同提醒”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "low",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-004",
+    "category": "partner",
+    "title": "伴侣需要倾诉",
+    "level": 4,
+    "difficulty": "low",
+    "background": "对方工作受挫向你抱怨。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你刚才急于分析问题忽略了情绪"
+    ],
+    "objective": "先听完对方经历再问是否需要建议",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“你刚才急于分析问题忽略了情绪”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你怎么只会给建议？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“能先陪我说说吗？”的再次追问后，争取一个明确落点：“先听完对方经历再问是否需要建议”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "今天领导又批评我了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：你刚才急于分析问题忽略了情绪。我希望先听完对方经历再问是否需要建议，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你怎么只会给建议？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能先陪我说说吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认先听完对方经历再问是否需要建议能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你怎么只会给建议？",
+      "能先陪我说说吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先听完对方经历再问是否需要建议”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "low",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-005",
+    "category": "partner",
+    "title": "周末安排冲突",
+    "level": 5,
+    "difficulty": "low",
+    "background": "你想独处而伴侣想出游。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你本周社交过多需要恢复精力"
+    ],
+    "objective": "今天各自休息半天明天共处",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“你本周社交过多需要恢复精力”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你是不是嫌我烦？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“能不能安排两个人都舒服的时间？”的再次追问后，争取一个明确落点：“今天各自休息半天明天共处”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "难得周末你又不出去？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：你本周社交过多需要恢复精力。我希望今天各自休息半天明天共处，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是嫌我烦？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能不能安排两个人都舒服的时间？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认今天各自休息半天明天共处能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是嫌我烦？",
+      "能不能安排两个人都舒服的时间？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“今天各自休息半天明天共处”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "low",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-006",
+    "category": "partner",
+    "title": "回复消息太慢",
+    "level": 6,
+    "difficulty": "low",
+    "background": "伴侣对你工作时不回消息不满。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "工作会议中无法看手机"
+    ],
+    "objective": "约定工作期间的回复时段和紧急电话",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“工作会议中无法看手机”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“几十秒都抽不出来吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“怎样让我不担心？”的再次追问后，争取一个明确落点：“约定工作期间的回复时段和紧急电话”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你为什么总不回复？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：工作会议中无法看手机。我希望约定工作期间的回复时段和紧急电话，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "几十秒都抽不出来吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎样让我不担心？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认约定工作期间的回复时段和紧急电话能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "几十秒都抽不出来吗？",
+      "怎样让我不担心？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“约定工作期间的回复时段和紧急电话”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "low",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-007",
+    "category": "partner",
+    "title": "消费习惯差异",
+    "level": 7,
+    "difficulty": "low",
+    "background": "伴侣为一笔非必要购买感到担忧。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "这笔购买未提前说明且超过月度预算"
+    ],
+    "objective": "约定超预算开支先共同讨论",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“这笔购买未提前说明且超过月度预算”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“我们不是说要存钱吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“以后大额消费怎么决定？”的再次追问后，争取一个明确落点：“约定超预算开支先共同讨论”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你为什么又买这么贵的东西？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：这笔购买未提前说明且超过月度预算。我希望约定超预算开支先共同讨论，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我们不是说要存钱吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "以后大额消费怎么决定？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认约定超预算开支先共同讨论能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我们不是说要存钱吗？",
+      "以后大额消费怎么决定？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“约定超预算开支先共同讨论”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "low",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-008",
+    "category": "partner",
+    "title": "生活作息不同",
+    "level": 8,
+    "difficulty": "low",
+    "background": "你早睡伴侣喜欢夜间看视频。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "视频音量连续几晚影响你的睡眠"
+    ],
+    "objective": "夜间戴耳机并约定安静时段",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“视频音量连续几晚影响你的睡眠”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你是不是总想管我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“怎么减少相互打扰？”的再次追问后，争取一个明确落点：“夜间戴耳机并约定安静时段”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你睡你的我看我的不行吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：视频音量连续几晚影响你的睡眠。我希望夜间戴耳机并约定安静时段，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是总想管我？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么减少相互打扰？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认夜间戴耳机并约定安静时段能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是总想管我？",
+      "怎么减少相互打扰？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“夜间戴耳机并约定安静时段”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "low",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-009",
+    "category": "partner",
+    "title": "对方情绪低落",
+    "level": 9,
+    "difficulty": "low",
+    "background": "伴侣最近不愿意沟通。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "对方连续加班，当前明显疲惫"
+    ],
+    "objective": "尊重暂停并约好明天的关心时间",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“对方连续加班，当前明显疲惫”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你能不能别一直追问？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“明天再聊可以吗？”的再次追问后，争取一个明确落点：“尊重暂停并约好明天的关心时间”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我今天不想说话"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：对方连续加班，当前明显疲惫。我希望尊重暂停并约好明天的关心时间，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你能不能别一直追问？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "明天再聊可以吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认尊重暂停并约好明天的关心时间能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你能不能别一直追问？",
+      "明天再聊可以吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“尊重暂停并约好明天的关心时间”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "low",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-010",
+    "category": "partner",
+    "title": "表达感谢与认可",
+    "level": 10,
+    "difficulty": "low",
+    "background": "伴侣近期承担额外家庭责任。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "对方连续两周负责采购和做饭"
+    ],
+    "objective": "具体感谢并承担接下来的采购任务",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“对方连续两周负责采购和做饭”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你突然夸我干嘛？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“你能做点实事吗？”的再次追问后，争取一个明确落点：“具体感谢并承担接下来的采购任务”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这不是应该的吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：对方连续两周负责采购和做饭。我希望具体感谢并承担接下来的采购任务，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你突然夸我干嘛？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你能做点实事吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认具体感谢并承担接下来的采购任务能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你突然夸我干嘛？",
+      "你能做点实事吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“具体感谢并承担接下来的采购任务”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "low",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-011",
+    "category": "partner",
+    "title": "争论双方父母探访",
+    "level": 11,
+    "difficulty": "medium",
+    "background": "双方父母都希望节假日一起过。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "今年假期有限且两边都要长途出行"
+    ],
+    "objective": "双方家庭轮流探访并提前规划",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“今年假期有限且两边都要长途出行”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“我爸妈也在等我们”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“有没有轮换办法？”的再次追问后，争取一个明确落点：“双方家庭轮流探访并提前规划”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你是不是只考虑你家？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：今年假期有限且两边都要长途出行。我希望双方家庭轮流探访并提前规划，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我爸妈也在等我们"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有没有轮换办法？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认双方家庭轮流探访并提前规划能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我爸妈也在等我们",
+      "有没有轮换办法？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“双方家庭轮流探访并提前规划”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "medium",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-012",
+    "category": "partner",
+    "title": "手机隐私边界",
+    "level": 12,
+    "difficulty": "medium",
+    "background": "伴侣要求查看你所有聊天记录。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "近期你确实有一次未说明的聚会"
+    ],
+    "objective": "讨论具体不安并保留私人通信边界",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“近期你确实有一次未说明的聚会”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你是不是有秘密？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“怎么让彼此有安全感？”的再次追问后，争取一个明确落点：“讨论具体不安并保留私人通信边界”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "情侣之间有什么不能看的？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：近期你确实有一次未说明的聚会。我希望讨论具体不安并保留私人通信边界，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是有秘密？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么让彼此有安全感？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认讨论具体不安并保留私人通信边界能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是有秘密？",
+      "怎么让彼此有安全感？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“讨论具体不安并保留私人通信边界”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "medium",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-013",
+    "category": "partner",
+    "title": "反复迟到影响约会",
+    "level": 13,
+    "difficulty": "medium",
+    "background": "你经常让伴侣在外面等。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "最近三次约会都迟到超过二十分钟"
+    ],
+    "objective": "提前十分钟出发并实时告知延误",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“最近三次约会都迟到超过二十分钟”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你说的改进上次也没做到”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“这回具体怎么安排？”的再次追问后，争取一个明确落点：“提前十分钟出发并实时告知延误”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "又不是故意的"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：最近三次约会都迟到超过二十分钟。我希望提前十分钟出发并实时告知延误，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你说的改进上次也没做到"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "这回具体怎么安排？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认提前十分钟出发并实时告知延误能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你说的改进上次也没做到",
+      "这回具体怎么安排？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“提前十分钟出发并实时告知延误”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "medium",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-014",
+    "category": "partner",
+    "title": "双方对生育时间有分歧",
+    "level": 14,
+    "difficulty": "medium",
+    "background": "一方希望尽快要孩子另一方希望先稳定工作。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "目前财务和职业规划仍有重大不确定性"
+    ],
+    "objective": "分别梳理顾虑并约定阶段性再评估",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“目前财务和职业规划仍有重大不确定性”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“再等下去会不会太晚？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“能不能约个时间认真讨论？”的再次追问后，争取一个明确落点：“分别梳理顾虑并约定阶段性再评估”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你是不是不想和我有未来？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：目前财务和职业规划仍有重大不确定性。我希望分别梳理顾虑并约定阶段性再评估，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "再等下去会不会太晚？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能不能约个时间认真讨论？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认分别梳理顾虑并约定阶段性再评估能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "再等下去会不会太晚？",
+      "能不能约个时间认真讨论？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“分别梳理顾虑并约定阶段性再评估”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "medium",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-015",
+    "category": "partner",
+    "title": "在朋友面前被取笑",
+    "level": 15,
+    "difficulty": "medium",
+    "background": "伴侣在聚会上讲了让你尴尬的私事。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "该内容此前被明确表示不想公开"
+    ],
+    "objective": "不公开分享对方私密经历",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“该内容此前被明确表示不想公开”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“别人都笑了怎么你不行？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“以后什么话题不合适？”的再次追问后，争取一个明确落点：“不公开分享对方私密经历”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我只是开个玩笑"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：该内容此前被明确表示不想公开。我希望不公开分享对方私密经历，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "别人都笑了怎么你不行？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "以后什么话题不合适？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认不公开分享对方私密经历能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "别人都笑了怎么你不行？",
+      "以后什么话题不合适？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“不公开分享对方私密经历”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "medium",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-016",
+    "category": "partner",
+    "title": "伴侣抱怨缺少陪伴",
+    "level": 16,
+    "difficulty": "medium",
+    "background": "你连续多晚忙工作。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "过去两周共同活动几乎为零"
+    ],
+    "objective": "固定每周一个不被工作打断的晚上",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“过去两周共同活动几乎为零”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“每次都是说下次”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“这周哪天能一起吃饭？”的再次追问后，争取一个明确落点：“固定每周一个不被工作打断的晚上”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你根本不在乎我"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：过去两周共同活动几乎为零。我希望固定每周一个不被工作打断的晚上，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "每次都是说下次"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "这周哪天能一起吃饭？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认固定每周一个不被工作打断的晚上能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "每次都是说下次",
+      "这周哪天能一起吃饭？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“固定每周一个不被工作打断的晚上”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "medium",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-017",
+    "category": "partner",
+    "title": "为旧矛盾反复争执",
+    "level": 17,
+    "difficulty": "medium",
+    "background": "同一件往事每次吵架都重提。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "旧矛盾从未被双方明确讨论和修复"
+    ],
+    "objective": "聚焦当前行为并单独约时间处理旧事",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“旧矛盾从未被双方明确讨论和修复”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“现在难道不一样吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“如何避免下次又绕回来？”的再次追问后，争取一个明确落点：“聚焦当前行为并单独约时间处理旧事”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你上次就是这样"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：旧矛盾从未被双方明确讨论和修复。我希望聚焦当前行为并单独约时间处理旧事，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "现在难道不一样吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "如何避免下次又绕回来？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认聚焦当前行为并单独约时间处理旧事能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "现在难道不一样吗？",
+      "如何避免下次又绕回来？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“聚焦当前行为并单独约时间处理旧事”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "medium",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-018",
+    "category": "partner",
+    "title": "共同账户使用分歧",
+    "level": 18,
+    "difficulty": "medium",
+    "background": "伴侣从共同账户支取较大金额。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "本次金额影响当月固定账单"
+    ],
+    "objective": "约定共同账户大额支出提前告知",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“本次金额影响当月固定账单”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“钱不是我们的吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“以后需要什么规则？”的再次追问后，争取一个明确落点：“约定共同账户大额支出提前告知”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你为什么要这么计较？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：本次金额影响当月固定账单。我希望约定共同账户大额支出提前告知，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "钱不是我们的吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "以后需要什么规则？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认约定共同账户大额支出提前告知能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "钱不是我们的吗？",
+      "以后需要什么规则？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“约定共同账户大额支出提前告知”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "medium",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-019",
+    "category": "partner",
+    "title": "伴侣与你家人关系紧张",
+    "level": 19,
+    "difficulty": "medium",
+    "background": "家人一句话让伴侣感到不被尊重。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "当时你沉默让伴侣误以为你认同评价"
+    ],
+    "objective": "在不冒犯家人的前提下明确维护伴侣边界",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“当时你沉默让伴侣误以为你认同评价”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“是不是你永远站在他们那边？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“下次你会怎么办？”的再次追问后，争取一个明确落点：“在不冒犯家人的前提下明确维护伴侣边界”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你为什么不替我说话？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：当时你沉默让伴侣误以为你认同评价。我希望在不冒犯家人的前提下明确维护伴侣边界，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "是不是你永远站在他们那边？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下次你会怎么办？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认在不冒犯家人的前提下明确维护伴侣边界能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "是不是你永远站在他们那边？",
+      "下次你会怎么办？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“在不冒犯家人的前提下明确维护伴侣边界”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "medium",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-020",
+    "category": "partner",
+    "title": "冲突后如何重新开始",
+    "level": 20,
+    "difficulty": "medium",
+    "background": "双方冷战两天没人主动开口。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "上次争执双方都用了绝对化指责"
+    ],
+    "objective": "先为自己的伤人话道歉再约定讨论时间",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“上次争执双方都用了绝对化指责”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你是不是又要翻旧账？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“先从哪里谈起？”的再次追问后，争取一个明确落点：“先为自己的伤人话道歉再约定讨论时间”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "现在想说话了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：上次争执双方都用了绝对化指责。我希望先为自己的伤人话道歉再约定讨论时间，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是又要翻旧账？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "先从哪里谈起？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认先为自己的伤人话道歉再约定讨论时间能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是又要翻旧账？",
+      "先从哪里谈起？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先为自己的伤人话道歉再约定讨论时间”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "medium",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-021",
+    "category": "partner",
+    "title": "讨论是否分开",
+    "level": 21,
+    "difficulty": "high",
+    "background": "伴侣提出暂时分开冷静。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "双方过去一个月争执频繁且缺少修复"
+    ],
+    "objective": "尊重对方选择并厘清时间与生活边界",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“双方过去一个月争执频繁且缺少修复”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你是不是又想说服我留下？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“分开期间如何安排？”的再次追问后，争取一个明确落点：“尊重对方选择并厘清时间与生活边界”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我觉得我们不适合了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：双方过去一个月争执频繁且缺少修复。我希望尊重对方选择并厘清时间与生活边界，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是又想说服我留下？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "分开期间如何安排？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认尊重对方选择并厘清时间与生活边界能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是又想说服我留下？",
+      "分开期间如何安排？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“尊重对方选择并厘清时间与生活边界”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "high",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-022",
+    "category": "partner",
+    "title": "发现伴侣隐瞒债务",
+    "level": 22,
+    "difficulty": "high",
+    "background": "你得知对方有未提及的较大债务。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "债务影响共同住房计划"
+    ],
+    "objective": "先核对债务事实再讨论财务边界",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“债务影响共同住房计划”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你就不能相信我吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“账目能不能完整说明？”的再次追问后，争取一个明确落点：“先核对债务事实再讨论财务边界”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我怕说了你会离开"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：债务影响共同住房计划。我希望先核对债务事实再讨论财务边界，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你就不能相信我吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "账目能不能完整说明？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认先核对债务事实再讨论财务边界能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你就不能相信我吗？",
+      "账目能不能完整说明？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先核对债务事实再讨论财务边界”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "high",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-023",
+    "category": "partner",
+    "title": "双方对婚姻分工根本分歧",
+    "level": 23,
+    "difficulty": "high",
+    "background": "两人对事业与家庭照顾责任意见相反。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "双方都在全职工作且没有稳定外部支持"
+    ],
+    "objective": "计算实际照顾成本并重新分配责任",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“双方都在全职工作且没有稳定外部支持”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你的工作就更重要？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“有没有对双方公平的办法？”的再次追问后，争取一个明确落点：“计算实际照顾成本并重新分配责任”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "凭什么一定要我牺牲事业？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：双方都在全职工作且没有稳定外部支持。我希望计算实际照顾成本并重新分配责任，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你的工作就更重要？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有没有对双方公平的办法？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认计算实际照顾成本并重新分配责任能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你的工作就更重要？",
+      "有没有对双方公平的办法？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“计算实际照顾成本并重新分配责任”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "high",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-024",
+    "category": "partner",
+    "title": "伴侣强烈嫉妒同事",
+    "level": 24,
+    "difficulty": "high",
+    "background": "对方要求你辞掉与某同事合作的岗位。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "双方没有证据表明存在越界行为"
+    ],
+    "objective": "说明工作联系边界并拒绝被迫辞职",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“双方没有证据表明存在越界行为”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你不辞就是不在乎我”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“可以有哪些透明而不控制的安排？”的再次追问后，争取一个明确落点：“说明工作联系边界并拒绝被迫辞职”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们天天联系让我无法接受"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：双方没有证据表明存在越界行为。我希望说明工作联系边界并拒绝被迫辞职，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你不辞就是不在乎我"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "可以有哪些透明而不控制的安排？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认说明工作联系边界并拒绝被迫辞职能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你不辞就是不在乎我",
+      "可以有哪些透明而不控制的安排？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“说明工作联系边界并拒绝被迫辞职”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "high",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-025",
+    "category": "partner",
+    "title": "重大搬家决定冲突",
+    "level": 25,
+    "difficulty": "high",
+    "background": "你获得外地工作机会而伴侣不愿迁居。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "双方事业与家庭支持网络都受到影响"
+    ],
+    "objective": "比较异地过渡和放弃机会的真实代价",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“双方事业与家庭支持网络都受到影响”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你从来不问我的想法”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“我们能谈哪些替代路径？”的再次追问后，争取一个明确落点：“比较异地过渡和放弃机会的真实代价”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你的机会为什么要我承担代价？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：双方事业与家庭支持网络都受到影响。我希望比较异地过渡和放弃机会的真实代价，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你从来不问我的想法"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我们能谈哪些替代路径？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认比较异地过渡和放弃机会的真实代价能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你从来不问我的想法",
+      "我们能谈哪些替代路径？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“比较异地过渡和放弃机会的真实代价”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "high",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-026",
+    "category": "partner",
+    "title": "照护长辈意见不同",
+    "level": 26,
+    "difficulty": "high",
+    "background": "双方对是否同住照顾老人有分歧。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "长辈需要照顾但双方已有育儿责任"
+    ],
+    "objective": "共同评估照护需求和专业替代安排",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“长辈需要照顾但双方已有育儿责任”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“我也要有自己的空间”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“有没有其他照顾方式？”的再次追问后，争取一个明确落点：“共同评估照护需求和专业替代安排”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你怎么能不管老人？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：长辈需要照顾但双方已有育儿责任。我希望共同评估照护需求和专业替代安排，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我也要有自己的空间"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有没有其他照顾方式？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认共同评估照护需求和专业替代安排能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我也要有自己的空间",
+      "有没有其他照顾方式？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“共同评估照护需求和专业替代安排”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "high",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-027",
+    "category": "partner",
+    "title": "遭受持续羞辱",
+    "level": 27,
+    "difficulty": "high",
+    "background": "伴侣在争执时多次使用侮辱性称呼。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "侮辱性语言已重复出现而非偶发误会"
+    ],
+    "objective": "明确停止辱骂的边界并寻求可信支持",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“侮辱性语言已重复出现而非偶发误会”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“我生气就会这样”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“你是不是又要走？”的再次追问后，争取一个明确落点：“明确停止辱骂的边界并寻求可信支持”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你怎么这么玻璃心？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：侮辱性语言已重复出现而非偶发误会。我希望明确停止辱骂的边界并寻求可信支持，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我生气就会这样"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你是不是又要走？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认明确停止辱骂的边界并寻求可信支持能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我生气就会这样",
+      "你是不是又要走？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确停止辱骂的边界并寻求可信支持”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "high",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-028",
+    "category": "partner",
+    "title": "伴侣以分手作威胁",
+    "level": 28,
+    "difficulty": "high",
+    "background": "每次发生分歧对方就说要结束关系。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "长期使用分手威胁已削弱关系安全感"
+    ],
+    "objective": "拒绝以威胁换取让步并提出冷静讨论",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“长期使用分手威胁已削弱关系安全感”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“你就不能让一次？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“你打算怎么回应我的要求？”的再次追问后，争取一个明确落点：“拒绝以威胁换取让步并提出冷静讨论”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "不答应我就分手"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你就不能让一次？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你打算怎么回应我的要求？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“拒绝以威胁换取让步并提出冷静讨论”。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你就不能让一次？",
+      "你打算怎么回应我的要求？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“拒绝以威胁换取让步并提出冷静讨论”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "high",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-029",
+    "category": "partner",
+    "title": "双方价值观严重冲突",
+    "level": 29,
+    "difficulty": "high",
+    "background": "买房和赡养安排谈判陷入僵局。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "双方对责任比例存在根本分歧"
+    ],
+    "objective": "列出各自底线与财务数据再判断可否达成",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“双方对责任比例存在根本分歧”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“为什么要我承担更多？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“有没有透明的计算方法？”的再次追问后，争取一个明确落点：“列出各自底线与财务数据再判断可否达成”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你的方案只让你自己受益"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听得出来这件事让你不舒服。我也想说清楚我的感受：双方对责任比例存在根本分歧。我希望列出各自底线与财务数据再判断可否达成，你现在最在意的是什么？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么要我承担更多？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "你担心的部分我听到了。我不是想证明谁对谁错，而是想找到双方都愿意执行的改变。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有没有透明的计算方法？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "如果现在情绪很激动，我们可以先冷静一会儿，再确认列出各自底线与财务数据再判断可否达成能不能真正改善相处。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么要我承担更多？",
+      "有没有透明的计算方法？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“列出各自底线与财务数据再判断可否达成”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "high",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "partner-030",
+    "category": "partner",
+    "title": "关系中的安全优先",
+    "level": 30,
+    "difficulty": "high",
+    "background": "伴侣在争执时摔东西并堵住门。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "出现限制人身自由和威胁性的行为"
+    ],
+    "objective": "先离开危险环境并联系可信现实支持",
+    "method": "积极倾听 / 我陈述 / 修复尝试",
+    "pillars": [
+      "情绪理解",
+      "需求表达",
+      "冲突修复"
+    ],
+    "steps": [
+      {
+        "name": "情绪理解",
+        "instruction": "开场先围绕已知事实“出现限制人身自由和威胁性的行为”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "需求表达",
+        "instruction": "听到“我只是太生气了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "冲突修复",
+        "instruction": "遭遇“你为什么要找别人帮忙？”的再次追问后，争取一个明确落点：“先离开危险环境并联系可信现实支持”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你今天不说清楚别想走"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "情绪理解",
+        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我只是太生气了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "需求表达",
+        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你为什么要找别人帮忙？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "冲突修复",
+        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“先离开危险环境并联系可信现实支持”。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我只是太生气了",
+      "你为什么要找别人帮忙？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先离开危险环境并联系可信现实支持”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+    "tags": [
+      "partner",
+      "high",
+      "积极倾听 / 我陈述 / 修复尝试"
+    ],
+    "created": "2026-11-10"
+  }
+]

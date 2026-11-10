@@ -1,0 +1,3542 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "friends-001",
+    "category": "friends",
+    "title": "朋友倾诉烦恼",
+    "level": 1,
+    "difficulty": "low",
+    "background": "朋友工作受挫来找你聊天。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "朋友目前更想被理解"
+    ],
+    "objective": "先听再问是否需要分析",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“朋友目前更想被理解”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你是不是又要给我建议？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“你能听我讲完吗？”的再次追问后，争取一个明确落点：“先听再问是否需要分析”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我最近真的很烦"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是朋友目前更想被理解。我希望先听再问是否需要分析，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是又要给我建议？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你能听我讲完吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是先听再问是否需要分析，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是又要给我建议？",
+      "你能听我讲完吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先听再问是否需要分析”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "low",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-002",
+    "category": "friends",
+    "title": "拒绝临时聚会",
+    "level": 2,
+    "difficulty": "low",
+    "background": "朋友当天突然邀请你出门。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你今天需要独处休息"
+    ],
+    "objective": "礼貌拒绝今天并提供可选时间",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“你今天需要独处休息”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你现在怎么这么宅？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“下次什么时候有空？”的再次追问后，争取一个明确落点：“礼貌拒绝今天并提供可选时间”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "出来玩嘛"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是你今天需要独处休息。我希望礼貌拒绝今天并提供可选时间，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你现在怎么这么宅？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下次什么时候有空？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是礼貌拒绝今天并提供可选时间，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你现在怎么这么宅？",
+      "下次什么时候有空？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“礼貌拒绝今天并提供可选时间”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "low",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-003",
+    "category": "friends",
+    "title": "朋友分享好消息",
+    "level": 3,
+    "difficulty": "low",
+    "background": "朋友升职后主动告诉你。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "对方为升职准备了半年"
+    ],
+    "objective": "具体表达祝贺并约定庆祝",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“对方为升职准备了半年”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你怎么反应这么淡？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“改天要不要庆祝？”的再次追问后，争取一个明确落点：“具体表达祝贺并约定庆祝”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我终于升职啦！"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是对方为升职准备了半年。我希望具体表达祝贺并约定庆祝，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你怎么反应这么淡？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "改天要不要庆祝？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是具体表达祝贺并约定庆祝，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你怎么反应这么淡？",
+      "改天要不要庆祝？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“具体表达祝贺并约定庆祝”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "low",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-004",
+    "category": "friends",
+    "title": "请朋友保守秘密",
+    "level": 4,
+    "difficulty": "low",
+    "background": "想和朋友分享私人困扰。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "内容涉及你不愿公开的家庭情况"
+    ],
+    "objective": "明确不传播私事的边界",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“内容涉及你不愿公开的家庭情况”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“我只是跟最好的朋友说”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“你这么不信任我？”的再次追问后，争取一个明确落点：“明确不传播私事的边界”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这事我能告诉别人吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是内容涉及你不愿公开的家庭情况。我希望明确不传播私事的边界，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我只是跟最好的朋友说"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你这么不信任我？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是明确不传播私事的边界，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我只是跟最好的朋友说",
+      "你这么不信任我？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确不传播私事的边界”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "low",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-005",
+    "category": "friends",
+    "title": "礼物太昂贵",
+    "level": 5,
+    "difficulty": "low",
+    "background": "朋友送来远超你承受范围的礼物。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你不希望形成回赠压力"
+    ],
+    "objective": "感谢心意但婉拒贵重礼物",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“你不希望形成回赠压力”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你是不是嫌弃我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“怎么收才不尴尬？”的再次追问后，争取一个明确落点：“感谢心意但婉拒贵重礼物”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我们这么熟收下吧"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是你不希望形成回赠压力。我希望感谢心意但婉拒贵重礼物，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是嫌弃我？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么收才不尴尬？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是感谢心意但婉拒贵重礼物，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是嫌弃我？",
+      "怎么收才不尴尬？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“感谢心意但婉拒贵重礼物”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "low",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-006",
+    "category": "friends",
+    "title": "朋友迟到",
+    "level": 6,
+    "difficulty": "low",
+    "background": "朋友连续两次约会迟到。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "每次都让你等待超过半小时"
+    ],
+    "objective": "约定迟到提前通知与等候上限",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“每次都让你等待超过半小时”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你这么在意时间？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“下次怎样安排？”的再次追问后，争取一个明确落点：“约定迟到提前通知与等候上限”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "堵车没办法啊"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是每次都让你等待超过半小时。我希望约定迟到提前通知与等候上限，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你这么在意时间？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下次怎样安排？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是约定迟到提前通知与等候上限，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你这么在意时间？",
+      "下次怎样安排？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“约定迟到提前通知与等候上限”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "low",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-007",
+    "category": "friends",
+    "title": "聊天被频繁打断",
+    "level": 7,
+    "difficulty": "low",
+    "background": "你在分享近况时对方一直看手机。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你正在说一件对自己很重要的事"
+    ],
+    "objective": "请对方暂时放下手机认真交流",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“你正在说一件对自己很重要的事”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你别这么认真行不行？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“那你想怎么聊？”的再次追问后，争取一个明确落点：“请对方暂时放下手机认真交流”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我有在听啊"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是你正在说一件对自己很重要的事。我希望请对方暂时放下手机认真交流，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你别这么认真行不行？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "那你想怎么聊？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是请对方暂时放下手机认真交流，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你别这么认真行不行？",
+      "那你想怎么聊？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“请对方暂时放下手机认真交流”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "low",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-008",
+    "category": "friends",
+    "title": "回应朋友求助",
+    "level": 8,
+    "difficulty": "low",
+    "background": "朋友请你帮忙修改简历。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你今晚只能抽出二十分钟"
+    ],
+    "objective": "说明可用时间并帮忙审阅重点段落",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“你今晚只能抽出二十分钟”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“我明天就要投了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“你能改哪部分？”的再次追问后，争取一个明确落点：“说明可用时间并帮忙审阅重点段落”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你今天能帮我看吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是你今晚只能抽出二十分钟。我希望说明可用时间并帮忙审阅重点段落，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我明天就要投了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你能改哪部分？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是说明可用时间并帮忙审阅重点段落，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我明天就要投了",
+      "你能改哪部分？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“说明可用时间并帮忙审阅重点段落”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "low",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-009",
+    "category": "friends",
+    "title": "朋友圈误会",
+    "level": 9,
+    "difficulty": "low",
+    "background": "朋友误解你没有点赞他的动态。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你最近较少刷社交平台"
+    ],
+    "objective": "说明社交媒体互动不代表关系远近",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“你最近较少刷社交平台”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你是不是故意冷落我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“这事能说开吗？”的再次追问后，争取一个明确落点：“说明社交媒体互动不代表关系远近”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我发的内容你都不看？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是你最近较少刷社交平台。我希望说明社交媒体互动不代表关系远近，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是故意冷落我？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "这事能说开吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是说明社交媒体互动不代表关系远近，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是故意冷落我？",
+      "这事能说开吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“说明社交媒体互动不代表关系远近”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "low",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-010",
+    "category": "friends",
+    "title": "饭局账单分摊",
+    "level": 10,
+    "difficulty": "low",
+    "background": "朋友聚餐后对账目有疑问。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "部分菜品是个别人单点"
+    ],
+    "objective": "核对明细并按事先约定分摊",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“部分菜品是个别人单点”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你是不是算错了？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“我们一起看下账单？”的再次追问后，争取一个明确落点：“核对明细并按事先约定分摊”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "不是说好了AA吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是部分菜品是个别人单点。我希望核对明细并按事先约定分摊，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是算错了？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我们一起看下账单？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是核对明细并按事先约定分摊，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是算错了？",
+      "我们一起看下账单？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“核对明细并按事先约定分摊”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "low",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-011",
+    "category": "friends",
+    "title": "朋友反复借小钱",
+    "level": 11,
+    "difficulty": "medium",
+    "background": "朋友每次见面都借少量现金。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "上次借款已超过约定归还日期"
+    ],
+    "objective": "先清偿上次借款再谈是否愿意借",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“上次借款已超过约定归还日期”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你又不是缺这点钱”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“以后怎么算清？”的再次追问后，争取一个明确落点：“先清偿上次借款再谈是否愿意借”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "借点钱怎么了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是上次借款已超过约定归还日期。我希望先清偿上次借款再谈是否愿意借，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你又不是缺这点钱"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "以后怎么算清？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是先清偿上次借款再谈是否愿意借，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你又不是缺这点钱",
+      "以后怎么算清？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先清偿上次借款再谈是否愿意借”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "medium",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-012",
+    "category": "friends",
+    "title": "朋友当众开玩笑",
+    "level": 12,
+    "difficulty": "medium",
+    "background": "朋友在聚会上拿你的私事开玩笑。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "玩笑涉及你曾保密的失败经历"
+    ],
+    "objective": "私下表达不愿公开私事的界限",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“玩笑涉及你曾保密的失败经历”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你也太开不起玩笑了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“什么玩笑不能开？”的再次追问后，争取一个明确落点：“私下表达不愿公开私事的界限”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "大家都觉得很好笑"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是玩笑涉及你曾保密的失败经历。我希望私下表达不愿公开私事的界限，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你也太开不起玩笑了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "什么玩笑不能开？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是私下表达不愿公开私事的界限，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你也太开不起玩笑了",
+      "什么玩笑不能开？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“私下表达不愿公开私事的界限”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "medium",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-013",
+    "category": "friends",
+    "title": "双方社交频率不同",
+    "level": 13,
+    "difficulty": "medium",
+    "background": "朋友希望每周固定聚会。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你当前工作节奏较紧"
+    ],
+    "objective": "协商更适合双方的见面频率",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“你当前工作节奏较紧”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“是不是有新朋友了？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“我们怎么保持联系？”的再次追问后，争取一个明确落点：“协商更适合双方的见面频率”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你变了以前不是这样"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是你当前工作节奏较紧。我希望协商更适合双方的见面频率，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "是不是有新朋友了？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我们怎么保持联系？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是协商更适合双方的见面频率，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "是不是有新朋友了？",
+      "我们怎么保持联系？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“协商更适合双方的见面频率”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "medium",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-014",
+    "category": "friends",
+    "title": "朋友求你站队",
+    "level": 14,
+    "difficulty": "medium",
+    "background": "共同好友之间发生争执。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你尚未听到冲突另一方的说法"
+    ],
+    "objective": "先了解事实且不传播未核实指责",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“你尚未听到冲突另一方的说法”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“不表态就是不够朋友”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“你愿意先听我讲吗？”的再次追问后，争取一个明确落点：“先了解事实且不传播未核实指责”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你站在谁那边？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是你尚未听到冲突另一方的说法。我希望先了解事实且不传播未核实指责，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "不表态就是不够朋友"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你愿意先听我讲吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是先了解事实且不传播未核实指责，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "不表态就是不够朋友",
+      "你愿意先听我讲吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先了解事实且不传播未核实指责”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "medium",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-015",
+    "category": "friends",
+    "title": "拒绝无偿专业服务",
+    "level": 15,
+    "difficulty": "medium",
+    "background": "朋友频繁让你免费提供设计建议。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "请求已涉及数小时专业设计工作"
+    ],
+    "objective": "划清简单建议与正式服务范围",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“请求已涉及数小时专业设计工作”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你不是顺手就能做吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“怎样付费才合适？”的再次追问后，争取一个明确落点：“划清简单建议与正式服务范围”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "帮朋友还要收费？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是请求已涉及数小时专业设计工作。我希望划清简单建议与正式服务范围，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你不是顺手就能做吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎样付费才合适？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是划清简单建议与正式服务范围，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你不是顺手就能做吗？",
+      "怎样付费才合适？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“划清简单建议与正式服务范围”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "medium",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-016",
+    "category": "friends",
+    "title": "朋友情绪索取",
+    "level": 16,
+    "difficulty": "medium",
+    "background": "朋友每天深夜打电话倾诉。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你长期睡眠受影响"
+    ],
+    "objective": "提供有限倾听时间并鼓励其他支持渠道",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“你长期睡眠受影响”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你怎么也不愿意听？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“我还能找谁聊？”的再次追问后，争取一个明确落点：“提供有限倾听时间并鼓励其他支持渠道”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我现在只能找你"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是你长期睡眠受影响。我希望提供有限倾听时间并鼓励其他支持渠道，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你怎么也不愿意听？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我还能找谁聊？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是提供有限倾听时间并鼓励其他支持渠道，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你怎么也不愿意听？",
+      "我还能找谁聊？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“提供有限倾听时间并鼓励其他支持渠道”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "medium",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-017",
+    "category": "friends",
+    "title": "冷落朋友后修复",
+    "level": 17,
+    "difficulty": "medium",
+    "background": "你几次忽略朋友邀约。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你之前确实多次没有及时回复"
+    ],
+    "objective": "承认失联并主动安排有质量的见面",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“你之前确实多次没有及时回复”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“上次你连解释都没有”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“怎么让我相信你在乎？”的再次追问后，争取一个明确落点：“承认失联并主动安排有质量的见面”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你现在终于想起我了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是你之前确实多次没有及时回复。我希望承认失联并主动安排有质量的见面，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "上次你连解释都没有"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么让我相信你在乎？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是承认失联并主动安排有质量的见面，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "上次你连解释都没有",
+      "怎么让我相信你在乎？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“承认失联并主动安排有质量的见面”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "medium",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-018",
+    "category": "friends",
+    "title": "友情中的竞争",
+    "level": 18,
+    "difficulty": "medium",
+    "background": "朋友因你的新机会感到失落。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "两人曾一起准备同一岗位面试"
+    ],
+    "objective": "接纳复杂情绪并避免比较",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“两人曾一起准备同一岗位面试”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你是不是看不起我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“还能像以前一样相处吗？”的再次追问后，争取一个明确落点：“接纳复杂情绪并避免比较”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你现在比我厉害了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是两人曾一起准备同一岗位面试。我希望接纳复杂情绪并避免比较，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是看不起我？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "还能像以前一样相处吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是接纳复杂情绪并避免比较，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是看不起我？",
+      "还能像以前一样相处吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“接纳复杂情绪并避免比较”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "medium",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-019",
+    "category": "friends",
+    "title": "朋友借钱金额较大",
+    "level": 19,
+    "difficulty": "medium",
+    "background": "朋友希望借一笔你承担不起的钱。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "借款金额影响你的紧急储蓄"
+    ],
+    "objective": "明确不借大额款并提供非资金支持",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“借款金额影响你的紧急储蓄”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你不借就是不信我”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“有没有其他解决办法？”的再次追问后，争取一个明确落点：“明确不借大额款并提供非资金支持”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我真的没有别人能找了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是借款金额影响你的紧急储蓄。我希望明确不借大额款并提供非资金支持，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你不借就是不信我"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有没有其他解决办法？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是明确不借大额款并提供非资金支持，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你不借就是不信我",
+      "有没有其他解决办法？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确不借大额款并提供非资金支持”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "medium",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-020",
+    "category": "friends",
+    "title": "朋友未经允许上传合照",
+    "level": 20,
+    "difficulty": "medium",
+    "background": "对方在平台公开了你不喜欢的照片。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "照片暴露了你的实时位置"
+    ],
+    "objective": "请求删除照片并约定发布前确认",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“照片暴露了你的实时位置”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“大家都发了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“下次怎样征求同意？”的再次追问后，争取一个明确落点：“请求删除照片并约定发布前确认”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这有什么关系？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是照片暴露了你的实时位置。我希望请求删除照片并约定发布前确认，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "大家都发了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下次怎样征求同意？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是请求删除照片并约定发布前确认，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "大家都发了",
+      "下次怎样征求同意？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“请求删除照片并约定发布前确认”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "medium",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-021",
+    "category": "friends",
+    "title": "朋友长期贬低",
+    "level": 21,
+    "difficulty": "high",
+    "background": "好友频繁用挖苦方式评价你。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "对方多次公开嘲笑你的职业选择"
+    ],
+    "objective": "指出具体伤人的表达并设清晰边界",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“对方多次公开嘲笑你的职业选择”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你怎么越来越脆弱？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“我们的相处方式还能改吗？”的再次追问后，争取一个明确落点：“指出具体伤人的表达并设清晰边界”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我说话就这样"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是对方多次公开嘲笑你的职业选择。我希望指出具体伤人的表达并设清晰边界，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你怎么越来越脆弱？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我们的相处方式还能改吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是指出具体伤人的表达并设清晰边界，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你怎么越来越脆弱？",
+      "我们的相处方式还能改吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“指出具体伤人的表达并设清晰边界”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "high",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-022",
+    "category": "friends",
+    "title": "朋友要求保守违法秘密",
+    "level": 22,
+    "difficulty": "high",
+    "background": "朋友承认正在伤害他人并希望你隐瞒。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "对方行为可能对现实中的人造成严重伤害"
+    ],
+    "objective": "不承诺保密会危及他人的行为",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“对方行为可能对现实中的人造成严重伤害”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你不能告诉任何人”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“你要怎么处理？”的再次追问后，争取一个明确落点：“不承诺保密会危及他人的行为”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你是我最信的人"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是对方行为可能对现实中的人造成严重伤害。我希望不承诺保密会危及他人的行为，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你不能告诉任何人"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你要怎么处理？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是不承诺保密会危及他人的行为，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你不能告诉任何人",
+      "你要怎么处理？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“不承诺保密会危及他人的行为”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "high",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-023",
+    "category": "friends",
+    "title": "共同创业友情冲突",
+    "level": 23,
+    "difficulty": "high",
+    "background": "朋友合伙做项目却始终不记账。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "双方已投入真实资金和时间"
+    ],
+    "objective": "将资金和职责形成正式记录",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“双方已投入真实资金和时间”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你不信我就算了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“怎么透明分账？”的再次追问后，争取一个明确落点：“将资金和职责形成正式记录”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "兄弟之间算那么细干嘛"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是双方已投入真实资金和时间。我希望将资金和职责形成正式记录，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你不信我就算了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么透明分账？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是将资金和职责形成正式记录，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你不信我就算了",
+      "怎么透明分账？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“将资金和职责形成正式记录”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "high",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-024",
+    "category": "friends",
+    "title": "朋友以人情施压",
+    "level": 24,
+    "difficulty": "high",
+    "background": "朋友要求你帮忙介绍并保证其入职。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你无法影响招聘最终决定"
+    ],
+    "objective": "可以转达简历但不保证结果",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“你无法影响招聘最终决定”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“这都不帮还算朋友？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“可以怎样合理推荐？”的再次追问后，争取一个明确落点：“可以转达简历但不保证结果”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你认识负责人当然好办"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是你无法影响招聘最终决定。我希望可以转达简历但不保证结果，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "这都不帮还算朋友？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "可以怎样合理推荐？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是可以转达简历但不保证结果，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "这都不帮还算朋友？",
+      "可以怎样合理推荐？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“可以转达简历但不保证结果”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "high",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-025",
+    "category": "friends",
+    "title": "朋友公开泄露隐私",
+    "level": 25,
+    "difficulty": "high",
+    "background": "朋友将你私下说的话截图发群里。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "截图已让多位熟人知悉私人信息"
+    ],
+    "objective": "先要求停止传播并评估信任是否可恢复",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“截图已让多位熟人知悉私人信息”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你不会真要绝交吧？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“你希望我怎么补救？”的再次追问后，争取一个明确落点：“先要求停止传播并评估信任是否可恢复”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我没想到会这么严重"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是截图已让多位熟人知悉私人信息。我希望先要求停止传播并评估信任是否可恢复，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你不会真要绝交吧？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你希望我怎么补救？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是先要求停止传播并评估信任是否可恢复，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你不会真要绝交吧？",
+      "你希望我怎么补救？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先要求停止传播并评估信任是否可恢复”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "high",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-026",
+    "category": "friends",
+    "title": "被朋友圈排挤",
+    "level": 26,
+    "difficulty": "high",
+    "background": "多人聚会持续不邀请你却在你面前谈论。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "类似排除已连续发生多次"
+    ],
+    "objective": "表达受伤感并决定是否继续投入关系",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“类似排除已连续发生多次”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你是不是想太多？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“以后还能坦诚沟通吗？”的再次追问后，争取一个明确落点：“表达受伤感并决定是否继续投入关系”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我们只是临时约的"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是类似排除已连续发生多次。我希望表达受伤感并决定是否继续投入关系，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是想太多？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "以后还能坦诚沟通吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是表达受伤感并决定是否继续投入关系，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是想太多？",
+      "以后还能坦诚沟通吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“表达受伤感并决定是否继续投入关系”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "high",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-027",
+    "category": "friends",
+    "title": "朋友要求你作虚假证言",
+    "level": 27,
+    "difficulty": "high",
+    "background": "朋友希望你为其工作失误编造证明。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "请求涉及对第三方撒谎和信誉风险"
+    ],
+    "objective": "拒绝提供虚假证明并建议如实处理",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“请求涉及对第三方撒谎和信誉风险”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“反正没人查”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“你是不是要出卖我？”的再次追问后，争取一个明确落点：“拒绝提供虚假证明并建议如实处理”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你一句话就能帮我"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是请求涉及对第三方撒谎和信誉风险。我希望拒绝提供虚假证明并建议如实处理，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "反正没人查"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你是不是要出卖我？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是拒绝提供虚假证明并建议如实处理，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "反正没人查",
+      "你是不是要出卖我？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“拒绝提供虚假证明并建议如实处理”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "high",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-028",
+    "category": "friends",
+    "title": "朋友处于情绪危机",
+    "level": 28,
+    "difficulty": "high",
+    "background": "朋友连续发消息说活着没有意义。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "朋友表现出可能的急性自伤风险"
+    ],
+    "objective": "优先确认现实安全并联系紧急支持",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“朋友表现出可能的急性自伤风险”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“不要告诉任何人”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“你能现在陪我吗？”的再次追问后，争取一个明确落点：“优先确认现实安全并联系紧急支持”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我什么都不想说了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "我认真听到了你说的话，也很担心你的安全。谢谢你愿意告诉我。我会先陪着你，不责怪你。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "不要告诉任何人"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "现在先不讨论绩效或谁对谁错。我们一起联系可信赖的人以及当地的紧急或专业危机支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你能现在陪我吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我会认真对待这种风险，不答应替你保密任何可能危及生命的事。我们现在就找现实中的帮助。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "不要告诉任何人",
+      "你能现在陪我吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“优先确认现实安全并联系紧急支持”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "high",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-029",
+    "category": "friends",
+    "title": "多年朋友关系破裂",
+    "level": 29,
+    "difficulty": "high",
+    "background": "双方因利益冲突已半年没有来往。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "旧争执包含金钱与长期误解"
+    ],
+    "objective": "承认自身责任并尊重对方是否继续交往",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“旧争执包含金钱与长期误解”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你先把以前的话解释清楚”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“还有恢复关系的可能吗？”的再次追问后，争取一个明确落点：“承认自身责任并尊重对方是否继续交往”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你现在找我有什么用？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是旧争执包含金钱与长期误解。我希望承认自身责任并尊重对方是否继续交往，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你先把以前的话解释清楚"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "还有恢复关系的可能吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是承认自身责任并尊重对方是否继续交往，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你先把以前的话解释清楚",
+      "还有恢复关系的可能吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“承认自身责任并尊重对方是否继续交往”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "high",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "friends-030",
+    "category": "friends",
+    "title": "朋友在关键时刻失约",
+    "level": 30,
+    "difficulty": "high",
+    "background": "朋友答应帮你搬家却临时消失。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你因此临时支付了额外搬运费用"
+    ],
+    "objective": "说明影响并决定后续承诺方式",
+    "method": "积极倾听 / 边界表达",
+    "pillars": [
+      "真诚理解",
+      "相互回应",
+      "尊重分寸"
+    ],
+    "steps": [
+      {
+        "name": "真诚理解",
+        "instruction": "开场先围绕已知事实“你因此临时支付了额外搬运费用”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "相互回应",
+        "instruction": "听到“你怎么这么计较？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "尊重分寸",
+        "instruction": "遭遇“怎样修复这次失信？”的再次追问后，争取一个明确落点：“说明影响并决定后续承诺方式”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "谁还没个急事？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "真诚理解",
+        "text": "谢谢你直接说出想法。我的真实情况是你因此临时支付了额外搬运费用。我希望说明影响并决定后续承诺方式，也想听听你是怎么考虑的。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你怎么这么计较？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "相互回应",
+        "text": "我重视友情，但也需要诚实表达自己的能力和边界，而不是答应做不到的事。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎样修复这次失信？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "尊重分寸",
+        "text": "我们可以不同意彼此的选择。我的想法仍然是说明影响并决定后续承诺方式，希望还能保持尊重。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你怎么这么计较？",
+      "怎样修复这次失信？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“说明影响并决定后续承诺方式”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "tags": [
+      "friends",
+      "high",
+      "积极倾听 / 边界表达"
+    ],
+    "created": "2026-11-10"
+  }
+]

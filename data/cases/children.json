@@ -1,0 +1,3542 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "children-001",
+    "category": "children",
+    "title": "收拾玩具",
+    "level": 1,
+    "difficulty": "low",
+    "background": "孩子玩完积木不愿收拾。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "原先约好晚饭前收拾客厅"
+    ],
+    "objective": "一起把积木分类收到盒子",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“原先约好晚饭前收拾客厅”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“为什么非要现在收？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“你可以帮我吗？”的再次追问后，争取一个明确落点：“一起把积木分类收到盒子”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我还想玩！"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是原先约好晚饭前收拾客厅。我们一起想办法做到一起把积木分类收到盒子。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么非要现在收？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你可以帮我吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：一起把积木分类收到盒子。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么非要现在收？",
+      "你可以帮我吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“一起把积木分类收到盒子”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "low",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-002",
+    "category": "children",
+    "title": "早上起床磨蹭",
+    "level": 2,
+    "difficulty": "low",
+    "background": "孩子起床后一直赖床。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "上学需要按时出门"
+    ],
+    "objective": "让孩子选先洗脸还是先穿衣",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“上学需要按时出门”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“我还困”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“可不可以再睡一会？”的再次追问后，争取一个明确落点：“让孩子选先洗脸还是先穿衣”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我不要起床"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是上学需要按时出门。我们一起想办法做到让孩子选先洗脸还是先穿衣。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我还困"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "可不可以再睡一会？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：让孩子选先洗脸还是先穿衣。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我还困",
+      "可不可以再睡一会？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“让孩子选先洗脸还是先穿衣”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "low",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-003",
+    "category": "children",
+    "title": "作业遇到困难",
+    "level": 3,
+    "difficulty": "low",
+    "background": "孩子不会做数学题想放弃。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "孩子卡在分数应用题"
+    ],
+    "objective": "先一起拆解一道题再独立尝试",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“孩子卡在分数应用题”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你是不是觉得我笨？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“你能陪我看第一题吗？”的再次追问后，争取一个明确落点：“先一起拆解一道题再独立尝试”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我就是学不会"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是孩子卡在分数应用题。我们一起想办法做到先一起拆解一道题再独立尝试。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是觉得我笨？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你能陪我看第一题吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：先一起拆解一道题再独立尝试。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是觉得我笨？",
+      "你能陪我看第一题吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先一起拆解一道题再独立尝试”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "low",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-004",
+    "category": "children",
+    "title": "想买新玩具",
+    "level": 4,
+    "difficulty": "low",
+    "background": "孩子在商店哭着要玩具。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "本月玩具预算已经用完"
+    ],
+    "objective": "把喜欢的玩具记入愿望清单",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“本月玩具预算已经用完”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你一点也不爱我”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“能不能下次买？”的再次追问后，争取一个明确落点：“把喜欢的玩具记入愿望清单”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "别人都有为什么我没有？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是本月玩具预算已经用完。我们一起想办法做到把喜欢的玩具记入愿望清单。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你一点也不爱我"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能不能下次买？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：把喜欢的玩具记入愿望清单。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你一点也不爱我",
+      "能不能下次买？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“把喜欢的玩具记入愿望清单”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "low",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-005",
+    "category": "children",
+    "title": "兄弟姐妹争抢玩具",
+    "level": 5,
+    "difficulty": "low",
+    "background": "两个孩子同时要同一件玩具。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "两人都想用同一套画笔"
+    ],
+    "objective": "轮流使用并让孩子提出安排",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“两人都想用同一套画笔”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“为什么总让我让？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“谁先玩？”的再次追问后，争取一个明确落点：“轮流使用并让孩子提出安排”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "他先抢我的！"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是两人都想用同一套画笔。我们一起想办法做到轮流使用并让孩子提出安排。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么总让我让？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "谁先玩？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：轮流使用并让孩子提出安排。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么总让我让？",
+      "谁先玩？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“轮流使用并让孩子提出安排”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "low",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-006",
+    "category": "children",
+    "title": "孩子比赛失利",
+    "level": 6,
+    "difficulty": "low",
+    "background": "孩子输了运动比赛很沮丧。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "这是孩子第一次参加正式比赛"
+    ],
+    "objective": "先接住失落再一起回顾努力点",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“这是孩子第一次参加正式比赛”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“别人都比我厉害”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“我是不是很差？”的再次追问后，争取一个明确落点：“先接住失落再一起回顾努力点”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我再也不参加了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是这是孩子第一次参加正式比赛。我们一起想办法做到先接住失落再一起回顾努力点。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "别人都比我厉害"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我是不是很差？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：先接住失落再一起回顾努力点。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "别人都比我厉害",
+      "我是不是很差？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先接住失落再一起回顾努力点”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "low",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-007",
+    "category": "children",
+    "title": "晚上不肯睡觉",
+    "level": 7,
+    "difficulty": "low",
+    "background": "孩子到了睡前还要看视频。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "之前约定九点半关屏"
+    ],
+    "objective": "关屏后让孩子选睡前故事",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“之前约定九点半关屏”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你太严格了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“明天能不能继续看？”的再次追问后，争取一个明确落点：“关屏后让孩子选睡前故事”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "再看一集嘛"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是之前约定九点半关屏。我们一起想办法做到关屏后让孩子选睡前故事。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你太严格了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "明天能不能继续看？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：关屏后让孩子选睡前故事。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你太严格了",
+      "明天能不能继续看？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“关屏后让孩子选睡前故事”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "low",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-008",
+    "category": "children",
+    "title": "说话打断别人",
+    "level": 8,
+    "difficulty": "low",
+    "background": "孩子总在大人说话时插话。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "家庭讨论时孩子连续打断三次"
+    ],
+    "objective": "教孩子举手示意并保证轮到发言",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“家庭讨论时孩子连续打断三次”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“为什么你们可以一直说？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“那我什么时候说？”的再次追问后，争取一个明确落点：“教孩子举手示意并保证轮到发言”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我现在就要说！"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是家庭讨论时孩子连续打断三次。我们一起想办法做到教孩子举手示意并保证轮到发言。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么你们可以一直说？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "那我什么时候说？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：教孩子举手示意并保证轮到发言。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么你们可以一直说？",
+      "那我什么时候说？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“教孩子举手示意并保证轮到发言”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "low",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-009",
+    "category": "children",
+    "title": "不愿分享心情",
+    "level": 9,
+    "difficulty": "low",
+    "background": "孩子放学后闷闷不乐。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "孩子当天在学校遭遇不顺"
+    ],
+    "objective": "尊重独处并约定晚饭后再聊",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“孩子当天在学校遭遇不顺”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“说了你也不懂”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“能不能先让我安静？”的再次追问后，争取一个明确落点：“尊重独处并约定晚饭后再聊”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我不想告诉你"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是孩子当天在学校遭遇不顺。我们一起想办法做到尊重独处并约定晚饭后再聊。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "说了你也不懂"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能不能先让我安静？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：尊重独处并约定晚饭后再聊。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "说了你也不懂",
+      "能不能先让我安静？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“尊重独处并约定晚饭后再聊”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "low",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-010",
+    "category": "children",
+    "title": "害怕打针",
+    "level": 10,
+    "difficulty": "low",
+    "background": "孩子在诊室害怕哭泣。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "医生说明需要接种疫苗"
+    ],
+    "objective": "如实解释不适并陪伴孩子完成流程",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“医生说明需要接种疫苗”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你骗我说不疼”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“能握着我的手吗？”的再次追问后，争取一个明确落点：“如实解释不适并陪伴孩子完成流程”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我不要打针"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是医生说明需要接种疫苗。我们一起想办法做到如实解释不适并陪伴孩子完成流程。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你骗我说不疼"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能握着我的手吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：如实解释不适并陪伴孩子完成流程。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你骗我说不疼",
+      "能握着我的手吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“如实解释不适并陪伴孩子完成流程”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "low",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-011",
+    "category": "children",
+    "title": "孩子撒小谎",
+    "level": 11,
+    "difficulty": "medium",
+    "background": "孩子说作业完成却没写。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "作业只完成一半"
+    ],
+    "objective": "说明诚实规则并一起安排补做",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“作业只完成一半”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“不说你就不知道了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“我怎么补作业？”的再次追问后，争取一个明确落点：“说明诚实规则并一起安排补做”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我怕你骂我"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是作业只完成一半。我们一起想办法做到说明诚实规则并一起安排补做。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "不说你就不知道了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我怎么补作业？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：说明诚实规则并一起安排补做。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "不说你就不知道了",
+      "我怎么补作业？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“说明诚实规则并一起安排补做”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "medium",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-012",
+    "category": "children",
+    "title": "电子产品时间争执",
+    "level": 12,
+    "difficulty": "medium",
+    "background": "孩子约定时间到了仍不关平板。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "此前已明确每日使用时长"
+    ],
+    "objective": "给两分钟保存进度并按约定关屏",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“此前已明确每日使用时长”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你根本不懂这个游戏”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“我能不能存好进度？”的再次追问后，争取一个明确落点：“给两分钟保存进度并按约定关屏”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我就要继续玩！"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是此前已明确每日使用时长。我们一起想办法做到给两分钟保存进度并按约定关屏。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你根本不懂这个游戏"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我能不能存好进度？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：给两分钟保存进度并按约定关屏。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你根本不懂这个游戏",
+      "我能不能存好进度？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“给两分钟保存进度并按约定关屏”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "medium",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-013",
+    "category": "children",
+    "title": "被同学排斥",
+    "level": 13,
+    "difficulty": "medium",
+    "background": "孩子说同学不让他参加游戏。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "孩子连续两天被排除在小组活动外"
+    ],
+    "objective": "先确认发生的事并练习邀请或求助",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“孩子连续两天被排除在小组活动外”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“肯定是我不好”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“我该怎么说？”的再次追问后，争取一个明确落点：“先确认发生的事并练习邀请或求助”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "他们都讨厌我"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是孩子连续两天被排除在小组活动外。我们一起想办法做到先确认发生的事并练习邀请或求助。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "肯定是我不好"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我该怎么说？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：先确认发生的事并练习邀请或求助。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "肯定是我不好",
+      "我该怎么说？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先确认发生的事并练习邀请或求助”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "medium",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-014",
+    "category": "children",
+    "title": "不愿去兴趣班",
+    "level": 14,
+    "difficulty": "medium",
+    "background": "孩子曾主动选的课程现在不愿上。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "课程已上一个月，孩子说内容太难"
+    ],
+    "objective": "了解厌倦原因并约定体验期后决定",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“课程已上一个月，孩子说内容太难”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你只在乎花的钱”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“能不能改学别的？”的再次追问后，争取一个明确落点：“了解厌倦原因并约定体验期后决定”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我就是不想去了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是课程已上一个月，孩子说内容太难。我们一起想办法做到了解厌倦原因并约定体验期后决定。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你只在乎花的钱"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能不能改学别的？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：了解厌倦原因并约定体验期后决定。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你只在乎花的钱",
+      "能不能改学别的？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“了解厌倦原因并约定体验期后决定”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "medium",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-015",
+    "category": "children",
+    "title": "孩子顶嘴",
+    "level": 15,
+    "difficulty": "medium",
+    "background": "孩子对规则提出强烈反对。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "争执涉及外出归家时间"
+    ],
+    "objective": "说明不可变的安全规则与可商量部分",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“争执涉及外出归家时间”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你从来不听我解释”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“我可以提出我的方案吗？”的再次追问后，争取一个明确落点：“说明不可变的安全规则与可商量部分”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "凭什么大人说了算？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是争执涉及外出归家时间。我们一起想办法做到说明不可变的安全规则与可商量部分。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你从来不听我解释"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我可以提出我的方案吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：说明不可变的安全规则与可商量部分。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你从来不听我解释",
+      "我可以提出我的方案吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“说明不可变的安全规则与可商量部分”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "medium",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-016",
+    "category": "children",
+    "title": "孩子沉迷短视频",
+    "level": 16,
+    "difficulty": "medium",
+    "background": "孩子偷偷使用家长设备到深夜。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "连续几晚晚睡影响白天精神"
+    ],
+    "objective": "重新设定设备保管和睡眠规则",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“连续几晚晚睡影响白天精神”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“同学都这样”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“怎样才算公平？”的再次追问后，争取一个明确落点：“重新设定设备保管和睡眠规则”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我又没影响别人"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是连续几晚晚睡影响白天精神。我们一起想办法做到重新设定设备保管和睡眠规则。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "同学都这样"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎样才算公平？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：重新设定设备保管和睡眠规则。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "同学都这样",
+      "怎样才算公平？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“重新设定设备保管和睡眠规则”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "medium",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-017",
+    "category": "children",
+    "title": "考试成绩不理想",
+    "level": 17,
+    "difficulty": "medium",
+    "background": "孩子拿到低于预期的成绩。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "失分集中在基础概念而非粗心"
+    ],
+    "objective": "先分析失分类型再定小目标",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“失分集中在基础概念而非粗心”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“我已经尽力了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“怎么才能补起来？”的再次追问后，争取一个明确落点：“先分析失分类型再定小目标”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你是不是要骂我？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是失分集中在基础概念而非粗心。我们一起想办法做到先分析失分类型再定小目标。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我已经尽力了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么才能补起来？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：先分析失分类型再定小目标。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我已经尽力了",
+      "怎么才能补起来？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先分析失分类型再定小目标”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "medium",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-018",
+    "category": "children",
+    "title": "同伴冲突与打人",
+    "level": 18,
+    "difficulty": "medium",
+    "background": "孩子生气时推了同学。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "老师已报告推搡造成对方受惊"
+    ],
+    "objective": "明确禁止打人并练习求助和离开",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“老师已报告推搡造成对方受惊”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“不打回去我就吃亏”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“下次能怎么保护自己？”的再次追问后，争取一个明确落点：“明确禁止打人并练习求助和离开”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "是他先惹我的"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是老师已报告推搡造成对方受惊。我们一起想办法做到明确禁止打人并练习求助和离开。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "不打回去我就吃亏"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下次能怎么保护自己？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：明确禁止打人并练习求助和离开。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "不打回去我就吃亏",
+      "下次能怎么保护自己？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确禁止打人并练习求助和离开”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "medium",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-019",
+    "category": "children",
+    "title": "孩子想自己做决定",
+    "level": 19,
+    "difficulty": "medium",
+    "background": "孩子希望独立选择课外活动。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "活动安排不会影响基本学习与安全"
+    ],
+    "objective": "限定预算范围让孩子先试一个月",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“活动安排不会影响基本学习与安全”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“我的兴趣总被否定”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“能给我试试吗？”的再次追问后，争取一个明确落点：“限定预算范围让孩子先试一个月”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你为什么不信我？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是活动安排不会影响基本学习与安全。我们一起想办法做到限定预算范围让孩子先试一个月。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我的兴趣总被否定"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能给我试试吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：限定预算范围让孩子先试一个月。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我的兴趣总被否定",
+      "能给我试试吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“限定预算范围让孩子先试一个月”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "medium",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-020",
+    "category": "children",
+    "title": "孩子社交焦虑",
+    "level": 20,
+    "difficulty": "medium",
+    "background": "孩子不敢在班上回答问题。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "孩子在熟人面前能清晰表达"
+    ],
+    "objective": "从两人练习逐步增加表达机会",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“孩子在熟人面前能清晰表达”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“说错了怎么办？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“能从小范围开始吗？”的再次追问后，争取一个明确落点：“从两人练习逐步增加表达机会”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "别人会笑我"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是孩子在熟人面前能清晰表达。我们一起想办法做到从两人练习逐步增加表达机会。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "说错了怎么办？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能从小范围开始吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：从两人练习逐步增加表达机会。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "说错了怎么办？",
+      "能从小范围开始吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“从两人练习逐步增加表达机会”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "medium",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-021",
+    "category": "children",
+    "title": "发现网络欺凌",
+    "level": 21,
+    "difficulty": "high",
+    "background": "孩子被同学在群聊里嘲笑。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "群聊中存在持续针对性辱骂"
+    ],
+    "objective": "一起保存证据并联系可信学校支持",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“群聊中存在持续针对性辱骂”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“说出去他们会更讨厌我”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“我现在该怎么办？”的再次追问后，争取一个明确落点：“一起保存证据并联系可信学校支持”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你千万别告诉老师"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是群聊中存在持续针对性辱骂。我们一起想办法做到一起保存证据并联系可信学校支持。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "说出去他们会更讨厌我"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我现在该怎么办？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：一起保存证据并联系可信学校支持。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "说出去他们会更讨厌我",
+      "我现在该怎么办？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“一起保存证据并联系可信学校支持”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "high",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-022",
+    "category": "children",
+    "title": "青春期隐私争执",
+    "level": 22,
+    "difficulty": "high",
+    "background": "青少年不愿家长检查聊天记录。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "家长曾未经同意翻看聊天记录"
+    ],
+    "objective": "明确私人空间与必要安全例外",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“家长曾未经同意翻看聊天记录”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你是不是觉得我会做坏事？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“哪些安全情况要告诉你？”的再次追问后，争取一个明确落点：“明确私人空间与必要安全例外”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你根本不尊重我"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是家长曾未经同意翻看聊天记录。我们一起想办法做到明确私人空间与必要安全例外。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是觉得我会做坏事？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "哪些安全情况要告诉你？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：明确私人空间与必要安全例外。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是觉得我会做坏事？",
+      "哪些安全情况要告诉你？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确私人空间与必要安全例外”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "high",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-023",
+    "category": "children",
+    "title": "关于成绩的权力斗争",
+    "level": 23,
+    "difficulty": "high",
+    "background": "孩子因为排名问题与家长冲突。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "家庭近期频繁围绕排名争执"
+    ],
+    "objective": "停止比较并共同规划可行学习支持",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“家庭近期频繁围绕排名争执”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你为什么总拿我比较？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“可以不提别人吗？”的再次追问后，争取一个明确落点：“停止比较并共同规划可行学习支持”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我只是你的成绩机器吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是家庭近期频繁围绕排名争执。我们一起想办法做到停止比较并共同规划可行学习支持。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你为什么总拿我比较？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "可以不提别人吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：停止比较并共同规划可行学习支持。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你为什么总拿我比较？",
+      "可以不提别人吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“停止比较并共同规划可行学习支持”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "high",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-024",
+    "category": "children",
+    "title": "孩子表达身份困惑",
+    "level": 24,
+    "difficulty": "high",
+    "background": "青少年分享自我认同方面的疑问。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "孩子希望在不被评判的环境里说话"
+    ],
+    "objective": "先倾听感受并支持安全自主探索",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“孩子希望在不被评判的环境里说话”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“我不想被强迫解释”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“你能先听我说吗？”的再次追问后，争取一个明确落点：“先倾听感受并支持安全自主探索”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你会不会觉得我很奇怪？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是孩子希望在不被评判的环境里说话。我们一起想办法做到先倾听感受并支持安全自主探索。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我不想被强迫解释"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你能先听我说吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：先倾听感受并支持安全自主探索。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我不想被强迫解释",
+      "你能先听我说吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先倾听感受并支持安全自主探索”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "high",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-025",
+    "category": "children",
+    "title": "孩子发现父母争吵",
+    "level": 25,
+    "difficulty": "high",
+    "background": "孩子担心家长关系会破裂。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "孩子目睹激烈争执后明显焦虑"
+    ],
+    "objective": "明确孩子不承担成人冲突责任并提供稳定安排",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“孩子目睹激烈争执后明显焦虑”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“是不是因为我不乖？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“你们还会陪我吗？”的再次追问后，争取一个明确落点：“明确孩子不承担成人冲突责任并提供稳定安排”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们是不是不要我了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是孩子目睹激烈争执后明显焦虑。我们一起想办法做到明确孩子不承担成人冲突责任并提供稳定安排。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "是不是因为我不乖？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你们还会陪我吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：明确孩子不承担成人冲突责任并提供稳定安排。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "是不是因为我不乖？",
+      "你们还会陪我吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确孩子不承担成人冲突责任并提供稳定安排”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "high",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-026",
+    "category": "children",
+    "title": "青少年要深夜外出",
+    "level": 26,
+    "difficulty": "high",
+    "background": "孩子要求参加没有成年人在场的深夜聚会。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "聚会地点与接送方案尚未确认"
+    ],
+    "objective": "依据安全信息协商活动与返家安排",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“聚会地点与接送方案尚未确认”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你是不是不相信我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“满足哪些条件才可以？”的再次追问后，争取一个明确落点：“依据安全信息协商活动与返家安排”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "大家都去为什么我不能？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是聚会地点与接送方案尚未确认。我们一起想办法做到依据安全信息协商活动与返家安排。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是不相信我？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "满足哪些条件才可以？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：依据安全信息协商活动与返家安排。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是不相信我？",
+      "满足哪些条件才可以？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“依据安全信息协商活动与返家安排”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "high",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-027",
+    "category": "children",
+    "title": "涉及陌生人隐私风险",
+    "level": 27,
+    "difficulty": "high",
+    "background": "孩子准备向网络陌生人发个人住址。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "对方真实身份和意图无法核实"
+    ],
+    "objective": "立即停止分享并一起识别网络安全信号",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“对方真实身份和意图无法核实”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你就会吓唬我”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“怎样判断靠不靠谱？”的再次追问后，争取一个明确落点：“立即停止分享并一起识别网络安全信号”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "对方说他也是学生"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是对方真实身份和意图无法核实。我们一起想办法做到立即停止分享并一起识别网络安全信号。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你就会吓唬我"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎样判断靠不靠谱？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：立即停止分享并一起识别网络安全信号。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你就会吓唬我",
+      "怎样判断靠不靠谱？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“立即停止分享并一起识别网络安全信号”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "high",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-028",
+    "category": "children",
+    "title": "出现持续逃学",
+    "level": 28,
+    "difficulty": "high",
+    "background": "孩子多次拒绝上学并情绪崩溃。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "孩子近期有明显睡眠困难和强烈恐惧"
+    ],
+    "objective": "先排查校园压力并联系学校及专业支持",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“孩子近期有明显睡眠困难和强烈恐惧”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你逼我只会更难受”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“能不能先了解发生了什么？”的再次追问后，争取一个明确落点：“先排查校园压力并联系学校及专业支持”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我真的去不了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你现在很着急，也愿意先听你说。当前情况是孩子近期有明显睡眠困难和强烈恐惧。我们一起想办法做到先排查校园压力并联系学校及专业支持。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你逼我只会更难受"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "你有生气和表达不同意的权利，但不能伤害自己或他人。哪些地方能商量，我们一起来选。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能不能先了解发生了什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我们先做一个小步骤：先排查校园压力并联系学校及专业支持。你愿意先试哪一步？需要帮助时可以告诉我。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你逼我只会更难受",
+      "能不能先了解发生了什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先排查校园压力并联系学校及专业支持”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "high",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-029",
+    "category": "children",
+    "title": "亲子矛盾伴随威胁",
+    "level": 29,
+    "difficulty": "high",
+    "background": "孩子与家长争执升级为摔物。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "争执现场出现可能伤人的物品"
+    ],
+    "objective": "先保障距离和安全再约定复盘",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“争执现场出现可能伤人的物品”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你再说我就砸东西！”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“我现在怎么冷静下来？”的再次追问后，争取一个明确落点：“先保障距离和安全再约定复盘”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你别过来！"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你再说我就砸东西！"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我现在怎么冷静下来？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“先保障距离和安全再约定复盘”。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你再说我就砸东西！",
+      "我现在怎么冷静下来？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先保障距离和安全再约定复盘”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "high",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "children-030",
+    "category": "children",
+    "title": "孩子表达自伤念头",
+    "level": 30,
+    "difficulty": "high",
+    "background": "青少年说自己不想活了。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "孩子明确表达当前可能存在自我伤害风险"
+    ],
+    "objective": "优先陪伴确保安全并立即寻找现实危机支持",
+    "method": "反映式倾听 / 共同解决问题",
+    "pillars": [
+      "倾听接纳",
+      "清晰规则",
+      "培养自主"
+    ],
+    "steps": [
+      {
+        "name": "倾听接纳",
+        "instruction": "开场先围绕已知事实“孩子明确表达当前可能存在自我伤害风险”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "清晰规则",
+        "instruction": "听到“你能不能别骂我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "培养自主",
+        "instruction": "遭遇“我现在不想一个人待着”的再次追问后，争取一个明确落点：“优先陪伴确保安全并立即寻找现实危机支持”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "反正你们也不懂"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "倾听接纳",
+        "text": "我认真听到了你说的话，也很担心你的安全。谢谢你愿意告诉我。我会先陪着你，不责怪你。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你能不能别骂我？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "清晰规则",
+        "text": "现在先不讨论绩效或谁对谁错。我们一起联系可信赖的人以及当地的紧急或专业危机支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我现在不想一个人待着"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "培养自主",
+        "text": "我会认真对待这种风险，不答应替你保密任何可能危及生命的事。我们现在就找现实中的帮助。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你能不能别骂我？",
+      "我现在不想一个人待着"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“优先陪伴确保安全并立即寻找现实危机支持”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+    "tags": [
+      "children",
+      "high",
+      "反映式倾听 / 共同解决问题"
+    ],
+    "created": "2026-11-10"
+  }
+]

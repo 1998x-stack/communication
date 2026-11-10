@@ -1,0 +1,3542 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "leadership-001",
+    "category": "leadership",
+    "title": "安排新员工任务",
+    "level": 1,
+    "difficulty": "low",
+    "background": "新员工刚入职不清楚期望。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "首周任务要在三天内完成基础资料整理"
+    ],
+    "objective": "给新员工一份任务清单与验收标准",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“首周任务要在三天内完成基础资料整理”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“做到什么程度算好？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“有问题我找谁？”的再次追问后，争取一个明确落点：“给新员工一份任务清单与验收标准”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我今天先做什么？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：首周任务要在三天内完成基础资料整理。希望我们一起做到给新员工一份任务清单与验收标准。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "做到什么程度算好？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有问题我找谁？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定给新员工一份任务清单与验收标准，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "做到什么程度算好？",
+      "有问题我找谁？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“给新员工一份任务清单与验收标准”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "low",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-002",
+    "category": "leadership",
+    "title": "表扬一次主动协助",
+    "level": 2,
+    "difficulty": "low",
+    "background": "成员主动替同事补齐材料。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "该成员及时共享模板避免团队返工"
+    ],
+    "objective": "肯定具体行为并询问可复制做法",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“该成员及时共享模板避免团队返工”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“这也值得表扬吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“下次怎么保持？”的再次追问后，争取一个明确落点：“肯定具体行为并询问可复制做法”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我只是顺手帮了下"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：该成员及时共享模板避免团队返工。希望我们一起做到肯定具体行为并询问可复制做法。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "这也值得表扬吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下次怎么保持？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定肯定具体行为并询问可复制做法，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "这也值得表扬吗？",
+      "下次怎么保持？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“肯定具体行为并询问可复制做法”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "low",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-003",
+    "category": "leadership",
+    "title": "纠正会议迟到",
+    "level": 3,
+    "difficulty": "low",
+    "background": "成员连续两次迟到。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "会议前两次都未收到任何迟到提醒"
+    ],
+    "objective": "约定提前通知和替代参会安排",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“会议前两次都未收到任何迟到提醒”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“迟到几分钟影响很大吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“我该怎么提前说？”的再次追问后，争取一个明确落点：“约定提前通知和替代参会安排”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "路上真的堵车"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：会议前两次都未收到任何迟到提醒。希望我们一起做到约定提前通知和替代参会安排。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "迟到几分钟影响很大吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我该怎么提前说？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定约定提前通知和替代参会安排，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "迟到几分钟影响很大吗？",
+      "我该怎么提前说？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“约定提前通知和替代参会安排”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "low",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-004",
+    "category": "leadership",
+    "title": "询问任务阻塞",
+    "level": 4,
+    "difficulty": "low",
+    "background": "成员一直没有更新进度。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "任务已超过预估用时但成果尚未可见"
+    ],
+    "objective": "共同梳理阻塞与下一检查点",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“任务已超过预估用时但成果尚未可见”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“不知道哪里算卡点”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“需要什么支持？”的再次追问后，争取一个明确落点：“共同梳理阻塞与下一检查点”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我还在做"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：任务已超过预估用时但成果尚未可见。希望我们一起做到共同梳理阻塞与下一检查点。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "不知道哪里算卡点"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "需要什么支持？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定共同梳理阻塞与下一检查点，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "不知道哪里算卡点",
+      "需要什么支持？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“共同梳理阻塞与下一检查点”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "low",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-005",
+    "category": "leadership",
+    "title": "反馈文件错误",
+    "level": 5,
+    "difficulty": "low",
+    "background": "成员报告出现明显错别字。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "三页报告中出现四处影响理解的笔误"
+    ],
+    "objective": "上线前使用统一检查清单",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“三页报告中出现四处影响理解的笔误”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“为什么要单独说？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“有什么快速改进办法？”的再次追问后，争取一个明确落点：“上线前使用统一检查清单”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这只是小错误"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：三页报告中出现四处影响理解的笔误。希望我们一起做到上线前使用统一检查清单。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么要单独说？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有什么快速改进办法？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定上线前使用统一检查清单，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么要单独说？",
+      "有什么快速改进办法？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“上线前使用统一检查清单”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "low",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-006",
+    "category": "leadership",
+    "title": "委派主持会议",
+    "level": 6,
+    "difficulty": "low",
+    "background": "希望员工独立主持下次例会。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "员工已经熟悉议题但缺少主持经验"
+    ],
+    "objective": "提供提纲并由员工主持十五分钟",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“员工已经熟悉议题但缺少主持经验”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“如果没人回应怎么办？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“你会提供帮助吗？”的再次追问后，争取一个明确落点：“提供提纲并由员工主持十五分钟”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我怕主持不好"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：员工已经熟悉议题但缺少主持经验。希望我们一起做到提供提纲并由员工主持十五分钟。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "如果没人回应怎么办？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你会提供帮助吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定提供提纲并由员工主持十五分钟，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "如果没人回应怎么办？",
+      "你会提供帮助吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“提供提纲并由员工主持十五分钟”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "low",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-007",
+    "category": "leadership",
+    "title": "协调工作量",
+    "level": 7,
+    "difficulty": "low",
+    "background": "成员主动反映本周任务过多。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "四项任务都被标为高优先级"
+    ],
+    "objective": "一起排序并调整非关键事项",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“四项任务都被标为高优先级”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“是不是说明我效率太低？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“能减少哪些任务？”的再次追问后，争取一个明确落点：“一起排序并调整非关键事项”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我真的做不完"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：四项任务都被标为高优先级。希望我们一起做到一起排序并调整非关键事项。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "是不是说明我效率太低？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能减少哪些任务？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定一起排序并调整非关键事项，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "是不是说明我效率太低？",
+      "能减少哪些任务？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“一起排序并调整非关键事项”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "low",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-008",
+    "category": "leadership",
+    "title": "员工提新点子",
+    "level": 8,
+    "difficulty": "low",
+    "background": "年轻员工建议改变老流程。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "建议能减少手工汇总步骤"
+    ],
+    "objective": "安排一周小试点并共同定义指标",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“建议能减少手工汇总步骤”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“领导真的会听吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“可以先试小范围吗？”的再次追问后，争取一个明确落点：“安排一周小试点并共同定义指标”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "会不会冒犯老同事？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：建议能减少手工汇总步骤。希望我们一起做到安排一周小试点并共同定义指标。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "领导真的会听吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "可以先试小范围吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定安排一周小试点并共同定义指标，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "领导真的会听吗？",
+      "可以先试小范围吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“安排一周小试点并共同定义指标”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "low",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-009",
+    "category": "leadership",
+    "title": "考核前对齐",
+    "level": 9,
+    "difficulty": "low",
+    "background": "季度开始需要确定绩效指标。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "指标包含产出质量与跨团队协作"
+    ],
+    "objective": "共同确认可衡量目标和月度复盘点",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“指标包含产出质量与跨团队协作”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“达不到怎么办？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“中间能调整吗？”的再次追问后，争取一个明确落点：“共同确认可衡量目标和月度复盘点”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这些数字是谁定的？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：指标包含产出质量与跨团队协作。希望我们一起做到共同确认可衡量目标和月度复盘点。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "达不到怎么办？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "中间能调整吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定共同确认可衡量目标和月度复盘点，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "达不到怎么办？",
+      "中间能调整吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“共同确认可衡量目标和月度复盘点”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "low",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-010",
+    "category": "leadership",
+    "title": "引导员工复盘",
+    "level": 10,
+    "difficulty": "low",
+    "background": "刚完成项目希望团队吸取经验。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "完成交付但交接出现过信息丢失"
+    ],
+    "objective": "组织无责复盘并形成两项改进行动",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“完成交付但交接出现过信息丢失”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“是不是来找人背锅？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“复盘之后会怎样？”的再次追问后，争取一个明确落点：“组织无责复盘并形成两项改进行动”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "项目不是已经结束了吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：完成交付但交接出现过信息丢失。希望我们一起做到组织无责复盘并形成两项改进行动。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "是不是来找人背锅？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "复盘之后会怎样？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定组织无责复盘并形成两项改进行动，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "是不是来找人背锅？",
+      "复盘之后会怎样？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“组织无责复盘并形成两项改进行动”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "low",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-011",
+    "category": "leadership",
+    "title": "员工总是寻求批准",
+    "level": 11,
+    "difficulty": "medium",
+    "background": "能力不错但事事请示。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "多数请示属于低风险常规操作"
+    ],
+    "objective": "定义可自主决策范围和升级条件",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“多数请示属于低风险常规操作”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“你不是说大事要请示吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“边界在哪里？”的再次追问后，争取一个明确落点：“定义可自主决策范围和升级条件”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我怕做错"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：多数请示属于低风险常规操作。希望我们一起做到定义可自主决策范围和升级条件。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你不是说大事要请示吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "边界在哪里？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定定义可自主决策范围和升级条件，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你不是说大事要请示吗？",
+      "边界在哪里？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“定义可自主决策范围和升级条件”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "medium",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-012",
+    "category": "leadership",
+    "title": "优秀员工职业发展",
+    "level": 12,
+    "difficulty": "medium",
+    "background": "骨干员工感到没有成长空间。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "该成员绩效稳定但近半年没有新职责"
+    ],
+    "objective": "制定成长目标并提供一次跨职能机会",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“该成员绩效稳定但近半年没有新职责”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“公司还有机会吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“能安排有挑战的项目吗？”的再次追问后，争取一个明确落点：“制定成长目标并提供一次跨职能机会”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "每天都是重复工作"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：该成员绩效稳定但近半年没有新职责。希望我们一起做到制定成长目标并提供一次跨职能机会。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "公司还有机会吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能安排有挑战的项目吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定制定成长目标并提供一次跨职能机会，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "公司还有机会吗？",
+      "能安排有挑战的项目吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“制定成长目标并提供一次跨职能机会”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "medium",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-013",
+    "category": "leadership",
+    "title": "员工交付质量波动",
+    "level": 13,
+    "difficulty": "medium",
+    "background": "同一成员近期返工次数增加。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "返工集中在需求理解而非技术实现"
+    ],
+    "objective": "针对具体问题补充结对复核和支持",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“返工集中在需求理解而非技术实现”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“你们是不是对我不满意？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“我应该先改什么？”的再次追问后，争取一个明确落点：“针对具体问题补充结对复核和支持”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "是不是我能力变差了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：返工集中在需求理解而非技术实现。希望我们一起做到针对具体问题补充结对复核和支持。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们是不是对我不满意？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我应该先改什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定针对具体问题补充结对复核和支持，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们是不是对我不满意？",
+      "我应该先改什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“针对具体问题补充结对复核和支持”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "medium",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-014",
+    "category": "leadership",
+    "title": "拒绝成员不合理加薪预期",
+    "level": 14,
+    "difficulty": "medium",
+    "background": "员工希望立刻加薪百分之五十。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "当前薪资调整有固定预算周期"
+    ],
+    "objective": "明确薪酬依据与下次评估节点",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“当前薪资调整有固定预算周期”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“你是不是不认可我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“那怎样才能加薪？”的再次追问后，争取一个明确落点：“明确薪酬依据与下次评估节点”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "别人跳槽都涨很多"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：当前薪资调整有固定预算周期。希望我们一起做到明确薪酬依据与下次评估节点。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是不认可我？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "那怎样才能加薪？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定明确薪酬依据与下次评估节点，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是不认可我？",
+      "那怎样才能加薪？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确薪酬依据与下次评估节点”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "medium",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-015",
+    "category": "leadership",
+    "title": "处理迟交任务",
+    "level": 15,
+    "difficulty": "medium",
+    "background": "关键交付连续延迟。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "最近两次延期都有提前发现却未上报的风险"
+    ],
+    "objective": "确认阻塞和新的可检查里程碑",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“最近两次延期都有提前发现却未上报的风险”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“为什么只看结果？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“你能提供什么支持？”的再次追问后，争取一个明确落点：“确认阻塞和新的可检查里程碑”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我已经很努力了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：最近两次延期都有提前发现却未上报的风险。希望我们一起做到确认阻塞和新的可检查里程碑。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么只看结果？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你能提供什么支持？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定确认阻塞和新的可检查里程碑，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么只看结果？",
+      "你能提供什么支持？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“确认阻塞和新的可检查里程碑”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "medium",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-016",
+    "category": "leadership",
+    "title": "员工反馈管理方式",
+    "level": 16,
+    "difficulty": "medium",
+    "background": "下属说你的批评让他不敢说话。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你曾在公开会议用笼统评价代替事实"
+    ],
+    "objective": "承认反馈并改用私下具体行为反馈",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“你曾在公开会议用笼统评价代替事实”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“以后还能提不同意见吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“你愿意改变什么？”的再次追问后，争取一个明确落点：“承认反馈并改用私下具体行为反馈”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我现在开会都很紧张"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：你曾在公开会议用笼统评价代替事实。希望我们一起做到承认反馈并改用私下具体行为反馈。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "以后还能提不同意见吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你愿意改变什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定承认反馈并改用私下具体行为反馈，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "以后还能提不同意见吗？",
+      "你愿意改变什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“承认反馈并改用私下具体行为反馈”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "medium",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-017",
+    "category": "leadership",
+    "title": "成员之间发生争执",
+    "level": 17,
+    "difficulty": "medium",
+    "background": "两名员工在群里互相指责。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "争议涉及交接资料与验收标准"
+    ],
+    "objective": "分别核实事实后召开对齐会",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“争议涉及交接资料与验收标准”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“为什么只找我谈？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“怎样分配责任？”的再次追问后，争取一个明确落点：“分别核实事实后召开对齐会”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "明明是对方先不配合"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：争议涉及交接资料与验收标准。希望我们一起做到分别核实事实后召开对齐会。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么只找我谈？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎样分配责任？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定分别核实事实后召开对齐会，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么只找我谈？",
+      "怎样分配责任？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“分别核实事实后召开对齐会”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "medium",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-018",
+    "category": "leadership",
+    "title": "远程员工存在感低",
+    "level": 18,
+    "difficulty": "medium",
+    "background": "远程成员常在会议中沉默。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "远程成员贡献记录并不低"
+    ],
+    "objective": "设置轮流发言和异步意见渠道",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“远程成员贡献记录并不低”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“我的建议经常被跳过”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“能调整会议方式吗？”的再次追问后，争取一个明确落点：“设置轮流发言和异步意见渠道”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我不知道什么时候插话"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：远程成员贡献记录并不低。希望我们一起做到设置轮流发言和异步意见渠道。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我的建议经常被跳过"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能调整会议方式吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定设置轮流发言和异步意见渠道，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我的建议经常被跳过",
+      "能调整会议方式吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“设置轮流发言和异步意见渠道”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "medium",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-019",
+    "category": "leadership",
+    "title": "员工想跨组转岗",
+    "level": 19,
+    "difficulty": "medium",
+    "background": "核心员工表达转岗意愿。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "岗位当前有关键维护任务无人接替"
+    ],
+    "objective": "尊重转岗意愿并共同制定交接计划",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“岗位当前有关键维护任务无人接替”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“你会给差评吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“能怎么平稳交接？”的再次追问后，争取一个明确落点：“尊重转岗意愿并共同制定交接计划”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "是不是要把我留下来？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：岗位当前有关键维护任务无人接替。希望我们一起做到尊重转岗意愿并共同制定交接计划。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你会给差评吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能怎么平稳交接？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定尊重转岗意愿并共同制定交接计划，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你会给差评吗？",
+      "能怎么平稳交接？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“尊重转岗意愿并共同制定交接计划”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "medium",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-020",
+    "category": "leadership",
+    "title": "团队士气低落",
+    "level": 20,
+    "difficulty": "medium",
+    "background": "连续两个冲刺没有达到目标。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "计划与实际容量长期不匹配"
+    ],
+    "objective": "先缩减非关键目标并公布资源支持",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“计划与实际容量长期不匹配”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“又要打鸡血吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“下周究竟减什么？”的再次追问后，争取一个明确落点：“先缩减非关键目标并公布资源支持”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "大家已经很累了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：计划与实际容量长期不匹配。希望我们一起做到先缩减非关键目标并公布资源支持。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "又要打鸡血吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下周究竟减什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定先缩减非关键目标并公布资源支持，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "又要打鸡血吗？",
+      "下周究竟减什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先缩减非关键目标并公布资源支持”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "medium",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-021",
+    "category": "leadership",
+    "title": "员工出现合规失误",
+    "level": 21,
+    "difficulty": "high",
+    "background": "团队成员误传了敏感信息。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "敏感附件被发给错误的内部群"
+    ],
+    "objective": "立即止损并按规定上报，之后再复盘",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“敏感附件被发给错误的内部群”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“你会不会直接处分我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“现在最重要的是做什么？”的再次追问后，争取一个明确落点：“立即止损并按规定上报，之后再复盘”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我不是故意的"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：敏感附件被发给错误的内部群。希望我们一起做到立即止损并按规定上报，之后再复盘。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你会不会直接处分我？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "现在最重要的是做什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定立即止损并按规定上报，之后再复盘，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你会不会直接处分我？",
+      "现在最重要的是做什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“立即止损并按规定上报，之后再复盘”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "high",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-022",
+    "category": "leadership",
+    "title": "下属质疑晋升公平",
+    "level": 22,
+    "difficulty": "high",
+    "background": "两名员工认为晋升标准不透明。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "当前晋升决策依据未被充分解释"
+    ],
+    "objective": "公开适用标准并提供个人发展反馈",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“当前晋升决策依据未被充分解释”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“你是不是偏心？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“有哪些客观依据？”的再次追问后，争取一个明确落点：“公开适用标准并提供个人发展反馈”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么升他不升我？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：当前晋升决策依据未被充分解释。希望我们一起做到公开适用标准并提供个人发展反馈。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是偏心？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有哪些客观依据？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定公开适用标准并提供个人发展反馈，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是偏心？",
+      "有哪些客观依据？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“公开适用标准并提供个人发展反馈”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "high",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-023",
+    "category": "leadership",
+    "title": "团队成员公开顶撞",
+    "level": 23,
+    "difficulty": "high",
+    "background": "会议上有人当众说你不懂业务。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "对方提出的业务风险有一部分确实成立"
+    ],
+    "objective": "允许专业异议但要求不使用人格攻击",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“对方提出的业务风险有一部分确实成立”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“你是不是不允许我反驳？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“还能讨论事实吗？”的再次追问后，争取一个明确落点：“允许专业异议但要求不使用人格攻击”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你根本不了解前线"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：对方提出的业务风险有一部分确实成立。希望我们一起做到允许专业异议但要求不使用人格攻击。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是不允许我反驳？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "还能讨论事实吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定允许专业异议但要求不使用人格攻击，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是不允许我反驳？",
+      "还能讨论事实吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“允许专业异议但要求不使用人格攻击”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "high",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-024",
+    "category": "leadership",
+    "title": "员工持续低绩效",
+    "level": 24,
+    "difficulty": "high",
+    "background": "辅导多次后表现仍未改善。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "关键交付连续三个周期未达约定标准"
+    ],
+    "objective": "形成事实记录、明确支持和评估期限",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“关键交付连续三个周期未达约定标准”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“你之前也没给资源”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“我还能怎样达标？”的再次追问后，争取一个明确落点：“形成事实记录、明确支持和评估期限”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "是不是准备开除我？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：关键交付连续三个周期未达约定标准。希望我们一起做到形成事实记录、明确支持和评估期限。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你之前也没给资源"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我还能怎样达标？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定形成事实记录、明确支持和评估期限，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你之前也没给资源",
+      "我还能怎样达标？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“形成事实记录、明确支持和评估期限”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "high",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-025",
+    "category": "leadership",
+    "title": "高压时期防止过劳",
+    "level": 25,
+    "difficulty": "high",
+    "background": "重要上线前员工连续加班。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "两人已连续五天工作到深夜"
+    ],
+    "objective": "重排优先级并明确休息与值班安排",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“两人已连续五天工作到深夜”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“领导不是只要结果吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“谁负责删减范围？”的再次追问后，争取一个明确落点：“重排优先级并明确休息与值班安排”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "不加班肯定做不完"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：两人已连续五天工作到深夜。希望我们一起做到重排优先级并明确休息与值班安排。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "领导不是只要结果吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "谁负责删减范围？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定重排优先级并明确休息与值班安排，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "领导不是只要结果吗？",
+      "谁负责删减范围？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“重排优先级并明确休息与值班安排”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "high",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-026",
+    "category": "leadership",
+    "title": "员工举报同事不当行为",
+    "level": 26,
+    "difficulty": "high",
+    "background": "成员私下反映被同事言语冒犯。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "举报涉及持续性羞辱而非单次误会"
+    ],
+    "objective": "依制度保密记录并联系适当处理渠道",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“举报涉及持续性羞辱而非单次误会”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“不处理我就不敢开会”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“谁来保护我的隐私？”的再次追问后，争取一个明确落点：“依制度保密记录并联系适当处理渠道”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你会告诉当事人是我说的吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：举报涉及持续性羞辱而非单次误会。希望我们一起做到依制度保密记录并联系适当处理渠道。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "不处理我就不敢开会"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "谁来保护我的隐私？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定依制度保密记录并联系适当处理渠道，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "不处理我就不敢开会",
+      "谁来保护我的隐私？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“依制度保密记录并联系适当处理渠道”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "high",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-027",
+    "category": "leadership",
+    "title": "拒绝伪造绩效记录",
+    "level": 27,
+    "difficulty": "high",
+    "background": "上级要求你为团队美化考核记录。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "记录与实际考核数据不一致"
+    ],
+    "objective": "按真实记录评估并提出独立说明",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“记录与实际考核数据不一致”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“你不替大家考虑吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“你有什么更好的办法？”的再次追问后，争取一个明确落点：“按真实记录评估并提出独立说明”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "不这样团队奖金就没了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：记录与实际考核数据不一致。希望我们一起做到按真实记录评估并提出独立说明。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你不替大家考虑吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你有什么更好的办法？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定按真实记录评估并提出独立说明，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你不替大家考虑吗？",
+      "你有什么更好的办法？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“按真实记录评估并提出独立说明”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "high",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-028",
+    "category": "leadership",
+    "title": "关键骨干提出离职",
+    "level": 28,
+    "difficulty": "high",
+    "background": "骨干在产品发布前突然提离职。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "离职会影响关键系统但员工有合法选择权"
+    ],
+    "objective": "尊重决定并讨论可接受的交接周期",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“离职会影响关键系统但员工有合法选择权”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“为什么以前不重视我的诉求？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“交接怎样对双方公平？”的再次追问后，争取一个明确落点：“尊重决定并讨论可接受的交接周期”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你是不是要道德绑架我？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：离职会影响关键系统但员工有合法选择权。希望我们一起做到尊重决定并讨论可接受的交接周期。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么以前不重视我的诉求？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "交接怎样对双方公平？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定尊重决定并讨论可接受的交接周期，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么以前不重视我的诉求？",
+      "交接怎样对双方公平？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“尊重决定并讨论可接受的交接周期”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "high",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-029",
+    "category": "leadership",
+    "title": "组织裁撤消息未定",
+    "level": 29,
+    "difficulty": "high",
+    "background": "团队传闻即将裁员，员工焦虑。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "目前没有获授权的具体裁撤信息"
+    ],
+    "objective": "说明已知与未知并提供正式信息渠道",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“目前没有获授权的具体裁撤信息”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“是不是公司在瞒着我们？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“我们现在怎么安排工作？”的再次追问后，争取一个明确落点：“说明已知与未知并提供正式信息渠道”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你是不是已经知道名单？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我先描述观察到的事实，不评价人：目前没有获授权的具体裁撤信息。希望我们一起做到说明已知与未知并提供正式信息渠道。你怎么看？",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "是不是公司在瞒着我们？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "你提到的困难我会认真听。我也想区分哪些是能力、资源或目标设定的问题，再提供支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我们现在怎么安排工作？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我们先约定说明已知与未知并提供正式信息渠道，我负责资源支持，你负责及时反馈；到检查点再复盘效果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "是不是公司在瞒着我们？",
+      "我们现在怎么安排工作？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“说明已知与未知并提供正式信息渠道”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "high",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "leadership-030",
+    "category": "leadership",
+    "title": "遭遇员工安全危机",
+    "level": 30,
+    "difficulty": "high",
+    "background": "员工情绪失控并暗示可能伤害自己。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "现场表现出急性风险，安全优先于任务"
+    ],
+    "objective": "暂停绩效讨论并联系及时的现实支持与安全资源",
+    "method": "SBI / 双向反馈",
+    "pillars": [
+      "期望明确",
+      "安全表达",
+      "具体反馈"
+    ],
+    "steps": [
+      {
+        "name": "期望明确",
+        "instruction": "开场先围绕已知事实“现场表现出急性风险，安全优先于任务”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "安全表达",
+        "instruction": "听到“你是不是只会让我继续工作？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "具体反馈",
+        "instruction": "遭遇“能不能先别谈绩效？”的再次追问后，争取一个明确落点：“暂停绩效讨论并联系及时的现实支持与安全资源”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我真的撑不下去了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "期望明确",
+        "text": "我认真听到了你说的话，也很担心你的安全。谢谢你愿意告诉我。我会先陪着你，不责怪你。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是只会让我继续工作？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "安全表达",
+        "text": "现在先不讨论绩效或谁对谁错。我们一起联系可信赖的人以及当地的紧急或专业危机支持。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能不能先别谈绩效？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "具体反馈",
+        "text": "我会认真对待这种风险，不答应替你保密任何可能危及生命的事。我们现在就找现实中的帮助。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是只会让我继续工作？",
+      "能不能先别谈绩效？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“暂停绩效讨论并联系及时的现实支持与安全资源”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+    "tags": [
+      "leadership",
+      "high",
+      "SBI / 双向反馈"
+    ],
+    "created": "2026-11-10"
+  }
+]

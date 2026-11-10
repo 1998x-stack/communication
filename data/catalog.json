@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-11-10",
+  "totalCases": 270,
+  "difficulties": [
+    {
+      "id": "low",
+      "name": "基础",
+      "range": "1–10"
+    },
+    {
+      "id": "medium",
+      "name": "进阶",
+      "range": "11–20"
+    },
+    {
+      "id": "high",
+      "name": "高压",
+      "range": "21–30"
+    }
+  ],
+  "categories": [
+    {
+      "id": "upward",
+      "name": "向上汇报",
+      "icon": "briefcase",
+      "description": "用结论、备选方案与明确请求帮助上级决策。",
+      "pillars": [
+        "结论先行",
+        "提供方案",
+        "明确决策请求"
+      ],
+      "method": "SBAR / 结论先行",
+      "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+      "file": "data/cases/upward.json",
+      "count": 30
+    },
+    {
+      "id": "collaboration",
+      "name": "同事协作",
+      "icon": "users",
+      "description": "对齐共同目标、分工责任和确认回路。",
+      "pillars": [
+        "目标一致",
+        "责任清晰",
+        "执行闭环"
+      ],
+      "method": "Closed-loop / RACI",
+      "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+      "file": "data/cases/collaboration.json",
+      "count": 30
+    },
+    {
+      "id": "leadership",
+      "name": "管理下属",
+      "icon": "user-check",
+      "description": "兼顾任务期望、敢说真话的氛围与具体反馈。",
+      "pillars": [
+        "期望明确",
+        "安全表达",
+        "具体反馈"
+      ],
+      "method": "SBI / 双向反馈",
+      "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+      "file": "data/cases/leadership.json",
+      "count": 30
+    },
+    {
+      "id": "partner",
+      "name": "夫妻与伴侣",
+      "icon": "heart",
+      "description": "先回应情绪，再谈需求，主动修复关系。",
+      "pillars": [
+        "情绪理解",
+        "需求表达",
+        "冲突修复"
+      ],
+      "method": "积极倾听 / 我陈述 / 修复尝试",
+      "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+      "file": "data/cases/partner.json",
+      "count": 30
+    },
+    {
+      "id": "parents",
+      "name": "父母与长辈",
+      "icon": "house",
+      "description": "尊重关切，同时明确自主决定和可谈判的安排。",
+      "pillars": [
+        "尊重关切",
+        "保持边界",
+        "协商安排"
+      ],
+      "method": "认可关切 / 坚定边界",
+      "source": "https://www.nia.nih.gov/health/advance-care-planning",
+      "file": "data/cases/parents.json",
+      "count": 30
+    },
+    {
+      "id": "children",
+      "name": "亲子教育",
+      "icon": "sprout",
+      "description": "理解孩子情绪，建立安全规则与年龄适宜的自主。",
+      "pillars": [
+        "倾听接纳",
+        "清晰规则",
+        "培养自主"
+      ],
+      "method": "反映式倾听 / 共同解决问题",
+      "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+      "file": "data/cases/children.json",
+      "count": 30
+    },
+    {
+      "id": "friends",
+      "name": "朋友与社交",
+      "icon": "coffee",
+      "description": "真诚而不讨好，保持互惠与分寸。",
+      "pillars": [
+        "真诚理解",
+        "相互回应",
+        "尊重分寸"
+      ],
+      "method": "积极倾听 / 边界表达",
+      "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+      "file": "data/cases/friends.json",
+      "count": 30
+    },
+    {
+      "id": "clients",
+      "name": "客户与商务",
+      "icon": "handshake",
+      "description": "探明真实需求，用证据和清晰承诺建立可信合作。",
+      "pillars": [
+        "识别需求",
+        "建立可信度",
+        "管理预期"
+      ],
+      "method": "澄清式提问 / 期望管理",
+      "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+      "file": "data/cases/clients.json",
+      "count": 30
+    },
+    {
+      "id": "conflicts",
+      "name": "争执与利益冲突",
+      "icon": "scale",
+      "description": "降温、识别利益、制定可执行协议并守住安全。",
+      "pillars": [
+        "控制升级",
+        "寻找真实利益",
+        "建立可执行方案"
+      ],
+      "method": "Principled Negotiation / BATNA",
+      "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+      "file": "data/cases/conflicts.json",
+      "count": 30
+    }
+  ]
+}

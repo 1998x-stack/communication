@@ -1,0 +1,3542 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "clients-001",
+    "category": "clients",
+    "title": "客户询问项目进度",
+    "level": 1,
+    "difficulty": "low",
+    "background": "例行沟通时客户询问交付。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "核心功能完成，剩余内容正在测试"
+    ],
+    "objective": "发送带负责人和日期的进度表",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“核心功能完成，剩余内容正在测试”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“能给个明确时间吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“谁负责跟进？”的再次追问后，争取一个明确落点：“发送带负责人和日期的进度表”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "现在做得怎么样了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是核心功能完成，剩余内容正在测试。建议发送带负责人和日期的进度表，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "能给个明确时间吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "谁负责跟进？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把发送带负责人和日期的进度表写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "能给个明确时间吗？",
+      "谁负责跟进？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“发送带负责人和日期的进度表”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "low",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-002",
+    "category": "clients",
+    "title": "客户描述模糊需求",
+    "level": 2,
+    "difficulty": "low",
+    "background": "第一次需求会上对方只说想更方便。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "“更好用”尚未对应具体用户行为"
+    ],
+    "objective": "先通过三个用户任务确认成功标准",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实““更好用”尚未对应具体用户行为”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你们不是专家吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“从哪里开始定义好用？”的再次追问后，争取一个明确落点：“先通过三个用户任务确认成功标准”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们能做得更好用吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是“更好用”尚未对应具体用户行为。建议先通过三个用户任务确认成功标准，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们不是专家吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "从哪里开始定义好用？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把先通过三个用户任务确认成功标准写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们不是专家吗？",
+      "从哪里开始定义好用？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先通过三个用户任务确认成功标准”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "low",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-003",
+    "category": "clients",
+    "title": "确认会议纪要",
+    "level": 3,
+    "difficulty": "low",
+    "background": "商务会议结束后双方理解不同。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "会上讨论了价格和交付顺序"
+    ],
+    "objective": "用纪要确认范围与下一步负责人",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“会上讨论了价格和交付顺序”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“还需要写一份吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“具体确认什么内容？”的再次追问后，争取一个明确落点：“用纪要确认范围与下一步负责人”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "刚才不是说好了吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是会上讨论了价格和交付顺序。建议用纪要确认范围与下一步负责人，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "还需要写一份吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "具体确认什么内容？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把用纪要确认范围与下一步负责人写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "还需要写一份吗？",
+      "具体确认什么内容？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“用纪要确认范围与下一步负责人”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "low",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-004",
+    "category": "clients",
+    "title": "说明报价结构",
+    "level": 4,
+    "difficulty": "low",
+    "background": "客户觉得报价项目太多。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "报价含实施维护培训三部分"
+    ],
+    "objective": "逐项解释必要服务与可选服务",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“报价含实施维护培训三部分”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“能不能合成一个数字？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“哪些项目能调整？”的再次追问后，争取一个明确落点：“逐项解释必要服务与可选服务”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么要收这么多项？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是报价含实施维护培训三部分。建议逐项解释必要服务与可选服务，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "能不能合成一个数字？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "哪些项目能调整？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把逐项解释必要服务与可选服务写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "能不能合成一个数字？",
+      "哪些项目能调整？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“逐项解释必要服务与可选服务”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "low",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-005",
+    "category": "clients",
+    "title": "客户问额外功能",
+    "level": 5,
+    "difficulty": "low",
+    "background": "客户询问合同外的小功能。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "需求会新增开发与测试工作"
+    ],
+    "objective": "记录变更并提供费用时间影响",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“需求会新增开发与测试工作”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“改这么点也要收费？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“如果要做需要什么流程？”的再次追问后，争取一个明确落点：“记录变更并提供费用时间影响”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这个顺便做一下吧"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是需求会新增开发与测试工作。建议记录变更并提供费用时间影响，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "改这么点也要收费？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "如果要做需要什么流程？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把记录变更并提供费用时间影响写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "改这么点也要收费？",
+      "如果要做需要什么流程？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“记录变更并提供费用时间影响”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "low",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-006",
+    "category": "clients",
+    "title": "延期风险提前沟通",
+    "level": 6,
+    "difficulty": "low",
+    "background": "预计交期可能晚于初定日期。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "关键依赖尚在第三方审批中"
+    ],
+    "objective": "提供风险预警与两个交付备选方案",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“关键依赖尚在第三方审批中”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“是不是你们管理不好？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“有提前交的可能吗？”的再次追问后，争取一个明确落点：“提供风险预警与两个交付备选方案”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么提前告诉我坏消息？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是关键依赖尚在第三方审批中。建议提供风险预警与两个交付备选方案，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "是不是你们管理不好？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有提前交的可能吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把提供风险预警与两个交付备选方案写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "是不是你们管理不好？",
+      "有提前交的可能吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“提供风险预警与两个交付备选方案”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "low",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-007",
+    "category": "clients",
+    "title": "客户要求折扣",
+    "level": 7,
+    "difficulty": "low",
+    "background": "对方在报价后直接要求降价。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "对比方案包含不同服务范围"
+    ],
+    "objective": "先核对范围再讨论报价调整",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“对比方案包含不同服务范围”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“别人报价更低”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“你们贵在哪里？”的再次追问后，争取一个明确落点：“先核对范围再讨论报价调整”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "还能便宜一点吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是对比方案包含不同服务范围。建议先核对范围再讨论报价调整，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "别人报价更低"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你们贵在哪里？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把先核对范围再讨论报价调整写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "别人报价更低",
+      "你们贵在哪里？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先核对范围再讨论报价调整”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "low",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-008",
+    "category": "clients",
+    "title": "解释产品限制",
+    "level": 8,
+    "difficulty": "low",
+    "background": "客户期待系统实现不存在的功能。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "当前版本不支持离线批量编辑"
+    ],
+    "objective": "解释限制并提出可用替代流程",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“当前版本不支持离线批量编辑”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“宣传不是说很灵活吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“有什么替代方式？”的再次追问后，争取一个明确落点：“解释限制并提出可用替代流程”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们产品为什么连这个都不支持？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是当前版本不支持离线批量编辑。建议解释限制并提出可用替代流程，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "宣传不是说很灵活吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有什么替代方式？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把解释限制并提出可用替代流程写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "宣传不是说很灵活吗？",
+      "有什么替代方式？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“解释限制并提出可用替代流程”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "low",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-009",
+    "category": "clients",
+    "title": "展示试点成果",
+    "level": 9,
+    "difficulty": "low",
+    "background": "试点结束客户质疑投入价值。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "试点用户处理时长平均缩短"
+    ],
+    "objective": "用前后指标展示成果并安排扩量验证",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“试点用户处理时长平均缩短”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“有没有数据支持？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“下一步扩到哪里？”的再次追问后，争取一个明确落点：“用前后指标展示成果并安排扩量验证”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "用起来究竟有多好？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是试点用户处理时长平均缩短。建议用前后指标展示成果并安排扩量验证，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "有没有数据支持？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下一步扩到哪里？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把用前后指标展示成果并安排扩量验证写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "有没有数据支持？",
+      "下一步扩到哪里？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“用前后指标展示成果并安排扩量验证”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "low",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-010",
+    "category": "clients",
+    "title": "跟进迟迟未回复的客户",
+    "level": 10,
+    "difficulty": "low",
+    "background": "提交方案后两周没有回音。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "对方没有承诺明确评审时间"
+    ],
+    "objective": "询问决策时间与最适合的跟进方式",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“对方没有承诺明确评审时间”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你催得有点频繁了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“什么时候再联系方便？”的再次追问后，争取一个明确落点：“询问决策时间与最适合的跟进方式”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "最近太忙没来得及看"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是对方没有承诺明确评审时间。建议询问决策时间与最适合的跟进方式，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你催得有点频繁了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "什么时候再联系方便？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把询问决策时间与最适合的跟进方式写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你催得有点频繁了",
+      "什么时候再联系方便？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“询问决策时间与最适合的跟进方式”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "low",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-011",
+    "category": "clients",
+    "title": "客户投诉响应慢",
+    "level": 11,
+    "difficulty": "medium",
+    "background": "客户等了两天没有收到答复。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "工单未及时流转导致重复等待"
+    ],
+    "objective": "说明调查状态并承诺明确更新时间",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“工单未及时流转导致重复等待”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“一句抱歉有用吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“今天能给明确结果吗？”的再次追问后，争取一个明确落点：“说明调查状态并承诺明确更新时间”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们服务就是这样的吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是工单未及时流转导致重复等待。建议说明调查状态并承诺明确更新时间，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "一句抱歉有用吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "今天能给明确结果吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把说明调查状态并承诺明确更新时间写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "一句抱歉有用吗？",
+      "今天能给明确结果吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“说明调查状态并承诺明确更新时间”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "medium",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-012",
+    "category": "clients",
+    "title": "客户临时改需求",
+    "level": 12,
+    "difficulty": "medium",
+    "background": "合同执行中客户提出新范围。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "增加功能需要重新测试关联模块"
+    ],
+    "objective": "评估新增范围并确认取舍",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“增加功能需要重新测试关联模块”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你们不能灵活一点？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“怎么不影响原交期？”的再次追问后，争取一个明确落点：“评估新增范围并确认取舍”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我们现在就需要这个"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是增加功能需要重新测试关联模块。建议评估新增范围并确认取舍，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们不能灵活一点？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么不影响原交期？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把评估新增范围并确认取舍写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们不能灵活一点？",
+      "怎么不影响原交期？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“评估新增范围并确认取舍”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "medium",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-013",
+    "category": "clients",
+    "title": "客户与最终用户需求冲突",
+    "level": 13,
+    "difficulty": "medium",
+    "background": "采购人希望节省成本使用者反对。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "采购预算与日常操作效率存在不同目标"
+    ],
+    "objective": "召开联合需求澄清会",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“采购预算与日常操作效率存在不同目标”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“使用人员懂什么预算”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“能不能兼顾双方？”的再次追问后，争取一个明确落点：“召开联合需求澄清会”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你应该听付款人的"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是采购预算与日常操作效率存在不同目标。建议召开联合需求澄清会，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "使用人员懂什么预算"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能不能兼顾双方？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把召开联合需求澄清会写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "使用人员懂什么预算",
+      "能不能兼顾双方？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“召开联合需求澄清会”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "medium",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-014",
+    "category": "clients",
+    "title": "客户质疑数据真实性",
+    "level": 14,
+    "difficulty": "medium",
+    "background": "报告中的指标与客户后台不同。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "后台和报告使用不同归因窗口"
+    ],
+    "objective": "共同核对统计口径与原始日志",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“后台和报告使用不同归因窗口”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“还能相信这份报告吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“今天怎么查清楚？”的再次追问后，争取一个明确落点：“共同核对统计口径与原始日志”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们数据是不是错了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是后台和报告使用不同归因窗口。建议共同核对统计口径与原始日志，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "还能相信这份报告吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "今天怎么查清楚？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把共同核对统计口径与原始日志写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "还能相信这份报告吗？",
+      "今天怎么查清楚？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“共同核对统计口径与原始日志”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "medium",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-015",
+    "category": "clients",
+    "title": "客户提出不合理交期",
+    "level": 15,
+    "difficulty": "medium",
+    "background": "客户要求两天完成原本两周的工作。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "完整版本需经过设计实施验收多个阶段"
+    ],
+    "objective": "明确最小可交付范围与风险",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“完整版本需经过设计实施验收多个阶段”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“别家公司说可以做”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“你们最少能交什么？”的再次追问后，争取一个明确落点：“明确最小可交付范围与风险”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我就要后天看到全部"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是完整版本需经过设计实施验收多个阶段。建议明确最小可交付范围与风险，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "别家公司说可以做"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你们最少能交什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把明确最小可交付范围与风险写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "别家公司说可以做",
+      "你们最少能交什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确最小可交付范围与风险”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "medium",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-016",
+    "category": "clients",
+    "title": "客户对人员变动不满",
+    "level": 16,
+    "difficulty": "medium",
+    "background": "核心对接人离职后客户焦虑。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "项目资料已归档但客户关系主要在原负责人手里"
+    ],
+    "objective": "安排双人交接及一次联合回顾",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“项目资料已归档但客户关系主要在原负责人手里”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“新同事会不会不熟悉？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“怎样保证连续性？”的再次追问后，争取一个明确落点：“安排双人交接及一次联合回顾”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "是不是没人管我们了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是项目资料已归档但客户关系主要在原负责人手里。建议安排双人交接及一次联合回顾，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "新同事会不会不熟悉？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎样保证连续性？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把安排双人交接及一次联合回顾写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "新同事会不会不熟悉？",
+      "怎样保证连续性？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“安排双人交接及一次联合回顾”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "medium",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-017",
+    "category": "clients",
+    "title": "采购压价时强调价值",
+    "level": 17,
+    "difficulty": "medium",
+    "background": "客户拿单一低价竞品比较。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你的报价包含售后与安全支持"
+    ],
+    "objective": "对齐服务范围和总拥有成本",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“你的报价包含售后与安全支持”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你别只讲品牌”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“到底值在哪里？”的再次追问后，争取一个明确落点：“对齐服务范围和总拥有成本”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "同样东西为什么你更贵？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是你的报价包含售后与安全支持。建议对齐服务范围和总拥有成本，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你别只讲品牌"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "到底值在哪里？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把对齐服务范围和总拥有成本写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你别只讲品牌",
+      "到底值在哪里？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“对齐服务范围和总拥有成本”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "medium",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-018",
+    "category": "clients",
+    "title": "客户要求口头承诺",
+    "level": 18,
+    "difficulty": "medium",
+    "background": "对方希望跳过合同确认直接开工。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "口头需求与现有合同范围不一致"
+    ],
+    "objective": "先确认书面范围再启动可逆准备工作",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“口头需求与现有合同范围不一致”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你们这么不信任客户？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“怎么加快审批？”的再次追问后，争取一个明确落点：“先确认书面范围再启动可逆准备工作”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "咱们先做了再补流程"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是口头需求与现有合同范围不一致。建议先确认书面范围再启动可逆准备工作，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们这么不信任客户？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么加快审批？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把先确认书面范围再启动可逆准备工作写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们这么不信任客户？",
+      "怎么加快审批？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先确认书面范围再启动可逆准备工作”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "medium",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-019",
+    "category": "clients",
+    "title": "客户公开批评团队",
+    "level": 19,
+    "difficulty": "medium",
+    "background": "客户在大群里说你们不专业。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "本次问题可追溯到明确的配置失误"
+    ],
+    "objective": "私下核实事实并公开同步整改节点",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“本次问题可追溯到明确的配置失误”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“换人会不会更好？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“谁来给我一个解释？”的再次追问后，争取一个明确落点：“私下核实事实并公开同步整改节点”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们怎么老出问题？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是本次问题可追溯到明确的配置失误。建议私下核实事实并公开同步整改节点，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "换人会不会更好？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "谁来给我一个解释？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把私下核实事实并公开同步整改节点写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "换人会不会更好？",
+      "谁来给我一个解释？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“私下核实事实并公开同步整改节点”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "medium",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-020",
+    "category": "clients",
+    "title": "双方对验收定义不一致",
+    "level": 20,
+    "difficulty": "medium",
+    "background": "客户认为上线后仍有功能不算完成。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "双方对试运行和正式验收理解不同"
+    ],
+    "objective": "依合同验收条款逐项联合确认",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“双方对试运行和正式验收理解不同”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你们凭什么催尾款？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“按什么标准核对？”的再次追问后，争取一个明确落点：“依合同验收条款逐项联合确认”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我们并没有验收通过"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是双方对试运行和正式验收理解不同。建议依合同验收条款逐项联合确认，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们凭什么催尾款？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "按什么标准核对？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把依合同验收条款逐项联合确认写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们凭什么催尾款？",
+      "按什么标准核对？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“依合同验收条款逐项联合确认”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "medium",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-021",
+    "category": "clients",
+    "title": "客户要求违规采集数据",
+    "level": 21,
+    "difficulty": "high",
+    "background": "客户希望绕过用户同意导出信息。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "请求的数据包含未获授权的个人信息"
+    ],
+    "objective": "采用授权范围内的数据与脱敏报告",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“请求的数据包含未获授权的个人信息”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你们是不是不肯配合？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“有没有合法替代方案？”的再次追问后，争取一个明确落点：“采用授权范围内的数据与脱敏报告”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "别人都能导出来"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是请求的数据包含未获授权的个人信息。建议采用授权范围内的数据与脱敏报告，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们是不是不肯配合？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有没有合法替代方案？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把采用授权范围内的数据与脱敏报告写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们是不是不肯配合？",
+      "有没有合法替代方案？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“采用授权范围内的数据与脱敏报告”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "high",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-022",
+    "category": "clients",
+    "title": "大型客户威胁解约",
+    "level": 22,
+    "difficulty": "high",
+    "background": "客户因故障宣布要取消长期合同。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "核心服务上周两次短时不可用"
+    ],
+    "objective": "给出故障事实、责任人和有验收点的恢复方案",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“核心服务上周两次短时不可用”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“听过太多解释了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“拿什么保证改善？”的再次追问后，争取一个明确落点：“给出故障事实、责任人和有验收点的恢复方案”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们再这样我就解约"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "听过太多解释了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "拿什么保证改善？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“给出故障事实、责任人和有验收点的恢复方案”。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "听过太多解释了",
+      "拿什么保证改善？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“给出故障事实、责任人和有验收点的恢复方案”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "high",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-023",
+    "category": "clients",
+    "title": "客户提出无限售后",
+    "level": 23,
+    "difficulty": "high",
+    "background": "合同已结束客户要求永久免费支持。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "当前咨询已超出约定支持期"
+    ],
+    "objective": "明确原服务边界并提供续约选项",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“当前咨询已超出约定支持期”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你们要为了这点钱翻脸？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“怎么平稳过渡？”的再次追问后，争取一个明确落点：“明确原服务边界并提供续约选项”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "以前不是一直有人帮吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是当前咨询已超出约定支持期。建议明确原服务边界并提供续约选项，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们要为了这点钱翻脸？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么平稳过渡？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把明确原服务边界并提供续约选项写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们要为了这点钱翻脸？",
+      "怎么平稳过渡？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确原服务边界并提供续约选项”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "high",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-024",
+    "category": "clients",
+    "title": "多方采购利益冲突",
+    "level": 24,
+    "difficulty": "high",
+    "background": "技术负责人与财务负责人需求相反。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "安全基础项无法在不增加风险情况下删除"
+    ],
+    "objective": "依据风险等级设计分阶段采购方案",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“安全基础项无法在不增加风险情况下删除”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“安全项不能删”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“怎么做权衡？”的再次追问后，争取一个明确落点：“依据风险等级设计分阶段采购方案”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "预算必须再砍一半"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是安全基础项无法在不增加风险情况下删除。建议依据风险等级设计分阶段采购方案，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "安全项不能删"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么做权衡？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把依据风险等级设计分阶段采购方案写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "安全项不能删",
+      "怎么做权衡？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“依据风险等级设计分阶段采购方案”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "high",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-025",
+    "category": "clients",
+    "title": "客户要求伪造验收材料",
+    "level": 25,
+    "difficulty": "high",
+    "background": "客户内部人员要求把未完成项目写成完成。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "关键功能仍未部署到生产环境"
+    ],
+    "objective": "拒绝虚假验收并记录真实进度",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“关键功能仍未部署到生产环境”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“不这样我们没法走流程”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“你到底愿不愿意配合？”的再次追问后，争取一个明确落点：“拒绝虚假验收并记录真实进度”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你帮我把表填了就行"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是关键功能仍未部署到生产环境。建议拒绝虚假验收并记录真实进度，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "不这样我们没法走流程"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你到底愿不愿意配合？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把拒绝虚假验收并记录真实进度写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "不这样我们没法走流程",
+      "你到底愿不愿意配合？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“拒绝虚假验收并记录真实进度”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "high",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-026",
+    "category": "clients",
+    "title": "危机公关第一轮对话",
+    "level": 26,
+    "difficulty": "high",
+    "background": "产品事故后客户要求立即公开说明。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "事故调查尚在进行但影响时间可以核实"
+    ],
+    "objective": "先确认影响范围并给出公开更新节奏",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“事故调查尚在进行但影响时间可以核实”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你们到底隐瞒了什么？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“今天谁负责回应？”的再次追问后，争取一个明确落点：“先确认影响范围并给出公开更新节奏”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这已经损害我们的业务"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们到底隐瞒了什么？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "今天谁负责回应？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“先确认影响范围并给出公开更新节奏”。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们到底隐瞒了什么？",
+      "今天谁负责回应？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先确认影响范围并给出公开更新节奏”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "high",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-027",
+    "category": "clients",
+    "title": "客户索要竞争对手机密",
+    "level": 27,
+    "difficulty": "high",
+    "background": "客户暗示提供其他客户报价以换合同。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "其他客户报价属于受限商业信息"
+    ],
+    "objective": "提供匿名市场区间而非泄露合同",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“其他客户报价属于受限商业信息”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你们想不想签单？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“能公开什么依据？”的再次追问后，争取一个明确落点：“提供匿名市场区间而非泄露合同”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "不给我看怎么知道公不公平？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是其他客户报价属于受限商业信息。建议提供匿名市场区间而非泄露合同，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们想不想签单？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能公开什么依据？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把提供匿名市场区间而非泄露合同写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们想不想签单？",
+      "能公开什么依据？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“提供匿名市场区间而非泄露合同”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "high",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-028",
+    "category": "clients",
+    "title": "不可实现的交付承诺",
+    "level": 28,
+    "difficulty": "high",
+    "background": "销售之前承诺了不存在的功能。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "书面范围不包含承诺中的功能"
+    ],
+    "objective": "核对合同并提出真实可执行的补救选择",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“书面范围不包含承诺中的功能”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“合同你们自己签的”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“现在谁承担损失？”的再次追问后，争取一个明确落点：“核对合同并提出真实可执行的补救选择”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们销售明明答应了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是书面范围不包含承诺中的功能。建议核对合同并提出真实可执行的补救选择，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "合同你们自己签的"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "现在谁承担损失？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把核对合同并提出真实可执行的补救选择写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "合同你们自己签的",
+      "现在谁承担损失？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“核对合同并提出真实可执行的补救选择”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "high",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-029",
+    "category": "clients",
+    "title": "多国项目合同争端",
+    "level": 29,
+    "difficulty": "high",
+    "background": "海外客户对数据驻留条款提出异议。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "不同地区的合规要求尚未确认"
+    ],
+    "objective": "暂停有争议的数据操作并请双方合规团队评审",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“不同地区的合规要求尚未确认”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你们现在的方案不合规”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“何时能拿合规意见？”的再次追问后，争取一个明确落点：“暂停有争议的数据操作并请双方合规团队评审”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我们法务要求必须在当地存储"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是不同地区的合规要求尚未确认。建议暂停有争议的数据操作并请双方合规团队评审，同时明确验收条件。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们现在的方案不合规"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "何时能拿合规意见？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "我会把暂停有争议的数据操作并请双方合规团队评审写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们现在的方案不合规",
+      "何时能拿合规意见？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“暂停有争议的数据操作并请双方合规团队评审”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "high",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "clients-030",
+    "category": "clients",
+    "title": "客户以舆论施压",
+    "level": 30,
+    "difficulty": "high",
+    "background": "客户威胁在网络曝光换取额外赔偿。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "客户提出的补偿超出已核实损失"
+    ],
+    "objective": "按事实与合同记录处理并升级正式争议流程",
+    "method": "澄清式提问 / 期望管理",
+    "pillars": [
+      "识别需求",
+      "建立可信度",
+      "管理预期"
+    ],
+    "steps": [
+      {
+        "name": "识别需求",
+        "instruction": "开场先围绕已知事实“客户提出的补偿超出已核实损失”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "建立可信度",
+        "instruction": "听到“你们怕不怕影响品牌？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "管理预期",
+        "instruction": "遭遇“有没有正式解决渠道？”的再次追问后，争取一个明确落点：“按事实与合同记录处理并升级正式争议流程”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "不给补偿我就公开你们"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "识别需求",
+        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们怕不怕影响品牌？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "建立可信度",
+        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有没有正式解决渠道？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "管理预期",
+        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“按事实与合同记录处理并升级正式争议流程”。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们怕不怕影响品牌？",
+      "有没有正式解决渠道？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“按事实与合同记录处理并升级正式争议流程”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "clients",
+      "high",
+      "澄清式提问 / 期望管理"
+    ],
+    "created": "2026-11-10"
+  }
+]

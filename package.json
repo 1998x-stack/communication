@@ -1,0 +1,13 @@
+{
+  "name": "communication-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Offline-first communication skills and multi-turn speaking practice",
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/validate.mjs",
+    "build": "npm run generate && npm run validate"
+  }
+}

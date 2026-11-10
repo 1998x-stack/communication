@@ -1,0 +1,3542 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-001",
+    "category": "conflicts",
+    "title": "邻居噪音沟通",
+    "level": 1,
+    "difficulty": "low",
+    "background": "隔壁晚间音乐声影响睡眠。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "最近三晚十点后仍有明显低音"
+    ],
+    "objective": "协商夜间安静时段",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“最近三晚十点后仍有明显低音”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“我自己家还不能放音乐？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“你想几点安静？”的再次追问后，争取一个明确落点：“协商夜间安静时段”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "声音有那么大吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：最近三晚十点后仍有明显低音。我建议协商夜间安静时段，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我自己家还不能放音乐？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你想几点安静？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把协商夜间安静时段转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我自己家还不能放音乐？",
+      "你想几点安静？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“协商夜间安静时段”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "low",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-002",
+    "category": "conflicts",
+    "title": "分担公共清洁",
+    "level": 2,
+    "difficulty": "low",
+    "background": "合租室友不按约定清理厨房。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "公共台面两天没有清理"
+    ],
+    "objective": "明确轮值日与补做规则",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“公共台面两天没有清理”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“又不是只有我弄脏”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“轮值怎么定？”的再次追问后，争取一个明确落点：“明确轮值日与补做规则”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我今天太累了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：公共台面两天没有清理。我建议明确轮值日与补做规则，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "又不是只有我弄脏"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "轮值怎么定？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把明确轮值日与补做规则转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "又不是只有我弄脏",
+      "轮值怎么定？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确轮值日与补做规则”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "low",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-003",
+    "category": "conflicts",
+    "title": "排队插队争执",
+    "level": 3,
+    "difficulty": "low",
+    "background": "你在柜台排队有人突然站到前面。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "现场排队顺序清晰可见"
+    ],
+    "objective": "请对方按原队伍顺序排队",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“现场排队顺序清晰可见”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你至于这么计较？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“我需要重新排吗？”的再次追问后，争取一个明确落点：“请对方按原队伍顺序排队”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我就问一句话"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：现场排队顺序清晰可见。我建议请对方按原队伍顺序排队，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你至于这么计较？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "我需要重新排吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把请对方按原队伍顺序排队转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你至于这么计较？",
+      "我需要重新排吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“请对方按原队伍顺序排队”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "low",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-004",
+    "category": "conflicts",
+    "title": "停车位误会",
+    "level": 4,
+    "difficulty": "low",
+    "background": "同事把车停在你预约的位置。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "车位系统显示今天由你预订"
+    ],
+    "objective": "查看预约记录并调整停车",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“车位系统显示今天由你预订”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你有什么凭证？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“现在怎么解决？”的再次追问后，争取一个明确落点：“查看预约记录并调整停车”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这不是谁先到谁停吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：车位系统显示今天由你预订。我建议查看预约记录并调整停车，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你有什么凭证？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "现在怎么解决？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把查看预约记录并调整停车转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你有什么凭证？",
+      "现在怎么解决？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“查看预约记录并调整停车”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "low",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-005",
+    "category": "conflicts",
+    "title": "聚餐谁付款",
+    "level": 5,
+    "difficulty": "low",
+    "background": "朋友聚会结账时有人认为该你买单。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "本次聚餐没有事先说由谁请客"
+    ],
+    "objective": "核对以往约定并明确本次AA",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“本次聚餐没有事先说由谁请客”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你怎么这么会算？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“咱们按什么约定？”的再次追问后，争取一个明确落点：“核对以往约定并明确本次AA”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "上次不是我请了吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：本次聚餐没有事先说由谁请客。我建议核对以往约定并明确本次AA，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你怎么这么会算？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "咱们按什么约定？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把核对以往约定并明确本次AA转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你怎么这么会算？",
+      "咱们按什么约定？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“核对以往约定并明确本次AA”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "low",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-006",
+    "category": "conflicts",
+    "title": "会议意见相反",
+    "level": 6,
+    "difficulty": "low",
+    "background": "小组讨论时有人打断你的方案。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "两套方案都有未验证的假设"
+    ],
+    "objective": "先比较双方方案的关键约束",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“两套方案都有未验证的假设”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你凭什么说可行？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“能不能先看条件？”的再次追问后，争取一个明确落点：“先比较双方方案的关键约束”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这根本不现实"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：两套方案都有未验证的假设。我建议先比较双方方案的关键约束，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你凭什么说可行？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能不能先看条件？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把先比较双方方案的关键约束转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你凭什么说可行？",
+      "能不能先看条件？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先比较双方方案的关键约束”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "low",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-007",
+    "category": "conflicts",
+    "title": "被误解语气",
+    "level": 7,
+    "difficulty": "low",
+    "background": "短信里的简短回复被认为是冷漠。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "当时正在开会只能简短回复"
+    ],
+    "objective": "澄清文字意图并约定重要事语音聊",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“当时正在开会只能简短回复”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你是不是不想聊？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“你真实想法是什么？”的再次追问后，争取一个明确落点：“澄清文字意图并约定重要事语音聊”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你就回一个好字？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：当时正在开会只能简短回复。我建议澄清文字意图并约定重要事语音聊，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是不想聊？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你真实想法是什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把澄清文字意图并约定重要事语音聊转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是不想聊？",
+      "你真实想法是什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“澄清文字意图并约定重要事语音聊”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "low",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-008",
+    "category": "conflicts",
+    "title": "借用物品争执",
+    "level": 8,
+    "difficulty": "low",
+    "background": "室友未经同意使用了你的相机。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "相机镜头比较昂贵且需要维护"
+    ],
+    "objective": "要求使用前先征得同意",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“相机镜头比较昂贵且需要维护”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你以前也借过我东西”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“下次先问可以吗？”的再次追问后，争取一个明确落点：“要求使用前先征得同意”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我以为你不会介意"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：相机镜头比较昂贵且需要维护。我建议要求使用前先征得同意，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你以前也借过我东西"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下次先问可以吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把要求使用前先征得同意转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你以前也借过我东西",
+      "下次先问可以吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“要求使用前先征得同意”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "low",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-009",
+    "category": "conflicts",
+    "title": "同事争议数据口径",
+    "level": 9,
+    "difficulty": "low",
+    "background": "两人对周报中的数字理解不同。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "一方计入退款另一方没有"
+    ],
+    "objective": "根据统一定义复核两份计算",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“一方计入退款另一方没有”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你是不是在怀疑我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“一起看原始数据吗？”的再次追问后，争取一个明确落点：“根据统一定义复核两份计算”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我算的肯定没错"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：一方计入退款另一方没有。我建议根据统一定义复核两份计算，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是在怀疑我？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "一起看原始数据吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把根据统一定义复核两份计算转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是在怀疑我？",
+      "一起看原始数据吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“根据统一定义复核两份计算”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "low",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-010",
+    "category": "conflicts",
+    "title": "小组决策平票",
+    "level": 10,
+    "difficulty": "low",
+    "background": "五人团队对方案投票出现分歧。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "目前方案争议涉及成本与安全性"
+    ],
+    "objective": "明确评价标准并请负责人决策",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“目前方案争议涉及成本与安全性”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“投票也解决不了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“谁有最终拍板权？”的再次追问后，争取一个明确落点：“明确评价标准并请负责人决策”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么非要按你的？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：目前方案争议涉及成本与安全性。我建议明确评价标准并请负责人决策，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "投票也解决不了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "谁有最终拍板权？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把明确评价标准并请负责人决策转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "投票也解决不了",
+      "谁有最终拍板权？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确评价标准并请负责人决策”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "low",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-011",
+    "category": "conflicts",
+    "title": "反复遭遇嘲讽",
+    "level": 11,
+    "difficulty": "medium",
+    "background": "同事在群里阴阳怪气。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "相关言论已经影响公开讨论氛围"
+    ],
+    "objective": "要求停止针对个人的嘲讽",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“相关言论已经影响公开讨论氛围”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“怎么就你不高兴？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“以后要怎么说？”的再次追问后，争取一个明确落点：“要求停止针对个人的嘲讽”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我只是随便开玩笑"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：相关言论已经影响公开讨论氛围。我建议要求停止针对个人的嘲讽，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "怎么就你不高兴？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "以后要怎么说？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把要求停止针对个人的嘲讽转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "怎么就你不高兴？",
+      "以后要怎么说？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“要求停止针对个人的嘲讽”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "medium",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-012",
+    "category": "conflicts",
+    "title": "边界被不断试探",
+    "level": 12,
+    "difficulty": "medium",
+    "background": "亲戚多次要求借钱被拒后施压。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "借款会影响你的必要生活资金"
+    ],
+    "objective": "重复清晰拒绝并停止无效拉扯",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“借款会影响你的必要生活资金”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你这人就是冷漠”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“能不能至少借一部分？”的再次追问后，争取一个明确落点：“重复清晰拒绝并停止无效拉扯”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "借一下又不会怎样"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：借款会影响你的必要生活资金。我建议重复清晰拒绝并停止无效拉扯，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你这人就是冷漠"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能不能至少借一部分？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把重复清晰拒绝并停止无效拉扯转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你这人就是冷漠",
+      "能不能至少借一部分？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“重复清晰拒绝并停止无效拉扯”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "medium",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-013",
+    "category": "conflicts",
+    "title": "共享资源分配",
+    "level": 13,
+    "difficulty": "medium",
+    "background": "两个项目组都要使用同一会议室。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "会议室只有一个且双方都有既定参会人"
+    ],
+    "objective": "根据预约与实际紧急程度重新安排",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“会议室只有一个且双方都有既定参会人”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“我们的客户更重要”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“用什么规则决定？”的再次追问后，争取一个明确落点：“根据预约与实际紧急程度重新安排”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我们先订的"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：会议室只有一个且双方都有既定参会人。我建议根据预约与实际紧急程度重新安排，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我们的客户更重要"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "用什么规则决定？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把根据预约与实际紧急程度重新安排转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我们的客户更重要",
+      "用什么规则决定？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“根据预约与实际紧急程度重新安排”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "medium",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-014",
+    "category": "conflicts",
+    "title": "合同责任争议",
+    "level": 14,
+    "difficulty": "medium",
+    "background": "服务方和采购方各执一词。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "双方签署的版本可以核实"
+    ],
+    "objective": "共同核对条款并列出未解决事项",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“双方签署的版本可以核实”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“合同里没写这个”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“先看哪一条？”的再次追问后，争取一个明确落点：“共同核对条款并列出未解决事项”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你们没按合同做"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：双方签署的版本可以核实。我建议共同核对条款并列出未解决事项，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "合同里没写这个"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "先看哪一条？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把共同核对条款并列出未解决事项转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "合同里没写这个",
+      "先看哪一条？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“共同核对条款并列出未解决事项”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "medium",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-015",
+    "category": "conflicts",
+    "title": "被公开指责懒惰",
+    "level": 15,
+    "difficulty": "medium",
+    "background": "团队聚会上有人说你总在偷懒。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "你的交付记录与指责不一致"
+    ],
+    "objective": "要求回到具体任务与结果",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“你的交付记录与指责不一致”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你还敢说自己没问题？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“用什么事实讨论？”的再次追问后，争取一个明确落点：“要求回到具体任务与结果”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "大家都看到了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：你的交付记录与指责不一致。我建议要求回到具体任务与结果，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你还敢说自己没问题？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "用什么事实讨论？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把要求回到具体任务与结果转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你还敢说自己没问题？",
+      "用什么事实讨论？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“要求回到具体任务与结果”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "medium",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-016",
+    "category": "conflicts",
+    "title": "讨论迟发奖金",
+    "level": 16,
+    "difficulty": "medium",
+    "background": "负责人称奖金将延期但不给时间。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "延期已发生一次且影响个人现金规划"
+    ],
+    "objective": "请求书面说明和明确反馈节点",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“延期已发生一次且影响个人现金规划”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你们怎么只谈钱？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“能给可核实的时间表吗？”的再次追问后，争取一个明确落点：“请求书面说明和明确反馈节点”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "公司现在就是困难"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：延期已发生一次且影响个人现金规划。我建议请求书面说明和明确反馈节点，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们怎么只谈钱？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "能给可核实的时间表吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把请求书面说明和明确反馈节点转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们怎么只谈钱？",
+      "能给可核实的时间表吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“请求书面说明和明确反馈节点”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "medium",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-017",
+    "category": "conflicts",
+    "title": "遇到情绪升级",
+    "level": 17,
+    "difficulty": "medium",
+    "background": "双方讨论变成互相大声说话。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "双方已无法准确复述对方观点"
+    ],
+    "objective": "暂停十分钟并约定重新讨论",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“双方已无法准确复述对方观点”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“现在必须说清楚”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“什么时候继续谈？”的再次追问后，争取一个明确落点：“暂停十分钟并约定重新讨论”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你别给我讲大道理"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：双方已无法准确复述对方观点。我建议暂停十分钟并约定重新讨论，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "现在必须说清楚"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "什么时候继续谈？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把暂停十分钟并约定重新讨论转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "现在必须说清楚",
+      "什么时候继续谈？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“暂停十分钟并约定重新讨论”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "medium",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-018",
+    "category": "conflicts",
+    "title": "客户要求不合理赔偿",
+    "level": 18,
+    "difficulty": "medium",
+    "background": "客户因一般体验问题要求十倍退款。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "问题造成使用不便但未发生数据损失"
+    ],
+    "objective": "核对损失事实和双方约定",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“问题造成使用不便但未发生数据损失”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“不然就投诉到底”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“依据是什么？”的再次追问后，争取一个明确落点：“核对损失事实和双方约定”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我现在就要全部退"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：问题造成使用不便但未发生数据损失。我建议核对损失事实和双方约定，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "不然就投诉到底"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "依据是什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把核对损失事实和双方约定转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "不然就投诉到底",
+      "依据是什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“核对损失事实和双方约定”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "medium",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-019",
+    "category": "conflicts",
+    "title": "被迫替人背锅",
+    "level": 19,
+    "difficulty": "medium",
+    "background": "领导要你承担别人决策导致的问题。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "决策记录明确显示由其他人批准"
+    ],
+    "objective": "提供时间线并拒绝虚假责任归属",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“决策记录明确显示由其他人批准”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“难道团队利益不重要？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“怎样把事实说清楚？”的再次追问后，争取一个明确落点：“提供时间线并拒绝虚假责任归属”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你先把责任认了"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：决策记录明确显示由其他人批准。我建议提供时间线并拒绝虚假责任归属，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "难道团队利益不重要？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎样把事实说清楚？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把提供时间线并拒绝虚假责任归属转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "难道团队利益不重要？",
+      "怎样把事实说清楚？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“提供时间线并拒绝虚假责任归属”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "medium",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-020",
+    "category": "conflicts",
+    "title": "面临群体压力",
+    "level": 20,
+    "difficulty": "medium",
+    "background": "多人在会议上要求你立即表态。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "关键数字尚未由专业人员确认"
+    ],
+    "objective": "说明必须核实的风险并给出决策时限",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“关键数字尚未由专业人员确认”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你是不是故意拖进度？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“可以给你多长时间核实？”的再次追问后，争取一个明确落点：“说明必须核实的风险并给出决策时限”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "就差你一个不同意"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：关键数字尚未由专业人员确认。我建议说明必须核实的风险并给出决策时限，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是故意拖进度？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "可以给你多长时间核实？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把说明必须核实的风险并给出决策时限转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是故意拖进度？",
+      "可以给你多长时间核实？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“说明必须核实的风险并给出决策时限”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "medium",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-021",
+    "category": "conflicts",
+    "title": "遭遇持续语言攻击",
+    "level": 21,
+    "difficulty": "high",
+    "background": "对方反复用人格侮辱压制讨论。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "讨论已多次偏离具体问题"
+    ],
+    "objective": "明确停止侮辱并在必要时离开对话",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“讨论已多次偏离具体问题”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“我说的是事实”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“你还要不要继续？”的再次追问后，争取一个明确落点：“明确停止侮辱并在必要时离开对话”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你就是没用"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：讨论已多次偏离具体问题。我建议明确停止侮辱并在必要时离开对话，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我说的是事实"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你还要不要继续？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把明确停止侮辱并在必要时离开对话转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我说的是事实",
+      "你还要不要继续？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“明确停止侮辱并在必要时离开对话”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "high",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-022",
+    "category": "conflicts",
+    "title": "谈薪资存在信息不对等",
+    "level": 22,
+    "difficulty": "high",
+    "background": "招聘谈判中对方拒绝说明薪酬结构。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "职责范围明显高于岗位最初描述"
+    ],
+    "objective": "以岗位范围和市场依据协商总包",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“职责范围明显高于岗位最初描述”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你凭什么要更高？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“你的底线和依据是什么？”的再次追问后，争取一个明确落点：“以岗位范围和市场依据协商总包”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我们就这个价"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：职责范围明显高于岗位最初描述。我建议以岗位范围和市场依据协商总包，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你凭什么要更高？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你的底线和依据是什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把以岗位范围和市场依据协商总包转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你凭什么要更高？",
+      "你的底线和依据是什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“以岗位范围和市场依据协商总包”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "high",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-023",
+    "category": "conflicts",
+    "title": "合作伙伴威胁断供",
+    "level": 23,
+    "difficulty": "high",
+    "background": "供应商以停供要求临时涨价。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "仓库还有短期安全库存"
+    ],
+    "objective": "核对合同并启用替代供应安排",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“仓库还有短期安全库存”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“我们也是没办法”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“有没有替代交付？”的再次追问后，争取一个明确落点：“核对合同并启用替代供应安排”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "不同意明天就不发货"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我们也是没办法"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有没有替代交付？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“核对合同并启用替代供应安排”。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我们也是没办法",
+      "有没有替代交付？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“核对合同并启用替代供应安排”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "high",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-024",
+    "category": "conflicts",
+    "title": "公司内部资源抢夺",
+    "level": 24,
+    "difficulty": "high",
+    "background": "两个部门负责人为了预算互相指责。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "预算总额固定且不能满足全部诉求"
+    ],
+    "objective": "依据业务影响和风险建立排序",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“预算总额固定且不能满足全部诉求”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“不给预算项目就死了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“有什么统一标准？”的再次追问后，争取一个明确落点：“依据业务影响和风险建立排序”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我们比他们更重要"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：预算总额固定且不能满足全部诉求。我建议依据业务影响和风险建立排序，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "不给预算项目就死了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有什么统一标准？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把依据业务影响和风险建立排序转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "不给预算项目就死了",
+      "有什么统一标准？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“依据业务影响和风险建立排序”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "high",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-025",
+    "category": "conflicts",
+    "title": "邻里赔偿争议",
+    "level": 25,
+    "difficulty": "high",
+    "background": "楼上漏水造成家中家具受损。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "漏水来源尚未明确"
+    ],
+    "objective": "先留存记录并联系物业或专业鉴定",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“漏水来源尚未明确”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你有证据吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“怎么共同鉴定？”的再次追问后，争取一个明确落点：“先留存记录并联系物业或专业鉴定”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这不是我的责任"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：漏水来源尚未明确。我建议先留存记录并联系物业或专业鉴定，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你有证据吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么共同鉴定？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把先留存记录并联系物业或专业鉴定转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你有证据吗？",
+      "怎么共同鉴定？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先留存记录并联系物业或专业鉴定”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "high",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-026",
+    "category": "conflicts",
+    "title": "商业合作分账冲突",
+    "level": 26,
+    "difficulty": "high",
+    "background": "合伙人要求临时修改利润比例。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "现有协议已约定基本利润比例"
+    ],
+    "objective": "核对合同与实际贡献后协商",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“现有协议已约定基本利润比例”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你这是不讲情义”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“怎样用可验证贡献衡量？”的再次追问后，争取一个明确落点：“核对合同与实际贡献后协商”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我做得更多就该多拿"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：现有协议已约定基本利润比例。我建议核对合同与实际贡献后协商，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你这是不讲情义"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎样用可验证贡献衡量？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把核对合同与实际贡献后协商转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你这是不讲情义",
+      "怎样用可验证贡献衡量？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“核对合同与实际贡献后协商”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "high",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-027",
+    "category": "conflicts",
+    "title": "面对威胁报复",
+    "level": 27,
+    "difficulty": "high",
+    "background": "同事说若你举报其违规就会报复你。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "出现明确威胁且涉及潜在违规"
+    ],
+    "objective": "停止私下对峙并寻求组织正式保护渠道",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“出现明确威胁且涉及潜在违规”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“以后你还想在公司混吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“你打算怎么保护自己？”的再次追问后，争取一个明确落点：“停止私下对峙并寻求组织正式保护渠道”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你敢说出去试试"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "以后你还想在公司混吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你打算怎么保护自己？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“停止私下对峙并寻求组织正式保护渠道”。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "以后你还想在公司混吗？",
+      "你打算怎么保护自己？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“停止私下对峙并寻求组织正式保护渠道”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "high",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-028",
+    "category": "conflicts",
+    "title": "重大错误归责",
+    "level": 28,
+    "difficulty": "high",
+    "background": "项目损失后各方都要求别人承担全部责任。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "目前缺少完整日志与一致的时间线"
+    ],
+    "objective": "先保全证据并启动独立责任核查",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“目前缺少完整日志与一致的时间线”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你们必须全赔”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“先查哪些客观证据？”的再次追问后，争取一个明确落点：“先保全证据并启动独立责任核查”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这就是你们的问题"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：目前缺少完整日志与一致的时间线。我建议先保全证据并启动独立责任核查，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你们必须全赔"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "先查哪些客观证据？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把先保全证据并启动独立责任核查转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你们必须全赔",
+      "先查哪些客观证据？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先保全证据并启动独立责任核查”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "high",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-029",
+    "category": "conflicts",
+    "title": "有权力差的施压",
+    "level": 29,
+    "difficulty": "high",
+    "background": "权威人士要求你同意明显不公平的条款。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "条款包含重大单方违约责任"
+    ],
+    "objective": "拒绝当场签署并寻求独立审阅",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“条款包含重大单方违约责任”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你是不是不想合作？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“你需要什么审查时间？”的再次追问后，争取一个明确落点：“拒绝当场签署并寻求独立审阅”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "现在签了不就完了吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：条款包含重大单方违约责任。我建议拒绝当场签署并寻求独立审阅，不要把问题变成人身评价。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是不想合作？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你需要什么审查时间？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "如果双方愿意继续讨论，就把拒绝当场签署并寻求独立审阅转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是不想合作？",
+      "你需要什么审查时间？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“拒绝当场签署并寻求独立审阅”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "high",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "conflicts-030",
+    "category": "conflicts",
+    "title": "人身安全受到威胁",
+    "level": 30,
+    "difficulty": "high",
+    "background": "争执中对方堵门并扬言动手。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "已出现现实的人身威胁行为"
+    ],
+    "objective": "优先脱离危险并联系当地紧急帮助",
+    "method": "Principled Negotiation / BATNA",
+    "pillars": [
+      "控制升级",
+      "寻找真实利益",
+      "建立可执行方案"
+    ],
+    "steps": [
+      {
+        "name": "控制升级",
+        "instruction": "开场先围绕已知事实“已出现现实的人身威胁行为”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "寻找真实利益",
+        "instruction": "听到“你敢报警试试”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "建立可执行方案",
+        "instruction": "遭遇“现在你准备怎么办？”的再次追问后，争取一个明确落点：“优先脱离危险并联系当地紧急帮助”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你今天不答应就别走"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "控制升级",
+        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你敢报警试试"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "寻找真实利益",
+        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "现在你准备怎么办？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "建立可执行方案",
+        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“优先脱离危险并联系当地紧急帮助”。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你敢报警试试",
+      "现在你准备怎么办？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“优先脱离危险并联系当地紧急帮助”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "tags": [
+      "conflicts",
+      "high",
+      "Principled Negotiation / BATNA"
+    ],
+    "created": "2026-11-10"
+  }
+]

@@ -1,0 +1,3542 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "upward-001",
+    "category": "upward",
+    "title": "周会汇报进展",
+    "level": 1,
+    "difficulty": "low",
+    "background": "每周例会中主管只给你半分钟。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "研发已完成八成，测试资源本周不足"
+    ],
+    "objective": "把测试延期风险列出并申请确认验收日期",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“研发已完成八成，测试资源本周不足”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“你为什么不先说结论？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“那下一步需要我做什么？”的再次追问后，争取一个明确落点：“把测试延期风险列出并申请确认验收日期”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这个任务到底到哪一步了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：研发已完成八成，测试资源本周不足。建议把测试延期风险列出并申请确认验收日期，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你为什么不先说结论？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：研发已完成八成，测试资源本周不足。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "那下一步需要我做什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议把测试延期风险列出并申请确认验收日期，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你为什么不先说结论？",
+      "那下一步需要我做什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“把测试延期风险列出并申请确认验收日期”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "low",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-002",
+    "category": "upward",
+    "title": "临时汇报小问题",
+    "level": 2,
+    "difficulty": "low",
+    "background": "主管在电梯口问你线上反馈。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "目前收到四条反馈，其中一条影响支付"
+    ],
+    "objective": "今天完成问题分级并在下班前同步结果",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“目前收到四条反馈，其中一条影响支付”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“你说的“少量”是多少？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“今天能处理完吗？”的再次追问后，争取一个明确落点：“今天完成问题分级并在下班前同步结果”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "用户反馈现在严重吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：目前收到四条反馈，其中一条影响支付。我准备了一个处理方向：今天完成问题分级并在下班前同步结果，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你说的“少量”是多少？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "今天能处理完吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“今天完成问题分级并在下班前同步结果”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你说的“少量”是多少？",
+      "今天能处理完吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“今天完成问题分级并在下班前同步结果”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "low",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-003",
+    "category": "upward",
+    "title": "申请额外一天",
+    "level": 3,
+    "difficulty": "low",
+    "background": "交付前发现数据需要复核。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "关键数据有两项尚未复核"
+    ],
+    "objective": "申请将交付延后一天并通知客户",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“关键数据有两项尚未复核”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“延期对客户有什么影响？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“你需要我帮什么？”的再次追问后，争取一个明确落点：“申请将交付延后一天并通知客户”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "到底能不能按原计划交？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：关键数据有两项尚未复核。建议申请将交付延后一天并通知客户，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "延期对客户有什么影响？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：关键数据有两项尚未复核。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你需要我帮什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议申请将交付延后一天并通知客户，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "延期对客户有什么影响？",
+      "你需要我帮什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“申请将交付延后一天并通知客户”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "low",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-004",
+    "category": "upward",
+    "title": "请领导选择方案",
+    "level": 4,
+    "difficulty": "low",
+    "background": "团队设计了A和B两种实现。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "A成本低但维护风险高，B稳定且多一天开发"
+    ],
+    "objective": "批准采用成本略高但更稳定的B方案",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“A成本低但维护风险高，B稳定且多一天开发”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“为什么不选更便宜的A？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“如果我选B你如何控制成本？”的再次追问后，争取一个明确落点：“批准采用成本略高但更稳定的B方案”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你推荐哪一套？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：A成本低但维护风险高，B稳定且多一天开发。我准备了一个处理方向：批准采用成本略高但更稳定的B方案，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么不选更便宜的A？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "如果我选B你如何控制成本？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“批准采用成本略高但更稳定的B方案”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么不选更便宜的A？",
+      "如果我选B你如何控制成本？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“批准采用成本略高但更稳定的B方案”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "low",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-005",
+    "category": "upward",
+    "title": "汇报客户表扬",
+    "level": 5,
+    "difficulty": "low",
+    "background": "用户正面评价刚上线的功能。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "五位受访用户中四位认可新流程"
+    ],
+    "objective": "把用户访谈结果纳入下周复盘",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“五位受访用户中四位认可新流程”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“这是不是个别客户的评价？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“怎样把经验复制给团队？”的再次追问后，争取一个明确落点：“把用户访谈结果纳入下周复盘”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "有什么值得在会上说的？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：五位受访用户中四位认可新流程。建议把用户访谈结果纳入下周复盘，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "这是不是个别客户的评价？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：五位受访用户中四位认可新流程。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎样把经验复制给团队？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议把用户访谈结果纳入下周复盘，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "这是不是个别客户的评价？",
+      "怎样把经验复制给团队？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“把用户访谈结果纳入下周复盘”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "low",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-006",
+    "category": "upward",
+    "title": "请求优先级调整",
+    "level": 6,
+    "difficulty": "low",
+    "background": "本周同时收到两个紧急任务。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "现有人力只能保证一项按期交付"
+    ],
+    "objective": "先做合规修复，营销页面顺延两天",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“现有人力只能保证一项按期交付”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“哪个不做会出问题？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“需要我定哪项优先？”的再次追问后，争取一个明确落点：“先做合规修复，营销页面顺延两天”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "两个任务能一起完成吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：现有人力只能保证一项按期交付。我准备了一个处理方向：先做合规修复，营销页面顺延两天，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "哪个不做会出问题？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "需要我定哪项优先？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“先做合规修复，营销页面顺延两天”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "哪个不做会出问题？",
+      "需要我定哪项优先？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先做合规修复，营销页面顺延两天”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "low",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-007",
+    "category": "upward",
+    "title": "报告预算结余",
+    "level": 7,
+    "difficulty": "low",
+    "background": "采购结束后仍有部分经费。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "通过供应商比价节省了约一成采购成本"
+    ],
+    "objective": "保留结余用于后续安全测试",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“通过供应商比价节省了约一成采购成本”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“节省会牺牲质量吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“余款准备如何安排？”的再次追问后，争取一个明确落点：“保留结余用于后续安全测试”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "预算为什么没花完？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：通过供应商比价节省了约一成采购成本。建议保留结余用于后续安全测试，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "节省会牺牲质量吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：通过供应商比价节省了约一成采购成本。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "余款准备如何安排？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议保留结余用于后续安全测试，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "节省会牺牲质量吗？",
+      "余款准备如何安排？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“保留结余用于后续安全测试”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "low",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-008",
+    "category": "upward",
+    "title": "提出流程改进",
+    "level": 8,
+    "difficulty": "low",
+    "background": "重复审批让团队每周多花时间。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "同一内容每周要重复提交三次"
+    ],
+    "objective": "试行两周的单次审批清单",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“同一内容每周要重复提交三次”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“现在流程真的这么差吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“谁负责试点？”的再次追问后，争取一个明确落点：“试行两周的单次审批清单”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你想优化什么？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：同一内容每周要重复提交三次。我准备了一个处理方向：试行两周的单次审批清单，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "现在流程真的这么差吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "谁负责试点？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“试行两周的单次审批清单”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "现在流程真的这么差吗？",
+      "谁负责试点？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“试行两周的单次审批清单”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "low",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-009",
+    "category": "upward",
+    "title": "报备个人请假",
+    "level": 9,
+    "difficulty": "low",
+    "background": "负责关键节点时需要请假。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "请假当天是非上线日，已整理风险联系人"
+    ],
+    "objective": "由搭档代管并提前发交接清单",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“请假当天是非上线日，已整理风险联系人”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“出了事怎么办？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“工作交接什么时候完成？”的再次追问后，争取一个明确落点：“由搭档代管并提前发交接清单”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你不在谁来处理？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：请假当天是非上线日，已整理风险联系人。建议由搭档代管并提前发交接清单，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "出了事怎么办？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：请假当天是非上线日，已整理风险联系人。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "工作交接什么时候完成？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议由搭档代管并提前发交接清单，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "出了事怎么办？",
+      "工作交接什么时候完成？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“由搭档代管并提前发交接清单”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "low",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-010",
+    "category": "upward",
+    "title": "总结阶段成果",
+    "level": 10,
+    "difficulty": "low",
+    "background": "主管让你讲项目阶段收获。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "新流程试点后平均耗时下降约两成"
+    ],
+    "objective": "继续优化转化漏斗的第二步",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“新流程试点后平均耗时下降约两成”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“能不能用数据证明？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“下阶段重点是什么？”的再次追问后，争取一个明确落点：“继续优化转化漏斗的第二步”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这段时间最重要的成绩是什么？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：新流程试点后平均耗时下降约两成。我准备了一个处理方向：继续优化转化漏斗的第二步，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "能不能用数据证明？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "下阶段重点是什么？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“继续优化转化漏斗的第二步”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "能不能用数据证明？",
+      "下阶段重点是什么？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“继续优化转化漏斗的第二步”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "low",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-011",
+    "category": "upward",
+    "title": "领导临时插单",
+    "level": 11,
+    "difficulty": "medium",
+    "background": "正在处理既定重点时收到新任务。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "新增任务预计需要半天，现有排期已满"
+    ],
+    "objective": "确认新任务是否优先于已承诺交付",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“新增任务预计需要半天，现有排期已满”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“原来的工作也不能推迟”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“那你打算怎么安排？”的再次追问后，争取一个明确落点：“确认新任务是否优先于已承诺交付”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这件事今天就做可以吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：新增任务预计需要半天，现有排期已满。建议确认新任务是否优先于已承诺交付，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "原来的工作也不能推迟"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：新增任务预计需要半天，现有排期已满。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "那你打算怎么安排？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议确认新任务是否优先于已承诺交付，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "原来的工作也不能推迟",
+      "那你打算怎么安排？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“确认新任务是否优先于已承诺交付”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "medium",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-012",
+    "category": "upward",
+    "title": "跨部门依赖失效",
+    "level": 12,
+    "difficulty": "medium",
+    "background": "对接团队未按约定给接口。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "接口比约定晚了三天，催办记录完整"
+    ],
+    "objective": "批准先上线不依赖接口的部分",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“接口比约定晚了三天，催办记录完整”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“你是不是没催过？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“有什么备选方案？”的再次追问后，争取一个明确落点：“批准先上线不依赖接口的部分”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么今天还没上线？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：接口比约定晚了三天，催办记录完整。我准备了一个处理方向：批准先上线不依赖接口的部分，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是没催过？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "有什么备选方案？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“批准先上线不依赖接口的部分”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是没催过？",
+      "有什么备选方案？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“批准先上线不依赖接口的部分”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "medium",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-013",
+    "category": "upward",
+    "title": "数据口径遭质疑",
+    "level": 13,
+    "difficulty": "medium",
+    "background": "会上两份报表呈现不同数字。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "两份报表分别统计自然日与工作日"
+    ],
+    "objective": "由数据组统一定义后重新发布报表",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“两份报表分别统计自然日与工作日”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“哪份才值得相信？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“今天给我一个统一口径”的再次追问后，争取一个明确落点：“由数据组统一定义后重新发布报表”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么两个数据不一样？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：两份报表分别统计自然日与工作日。建议由数据组统一定义后重新发布报表，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "哪份才值得相信？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：两份报表分别统计自然日与工作日。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "今天给我一个统一口径"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议由数据组统一定义后重新发布报表，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "哪份才值得相信？",
+      "今天给我一个统一口径"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“由数据组统一定义后重新发布报表”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "medium",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-014",
+    "category": "upward",
+    "title": "汇报负面反馈",
+    "level": 14,
+    "difficulty": "medium",
+    "background": "重要客户对新功能表达不满。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "客户主要抱怨学习成本而非核心功能"
+    ],
+    "objective": "由客户经理今天联系并安排修复演示",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“客户主要抱怨学习成本而非核心功能”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“为什么之前没预警？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“现在谁出面解释？”的再次追问后，争取一个明确落点：“由客户经理今天联系并安排修复演示”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这个客户是不是要流失了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：客户主要抱怨学习成本而非核心功能。我准备了一个处理方向：由客户经理今天联系并安排修复演示，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "为什么之前没预警？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "现在谁出面解释？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“由客户经理今天联系并安排修复演示”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "为什么之前没预警？",
+      "现在谁出面解释？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“由客户经理今天联系并安排修复演示”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "medium",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-015",
+    "category": "upward",
+    "title": "向领导承认错误",
+    "level": 15,
+    "difficulty": "medium",
+    "background": "误发了尚未审定的版本。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "我漏看了版本标识，接收方仅两人"
+    ],
+    "objective": "先撤回文件并设置双人复核",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“我漏看了版本标识，接收方仅两人”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“怎么会犯这种错误？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“以后如何防止？”的再次追问后，争取一个明确落点：“先撤回文件并设置双人复核”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这是谁做的？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：我漏看了版本标识，接收方仅两人。建议先撤回文件并设置双人复核，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "怎么会犯这种错误？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：我漏看了版本标识，接收方仅两人。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "以后如何防止？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议先撤回文件并设置双人复核，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "怎么会犯这种错误？",
+      "以后如何防止？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先撤回文件并设置双人复核”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "medium",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-016",
+    "category": "upward",
+    "title": "向上争取资源",
+    "level": 16,
+    "difficulty": "medium",
+    "background": "项目范围增加而人手未变。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "新增功能使测试用例增加近一倍"
+    ],
+    "objective": "协调一名测试同事支援三天",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“新增功能使测试用例增加近一倍”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“别的组也很忙”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“你能接受什么替代方案？”的再次追问后，争取一个明确落点：“协调一名测试同事支援三天”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么一定要加人？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：新增功能使测试用例增加近一倍。我准备了一个处理方向：协调一名测试同事支援三天，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "别的组也很忙"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你能接受什么替代方案？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“协调一名测试同事支援三天”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "别的组也很忙",
+      "你能接受什么替代方案？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“协调一名测试同事支援三天”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "medium",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-017",
+    "category": "upward",
+    "title": "对不合理指标提疑问",
+    "level": 17,
+    "difficulty": "medium",
+    "background": "新季度指标比历史水平翻倍。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "过去三季度增长稳定，资源没有同步增加"
+    ],
+    "objective": "先按历史基线设阶段里程碑再复盘",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“过去三季度增长稳定，资源没有同步增加”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“你是不是不愿挑战？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“那你给出什么目标？”的再次追问后，争取一个明确落点：“先按历史基线设阶段里程碑再复盘”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这个目标有问题吗？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：过去三季度增长稳定，资源没有同步增加。建议先按历史基线设阶段里程碑再复盘，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你是不是不愿挑战？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：过去三季度增长稳定，资源没有同步增加。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "那你给出什么目标？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议先按历史基线设阶段里程碑再复盘，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你是不是不愿挑战？",
+      "那你给出什么目标？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先按历史基线设阶段里程碑再复盘”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "medium",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-018",
+    "category": "upward",
+    "title": "汇报竞争信息",
+    "level": 18,
+    "difficulty": "medium",
+    "background": "销售转来对手发布新产品消息。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "竞争对手新功能与我们主力客户需求部分重叠"
+    ],
+    "objective": "安排一周竞争调研后决定是否调整",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“竞争对手新功能与我们主力客户需求部分重叠”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“你的判断依据是什么？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“需要立即改路线吗？”的再次追问后，争取一个明确落点：“安排一周竞争调研后决定是否调整”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "我们受到什么影响？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：竞争对手新功能与我们主力客户需求部分重叠。我准备了一个处理方向：安排一周竞争调研后决定是否调整，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你的判断依据是什么？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "需要立即改路线吗？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“安排一周竞争调研后决定是否调整”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你的判断依据是什么？",
+      "需要立即改路线吗？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“安排一周竞争调研后决定是否调整”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "medium",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-019",
+    "category": "upward",
+    "title": "解释成本超支",
+    "level": 19,
+    "difficulty": "medium",
+    "background": "物流费用突然上升。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "运输旺季报价高于合同外费用预估"
+    ],
+    "objective": "调整配送组合并冻结非必要支出",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“运输旺季报价高于合同外费用预估”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“是不是前期预估太粗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“怎么追回这笔成本？”的再次追问后，争取一个明确落点：“调整配送组合并冻结非必要支出”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "预算为什么超了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：运输旺季报价高于合同外费用预估。建议调整配送组合并冻结非必要支出，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "是不是前期预估太粗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：运输旺季报价高于合同外费用预估。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "怎么追回这笔成本？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议调整配送组合并冻结非必要支出，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "是不是前期预估太粗？",
+      "怎么追回这笔成本？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“调整配送组合并冻结非必要支出”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "medium",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-020",
+    "category": "upward",
+    "title": "汇报试点失败",
+    "level": 20,
+    "difficulty": "medium",
+    "background": "内部试点没有达到预定指标。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "参与率只有预期一半，负面反馈集中在注册步骤"
+    ],
+    "objective": "暂停扩量并做两轮用户访谈",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“参与率只有预期一半，负面反馈集中在注册步骤”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“之前不是很有信心吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“还要不要继续投入？”的再次追问后，争取一个明确落点：“暂停扩量并做两轮用户访谈”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么没有成功？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：参与率只有预期一半，负面反馈集中在注册步骤。我准备了一个处理方向：暂停扩量并做两轮用户访谈，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "之前不是很有信心吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "还要不要继续投入？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“暂停扩量并做两轮用户访谈”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "之前不是很有信心吗？",
+      "还要不要继续投入？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“暂停扩量并做两轮用户访谈”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "medium",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-021",
+    "category": "upward",
+    "title": "领导当众打断",
+    "level": 21,
+    "difficulty": "high",
+    "background": "汇报时被领导反复插话。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "三项问题只有资源分配需要主管拍板"
+    ],
+    "objective": "立即给出取舍建议并请示执行顺序",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“三项问题只有资源分配需要主管拍板”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“这些风险我早就知道了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“你还能提供什么决策信息？”的再次追问后，争取一个明确落点：“立即给出取舍建议并请示执行顺序”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "别讲细节，先讲结论！"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：三项问题只有资源分配需要主管拍板。建议立即给出取舍建议并请示执行顺序，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "这些风险我早就知道了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：三项问题只有资源分配需要主管拍板。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你还能提供什么决策信息？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议立即给出取舍建议并请示执行顺序，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "这些风险我早就知道了",
+      "你还能提供什么决策信息？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“立即给出取舍建议并请示执行顺序”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "high",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-022",
+    "category": "upward",
+    "title": "领导质疑你的能力",
+    "level": 22,
+    "difficulty": "high",
+    "background": "关键汇报被尖锐追问。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "上次未按时同步进度，这次已有可验证检查点"
+    ],
+    "objective": "用逐日里程碑和验收证据恢复信任",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“上次未按时同步进度，这次已有可验证检查点”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“你上次也说会处理好”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“给我一个让我相信的依据”的再次追问后，争取一个明确落点：“用逐日里程碑和验收证据恢复信任”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这件事你到底能不能负责？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：上次未按时同步进度，这次已有可验证检查点。我准备了一个处理方向：用逐日里程碑和验收证据恢复信任，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你上次也说会处理好"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "给我一个让我相信的依据"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“用逐日里程碑和验收证据恢复信任”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你上次也说会处理好",
+      "给我一个让我相信的依据"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“用逐日里程碑和验收证据恢复信任”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "high",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-023",
+    "category": "upward",
+    "title": "公开承认重大失误",
+    "level": 23,
+    "difficulty": "high",
+    "background": "一次配置错误影响核心客户。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "错误配置导致三十分钟服务异常"
+    ],
+    "objective": "先完成回滚并启动复盘与补偿沟通",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“错误配置导致三十分钟服务异常”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“你准备承担什么责任？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“什么时候能彻底恢复？”的再次追问后，争取一个明确落点：“先完成回滚并启动复盘与补偿沟通”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么发生这么大的事故？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：错误配置导致三十分钟服务异常。建议先完成回滚并启动复盘与补偿沟通，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你准备承担什么责任？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：错误配置导致三十分钟服务异常。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "什么时候能彻底恢复？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议先完成回滚并启动复盘与补偿沟通，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你准备承担什么责任？",
+      "什么时候能彻底恢复？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先完成回滚并启动复盘与补偿沟通”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "high",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-024",
+    "category": "upward",
+    "title": "向上反对风险决策",
+    "level": 24,
+    "difficulty": "high",
+    "background": "领导计划跳过必要测试赶上线。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "关键链路尚未测试，线上故障代价可能高"
+    ],
+    "objective": "坚持关键支付链路测试并提出灰度方案",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“关键链路尚未测试，线上故障代价可能高”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“我们真的没有时间了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“如果延期客户会非常不满”的再次追问后，争取一个明确落点：“坚持关键支付链路测试并提出灰度方案”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你是在否定我的决定？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：关键链路尚未测试，线上故障代价可能高。我准备了一个处理方向：坚持关键支付链路测试并提出灰度方案，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "我们真的没有时间了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "如果延期客户会非常不满"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“坚持关键支付链路测试并提出灰度方案”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "我们真的没有时间了",
+      "如果延期客户会非常不满"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“坚持关键支付链路测试并提出灰度方案”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "high",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-025",
+    "category": "upward",
+    "title": "董事会前解释差距",
+    "level": 25,
+    "difficulty": "high",
+    "background": "季度营收显著低于目标。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "主要差距来自大客户延迟签约而非流失"
+    ],
+    "objective": "给出分渠道归因与下一季度恢复路径",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“主要差距来自大客户延迟签约而非流失”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“现在说原因还有用吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“拿什么给董事会一个交代？”的再次追问后，争取一个明确落点：“给出分渠道归因与下一季度恢复路径”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么差距这么大？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：主要差距来自大客户延迟签约而非流失。建议给出分渠道归因与下一季度恢复路径，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "现在说原因还有用吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：主要差距来自大客户延迟签约而非流失。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "拿什么给董事会一个交代？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议给出分渠道归因与下一季度恢复路径，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "现在说原因还有用吗？",
+      "拿什么给董事会一个交代？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“给出分渠道归因与下一季度恢复路径”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "high",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-026",
+    "category": "upward",
+    "title": "业务与合规冲突",
+    "level": 26,
+    "difficulty": "high",
+    "background": "领导要求先收集用户信息再补授权。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "当前授权流程尚未覆盖新增数据用途"
+    ],
+    "objective": "先完成合规评估并采用最小化收集方案",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“当前授权流程尚未覆盖新增数据用途”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“同行也这么操作”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“耽误项目谁负责？”的再次追问后，争取一个明确落点：“先完成合规评估并采用最小化收集方案”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "这件事就先做行不行？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：当前授权流程尚未覆盖新增数据用途。我准备了一个处理方向：先完成合规评估并采用最小化收集方案，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "同行也这么操作"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "耽误项目谁负责？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“先完成合规评估并采用最小化收集方案”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "同行也这么操作",
+      "耽误项目谁负责？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“先完成合规评估并采用最小化收集方案”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "high",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-027",
+    "category": "upward",
+    "title": "两位主管指令相反",
+    "level": 27,
+    "difficulty": "high",
+    "background": "虚线经理和直属主管给出冲突任务。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "两项交付都需要同一人全天投入"
+    ],
+    "objective": "召集两位负责人确认唯一优先级",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“两项交付都需要同一人全天投入”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“你不能自己判断吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“今天两边都要交怎么办？”的再次追问后，争取一个明确落点：“召集两位负责人确认唯一优先级”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你为什么还没有开始？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：两项交付都需要同一人全天投入。建议召集两位负责人确认唯一优先级，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "你不能自己判断吗？"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：两项交付都需要同一人全天投入。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "今天两边都要交怎么办？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议召集两位负责人确认唯一优先级，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "你不能自己判断吗？",
+      "今天两边都要交怎么办？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“召集两位负责人确认唯一优先级”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "high",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-028",
+    "category": "upward",
+    "title": "揭示重大客户风险",
+    "level": 28,
+    "difficulty": "high",
+    "background": "销售承诺了团队无法兑现的上线时间。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "合同交付条款和销售邮件存在明显冲突"
+    ],
+    "objective": "今天组织销售与技术联合澄清承诺边界",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“合同交付条款和销售邮件存在明显冲突”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“销售已经签字了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“改期会伤害公司声誉”的再次追问后，争取一个明确落点：“今天组织销售与技术联合澄清承诺边界”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "为什么现在才告诉我？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：合同交付条款和销售邮件存在明显冲突。我准备了一个处理方向：今天组织销售与技术联合澄清承诺边界，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "销售已经签字了"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "改期会伤害公司声誉"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“今天组织销售与技术联合澄清承诺边界”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "销售已经签字了",
+      "改期会伤害公司声誉"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“今天组织销售与技术联合澄清承诺边界”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "high",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-029",
+    "category": "upward",
+    "title": "拒绝伪造业务数据",
+    "level": 29,
+    "difficulty": "high",
+    "background": "上级暗示你美化季度数字。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "原始数据与拟发布数字存在实质差异"
+    ],
+    "objective": "按真实数据汇报并补充口径说明",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“原始数据与拟发布数字存在实质差异”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“大家都是这样汇报的”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“你是不是不支持团队？”的再次追问后，争取一个明确落点：“按真实数据汇报并补充口径说明”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "稍微调整一下不就行了？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "我先说结论：原始数据与拟发布数字存在实质差异。建议按真实数据汇报并补充口径说明，请您确认这个优先级。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "大家都是这样汇报的"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "您问到的是结果是否可靠。我区分已确认的事实与待验证部分：原始数据与拟发布数字存在实质差异。对于不确定的环节，我会给出明确的检查点。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "你是不是不支持团队？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "这项决策有取舍。我建议按真实数据汇报并补充口径说明，如果您同意，我负责执行并在下一个节点同步结果。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "大家都是这样汇报的",
+      "你是不是不支持团队？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“按真实数据汇报并补充口径说明”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "high",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "upward-030",
+    "category": "upward",
+    "title": "压力下请求决断",
+    "level": 30,
+    "difficulty": "high",
+    "background": "出现影响安全的生产故障但主管迟迟不拍板。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+    "facts": [
+      "继续运行可能造成更多用户数据错误"
+    ],
+    "objective": "立即暂停高风险功能并启动应急响应",
+    "method": "SBAR / 结论先行",
+    "pillars": [
+      "结论先行",
+      "提供方案",
+      "明确决策请求"
+    ],
+    "steps": [
+      {
+        "name": "结论先行",
+        "instruction": "开场先围绕已知事实“继续运行可能造成更多用户数据错误”作清楚表达，避免猜测对方动机。"
+      },
+      {
+        "name": "提供方案",
+        "instruction": "听到“停服务会损失收入”时，先识别顾虑，再坚持可验证事实或个人边界。"
+      },
+      {
+        "name": "明确决策请求",
+        "instruction": "遭遇“现在到底怎么选？”的再次追问后，争取一个明确落点：“立即暂停高风险功能并启动应急响应”。"
+      }
+    ],
+    "dialogue": [
+      {
+        "turn": 1,
+        "role": "counterpart",
+        "stage": "起始提问",
+        "text": "你怎么还在等我？"
+      },
+      {
+        "turn": 2,
+        "role": "learner",
+        "stage": "结论先行",
+        "text": "目前最值得关注的是：继续运行可能造成更多用户数据错误。我准备了一个处理方向：立即暂停高风险功能并启动应急响应，需要您确认。",
+        "isModel": true
+      },
+      {
+        "turn": 3,
+        "role": "counterpart",
+        "stage": "第一轮反问",
+        "text": "停服务会损失收入"
+      },
+      {
+        "turn": 4,
+        "role": "learner",
+        "stage": "提供方案",
+        "text": "我理解您担心影响更大。我会把影响范围与证据列清楚，不用模糊的“差不多”代替判断。",
+        "isModel": true
+      },
+      {
+        "turn": 5,
+        "role": "counterpart",
+        "stage": "第二轮追问",
+        "text": "现在到底怎么选？"
+      },
+      {
+        "turn": 6,
+        "role": "learner",
+        "stage": "明确决策请求",
+        "text": "为了不让问题停留在讨论上，请确认是否按“立即暂停高风险功能并启动应急响应”执行；我会书面跟进。",
+        "isModel": true
+      }
+    ],
+    "pushbacks": [
+      "停服务会损失收入",
+      "现在到底怎么选？"
+    ],
+    "coach": {
+      "focus": "让对话最终朝“立即暂停高风险功能并启动应急响应”推进，不一定要求当场达成一致。",
+      "pitfalls": [
+        "不要一开始就长篇解释，忽略对方真实关切。",
+        "不要把事实、推测和个人感受混在一起。",
+        "不要用虚假承诺或人格攻击换取表面同意。"
+      ],
+      "selfCheck": [
+        "我是否先听懂对方的问题？",
+        "我是否把事实和立场说得足够清楚？",
+        "我是否回应了反问而不是机械背稿？",
+        "我是否给出明确行动、边界或下一步？"
+      ],
+      "rubric": [
+        {
+          "name": "结构清楚",
+          "weight": 25
+        },
+        {
+          "name": "理解对方",
+          "weight": 25
+        },
+        {
+          "name": "坚定尊重",
+          "weight": 25
+        },
+        {
+          "name": "行动落点",
+          "weight": 25
+        }
+      ]
+    },
+    "safetyNote": null,
+    "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+    "tags": [
+      "upward",
+      "high",
+      "SBAR / 结论先行"
+    ],
+    "created": "2026-11-10"
+  }
+]
