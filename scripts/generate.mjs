@@ -202,7 +202,9 @@ function applyOverrides(cases,overrides,used){
 async function main(){
  const catalog={schemaVersion:1,updated:"2026-11-10",totalCases:0,difficulties:[{id:"low",name:"基础",range:"1–10"},{id:"medium",name:"进阶",range:"11–20"},{id:"high",name:"高压",range:"21–30"}],categories:[]};
  await mkdir(path.join(root,"data/cases"),{recursive:true});
- for(const c of meta){const seed=await readFile(path.join(root,"data/seeds",c.id+".txt"),"utf8");const cases=renderCases(seed,c);catalog.totalCases+=cases.length;catalog.categories.push({...c,file:"data/cases/"+c.id+".json",count:cases.length});await writeFile(path.join(root,"data/cases",c.id+".json"),JSON.stringify(cases,null,2)+"\n");}
+ const overrides=await readOverrides(),used=new Set();
+ for(const c of meta){const seed=await readFile(path.join(root,"data/seeds",c.id+".txt"),"utf8");const cases=applyOverrides(renderCases(seed,c),overrides,used);catalog.totalCases+=cases.length;catalog.categories.push({...c,file:"data/cases/"+c.id+".json",count:cases.length});await writeFile(path.join(root,"data/cases",c.id+".json"),JSON.stringify(cases,null,2)+"\n");}
+ for(const id of overrides.keys())if(!used.has(id))throw Error("Orphan override: "+id);
  await writeFile(path.join(root,"data/catalog.json"),JSON.stringify(catalog,null,2)+"\n");
  console.log("Generated "+catalog.totalCases+" scenario cards in "+catalog.categories.length+" categories");
 }
