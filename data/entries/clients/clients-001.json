@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-001",
+  "category": "clients",
+  "title": "客户询问项目进度",
+  "level": 1,
+  "difficulty": "low",
+  "background": "例行沟通时客户询问交付。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "核心功能完成，剩余内容正在测试"
+  ],
+  "objective": "发送带负责人和日期的进度表",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“核心功能完成，剩余内容正在测试”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“能给个明确时间吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“谁负责跟进？”的再次追问后，争取一个明确落点：“发送带负责人和日期的进度表”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "现在做得怎么样了？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "目前核心功能已经完成，剩下的内容正在测试。现在能确认的是开发完成情况，最终交付日期还需要结合测试结果复核。我今天发您更新版进度表。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "能给个明确时间吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "您需要明确时间来安排内部工作，我理解。与其给一个可能失准的日期，我会在进度表中区分‘已确认里程碑’和‘待测试确认’，标注最迟何时更新。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "谁负责跟进？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "由我作为日常跟进联系人，测试负责人同步验证结果；我会在进度表里写清负责人和下一次反馈日期，有异常提前通知，不让您反复追问。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "能给个明确时间吗？",
+    "谁负责跟进？"
+  ],
+  "coach": {
+    "focus": "区分已确认和待验证里程碑，客户关心的是真正可信的时间与责任人。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "low",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

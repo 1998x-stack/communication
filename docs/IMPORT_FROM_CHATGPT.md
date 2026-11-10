@@ -1,42 +1,32 @@
-# 从 ChatGPT 向案例库持续新增真实情景
+# 从 ChatGPT 导入新案例（独立元数据 v2）
 
-你可以随时在 ChatGPT 里补充新情景；项目的源数据是追加式而不是固定270题。
+今后你提供一段真实沟通经历，可以把它整理成一个**自包含 JSON**，直接提交到仓库，而不用插入七字段文本行、按编号决定难度或把场景固定为三轮。
 
-## 1. 先整理事实，不要复制私人对话全文
+## 1. 向 ChatGPT 提供的整理指令
 
-把真实个人、公司、客户和儿童信息替换为泛称。剔除电话、住址、合同号码、金额等可识别或保密细节。如果需要保留重要数字，改用范围或虚构示例并注明。
+> 请将下面的沟通经历匿名化，整理成符合言习 `schemaVersion: 2` 的独立案例 JSON。检查是否与仓库已有案例重复，给出稳定且易读的 `id`（必须以前缀 `<category>-` 开始）、分类 `category`、独立选择的 `difficulty`（low/medium/high）、可筛选的 `tags`、`title`、`background`、`facts`、`objective` 与 `roundCount`。`dialogue` 必须是从第1条对方发言开始的成对轮次：对方 → 我的示范回应 → 反问 → 我的回应……，`turn` 连续递增，角色严格交替。轮数根据事情复杂程度决定，可以为1、2、3、4轮或更多，不要为了凑数而加入空泛反问。每轮回应要针对上一句实际追问，最后一轮给出可执行行动或边界。补充 `steps` 与 `coach.focus`；若涉及安全、隐私、威胁、自伤或权力压迫，要将安全与现实支持置于说服之上。不得暴露真实姓名、住址、电话、客户机密或版权教材原文。输出 JSON 和一段说明，不要直接修改历史 `data/seeds` 与 `data/overrides`。
 
-向 ChatGPT 发送：
+## 2. 选择分类
 
-> 请把下面这段沟通经历整理为言习项目的一行场景种子，选择九种分类之一、判定低/中/高难度。严格输出七个字段：标题 | 背景 | 对方开场 | 第一轮反问 | 第二轮追问 | 期望达成的沟通目标 | 已知且可核实的事实。两个追问需逐步增加实质性压力，而不是简单重复、羞辱。不得包含任何真实姓名、联系方式、隐私、公司机密或受版权保护的课程原文。请另外解释每轮练习的教学重点，并说明安全风险。
+查看 `data/categories/*.json`，如分类已存在，直接使用其 `id`；若不属于任何现有类，新建 `data/categories/<new-id>.json`，包括名称、描述、排序、沟通原则与 `guide`。参考新增加的 [`public-speaking`](../data/categories/public-speaking.json)。
 
-## 2. 校验内容
-重点审查：场景足够具体吗？“事实”真的是事实吗？三轮对话前后连贯吗？期望行动合法吗、可执行吗？是否存在危险情境不能通过一般沟通解决？
+## 3. 保存独立案例
 
-## 3. 只追加到文件结尾
-将一行七字段追加到 `data/seeds/<category>.txt` 最后。示例（仅展示，勿重复添加）：
+保存到 `data/entries/<category>/<case-id>.json`。路径和 `id` 必须对应；`difficulty` **完全独立于 ID**，无需因为案例数量超过 30 就指定高压。对话长度由 `roundCount` 决定，恰好需要 `roundCount * 2` 个 `dialogue` 条目。
 
-```text
-临时被要求周末加班|团队已经为周末安排好休息却接到紧急要求|这个周末能全部到场吗？|项目这么重要就不能牺牲一下？|如果不来谁保证上线？|评估最少值班人数并给出轮值和补偿安排|只有一个组件需人工值守且排期冲突
-```
+可以参考 [`upward-briefing-4round`](../data/entries/upward/upward-briefing-4round.json) 和 [`public-speaking-townhall-qa`](../data/entries/public-speaking/public-speaking-townhall-qa.json)。
 
-先检索 `data/cases/*.json` 中的题名以防重复。不要在旧行之间插入，也不要直接修改已生成的卡片 JSON。
-
-## 4. 生成、验证与提交
+## 4. 生成、测试和提交
 
 ```bash
 npm run build
 npm test
-git add data scripts .agents .codex .pi .opencode curriculum
-git commit -m "content: add workplace weekend duty scenario"
+git add data/categories data/entries data/catalog.json data/cases .agents .codex .pi .opencode curriculum
+git commit -m "content: add new communication scenario"
 ```
 
-网站将读取更新后的 `data/catalog.json`，不需要手动维护固定题目数量。
+每次构建自动发现分类与案例源，更新网页和对应 Skills。若报出 ID、轮次、标签、角色或分类目录错误，先修 JSON 再提交。
 
-## 5. 对新的高质量案例进行人工润色
+## 5. 防止覆盖原有进度与泄露信息
 
-生成器按分类框架产生初稿；如果某案例需要自然、切题的多轮回应，请新建 `data/overrides/<case-id>.json`，写入 `id`、恰好三段 `responses`，可选三段 `steps` 与 `focus`。人工审核每一轮是否回应了对方此刻的反问；不要套用空洞共情。不需要为了修改一题而改全类别的生成模板。运行 `npm run build && npm test`，提交源文件与重生成 JSON。
-
-## 6. 增量训练的稳定性
-
-已完成记录通过案例 ID 而不是数组下标识别，所以**追加不影响旧进度**。如果要重命名或合并旧案例，应建立迁移映射而非直接删除。
+旧题 ID 永远不重命名、不复用；原 270 题的完成记录继续有效。公开前请删去个人识别信息和敏感工作数据。属于未经人工逐轮检查的新稿，要说明仍待精修，不因“构建通过”就宣称通过专业验证。

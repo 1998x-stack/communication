@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-006",
+  "category": "leadership",
+  "title": "委派主持会议",
+  "level": 6,
+  "difficulty": "low",
+  "background": "希望员工独立主持下次例会。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "员工已经熟悉议题但缺少主持经验"
+  ],
+  "objective": "提供提纲并由员工主持十五分钟",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“员工已经熟悉议题但缺少主持经验”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“如果没人回应怎么办？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“你会提供帮助吗？”的再次追问后，争取一个明确落点：“提供提纲并由员工主持十五分钟”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我怕主持不好"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "你对议题已经熟悉，缺的主要是主持经验。下次例会我想请你尝试主持前十五分钟，我们可以一起准备提纲。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "如果没人回应怎么办？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "没人回应时不用硬撑。你可以先抛出具体选择题、点名相关负责人补事实，或暂时记录待确认项，不必让每一分钟都热闹。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "你会提供帮助吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "我会提前和你走一遍开场与收尾，会议中只在需要决策或卡住时支持。结束后我们私下复盘，下一次再逐步增加时长。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "如果没人回应怎么办？",
+    "你会提供帮助吗？"
+  ],
+  "coach": {
+    "focus": "给成员可控的首次挑战和明确的心理安全支持。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "low",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

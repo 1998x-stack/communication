@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-015",
+  "category": "partner",
+  "title": "在朋友面前被取笑",
+  "level": 15,
+  "difficulty": "medium",
+  "background": "伴侣在聚会上讲了让你尴尬的私事。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "该内容此前被明确表示不想公开"
+  ],
+  "objective": "不公开分享对方私密经历",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“该内容此前被明确表示不想公开”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“别人都笑了怎么你不行？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“以后什么话题不合适？”的再次追问后，争取一个明确落点：“不公开分享对方私密经历”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我只是开个玩笑"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "聚会上你分享的那段私事我之前就说过不希望公开。听到大家笑，我感到难堪，不希望以后再被这样介绍。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "别人都笑了怎么你不行？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "别人觉得好笑不代表我同意被公开谈论。我们可以一起开玩笑，但涉及我的经历、家庭和隐私，希望先问我愿不愿意说。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "以后什么话题不合适？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "以后在外人面前不分享彼此明确标记为私密的事；如果不确定就先不讲。今晚我们也可以列一下各自敏感的话题。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "别人都笑了怎么你不行？",
+    "以后什么话题不合适？"
+  ],
+  "coach": {
+    "focus": "把“玩笑”与未经同意的公开披露区分开。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "medium",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

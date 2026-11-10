@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-008",
+  "category": "leadership",
+  "title": "员工提新点子",
+  "level": 8,
+  "difficulty": "low",
+  "background": "年轻员工建议改变老流程。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "建议能减少手工汇总步骤"
+  ],
+  "objective": "安排一周小试点并共同定义指标",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“建议能减少手工汇总步骤”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“领导真的会听吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“可以先试小范围吗？”的再次追问后，争取一个明确落点：“安排一周小试点并共同定义指标”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "会不会冒犯老同事？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "你提的办法可以减少手工汇总，这个观察很有价值。提出改进不等于否定老同事的贡献，我们可以先了解现有流程为什么如此设计。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "领导真的会听吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "我愿意认真听，并请熟悉旧流程的人一起检查风险。不需要你先证明自己比所有人正确，只要有一个可验证的假设。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "可以先试小范围吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "可以先在一个小范围试行一周，记录耗时、错误率和反馈；如果效果好再讨论推广，效果不好也能保留学习结果。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "领导真的会听吗？",
+    "可以先试小范围吗？"
+  ],
+  "coach": {
+    "focus": "保护新人表达，采用小范围、可回退的试验验证建议。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "low",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

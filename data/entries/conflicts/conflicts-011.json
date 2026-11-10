@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "conflicts-011",
+  "category": "conflicts",
+  "title": "反复遭遇嘲讽",
+  "level": 11,
+  "difficulty": "medium",
+  "background": "同事在群里阴阳怪气。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "相关言论已经影响公开讨论氛围"
+  ],
+  "objective": "要求停止针对个人的嘲讽",
+  "method": "Principled Negotiation / BATNA",
+  "pillars": [
+    "控制升级",
+    "寻找真实利益",
+    "建立可执行方案"
+  ],
+  "steps": [
+    {
+      "name": "控制升级",
+      "instruction": "开场先围绕已知事实“相关言论已经影响公开讨论氛围”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "寻找真实利益",
+      "instruction": "听到“怎么就你不高兴？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "建立可执行方案",
+      "instruction": "遭遇“以后要怎么说？”的再次追问后，争取一个明确落点：“要求停止针对个人的嘲讽”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我只是随便开玩笑"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "控制升级",
+      "text": "你可能觉得是在开玩笑，但群里多次针对我的说法已经影响正常讨论。我愿意谈具体工作问题，不接受用嘲讽来代替意见。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "怎么就你不高兴？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "寻找真实利益",
+      "text": "不是只有我高不高兴的问题。群里需要能讨论任务而不攻击个人；如果你认为工作有问题，请直接指出哪一项事实或方案需要改。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "以后要怎么说？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "建立可执行方案",
+      "text": "以后请直接提具体问题，不再用暗讽指向个人。若继续发生，我会保留沟通记录并请会议主持人或负责人按团队规范处理。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "怎么就你不高兴？",
+    "以后要怎么说？"
+  ],
+  "coach": {
+    "focus": "以行为事实、团队规范和正式升级路径回应公开羞辱。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "conflicts",
+    "medium",
+    "Principled Negotiation / BATNA"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

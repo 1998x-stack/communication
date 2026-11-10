@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-013",
+  "category": "partner",
+  "title": "反复迟到影响约会",
+  "level": 13,
+  "difficulty": "medium",
+  "background": "你经常让伴侣在外面等。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "最近三次约会都迟到超过二十分钟"
+  ],
+  "objective": "提前十分钟出发并实时告知延误",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“最近三次约会都迟到超过二十分钟”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“你说的改进上次也没做到”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“这回具体怎么安排？”的再次追问后，争取一个明确落点：“提前十分钟出发并实时告知延误”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "又不是故意的"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "最近三次约会我都迟到超过二十分钟，让你反复等待。这不是一句“不是故意”就能过去的，我要改变准备和出发方式。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你说的改进上次也没做到"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "你说得对，上次答应改却没有做到，所以这次不能再让你凭口头保证相信我。我会从出发时间和途中信息做可检验的调整。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "这回具体怎么安排？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "下次我提前十分钟出发，出门前发预计抵达时间；若交通有变，第一时间通知你，并在不确定能准点时主动建议改集合时间。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你说的改进上次也没做到",
+    "这回具体怎么安排？"
+  ],
+  "coach": {
+    "focus": "用具体、可检查的时间习惯修复反复失约。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "medium",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

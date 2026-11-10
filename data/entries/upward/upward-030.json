@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-030",
+  "category": "upward",
+  "title": "压力下请求决断",
+  "level": 30,
+  "difficulty": "high",
+  "background": "出现影响安全的生产故障但主管迟迟不拍板。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "继续运行可能造成更多用户数据错误"
+  ],
+  "objective": "立即暂停高风险功能并启动应急响应",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“继续运行可能造成更多用户数据错误”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“停服务会损失收入”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“现在到底怎么选？”的再次追问后，争取一个明确落点：“立即暂停高风险功能并启动应急响应”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你怎么还在等我？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "现在不宜继续等，继续运行可能扩大用户数据错误。我建议立即按应急预案暂停高风险功能、保护数据，并通知事故指挥人员。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "停服务会损失收入"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "停服务会带来收入损失，但错误数据继续扩散可能造成更大的客户和恢复成本。我们要优先评估安全与数据完整性，并记录采取措施的依据。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "现在到底怎么选？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "我的选择是先停止高风险路径、启动应急响应和影响评估，同时对客户说明可用范围；需要更高权限时立即升级，不让审批延误紧急止损。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "停服务会损失收入",
+    "现在到底怎么选？"
+  ],
+  "coach": {
+    "focus": "高风险故障下先保护安全与数据，再评估收入与恢复顺序。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "high",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

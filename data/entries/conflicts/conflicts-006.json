@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "conflicts-006",
+  "category": "conflicts",
+  "title": "会议意见相反",
+  "level": 6,
+  "difficulty": "low",
+  "background": "小组讨论时有人打断你的方案。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "两套方案都有未验证的假设"
+  ],
+  "objective": "先比较双方方案的关键约束",
+  "method": "Principled Negotiation / BATNA",
+  "pillars": [
+    "控制升级",
+    "寻找真实利益",
+    "建立可执行方案"
+  ],
+  "steps": [
+    {
+      "name": "控制升级",
+      "instruction": "开场先围绕已知事实“两套方案都有未验证的假设”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "寻找真实利益",
+      "instruction": "听到“你凭什么说可行？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "建立可执行方案",
+      "instruction": "遭遇“能不能先看条件？”的再次追问后，争取一个明确落点：“先比较双方方案的关键约束”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "这根本不现实"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "控制升级",
+      "text": "你觉得方案不现实，我想听具体是资源、时间还是技术条件不满足。我们有两套方案，都存在尚未验证的假设，先别凭印象否定。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你凭什么说可行？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "寻找真实利益",
+      "text": "我不打算要求你相信我。我的判断依据是目前已知的约束，但某些前提仍待验证。我们可以分别列出最关键的假设和失败后果。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "能不能先看条件？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "建立可执行方案",
+      "text": "先做一个条件表，比较成本、时间、风险和验证方式；缺证据的部分安排小测试，再由团队按共同标准选择。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你凭什么说可行？",
+    "能不能先看条件？"
+  ],
+  "coach": {
+    "focus": "从人身否定回到假设验证和统一的决策条件。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "conflicts",
+    "low",
+    "Principled Negotiation / BATNA"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-006",
+  "category": "partner",
+  "title": "回复消息太慢",
+  "level": 6,
+  "difficulty": "low",
+  "background": "伴侣对你工作时不回消息不满。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "工作会议中无法看手机"
+  ],
+  "objective": "约定工作期间的回复时段和紧急电话",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“工作会议中无法看手机”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“几十秒都抽不出来吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“怎样让我不担心？”的再次追问后，争取一个明确落点：“约定工作期间的回复时段和紧急电话”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你为什么总不回复？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "会议期间我没法看手机，没及时回复让你担心了。我愿意一起想更稳定的联系办法，不希望你一直猜我是不是出了事。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "几十秒都抽不出来吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "几秒发消息有时能做到，但开会时不一定方便；我不能承诺任何时刻秒回。重要的是让你知道通常什么时候能找到我。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎样让我不担心？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "我们约好工作日午休和下班前看消息；真正紧急的事直接打电话或走预先约定的联系渠道，结束会议我会尽快回应。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "几十秒都抽不出来吗？",
+    "怎样让我不担心？"
+  ],
+  "coach": {
+    "focus": "说明客观限制并设计紧急与非紧急两套联系预期。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "low",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

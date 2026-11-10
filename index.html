@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="theme-color" content="#132a32" />
-  <meta name="description" content="言习 · 每日15分钟，练习职场、家庭、社交与冲突中的真实多轮对话。270个循序渐进案例，隐藏答案、随机抽题、口才复盘。" />
+  <meta name="description" content="言习 · 每日15分钟，练习职场、家庭、社交与冲突中的真实多轮对话。持续扩展的循序渐进案例，隐藏答案、随机抽题、口才复盘。" />
   <meta property="og:title" content="言习｜每天练一点，说得更从容" />
-  <meta property="og:description" content="9类场景 · 270个案例 · 3轮反问 · 每日口才训练" />
+  <meta property="og:description" content="可扩展场景 · 独立案例元数据 · 自由轮次 · 每日口才训练" />
   <title>言习 · Communication Lab｜晨间表达练习</title>
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./assets/styles.css" />
@@ -17,7 +17,7 @@
     <aside class="sidebar" id="sidebar">
       <a class="brand" href="./" aria-label="言习首页"><span class="brand-mark">言</span><span class="brand-names"><strong>言习</strong><small>COMMUNICATION LAB</small></span></a>
       <div class="sidebar-intro">一句话改变表达方式，<br/>一点点积累从容的底气。</div>
-      <div class="nav-caption">练习场景 <span id="navCount">09</span></div>
+      <div class="nav-caption">练习场景 <span id="navCount">—</span></div>
       <nav id="categoryNav" aria-label="场景导航"><div class="skeleton">正在加载训练场景…</div></nav>
       <div class="sidebar-bottom">
         <div class="quote-mark">“</div>
@@ -44,12 +44,13 @@
         <section class="metrics" aria-label="练习统计">
           <div class="metric"><span class="metric-symbol">◉</span><div><span class="metric-label">累计完成</span><strong id="completedCount">0 <small>题</small></strong></div><span class="metric-hint">Practice makes progress</span></div>
           <div class="metric"><span class="metric-symbol symbol-green">↗</span><div><span class="metric-label">连续练习</span><strong id="streakCount">0 <small>天</small></strong></div><span class="metric-hint">One day at a time</span></div>
-          <div class="metric"><span class="metric-symbol symbol-gold">✦</span><div><span class="metric-label">今日已练</span><strong id="todayCount">0 <small>题</small></strong></div><span class="metric-hint" id="totalCount">270 个训练案例</span></div>
+          <div class="metric"><span class="metric-symbol symbol-gold">✦</span><div><span class="metric-label">今日已练</span><strong id="todayCount">0 <small>题</small></strong></div><span class="metric-hint" id="totalCount">训练案例加载中</span></div>
         </section>
         <section class="section-heading"><div><span class="overline">YOUR DAILY PRACTICE</span><h2>今日训练台 <span class="heading-stroke">✧</span></h2></div><p>先说自己的话，再看参考答案。</p></section>
         <section class="controls" aria-label="训练选项">
           <div class="control-group"><label for="categorySelect">训练场景</label><select id="categorySelect"><option value="all">全部场景</option></select></div>
-          <div class="control-group"><label for="difficultySelect">挑战难度</label><select id="difficultySelect"><option value="all">全部难度</option><option value="low">基础 · 1—10</option><option value="medium">进阶 · 11—20</option><option value="high">高压 · 21—30</option></select></div>
+          <div class="control-group"><label for="difficultySelect">挑战难度</label><select id="difficultySelect"><option value="all">全部难度</option><option value="low">基础</option><option value="medium">进阶</option><option value="high">高压</option></select></div>
+          <div class="control-group"><label for="tagSelect">练习标签</label><select id="tagSelect"><option value="all">全部标签</option></select></div>
           <div class="control-group"><label for="orderSelect">出题方式</label><select id="orderSelect"><option value="sequential">顺序模式</option><option value="random">随机模式</option></select></div>
           <div class="control-group"><label for="visibilitySelect">答案展示</label><select id="visibilitySelect"><option value="hidden">隐藏参考答案</option><option value="expanded">全部展开</option></select></div>
           <div class="search-group"><label for="searchInput">检索案例</label><input id="searchInput" type="search" placeholder="搜索具体情境…" autocomplete="off" /></div>

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-024",
+  "category": "partner",
+  "title": "伴侣强烈嫉妒同事",
+  "level": 24,
+  "difficulty": "high",
+  "background": "对方要求你辞掉与某同事合作的岗位。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "双方没有证据表明存在越界行为"
+  ],
+  "objective": "说明工作联系边界并拒绝被迫辞职",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“双方没有证据表明存在越界行为”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“你不辞就是不在乎我”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“可以有哪些透明而不控制的安排？”的再次追问后，争取一个明确落点：“说明工作联系边界并拒绝被迫辞职”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你们天天联系让我无法接受"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "你看到我和同事频繁联系会不舒服，我愿意听你具体担心什么，也愿意说明这些工作沟通的范围。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你不辞就是不在乎我"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "我重视你的感受，但以“不辞职就是不爱”要求我放弃岗位是不公平的。当前没有越界证据，辞职不能成为解决焦虑的唯一条件。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "可以有哪些透明而不控制的安排？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "我们可以约定非工作时间沟通边界和必要的日程说明，也欢迎直接讨论令人不安的情境；但不互查私人账号、不限制正常职业选择。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你不辞就是不在乎我",
+    "可以有哪些透明而不控制的安排？"
+  ],
+  "coach": {
+    "focus": "回应嫉妒情绪但拒绝以控制就业换取关系安全。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "high",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

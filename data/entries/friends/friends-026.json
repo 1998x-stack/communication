@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-026",
+  "category": "friends",
+  "title": "被朋友圈排挤",
+  "level": 26,
+  "difficulty": "high",
+  "background": "多人聚会持续不邀请你却在你面前谈论。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "类似排除已连续发生多次"
+  ],
+  "objective": "表达受伤感并决定是否继续投入关系",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“类似排除已连续发生多次”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“你是不是想太多？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“以后还能坦诚沟通吗？”的再次追问后，争取一个明确落点：“表达受伤感并决定是否继续投入关系”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我们只是临时约的"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "我看到类似聚会连续几次没有邀请我，却又在我面前反复提起，确实有被排除的感觉。我想听听你们是否有不同的相处期待。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你是不是想太多？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "可能有些活动确实临时决定，但多次发生让我在意。说出感受不等于要求每次必须叫上我，而是想看关系是否还有坦诚沟通的空间。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "以后还能坦诚沟通吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "如果大家只是社交频率不同，我会调整期待；如果长期刻意排除，我可能会减少投入，把时间留给彼此都愿意维系的关系。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你是不是想太多？",
+    "以后还能坦诚沟通吗？"
+  ],
+  "coach": {
+    "focus": "表达被排除感但不索求强制邀请，允许调整关系投入。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "high",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

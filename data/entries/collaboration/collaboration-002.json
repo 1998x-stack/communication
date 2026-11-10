@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "collaboration-002",
+  "category": "collaboration",
+  "title": "会议后确认分工",
+  "level": 2,
+  "difficulty": "low",
+  "background": "开会大家都表示同意方案。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "会上决定了三项工作但无人明确负责"
+  ],
+  "objective": "在共享清单上标明每项负责人和截止日期",
+  "method": "Closed-loop / RACI",
+  "pillars": [
+    "目标一致",
+    "责任清晰",
+    "执行闭环"
+  ],
+  "steps": [
+    {
+      "name": "目标一致",
+      "instruction": "开场先围绕已知事实“会上决定了三项工作但无人明确负责”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "责任清晰",
+      "instruction": "听到“为什么还要写负责人？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "执行闭环",
+      "instruction": "遭遇“下次会议什么时候？”的再次追问后，争取一个明确落点：“在共享清单上标明每项负责人和截止日期”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "不是已经讨论完了吗？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "目标一致",
+      "text": "我们讨论的方向已经一致，但会上确定的三项工作还没有负责人。如果现在散会，可能没人知道下一步由谁推动。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "为什么还要写负责人？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "责任清晰",
+      "text": "写负责人不是不信任大家，而是避免两个人都以为对方会做。我建议每项只有一个主负责人，协作人也可以写出来。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "下次会议什么时候？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "执行闭环",
+      "text": "会后我发共享清单，请每项负责人今天认领并补截止时间；下次会议只检查阻塞和完成状态，不重新讨论已定方案。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "为什么还要写负责人？",
+    "下次会议什么时候？"
+  ],
+  "coach": {
+    "focus": "把口头共识转为有人负责、有人验收的行动项。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+  "tags": [
+    "collaboration",
+    "low",
+    "Closed-loop / RACI"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

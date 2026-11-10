@@ -1,6 +1,6 @@
 [
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-001",
     "category": "parents",
     "title": "父母催你穿秋裤",
@@ -115,10 +115,11 @@
       "low",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-002",
     "category": "parents",
     "title": "长辈重复询问工作",
@@ -233,10 +234,11 @@
       "low",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-003",
     "category": "parents",
     "title": "周末回家安排",
@@ -351,10 +353,11 @@
       "low",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-004",
     "category": "parents",
     "title": "长辈推荐偏方",
@@ -469,10 +472,11 @@
       "low",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-005",
     "category": "parents",
     "title": "催你参加相亲",
@@ -587,10 +591,11 @@
       "low",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-006",
     "category": "parents",
     "title": "父母希望你换工作",
@@ -705,10 +710,11 @@
       "low",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-007",
     "category": "parents",
     "title": "与父母商量旅行",
@@ -823,10 +829,11 @@
       "low",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-008",
     "category": "parents",
     "title": "长辈当众评价外貌",
@@ -941,10 +948,11 @@
       "low",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-009",
     "category": "parents",
     "title": "父母代为收快递",
@@ -1059,10 +1067,11 @@
       "low",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-010",
     "category": "parents",
     "title": "家庭聚会分工",
@@ -1177,10 +1186,11 @@
       "low",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-011",
     "category": "parents",
     "title": "父母频繁打电话",
@@ -1295,10 +1305,11 @@
       "medium",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-012",
     "category": "parents",
     "title": "长辈要求共享定位",
@@ -1413,10 +1424,11 @@
       "medium",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-013",
     "category": "parents",
     "title": "父母否定你的伴侣",
@@ -1531,10 +1543,11 @@
       "medium",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-014",
     "category": "parents",
     "title": "亲戚打听生育计划",
@@ -1649,10 +1662,11 @@
       "medium",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-015",
     "category": "parents",
     "title": "父母想替你投资",
@@ -1767,10 +1781,11 @@
       "medium",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-016",
     "category": "parents",
     "title": "与兄弟姐妹照护分工",
@@ -1885,10 +1900,11 @@
       "medium",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-017",
     "category": "parents",
     "title": "父母频繁插手装修",
@@ -2003,10 +2019,11 @@
       "medium",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-018",
     "category": "parents",
     "title": "面对长辈旧观念",
@@ -2121,10 +2138,11 @@
       "medium",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-019",
     "category": "parents",
     "title": "父母要求替亲戚担保",
@@ -2239,10 +2257,11 @@
       "medium",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-020",
     "category": "parents",
     "title": "长辈擅自替你答应婚宴",
@@ -2357,10 +2376,11 @@
       "medium",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-021",
     "category": "parents",
     "title": "父母要求买房出资",
@@ -2475,10 +2495,11 @@
       "high",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-022",
     "category": "parents",
     "title": "照护方式存在重大分歧",
@@ -2593,10 +2614,11 @@
       "high",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-023",
     "category": "parents",
     "title": "长辈不断贬低你的职业",
@@ -2711,10 +2733,11 @@
       "high",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-024",
     "category": "parents",
     "title": "亲属争执养老费用",
@@ -2829,10 +2852,11 @@
       "high",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-025",
     "category": "parents",
     "title": "父母干预育儿方式",
@@ -2947,10 +2971,11 @@
       "high",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-026",
     "category": "parents",
     "title": "被要求隐瞒家族债务",
@@ -3065,10 +3090,11 @@
       "high",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-027",
     "category": "parents",
     "title": "父母要求放弃外地机会",
@@ -3183,10 +3209,11 @@
       "high",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-028",
     "category": "parents",
     "title": "家族冲突公开站队",
@@ -3301,10 +3328,11 @@
       "high",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-029",
     "category": "parents",
     "title": "长辈要求出售共有财产",
@@ -3419,10 +3447,11 @@
       "high",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "parents-030",
     "category": "parents",
     "title": "面对持续控制与威胁",
@@ -3537,6 +3566,7 @@
       "high",
       "认可关切 / 坚定边界"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   }
 ]

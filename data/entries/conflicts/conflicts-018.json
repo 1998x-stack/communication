@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "conflicts-018",
+  "category": "conflicts",
+  "title": "客户要求不合理赔偿",
+  "level": 18,
+  "difficulty": "medium",
+  "background": "客户因一般体验问题要求十倍退款。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "问题造成使用不便但未发生数据损失"
+  ],
+  "objective": "核对损失事实和双方约定",
+  "method": "Principled Negotiation / BATNA",
+  "pillars": [
+    "控制升级",
+    "寻找真实利益",
+    "建立可执行方案"
+  ],
+  "steps": [
+    {
+      "name": "控制升级",
+      "instruction": "开场先围绕已知事实“问题造成使用不便但未发生数据损失”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "寻找真实利益",
+      "instruction": "听到“不然就投诉到底”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "建立可执行方案",
+      "instruction": "遭遇“依据是什么？”的再次追问后，争取一个明确落点：“核对损失事实和双方约定”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我现在就要全部退"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "控制升级",
+      "text": "您因为使用不便要求赔偿，我愿意核对具体影响；但十倍退款需要有合同或实际损失依据，不能在压力下直接承诺。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "不然就投诉到底"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "寻找真实利益",
+      "text": "您有投诉和申诉的权利，我们会如实记录并处理。我希望先确认问题持续时间、约定的服务标准和真实损失，而不是只争金额。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "依据是什么？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "建立可执行方案",
+      "text": "我们按合同和适用规则核对可退费用、合理补救和证据；如果无法一致，可通过正式投诉或争议渠道解决，不阻止您的正当维权。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "不然就投诉到底",
+    "依据是什么？"
+  ],
+  "coach": {
+    "focus": "把高额索赔拉回可证明损失和适用约定。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "conflicts",
+    "medium",
+    "Principled Negotiation / BATNA"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

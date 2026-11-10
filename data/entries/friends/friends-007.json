@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-007",
+  "category": "friends",
+  "title": "聊天被频繁打断",
+  "level": 7,
+  "difficulty": "low",
+  "background": "你在分享近况时对方一直看手机。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "你正在说一件对自己很重要的事"
+  ],
+  "objective": "请对方暂时放下手机认真交流",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“你正在说一件对自己很重要的事”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“你别这么认真行不行？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“那你想怎么聊？”的再次追问后，争取一个明确落点：“请对方暂时放下手机认真交流”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我有在听啊"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "我刚才说的事情对我很重要。你一边看手机，我会担心自己没有被认真听到。现在方便专心聊几分钟吗？",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你别这么认真行不行？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "不是要你全程很正式。只是我说到关键部分时想确认你听得进去；如果你现在有急事，我们也可以换个更合适的时间。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "那你想怎么聊？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "我希望先放下手机聊十分钟，你也可以告诉我你的看法；如果今天不方便，我们改天找个都能投入的时间。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你别这么认真行不行？",
+    "那你想怎么聊？"
+  ],
+  "coach": {
+    "focus": "提出被忽视的具体感受，同时给对方真正的选择。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "low",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

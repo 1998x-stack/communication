@@ -1,6 +1,6 @@
 [
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-001",
     "category": "leadership",
     "title": "安排新员工任务",
@@ -115,10 +115,11 @@
       "low",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-002",
     "category": "leadership",
     "title": "表扬一次主动协助",
@@ -233,10 +234,11 @@
       "low",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-003",
     "category": "leadership",
     "title": "纠正会议迟到",
@@ -351,10 +353,11 @@
       "low",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-004",
     "category": "leadership",
     "title": "询问任务阻塞",
@@ -469,10 +472,11 @@
       "low",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-005",
     "category": "leadership",
     "title": "反馈文件错误",
@@ -587,10 +591,11 @@
       "low",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-006",
     "category": "leadership",
     "title": "委派主持会议",
@@ -705,10 +710,11 @@
       "low",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-007",
     "category": "leadership",
     "title": "协调工作量",
@@ -823,10 +829,11 @@
       "low",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-008",
     "category": "leadership",
     "title": "员工提新点子",
@@ -941,10 +948,11 @@
       "low",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-009",
     "category": "leadership",
     "title": "考核前对齐",
@@ -1059,10 +1067,11 @@
       "low",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-010",
     "category": "leadership",
     "title": "引导员工复盘",
@@ -1177,10 +1186,11 @@
       "low",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-011",
     "category": "leadership",
     "title": "员工总是寻求批准",
@@ -1295,10 +1305,11 @@
       "medium",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-012",
     "category": "leadership",
     "title": "优秀员工职业发展",
@@ -1413,10 +1424,11 @@
       "medium",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-013",
     "category": "leadership",
     "title": "员工交付质量波动",
@@ -1531,10 +1543,11 @@
       "medium",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-014",
     "category": "leadership",
     "title": "拒绝成员不合理加薪预期",
@@ -1649,10 +1662,11 @@
       "medium",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-015",
     "category": "leadership",
     "title": "处理迟交任务",
@@ -1767,10 +1781,11 @@
       "medium",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-016",
     "category": "leadership",
     "title": "员工反馈管理方式",
@@ -1885,10 +1900,11 @@
       "medium",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-017",
     "category": "leadership",
     "title": "成员之间发生争执",
@@ -2003,10 +2019,11 @@
       "medium",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-018",
     "category": "leadership",
     "title": "远程员工存在感低",
@@ -2121,10 +2138,11 @@
       "medium",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-019",
     "category": "leadership",
     "title": "员工想跨组转岗",
@@ -2239,10 +2257,11 @@
       "medium",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-020",
     "category": "leadership",
     "title": "团队士气低落",
@@ -2357,10 +2376,11 @@
       "medium",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-021",
     "category": "leadership",
     "title": "员工出现合规失误",
@@ -2475,10 +2495,11 @@
       "high",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-022",
     "category": "leadership",
     "title": "下属质疑晋升公平",
@@ -2593,10 +2614,11 @@
       "high",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-023",
     "category": "leadership",
     "title": "团队成员公开顶撞",
@@ -2711,10 +2733,11 @@
       "high",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-024",
     "category": "leadership",
     "title": "员工持续低绩效",
@@ -2829,10 +2852,11 @@
       "high",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-025",
     "category": "leadership",
     "title": "高压时期防止过劳",
@@ -2947,10 +2971,11 @@
       "high",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-026",
     "category": "leadership",
     "title": "员工举报同事不当行为",
@@ -3065,10 +3090,11 @@
       "high",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-027",
     "category": "leadership",
     "title": "拒绝伪造绩效记录",
@@ -3183,10 +3209,11 @@
       "high",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-028",
     "category": "leadership",
     "title": "关键骨干提出离职",
@@ -3301,10 +3328,11 @@
       "high",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-029",
     "category": "leadership",
     "title": "组织裁撤消息未定",
@@ -3419,10 +3447,11 @@
       "high",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "leadership-030",
     "category": "leadership",
     "title": "遭遇员工安全危机",
@@ -3537,6 +3566,7 @@
       "high",
       "SBI / 双向反馈"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   }
 ]

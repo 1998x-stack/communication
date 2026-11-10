@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-027",
+  "category": "leadership",
+  "title": "拒绝伪造绩效记录",
+  "level": 27,
+  "difficulty": "high",
+  "background": "上级要求你为团队美化考核记录。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "记录与实际考核数据不一致"
+  ],
+  "objective": "按真实记录评估并提出独立说明",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“记录与实际考核数据不一致”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“你不替大家考虑吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“你有什么更好的办法？”的再次追问后，争取一个明确落点：“按真实记录评估并提出独立说明”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "不这样团队奖金就没了"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "奖金压力我理解，但绩效记录与实际数据不一致，我不能签字确认虚构结果。我们可以真实说明团队面临的障碍，不能改写事实。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你不替大家考虑吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "替大家考虑也包括避免虚假记录伤害他们的长期信誉。我的职责是用可核实的标准评价，并把资源和政策问题向上提出。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "你有什么更好的办法？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "我建议提交真实考核结果，另附项目环境、资源不足及改进建议；如果持续被要求篡改，我会保留记录并寻求合规渠道指导。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你不替大家考虑吗？",
+    "你有什么更好的办法？"
+  ],
+  "coach": {
+    "focus": "不以团队利益之名伪造个人考核，提出正当说明方式。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "high",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

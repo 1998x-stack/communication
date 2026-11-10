@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-006",
+  "category": "upward",
+  "title": "请求优先级调整",
+  "level": 6,
+  "difficulty": "low",
+  "background": "本周同时收到两个紧急任务。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "现有人力只能保证一项按期交付"
+  ],
+  "objective": "先做合规修复，营销页面顺延两天",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“现有人力只能保证一项按期交付”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“哪个不做会出问题？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“需要我定哪项优先？”的再次追问后，争取一个明确落点：“先做合规修复，营销页面顺延两天”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "两个任务能一起完成吗？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "按当前人力，两项紧急任务不能都保证按时完成。我建议先保合规修复，再将营销页面顺延两天，请您确认这个排序。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "哪个不做会出问题？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "合规问题若不做，可能形成持续的规则风险；营销页面顺延则主要影响活动排期。我会把具体影响和可缓解措施写清供您权衡。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "需要我定哪项优先？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "需要您拍板是否优先合规修复，以及由谁通知营销方。若希望两项同日完成，还需要额外资源，我不能在原人力下承诺。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "哪个不做会出问题？",
+    "需要我定哪项优先？"
+  ],
+  "coach": {
+    "focus": "说明不可兼得的事实，把优先级决定交给有权限者。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "low",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

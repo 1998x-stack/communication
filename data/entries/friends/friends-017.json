@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-017",
+  "category": "friends",
+  "title": "冷落朋友后修复",
+  "level": 17,
+  "difficulty": "medium",
+  "background": "你几次忽略朋友邀约。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "你之前确实多次没有及时回复"
+  ],
+  "objective": "承认失联并主动安排有质量的见面",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“你之前确实多次没有及时回复”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“上次你连解释都没有”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“怎么让我相信你在乎？”的再次追问后，争取一个明确落点：“承认失联并主动安排有质量的见面”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你现在终于想起我了？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "你说“终于想起我了”，我明白你为什么生气。我之前几次没有及时回复邀约，让你觉得不被重视，这一点是我的问题。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "上次你连解释都没有"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "上次连解释也没有，我不能指望你现在听一句“最近忙”就当没发生。你愿意的话，我想先听这段时间你最介意什么。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎么让我相信你在乎？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "我想主动约一次不赶时间的见面，并在以后不方便时明确回复，而不是消失。你现在不想见也可以，我尊重你的节奏。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "上次你连解释都没有",
+    "怎么让我相信你在乎？"
+  ],
+  "coach": {
+    "focus": "修复失联从具体认错和持续回应做起，不急着索取原谅。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "medium",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

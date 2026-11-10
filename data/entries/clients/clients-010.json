@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-010",
+  "category": "clients",
+  "title": "跟进迟迟未回复的客户",
+  "level": 10,
+  "difficulty": "low",
+  "background": "提交方案后两周没有回音。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "对方没有承诺明确评审时间"
+  ],
+  "objective": "询问决策时间与最适合的跟进方式",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“对方没有承诺明确评审时间”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“你催得有点频繁了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“什么时候再联系方便？”的再次追问后，争取一个明确落点：“询问决策时间与最适合的跟进方式”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "最近太忙没来得及看"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "理解您最近忙。我们两周前提交方案，目前还没有约定明确评审时间，我想确认是否仍在考虑范围内。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你催得有点频繁了"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "抱歉让您感觉催得频繁。我不希望电话打乱您工作；可以改成一次简短邮件，您方便时再回复是否需要补材料。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "什么时候再联系方便？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "您觉得什么时候跟进比较合适？如果还没有内部评审计划，也可以直说，我按您指定的窗口联系，不反复每天催问。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你催得有点频繁了",
+    "什么时候再联系方便？"
+  ],
+  "coach": {
+    "focus": "尊重采购节奏，用客户选择的沟通频率取代无效追单。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "low",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

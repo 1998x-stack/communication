@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "parents-015",
+  "category": "parents",
+  "title": "父母想替你投资",
+  "level": 15,
+  "difficulty": "medium",
+  "background": "长辈推荐高收益理财产品。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "收益说法远高于正常水平且缺少披露"
+  ],
+  "objective": "独立核验风险并不承诺投资",
+  "method": "认可关切 / 坚定边界",
+  "pillars": [
+    "尊重关切",
+    "保持边界",
+    "协商安排"
+  ],
+  "steps": [
+    {
+      "name": "尊重关切",
+      "instruction": "开场先围绕已知事实“收益说法远高于正常水平且缺少披露”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "保持边界",
+      "instruction": "听到“你是不是不信任我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "协商安排",
+      "instruction": "遭遇“至少先了解一下吧？”的再次追问后，争取一个明确落点：“独立核验风险并不承诺投资”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "这么好的机会别错过"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "尊重关切",
+      "text": "您想帮我抓机会，我领情。但这个收益说法明显偏高，又缺风险披露，我不会现在就投钱。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你是不是不信任我？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "保持边界",
+      "text": "这不是不信任您这个人，而是投资产品必须独立核验。越是号称高收益、低风险，越需要看监管信息、合同和真实风险。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "至少先了解一下吧？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "协商安排",
+      "text": "资料可以先留给我，我会通过正规渠道核查，不做现场转账、签字或担保；核查不清就放弃这次机会。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你是不是不信任我？",
+    "至少先了解一下吧？"
+  ],
+  "coach": {
+    "focus": "把亲情信任与投资尽调区分开，坚持不被当场催促。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.nia.nih.gov/health/advance-care-planning",
+  "tags": [
+    "parents",
+    "medium",
+    "认可关切 / 坚定边界"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

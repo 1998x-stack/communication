@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-019",
+  "category": "friends",
+  "title": "朋友借钱金额较大",
+  "level": 19,
+  "difficulty": "medium",
+  "background": "朋友希望借一笔你承担不起的钱。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "借款金额影响你的紧急储蓄"
+  ],
+  "objective": "明确不借大额款并提供非资金支持",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“借款金额影响你的紧急储蓄”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“你不借就是不信我”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“有没有其他解决办法？”的再次追问后，争取一个明确落点：“明确不借大额款并提供非资金支持”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我真的没有别人能找了"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "我知道你现在很困难，也愿意认真听。但这笔金额会动到我的紧急储蓄，我不能借出这么多钱。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你不借就是不信我"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "不借不是在评价你是否可信，而是我承受不起还款不确定性。即使是非常好的朋友，我也不能拿基本生活安全去担保。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "有没有其他解决办法？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "我可以陪你梳理还款安排、了解正规援助或帮忙找可靠信息；这笔大额借款我不会答应，也不希望用友情作为压力。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你不借就是不信我",
+    "有没有其他解决办法？"
+  ],
+  "coach": {
+    "focus": "明确财务底线，提供可承担的非金钱支持。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "medium",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-028",
+  "category": "clients",
+  "title": "不可实现的交付承诺",
+  "level": 28,
+  "difficulty": "high",
+  "background": "销售之前承诺了不存在的功能。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "书面范围不包含承诺中的功能"
+  ],
+  "objective": "核对合同并提出真实可执行的补救选择",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“书面范围不包含承诺中的功能”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“合同你们自己签的”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“现在谁承担损失？”的再次追问后，争取一个明确落点：“核对合同并提出真实可执行的补救选择”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你们销售明明答应了"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "销售当时的表述和现有书面范围不一致，这给您造成了合理期待。我们先共同核对合同、会议记录和实际功能状态，不把责任推给您。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "合同你们自己签的"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "合同义务需要认真处理。如果书面约定没有包含该功能，也不能简单说“销售说错了就算了”；我们需要评估承诺造成的实际影响及合适的救济。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "现在谁承担损失？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "建议由商务、技术和必要时法务一起提出真实选项：可开发范围与时间、阶段替代或依合同协商其他补救。任何方案都写清责任与验收，不再口头过度承诺。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "合同你们自己签的",
+    "现在谁承担损失？"
+  ],
+  "coach": {
+    "focus": "承认承诺矛盾并依法核对履约责任，提出可执行补救。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "high",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "children-003",
+  "category": "children",
+  "title": "作业遇到困难",
+  "level": 3,
+  "difficulty": "low",
+  "background": "孩子不会做数学题想放弃。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "孩子卡在分数应用题"
+  ],
+  "objective": "先一起拆解一道题再独立尝试",
+  "method": "反映式倾听 / 共同解决问题",
+  "pillars": [
+    "倾听接纳",
+    "清晰规则",
+    "培养自主"
+  ],
+  "steps": [
+    {
+      "name": "倾听接纳",
+      "instruction": "开场先围绕已知事实“孩子卡在分数应用题”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "清晰规则",
+      "instruction": "听到“你是不是觉得我笨？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "培养自主",
+      "instruction": "遭遇“你能陪我看第一题吗？”的再次追问后，争取一个明确落点：“先一起拆解一道题再独立尝试”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我就是学不会"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "倾听接纳",
+      "text": "这道分数应用题确实有点绕，一下没想出来不等于学不会。我们先找题目问的是什么，不急着做完。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你是不是觉得我笨？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "清晰规则",
+      "text": "我没有觉得你笨。遇到难题只说明这部分还需要练习；我们可以把已知条件和要求求的量分开写。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "你能陪我看第一题吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "培养自主",
+      "text": "好，我陪你看第一题，先一起找关键条件，再请你试着说出第一步。下一题你自己尝试，有困难再叫我。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你是不是觉得我笨？",
+    "你能陪我看第一题吗？"
+  ],
+  "coach": {
+    "focus": "把学习困难具体到分数题的步骤，提供支持而非贴能力标签。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+  "tags": [
+    "children",
+    "low",
+    "反映式倾听 / 共同解决问题"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

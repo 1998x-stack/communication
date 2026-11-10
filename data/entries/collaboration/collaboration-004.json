@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "collaboration-004",
+  "category": "collaboration",
+  "title": "对齐交付格式",
+  "level": 4,
+  "difficulty": "low",
+  "background": "文案和设计输出尺寸不一致。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "群聊里存在两个版本的规格说明"
+  ],
+  "objective": "以最终需求单为准并冻结版式标准",
+  "method": "Closed-loop / RACI",
+  "pillars": [
+    "目标一致",
+    "责任清晰",
+    "执行闭环"
+  ],
+  "steps": [
+    {
+      "name": "目标一致",
+      "instruction": "开场先围绕已知事实“群聊里存在两个版本的规格说明”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "责任清晰",
+      "instruction": "听到“我理解的是另一套尺寸”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "执行闭环",
+      "instruction": "遭遇“下次用什么版本？”的再次追问后，争取一个明确落点：“以最终需求单为准并冻结版式标准”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你为什么没按我说的做？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "目标一致",
+      "text": "现在群里有两个尺寸版本，我不该仅凭聊天记忆要求你按某一个做。先一起找最终需求单，确定哪版生效。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "我理解的是另一套尺寸"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "责任清晰",
+      "text": "你看到的确实可能是另一套说明。我们先比对两个版本的发布时间和确认人，而不是争谁记错了。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "下次用什么版本？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "执行闭环",
+      "text": "确认后请产品在需求单上标明版本号，文案和设计都按它输出；后续改尺寸必须同步更新版本并通知两边。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "我理解的是另一套尺寸",
+    "下次用什么版本？"
+  ],
+  "coach": {
+    "focus": "用单一版本来源消除认知冲突，而不是互相指责。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+  "tags": [
+    "collaboration",
+    "low",
+    "Closed-loop / RACI"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

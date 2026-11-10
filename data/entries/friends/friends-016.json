@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-016",
+  "category": "friends",
+  "title": "朋友情绪索取",
+  "level": 16,
+  "difficulty": "medium",
+  "background": "朋友每天深夜打电话倾诉。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "你长期睡眠受影响"
+  ],
+  "objective": "提供有限倾听时间并鼓励其他支持渠道",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“你长期睡眠受影响”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“你怎么也不愿意听？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“我还能找谁聊？”的再次追问后，争取一个明确落点：“提供有限倾听时间并鼓励其他支持渠道”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我现在只能找你"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "我知道你最近难受，也愿意听你说。但你每天深夜打电话已经影响我的睡眠，我没法长期以这种方式支持你。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你怎么也不愿意听？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "我不是不愿意听，而是我也需要休息。今晚我可以陪你聊一小会儿，之后我们约一个双方清醒的时间再谈重要的事。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "我还能找谁聊？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "除了我，你也可以找其他可信朋友、家人或合适的支持渠道；如果你现在有立即安全风险，我们要优先联系现实紧急帮助，而不是仅靠我一人深夜接电话。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你怎么也不愿意听？",
+    "我还能找谁聊？"
+  ],
+  "coach": {
+    "focus": "在关心朋友的同时维护睡眠和合理支持网络。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "medium",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

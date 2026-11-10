@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-005",
+  "category": "upward",
+  "title": "汇报客户表扬",
+  "level": 5,
+  "difficulty": "low",
+  "background": "用户正面评价刚上线的功能。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "五位受访用户中四位认可新流程"
+  ],
+  "objective": "把用户访谈结果纳入下周复盘",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“五位受访用户中四位认可新流程”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“这是不是个别客户的评价？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“怎样把经验复制给团队？”的再次追问后，争取一个明确落点：“把用户访谈结果纳入下周复盘”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "有什么值得在会上说的？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "有个值得分享的信号：五位受访用户中四位认可新流程。它提示我们可能做对了某些设计，但样本还小。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "这是不是个别客户的评价？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "确实只是五位受访者，不能推断全部用户都满意。我会把他们具体认可的环节和不满意见一起呈现，不把表扬说成普遍结论。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎样把经验复制给团队？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "建议下周复盘把访谈做成案例卡：场景、关键动作、用户原话摘要和待验证假设，再安排其他用户验证是否可复制。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "这是不是个别客户的评价？",
+    "怎样把经验复制给团队？"
+  ],
+  "coach": {
+    "focus": "汇报成绩但不夸大样本代表性，沉淀可检验的经验。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "low",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership",
+  "name": "管理下属",
+  "icon": "user-check",
+  "description": "兼顾任务期望、敢说真话的氛围与具体反馈。",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "method": "SBI / 双向反馈",
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "guide": {
+    "goal": "在不羞辱下属的前提下让期望、支持与可改进行为都清楚。",
+    "sequence": [
+      "描述具体场景、行为和影响（SBI），不要上升到人格。",
+      "邀请下属解释原因、表达不同意见，确认心理安全与资源约束。",
+      "协商明确的行为改进、支持责任、检查点和复盘时间。"
+    ],
+    "pushback": [
+      "“你是不是不认可我”：区分工作反馈与人格评价。",
+      "“你没给足资源”：检查管理方责任并提出支持。",
+      "“不敢说真话”：先承认权力差，明确不会因报告风险而惩罚。"
+    ],
+    "redFlags": "涉嫌欺凌、歧视、骚扰或自伤风险时，应通过适当保护渠道处理，不能只靠一段漂亮话术。"
+  },
+  "order": 3
+}

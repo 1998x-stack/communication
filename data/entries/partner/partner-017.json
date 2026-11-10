@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-017",
+  "category": "partner",
+  "title": "为旧矛盾反复争执",
+  "level": 17,
+  "difficulty": "medium",
+  "background": "同一件往事每次吵架都重提。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "旧矛盾从未被双方明确讨论和修复"
+  ],
+  "objective": "聚焦当前行为并单独约时间处理旧事",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“旧矛盾从未被双方明确讨论和修复”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“现在难道不一样吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“如何避免下次又绕回来？”的再次追问后，争取一个明确落点：“聚焦当前行为并单独约时间处理旧事”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你上次就是这样"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "你提到上次的事，说明它可能还没有真正解决。我想先把今天发生了什么说清楚，同时承认旧矛盾还需要认真面对。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "现在难道不一样吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "确实有相似的部分，我们可以比较具体行为，不能简单说“你总是这样”。过去那次的伤害如果没修复，我也愿意听你还在意什么。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "如何避免下次又绕回来？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "今晚先确认这次争执各自该改变的行为；旧事另约一个双方状态都合适的时间谈，讨论伤害、道歉和防止重复的安排。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "现在难道不一样吗？",
+    "如何避免下次又绕回来？"
+  ],
+  "coach": {
+    "focus": "允许旧伤存在，但避免借旧事无限扩大当前争执。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "medium",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

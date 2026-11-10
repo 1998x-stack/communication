@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "id": "conflicts",
+  "name": "争执与利益冲突",
+  "icon": "scale",
+  "description": "降温、识别利益、制定可执行协议并守住安全。",
+  "pillars": [
+    "控制升级",
+    "寻找真实利益",
+    "建立可执行方案"
+  ],
+  "method": "Principled Negotiation / BATNA",
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "guide": {
+    "goal": "降温后识别真正利益，用双方能接受的标准形成约定。",
+    "sequence": [
+      "确认是否安全；若有威胁先退出。否则停止攻击性措辞并概括可核实事实。",
+      "问双方立场背后的关切：成本、尊严、安全、时间、风险；区分人和问题。",
+      "列选项、客观标准、各自替代方案（BATNA）、责任与回看节点。"
+    ],
+    "pushback": [
+      "“现在必须答应”：确认时间压力，争取必要核查时间。",
+      "“你就是错”：拒绝人格攻击，回到事实与标准。",
+      "“不答应就报复”：停止单独争执并寻求正式安全支持。"
+    ],
+    "redFlags": "不能在暴力、胁迫、恐吓下继续协商；必要时联系现实法律、安全或紧急支持。"
+  },
+  "order": 9
+}

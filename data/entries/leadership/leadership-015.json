@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-015",
+  "category": "leadership",
+  "title": "处理迟交任务",
+  "level": 15,
+  "difficulty": "medium",
+  "background": "关键交付连续延迟。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "最近两次延期都有提前发现却未上报的风险"
+  ],
+  "objective": "确认阻塞和新的可检查里程碑",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“最近两次延期都有提前发现却未上报的风险”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“为什么只看结果？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“你能提供什么支持？”的再次追问后，争取一个明确落点：“确认阻塞和新的可检查里程碑”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我已经很努力了"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "我知道你已经投入很多，但最近两次交付延迟前都有风险信号没有及时上报。我们先一起核对阻塞点和为什么没有提前升级。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "为什么只看结果？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "努力值得看见，结果也必须面对。这里要改进的不只是工作速度，更是让风险在还能补救时被团队看到。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "你能提供什么支持？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "我负责协调必要资源，你负责把任务拆成可检查里程碑；任何节点有延期趋势当天说清原因和需求，我们每周短会复盘。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "为什么只看结果？",
+    "你能提供什么支持？"
+  ],
+  "coach": {
+    "focus": "兼顾投入与结果，把提前预警纳入交付责任。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "medium",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

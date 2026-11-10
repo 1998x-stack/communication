@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-013",
+  "category": "clients",
+  "title": "客户与最终用户需求冲突",
+  "level": 13,
+  "difficulty": "medium",
+  "background": "采购人希望节省成本使用者反对。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "采购预算与日常操作效率存在不同目标"
+  ],
+  "objective": "召开联合需求澄清会",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“采购预算与日常操作效率存在不同目标”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“使用人员懂什么预算”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“能不能兼顾双方？”的再次追问后，争取一个明确落点：“召开联合需求澄清会”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你应该听付款人的"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "采购预算和一线操作效率都是重要目标。付款人负责预算决策，但系统最终要由使用人员执行，忽略后者可能产生隐藏的使用成本。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "使用人员懂什么预算"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "我尊重采购权，也尊重使用者反馈。我们需要让双方看到不同选择的总成本和影响，而不是让任何一方单独替另一方决定。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "能不能兼顾双方？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "建议安排一场采购与使用团队都参加的需求会，分别列预算红线和不可缺少的高频功能，再给出分层方案供正式决策。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "使用人员懂什么预算",
+    "能不能兼顾双方？"
+  ],
+  "coach": {
+    "focus": "把采购权与实际使用价值结合，避免只服务一方利益。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "medium",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

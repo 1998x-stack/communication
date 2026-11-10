@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-005",
+  "category": "leadership",
+  "title": "反馈文件错误",
+  "level": 5,
+  "difficulty": "low",
+  "background": "成员报告出现明显错别字。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "三页报告中出现四处影响理解的笔误"
+  ],
+  "objective": "上线前使用统一检查清单",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“三页报告中出现四处影响理解的笔误”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“为什么要单独说？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“有什么快速改进办法？”的再次追问后，争取一个明确落点：“上线前使用统一检查清单”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "这只是小错误"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "这份三页报告有四处笔误，部分会影响读者理解。我想讨论的是上线前的核对方法，不是说你做事不认真。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "为什么要单独说？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "单个错字可能很小，但客户或同事可能因此误读关键结论。我们需要把检查动作放进流程，而不是要求你凭记性绝不出错。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "有什么快速改进办法？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "下次报告使用统一检查清单，重点核数字、关键术语和版本；你先自查，再对高风险内容安排交叉复核，我们看下次是否减少错误。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "为什么要单独说？",
+    "有什么快速改进办法？"
+  ],
+  "coach": {
+    "focus": "把错误反馈具体化并引入低成本的质量防线。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "low",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,6 +1,6 @@
 [
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-001",
     "category": "clients",
     "title": "客户询问项目进度",
@@ -115,10 +115,11 @@
       "low",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-002",
     "category": "clients",
     "title": "客户描述模糊需求",
@@ -233,10 +234,11 @@
       "low",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-003",
     "category": "clients",
     "title": "确认会议纪要",
@@ -351,10 +353,11 @@
       "low",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-004",
     "category": "clients",
     "title": "说明报价结构",
@@ -469,10 +472,11 @@
       "low",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-005",
     "category": "clients",
     "title": "客户问额外功能",
@@ -587,10 +591,11 @@
       "low",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-006",
     "category": "clients",
     "title": "延期风险提前沟通",
@@ -705,10 +710,11 @@
       "low",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-007",
     "category": "clients",
     "title": "客户要求折扣",
@@ -823,10 +829,11 @@
       "low",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-008",
     "category": "clients",
     "title": "解释产品限制",
@@ -941,10 +948,11 @@
       "low",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-009",
     "category": "clients",
     "title": "展示试点成果",
@@ -1059,10 +1067,11 @@
       "low",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-010",
     "category": "clients",
     "title": "跟进迟迟未回复的客户",
@@ -1177,10 +1186,11 @@
       "low",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-011",
     "category": "clients",
     "title": "客户投诉响应慢",
@@ -1295,10 +1305,11 @@
       "medium",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-012",
     "category": "clients",
     "title": "客户临时改需求",
@@ -1413,10 +1424,11 @@
       "medium",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-013",
     "category": "clients",
     "title": "客户与最终用户需求冲突",
@@ -1531,10 +1543,11 @@
       "medium",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-014",
     "category": "clients",
     "title": "客户质疑数据真实性",
@@ -1649,10 +1662,11 @@
       "medium",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-015",
     "category": "clients",
     "title": "客户提出不合理交期",
@@ -1767,10 +1781,11 @@
       "medium",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-016",
     "category": "clients",
     "title": "客户对人员变动不满",
@@ -1885,10 +1900,11 @@
       "medium",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-017",
     "category": "clients",
     "title": "采购压价时强调价值",
@@ -2003,10 +2019,11 @@
       "medium",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-018",
     "category": "clients",
     "title": "客户要求口头承诺",
@@ -2121,10 +2138,11 @@
       "medium",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-019",
     "category": "clients",
     "title": "客户公开批评团队",
@@ -2239,10 +2257,11 @@
       "medium",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-020",
     "category": "clients",
     "title": "双方对验收定义不一致",
@@ -2357,10 +2376,11 @@
       "medium",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-021",
     "category": "clients",
     "title": "客户要求违规采集数据",
@@ -2475,10 +2495,11 @@
       "high",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-022",
     "category": "clients",
     "title": "大型客户威胁解约",
@@ -2593,10 +2614,11 @@
       "high",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-023",
     "category": "clients",
     "title": "客户提出无限售后",
@@ -2711,10 +2733,11 @@
       "high",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-024",
     "category": "clients",
     "title": "多方采购利益冲突",
@@ -2829,10 +2852,11 @@
       "high",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-025",
     "category": "clients",
     "title": "客户要求伪造验收材料",
@@ -2947,10 +2971,11 @@
       "high",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-026",
     "category": "clients",
     "title": "危机公关第一轮对话",
@@ -3065,10 +3090,11 @@
       "high",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-027",
     "category": "clients",
     "title": "客户索要竞争对手机密",
@@ -3183,10 +3209,11 @@
       "high",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-028",
     "category": "clients",
     "title": "不可实现的交付承诺",
@@ -3301,10 +3328,11 @@
       "high",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-029",
     "category": "clients",
     "title": "多国项目合同争端",
@@ -3419,10 +3447,11 @@
       "high",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "clients-030",
     "category": "clients",
     "title": "客户以舆论施压",
@@ -3537,6 +3566,7 @@
       "high",
       "澄清式提问 / 期望管理"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   }
 ]

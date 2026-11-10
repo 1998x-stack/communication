@@ -1,6 +1,6 @@
 [
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-001",
     "category": "partner",
     "title": "晚归没有提前说",
@@ -115,10 +115,11 @@
       "low",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-002",
     "category": "partner",
     "title": "家务分配不均",
@@ -233,10 +234,11 @@
       "low",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-003",
     "category": "partner",
     "title": "忘记重要纪念日",
@@ -351,10 +353,11 @@
       "low",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-004",
     "category": "partner",
     "title": "伴侣需要倾诉",
@@ -469,10 +472,11 @@
       "low",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-005",
     "category": "partner",
     "title": "周末安排冲突",
@@ -587,10 +591,11 @@
       "low",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-006",
     "category": "partner",
     "title": "回复消息太慢",
@@ -705,10 +710,11 @@
       "low",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-007",
     "category": "partner",
     "title": "消费习惯差异",
@@ -823,10 +829,11 @@
       "low",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-008",
     "category": "partner",
     "title": "生活作息不同",
@@ -941,10 +948,11 @@
       "low",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-009",
     "category": "partner",
     "title": "对方情绪低落",
@@ -1059,10 +1067,11 @@
       "low",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-010",
     "category": "partner",
     "title": "表达感谢与认可",
@@ -1177,10 +1186,11 @@
       "low",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-011",
     "category": "partner",
     "title": "争论双方父母探访",
@@ -1295,10 +1305,11 @@
       "medium",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-012",
     "category": "partner",
     "title": "手机隐私边界",
@@ -1413,10 +1424,11 @@
       "medium",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-013",
     "category": "partner",
     "title": "反复迟到影响约会",
@@ -1531,10 +1543,11 @@
       "medium",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-014",
     "category": "partner",
     "title": "双方对生育时间有分歧",
@@ -1649,10 +1662,11 @@
       "medium",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-015",
     "category": "partner",
     "title": "在朋友面前被取笑",
@@ -1767,10 +1781,11 @@
       "medium",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-016",
     "category": "partner",
     "title": "伴侣抱怨缺少陪伴",
@@ -1885,10 +1900,11 @@
       "medium",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-017",
     "category": "partner",
     "title": "为旧矛盾反复争执",
@@ -2003,10 +2019,11 @@
       "medium",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-018",
     "category": "partner",
     "title": "共同账户使用分歧",
@@ -2121,10 +2138,11 @@
       "medium",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-019",
     "category": "partner",
     "title": "伴侣与你家人关系紧张",
@@ -2239,10 +2257,11 @@
       "medium",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-020",
     "category": "partner",
     "title": "冲突后如何重新开始",
@@ -2357,10 +2376,11 @@
       "medium",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-021",
     "category": "partner",
     "title": "讨论是否分开",
@@ -2475,10 +2495,11 @@
       "high",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-022",
     "category": "partner",
     "title": "发现伴侣隐瞒债务",
@@ -2593,10 +2614,11 @@
       "high",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-023",
     "category": "partner",
     "title": "双方对婚姻分工根本分歧",
@@ -2711,10 +2733,11 @@
       "high",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-024",
     "category": "partner",
     "title": "伴侣强烈嫉妒同事",
@@ -2829,10 +2852,11 @@
       "high",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-025",
     "category": "partner",
     "title": "重大搬家决定冲突",
@@ -2947,10 +2971,11 @@
       "high",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-026",
     "category": "partner",
     "title": "照护长辈意见不同",
@@ -3065,10 +3090,11 @@
       "high",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-027",
     "category": "partner",
     "title": "遭受持续羞辱",
@@ -3183,10 +3209,11 @@
       "high",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-028",
     "category": "partner",
     "title": "伴侣以分手作威胁",
@@ -3301,10 +3328,11 @@
       "high",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-029",
     "category": "partner",
     "title": "双方价值观严重冲突",
@@ -3419,10 +3447,11 @@
       "high",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "partner-030",
     "category": "partner",
     "title": "关系中的安全优先",
@@ -3537,6 +3566,7 @@
       "high",
       "积极倾听 / 我陈述 / 修复尝试"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   }
 ]

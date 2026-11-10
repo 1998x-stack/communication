@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-022",
+  "category": "leadership",
+  "title": "下属质疑晋升公平",
+  "level": 22,
+  "difficulty": "high",
+  "background": "两名员工认为晋升标准不透明。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "当前晋升决策依据未被充分解释"
+  ],
+  "objective": "公开适用标准并提供个人发展反馈",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“当前晋升决策依据未被充分解释”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“你是不是偏心？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“有哪些客观依据？”的再次追问后，争取一个明确落点：“公开适用标准并提供个人发展反馈”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "为什么升他不升我？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "你有权知道晋升依据。目前标准解释得不够清楚，这是管理上的问题。我会说明适用的岗位要求与评审过程，但不能公开其他人的私人考核信息。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你是不是偏心？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "我理解为什么会怀疑偏心。不能要求你只相信我的态度；我会把客观标准、可公开的过程和你个人目前的能力证据摆出来接受质疑。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "有哪些客观依据？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "我们安排一次单独反馈，逐条看你已经达到什么、尚需补哪些证据，并约定下一次评估机会；组织层面的标准透明化我也会推动。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你是不是偏心？",
+    "有哪些客观依据？"
+  ],
+  "coach": {
+    "focus": "透明标准与保护他人隐私并行，提供可操作的发展反馈。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "high",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

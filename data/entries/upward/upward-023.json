@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-023",
+  "category": "upward",
+  "title": "公开承认重大失误",
+  "level": 23,
+  "difficulty": "high",
+  "background": "一次配置错误影响核心客户。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "错误配置导致三十分钟服务异常"
+  ],
+  "objective": "先完成回滚并启动复盘与补偿沟通",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“错误配置导致三十分钟服务异常”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“你准备承担什么责任？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“什么时候能彻底恢复？”的再次追问后，争取一个明确落点：“先完成回滚并启动复盘与补偿沟通”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "为什么发生这么大的事故？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "这次异常由错误配置触发，核心客户受到约三十分钟影响。现在先回滚错误配置、核查恢复情况，同时启动事故通报；原因细节会在证据齐全后复盘。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你准备承担什么责任？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "我会对自己负责的配置和审核动作如实记录，不回避责任。但当前不让追责耽误恢复，我们需要明确现场指挥、回滚负责人和客户同步人。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "什么时候能彻底恢复？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "目前不能无依据承诺“彻底恢复”的时刻。我会在回滚和核心指标验证后给出准确状态及下一次更新时间，并协调客户补偿沟通。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你准备承担什么责任？",
+    "什么时候能彻底恢复？"
+  ],
+  "coach": {
+    "focus": "事故优先止损与透明通报，再追责和修复机制。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "high",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

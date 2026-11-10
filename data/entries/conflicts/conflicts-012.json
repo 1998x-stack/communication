@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "conflicts-012",
+  "category": "conflicts",
+  "title": "边界被不断试探",
+  "level": 12,
+  "difficulty": "medium",
+  "background": "亲戚多次要求借钱被拒后施压。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "借款会影响你的必要生活资金"
+  ],
+  "objective": "重复清晰拒绝并停止无效拉扯",
+  "method": "Principled Negotiation / BATNA",
+  "pillars": [
+    "控制升级",
+    "寻找真实利益",
+    "建立可执行方案"
+  ],
+  "steps": [
+    {
+      "name": "控制升级",
+      "instruction": "开场先围绕已知事实“借款会影响你的必要生活资金”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "寻找真实利益",
+      "instruction": "听到“你这人就是冷漠”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "建立可执行方案",
+      "instruction": "遭遇“能不能至少借一部分？”的再次追问后，争取一个明确落点：“重复清晰拒绝并停止无效拉扯”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "借一下又不会怎样"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "控制升级",
+      "text": "我已经考虑过了，这笔钱会影响必要生活支出，所以我不借。不是不愿帮你，只是这件事超出我的能力。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你这人就是冷漠"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "寻找真实利益",
+      "text": "你觉得我冷漠我听到了，但我不接受用人格评价逼我改变决定。借款风险需要我自己承担，别人不能替我承诺。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "能不能至少借一部分？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "建立可执行方案",
+      "text": "借一部分也会影响我的基本资金安排，所以这次不借。如果你愿意，我们可以讨论其他合法的周转途径；关于借钱我就不再反复解释了。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你这人就是冷漠",
+    "能不能至少借一部分？"
+  ],
+  "coach": {
+    "focus": "面对反复试探保持边界稳定，不因羞辱改变财务底线。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "conflicts",
+    "medium",
+    "Principled Negotiation / BATNA"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

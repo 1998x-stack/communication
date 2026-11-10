@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-012",
+  "category": "partner",
+  "title": "手机隐私边界",
+  "level": 12,
+  "difficulty": "medium",
+  "background": "伴侣要求查看你所有聊天记录。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "近期你确实有一次未说明的聚会"
+  ],
+  "objective": "讨论具体不安并保留私人通信边界",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“近期你确实有一次未说明的聚会”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“你是不是有秘密？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“怎么让彼此有安全感？”的再次追问后，争取一个明确落点：“讨论具体不安并保留私人通信边界”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "情侣之间有什么不能看的？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "我知道近期那次聚会没提前说让你不安心，这是我应该解释和改进的地方。但让我交出所有聊天记录，不等于能真正解决不安。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你是不是有秘密？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "我没有要隐藏那次聚会，会如实说明时间、同行的人和我没提前说的原因。与此同时，私人通信里也可能涉及朋友的隐私，我希望保留这条边界。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎么让彼此有安全感？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "我们可以约定重要聚会提前告知、与同事交往的边界和有疑问时直接询问；不采用随时查所有聊天记录的方式建立信任。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你是不是有秘密？",
+    "怎么让彼此有安全感？"
+  ],
+  "coach": {
+    "focus": "承担信息隐瞒的责任，同时保留双方平等的私人通信权。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "medium",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

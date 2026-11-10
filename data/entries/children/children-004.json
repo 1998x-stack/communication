@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "children-004",
+  "category": "children",
+  "title": "想买新玩具",
+  "level": 4,
+  "difficulty": "low",
+  "background": "孩子在商店哭着要玩具。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "本月玩具预算已经用完"
+  ],
+  "objective": "把喜欢的玩具记入愿望清单",
+  "method": "反映式倾听 / 共同解决问题",
+  "pillars": [
+    "倾听接纳",
+    "清晰规则",
+    "培养自主"
+  ],
+  "steps": [
+    {
+      "name": "倾听接纳",
+      "instruction": "开场先围绕已知事实“本月玩具预算已经用完”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "清晰规则",
+      "instruction": "听到“你一点也不爱我”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "培养自主",
+      "instruction": "遭遇“能不能下次买？”的再次追问后，争取一个明确落点：“把喜欢的玩具记入愿望清单”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "别人都有为什么我没有？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "倾听接纳",
+      "text": "你很喜欢这件玩具，看到别人有也会想要。我知道你失望，但这个月买玩具的预算已经用完了，今天不能买。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你一点也不爱我"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "清晰规则",
+      "text": "我爱你不取决于今天买不买玩具。你可以难过，也可以告诉我为什么特别想要；我们不会因为哭就突破已经说好的预算。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "能不能下次买？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "培养自主",
+      "text": "可以把它拍照放进愿望清单，下个月再看预算和你的兴趣是否还在。你可以先选是拍照还是记下名字。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你一点也不爱我",
+    "能不能下次买？"
+  ],
+  "coach": {
+    "focus": "情绪可以被接纳，预算规则保持稳定，给延迟满足的路径。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+  "tags": [
+    "children",
+    "low",
+    "反映式倾听 / 共同解决问题"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

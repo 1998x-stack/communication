@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-005",
+  "category": "friends",
+  "title": "礼物太昂贵",
+  "level": 5,
+  "difficulty": "low",
+  "background": "朋友送来远超你承受范围的礼物。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "你不希望形成回赠压力"
+  ],
+  "objective": "感谢心意但婉拒贵重礼物",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“你不希望形成回赠压力”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“你是不是嫌弃我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“怎么收才不尴尬？”的再次追问后，争取一个明确落点：“感谢心意但婉拒贵重礼物”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我们这么熟收下吧"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "谢谢你花心思准备这么贵重的礼物，我真的感受到你的好意。但这个价格超出我舒服的范围，我担心之后产生回礼压力。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你是不是嫌弃我？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "不是嫌弃，正因为我重视你，才想把心里不自在的地方说出来。小而用心的东西我会很开心，不必用昂贵礼物证明友情。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎么收才不尴尬？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "这份我先不收，我们可以一起换成一顿饭或一个小纪念品；以后送礼别给彼此造成经济负担。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你是不是嫌弃我？",
+    "怎么收才不尴尬？"
+  ],
+  "coach": {
+    "focus": "用表达感激和偏好守住收礼边界，避免暗含交换义务。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "low",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

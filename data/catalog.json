@@ -1,26 +1,24 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "updated": "2026-11-10",
-  "totalCases": 270,
+  "totalCases": 272,
   "difficulties": [
     {
       "id": "low",
-      "name": "基础",
-      "range": "1–10"
+      "name": "基础"
     },
     {
       "id": "medium",
-      "name": "进阶",
-      "range": "11–20"
+      "name": "进阶"
     },
     {
       "id": "high",
-      "name": "高压",
-      "range": "21–30"
+      "name": "高压"
     }
   ],
   "categories": [
     {
+      "schemaVersion": 2,
       "id": "upward",
       "name": "向上汇报",
       "icon": "briefcase",
@@ -32,10 +30,31 @@
       ],
       "method": "SBAR / 结论先行",
       "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+      "guide": {
+        "goal": "让有决策权的人迅速知道问题、影响、建议与所需决策。",
+        "sequence": [
+          "先用一到两句说结论：状态、影响、风险；不从时间流水账讲起。",
+          "给出两种以内可比较的方案：好处、代价、风险；标明事实与假设。",
+          "说清需要领导决定的选项、截止时间，以及你承担的执行闭环。"
+        ],
+        "pushback": [
+          "“为什么才告诉我？”：承认同步责任，给出目前已核实的风险及补救。",
+          "“我只要结果！”：用最短句提供当前结论和决策条件，不虚构保证。",
+          "“为什么不按我说的做？”：描述风险与替代路径，不当众攻击权威。"
+        ],
+        "redFlags": "不可为了讨好上级伪造数据、掩盖风险或跳过安全底线。"
+      },
+      "order": 1,
       "file": "data/cases/upward.json",
-      "count": 30
+      "count": 31,
+      "difficultyCounts": {
+        "low": 11,
+        "medium": 10,
+        "high": 10
+      }
     },
     {
+      "schemaVersion": 2,
       "id": "collaboration",
       "name": "同事协作",
       "icon": "users",
@@ -47,10 +66,31 @@
       ],
       "method": "Closed-loop / RACI",
       "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+      "guide": {
+        "goal": "将模糊协作转化为共同目标、唯一责任人与可追踪承诺。",
+        "sequence": [
+          "先复述共同成功标准，不说“你就应该帮我”。",
+          "明确交付物、负责人、依赖、截止时间和资源约束。",
+          "复述双方确认的安排，约定异步更新频率与风险升级机制。"
+        ],
+        "pushback": [
+          "“我没空”：先了解负荷，再讨论优先级和最小可交付物。",
+          "“这不是我工作”：查询职责边界，不在群内给人贴标签。",
+          "“已经说过了”：用文档和确认回路消除不同理解。"
+        ],
+        "redFlags": "不要代替有权者强行分配资源；保留书面记录，不拿隐私数据换取效率。"
+      },
+      "order": 2,
       "file": "data/cases/collaboration.json",
-      "count": 30
+      "count": 30,
+      "difficultyCounts": {
+        "low": 10,
+        "medium": 10,
+        "high": 10
+      }
     },
     {
+      "schemaVersion": 2,
       "id": "leadership",
       "name": "管理下属",
       "icon": "user-check",
@@ -62,10 +102,31 @@
       ],
       "method": "SBI / 双向反馈",
       "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+      "guide": {
+        "goal": "在不羞辱下属的前提下让期望、支持与可改进行为都清楚。",
+        "sequence": [
+          "描述具体场景、行为和影响（SBI），不要上升到人格。",
+          "邀请下属解释原因、表达不同意见，确认心理安全与资源约束。",
+          "协商明确的行为改进、支持责任、检查点和复盘时间。"
+        ],
+        "pushback": [
+          "“你是不是不认可我”：区分工作反馈与人格评价。",
+          "“你没给足资源”：检查管理方责任并提出支持。",
+          "“不敢说真话”：先承认权力差，明确不会因报告风险而惩罚。"
+        ],
+        "redFlags": "涉嫌欺凌、歧视、骚扰或自伤风险时，应通过适当保护渠道处理，不能只靠一段漂亮话术。"
+      },
+      "order": 3,
       "file": "data/cases/leadership.json",
-      "count": 30
+      "count": 30,
+      "difficultyCounts": {
+        "low": 10,
+        "medium": 10,
+        "high": 10
+      }
     },
     {
+      "schemaVersion": 2,
       "id": "partner",
       "name": "夫妻与伴侣",
       "icon": "heart",
@@ -77,10 +138,31 @@
       ],
       "method": "积极倾听 / 我陈述 / 修复尝试",
       "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+      "guide": {
+        "goal": "保护情感连接，同时能具体地谈需求、责任和修复。",
+        "sequence": [
+          "先反映对方感受并确认理解是否准确；理解不是全部认同。",
+          "用“我观察到…我感到…我需要…”说明行为影响和具体请求。",
+          "协商一项可执行改变，情绪过强时约定暂停与返回时间。"
+        ],
+        "pushback": [
+          "“你每次都这么说”：提供可检查的小改变，而非空泛承诺。",
+          "“你就是不在乎”：听情绪与具体行为，避免互相贴标签。",
+          "“不答应就分手”：不把威胁当作谈判的正常工具。"
+        ],
+        "redFlags": "威胁、限制人身自由、暴力或持续控制时，安全与现实支持优先，不要求受害者通过更好沟通修复伤害。"
+      },
+      "order": 4,
       "file": "data/cases/partner.json",
-      "count": 30
+      "count": 30,
+      "difficultyCounts": {
+        "low": 10,
+        "medium": 10,
+        "high": 10
+      }
     },
     {
+      "schemaVersion": 2,
       "id": "parents",
       "name": "父母与长辈",
       "icon": "house",
@@ -92,10 +174,31 @@
       ],
       "method": "认可关切 / 坚定边界",
       "source": "https://www.nia.nih.gov/health/advance-care-planning",
+      "guide": {
+        "goal": "尊重长辈关切又不放弃成年人的自主权。",
+        "sequence": [
+          "准确复述长辈担心（安全、稳定、孤独、经验）并表达感谢。",
+          "简短陈述自己的事实、决定及不可妥协的边界，不无限解释。",
+          "提出可协商的联系频率、通知方式或照护分工。"
+        ],
+        "pushback": [
+          "“养你这么大”：感谢付出，不以牺牲全部自主权交换关系。",
+          "“我是为你好”：请对方谈可验证的具体担忧，而非标签。",
+          "“不照做就断绝关系”：不在威胁下作决定，必要时寻求支持。"
+        ],
+        "redFlags": "对长辈的尊重不等于默认其有权侵犯隐私、财产或人身安全。"
+      },
+      "order": 5,
       "file": "data/cases/parents.json",
-      "count": 30
+      "count": 30,
+      "difficultyCounts": {
+        "low": 10,
+        "medium": 10,
+        "high": 10
+      }
     },
     {
+      "schemaVersion": 2,
       "id": "children",
       "name": "亲子教育",
       "icon": "sprout",
@@ -107,10 +210,31 @@
       ],
       "method": "反映式倾听 / 共同解决问题",
       "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+      "guide": {
+        "goal": "给孩子被听见的安全感，也让行为边界清晰且适龄。",
+        "sequence": [
+          "蹲下或放慢语速，反映孩子听到的事实与情绪，给回应空间。",
+          "把“情绪可以有”与“伤人行为不可以”区分开，说明少量清晰规则。",
+          "在安全边界内提供二选一或共同制定小步骤，鼓励自主承担。"
+        ],
+        "pushback": [
+          "“你不爱我”：先确认爱与接纳，再重复具体规则。",
+          "“大家都可以”：承认差异，回到自家约定及安全理由。",
+          "“我不想活了”：这属于现实安全风险，停止常规口才练习并联系专业危机支持。"
+        ],
+        "redFlags": "禁止羞辱、打骂、威胁和不符合年龄能力的责任转嫁。急性安全危机先寻求帮助。"
+      },
+      "order": 6,
       "file": "data/cases/children.json",
-      "count": 30
+      "count": 30,
+      "difficultyCounts": {
+        "low": 10,
+        "medium": 10,
+        "high": 10
+      }
     },
     {
+      "schemaVersion": 2,
       "id": "friends",
       "name": "朋友与社交",
       "icon": "coffee",
@@ -122,10 +246,31 @@
       ],
       "method": "积极倾听 / 边界表达",
       "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+      "guide": {
+        "goal": "让友情建立在真诚、可靠、互惠和自愿的边界上。",
+        "sequence": [
+          "先听对方真实需求：倾诉、建议、陪伴、帮助还是借钱。",
+          "清楚说出自己可以和不可以做的事；拒绝不需要长篇辩护。",
+          "提供自愿而可兑现的回应，尊重对方不同选择。"
+        ],
+        "pushback": [
+          "“这都不帮还算朋友”：确认关系价值，但明确拒绝事项。",
+          "“你变了”：描述生活节奏变化与真实联络意愿。",
+          "“你一定替我保密”：涉及现实伤害或危险时不作绝对保密承诺。"
+        ],
+        "redFlags": "切勿编造证言、泄露他人隐私或为了维持友情承担无法负荷的风险。"
+      },
+      "order": 7,
       "file": "data/cases/friends.json",
-      "count": 30
+      "count": 30,
+      "difficultyCounts": {
+        "low": 10,
+        "medium": 10,
+        "high": 10
+      }
     },
     {
+      "schemaVersion": 2,
       "id": "clients",
       "name": "客户与商务",
       "icon": "handshake",
@@ -137,10 +282,31 @@
       ],
       "method": "澄清式提问 / 期望管理",
       "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+      "guide": {
+        "goal": "明确真正采购动机、真实承诺边界和双方确认的交付标准。",
+        "sequence": [
+          "先问具体使用场景、成功标准、最优先顾虑和决策人。",
+          "以证据区别已验证能力、可能方案和尚不确定的信息。",
+          "确认范围、时间、成本、验收标准与变更流程，书面复述。"
+        ],
+        "pushback": [
+          "“别人更便宜”：先比较范围、支持和总体成本。",
+          "“先做再补合同”：解释可逆准备和正式开工的边界。",
+          "“现在就保证”：不承诺无法验证的日期和功能。"
+        ],
+        "redFlags": "不欺瞒客户、不伪造验收、不泄露第三方商业信息，不绕开隐私合规要求。"
+      },
+      "order": 8,
       "file": "data/cases/clients.json",
-      "count": 30
+      "count": 30,
+      "difficultyCounts": {
+        "low": 10,
+        "medium": 10,
+        "high": 10
+      }
     },
     {
+      "schemaVersion": 2,
       "id": "conflicts",
       "name": "争执与利益冲突",
       "icon": "scale",
@@ -152,8 +318,65 @@
       ],
       "method": "Principled Negotiation / BATNA",
       "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+      "guide": {
+        "goal": "降温后识别真正利益，用双方能接受的标准形成约定。",
+        "sequence": [
+          "确认是否安全；若有威胁先退出。否则停止攻击性措辞并概括可核实事实。",
+          "问双方立场背后的关切：成本、尊严、安全、时间、风险；区分人和问题。",
+          "列选项、客观标准、各自替代方案（BATNA）、责任与回看节点。"
+        ],
+        "pushback": [
+          "“现在必须答应”：确认时间压力，争取必要核查时间。",
+          "“你就是错”：拒绝人格攻击，回到事实与标准。",
+          "“不答应就报复”：停止单独争执并寻求正式安全支持。"
+        ],
+        "redFlags": "不能在暴力、胁迫、恐吓下继续协商；必要时联系现实法律、安全或紧急支持。"
+      },
+      "order": 9,
       "file": "data/cases/conflicts.json",
-      "count": 30
+      "count": 30,
+      "difficultyCounts": {
+        "low": 10,
+        "medium": 10,
+        "high": 10
+      }
+    },
+    {
+      "schemaVersion": 2,
+      "id": "public-speaking",
+      "name": "公众表达与临场发言",
+      "order": 10,
+      "icon": "mic",
+      "description": "在听众面前清楚呈现观点，回应追问并完成有重点的收束。",
+      "pillars": [
+        "听众导向",
+        "结构表达",
+        "问答收束"
+      ],
+      "method": "核心信息 / 支撑事实 / 临场问答",
+      "source": "https://www.toastmasters.org/",
+      "guide": {
+        "goal": "让公众表达观点清晰、证据可核实，并在被追问时保持沉着。",
+        "sequence": [
+          "先说明这次表达对听众的意义及一句话核心观点。",
+          "用一个有根据的事实或例子支撑观点，同时说明局限。",
+          "回应现场问题，承认未知并给出可靠的后续信息或行动。"
+        ],
+        "pushback": [
+          "“你说的证据是什么？”：具体说明来源与适用范围。",
+          "“能举个例子吗？”：提供贴近听众任务的可理解示例。",
+          "“现在答不出怎么办？”：坦诚说明待核实事项，约定补充方式。"
+        ],
+        "redFlags": "不要在演讲或答疑中编造统计数据、夸大风险或用羞辱阻止听众追问。"
+      },
+      "symbol": "🎙",
+      "file": "data/cases/public-speaking.json",
+      "count": 1,
+      "difficultyCounts": {
+        "low": 0,
+        "medium": 1,
+        "high": 0
+      }
     }
   ]
 }

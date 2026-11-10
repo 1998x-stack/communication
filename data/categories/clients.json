@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "id": "clients",
+  "name": "客户与商务",
+  "icon": "handshake",
+  "description": "探明真实需求，用证据和清晰承诺建立可信合作。",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "method": "澄清式提问 / 期望管理",
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "guide": {
+    "goal": "明确真正采购动机、真实承诺边界和双方确认的交付标准。",
+    "sequence": [
+      "先问具体使用场景、成功标准、最优先顾虑和决策人。",
+      "以证据区别已验证能力、可能方案和尚不确定的信息。",
+      "确认范围、时间、成本、验收标准与变更流程，书面复述。"
+    ],
+    "pushback": [
+      "“别人更便宜”：先比较范围、支持和总体成本。",
+      "“先做再补合同”：解释可逆准备和正式开工的边界。",
+      "“现在就保证”：不承诺无法验证的日期和功能。"
+    ],
+    "redFlags": "不欺瞒客户、不伪造验收、不泄露第三方商业信息，不绕开隐私合规要求。"
+  },
+  "order": 8
+}

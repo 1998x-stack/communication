@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "conflicts-026",
+  "category": "conflicts",
+  "title": "商业合作分账冲突",
+  "level": 26,
+  "difficulty": "high",
+  "background": "合伙人要求临时修改利润比例。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "现有协议已约定基本利润比例"
+  ],
+  "objective": "核对合同与实际贡献后协商",
+  "method": "Principled Negotiation / BATNA",
+  "pillars": [
+    "控制升级",
+    "寻找真实利益",
+    "建立可执行方案"
+  ],
+  "steps": [
+    {
+      "name": "控制升级",
+      "instruction": "开场先围绕已知事实“现有协议已约定基本利润比例”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "寻找真实利益",
+      "instruction": "听到“你这是不讲情义”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "建立可执行方案",
+      "instruction": "遭遇“怎样用可验证贡献衡量？”的再次追问后，争取一个明确落点：“核对合同与实际贡献后协商”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我做得更多就该多拿"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "控制升级",
+      "text": "你认为投入更多应该得到更多回报，这个想法可以讨论。但现有协议已经约定基本利润比例，不能单方面临时修改。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你这是不讲情义"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "寻找真实利益",
+      "text": "我不是不讲情义，恰恰因为是合作伙伴，才要用透明规则保护双方。我们可以核对新增工作量、资金风险和既有职责是否确实改变。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎样用可验证贡献衡量？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "建立可执行方案",
+      "text": "先按原协议履行本期结算，对未来调整另行统计贡献并协商书面变更；没有双方自愿同意，旧约定不追溯更改。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你这是不讲情义",
+    "怎样用可验证贡献衡量？"
+  ],
+  "coach": {
+    "focus": "承认贡献差异但遵守已签约定，未来变更需书面自愿。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "conflicts",
+    "high",
+    "Principled Negotiation / BATNA"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

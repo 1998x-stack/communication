@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-008",
+  "category": "upward",
+  "title": "提出流程改进",
+  "level": 8,
+  "difficulty": "low",
+  "background": "重复审批让团队每周多花时间。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "同一内容每周要重复提交三次"
+  ],
+  "objective": "试行两周的单次审批清单",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“同一内容每周要重复提交三次”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“现在流程真的这么差吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“谁负责试点？”的再次追问后，争取一个明确落点：“试行两周的单次审批清单”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你想优化什么？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "我想减少重复审批：同一份内容现在每周要重复提交三次，团队耗时却没有得到新增信息。建议先试两周单次审批清单。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "现在流程真的这么差吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "我不是说整个流程都差，而是这三次重复提交是否真的带来额外风险控制值得核实。我们可以保留必要的审批节点，只合并重复环节。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "谁负责试点？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "我愿意负责试点：记录处理时间、退回率和异常情况，两周后拿数据复盘；若风险上升就恢复原流程。请您批准试行。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "现在流程真的这么差吗？",
+    "谁负责试点？"
+  ],
+  "coach": {
+    "focus": "从可量化的重复工作切入，提可回滚的流程试点。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "low",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

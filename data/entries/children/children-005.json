@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "children-005",
+  "category": "children",
+  "title": "兄弟姐妹争抢玩具",
+  "level": 5,
+  "difficulty": "low",
+  "background": "两个孩子同时要同一件玩具。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "两人都想用同一套画笔"
+  ],
+  "objective": "轮流使用并让孩子提出安排",
+  "method": "反映式倾听 / 共同解决问题",
+  "pillars": [
+    "倾听接纳",
+    "清晰规则",
+    "培养自主"
+  ],
+  "steps": [
+    {
+      "name": "倾听接纳",
+      "instruction": "开场先围绕已知事实“两人都想用同一套画笔”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "清晰规则",
+      "instruction": "听到“为什么总让我让？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "培养自主",
+      "instruction": "遭遇“谁先玩？”的再次追问后，争取一个明确落点：“轮流使用并让孩子提出安排”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "他先抢我的！"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "倾听接纳",
+      "text": "你说是他先抢的，我想分别听你们说发生了什么。画笔只有一套，先把争抢停下来，我们一起想怎么轮流。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "为什么总让我让？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "清晰规则",
+      "text": "我不会总让你让，也不会因为谁先哭就决定。我们可以核对谁正在使用、各自还需要多久，找双方都认可的安排。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "谁先玩？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "培养自主",
+      "text": "你们可以提方案：按计时器轮流，或先各取不同颜色分开画。定好先后顺序后，我帮助执行，不允许再拉扯。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "为什么总让我让？",
+    "谁先玩？"
+  ],
+  "coach": {
+    "focus": "公平不等于总让某个孩子退让，邀请双方参与轮流规则。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+  "tags": [
+    "children",
+    "low",
+    "反映式倾听 / 共同解决问题"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

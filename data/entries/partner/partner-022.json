@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-022",
+  "category": "partner",
+  "title": "发现伴侣隐瞒债务",
+  "level": 22,
+  "difficulty": "high",
+  "background": "你得知对方有未提及的较大债务。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "债务影响共同住房计划"
+  ],
+  "objective": "先核对债务事实再讨论财务边界",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“债务影响共同住房计划”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“你就不能相信我吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“账目能不能完整说明？”的再次追问后，争取一个明确落点：“先核对债务事实再讨论财务边界”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我怕说了你会离开"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "你害怕说债务会让我离开，我能理解你当时的担忧，但隐瞒已经影响我们的共同住房计划。我现在需要先了解真实债务规模与偿还安排。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你就不能相信我吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "信任不是不核对事实。我不会因为你说一句“相信我”就放弃了解会影响共同生活的财务义务，也不想当场羞辱你。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "账目能不能完整说明？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "我们先完整整理欠款余额、利率、到期日、债权人及是否涉及共同责任；在核实并获得必要专业建议前，暂停共同买房的重大决定。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你就不能相信我吗？",
+    "账目能不能完整说明？"
+  ],
+  "coach": {
+    "focus": "财务信任修复以完整披露和风险隔离为前提。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "high",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,138 +1,12 @@
 #!/usr/bin/env node
 // Keep all three tool-specific skill directories in sync with data/catalog.json.
-import {readFile,writeFile,mkdir} from "node:fs/promises";
+import {readFile,writeFile,mkdir,access} from "node:fs/promises";
 import path from "node:path";
 import {fileURLToPath} from "node:url";
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");
 const meta=(JSON.parse(await readFile(path.join(root,"data/catalog.json"),"utf8"))).categories;
-const guides={
-  "upward": {
-    "goal": "让有决策权的人迅速知道问题、影响、建议与所需决策。",
-    "sequence": [
-      "先用一到两句说结论：状态、影响、风险；不从时间流水账讲起。",
-      "给出两种以内可比较的方案：好处、代价、风险；标明事实与假设。",
-      "说清需要领导决定的选项、截止时间，以及你承担的执行闭环。"
-    ],
-    "pushback": [
-      "“为什么才告诉我？”：承认同步责任，给出目前已核实的风险及补救。",
-      "“我只要结果！”：用最短句提供当前结论和决策条件，不虚构保证。",
-      "“为什么不按我说的做？”：描述风险与替代路径，不当众攻击权威。"
-    ],
-    "redFlags": "不可为了讨好上级伪造数据、掩盖风险或跳过安全底线。"
-  },
-  "collaboration": {
-    "goal": "将模糊协作转化为共同目标、唯一责任人与可追踪承诺。",
-    "sequence": [
-      "先复述共同成功标准，不说“你就应该帮我”。",
-      "明确交付物、负责人、依赖、截止时间和资源约束。",
-      "复述双方确认的安排，约定异步更新频率与风险升级机制。"
-    ],
-    "pushback": [
-      "“我没空”：先了解负荷，再讨论优先级和最小可交付物。",
-      "“这不是我工作”：查询职责边界，不在群内给人贴标签。",
-      "“已经说过了”：用文档和确认回路消除不同理解。"
-    ],
-    "redFlags": "不要代替有权者强行分配资源；保留书面记录，不拿隐私数据换取效率。"
-  },
-  "leadership": {
-    "goal": "在不羞辱下属的前提下让期望、支持与可改进行为都清楚。",
-    "sequence": [
-      "描述具体场景、行为和影响（SBI），不要上升到人格。",
-      "邀请下属解释原因、表达不同意见，确认心理安全与资源约束。",
-      "协商明确的行为改进、支持责任、检查点和复盘时间。"
-    ],
-    "pushback": [
-      "“你是不是不认可我”：区分工作反馈与人格评价。",
-      "“你没给足资源”：检查管理方责任并提出支持。",
-      "“不敢说真话”：先承认权力差，明确不会因报告风险而惩罚。"
-    ],
-    "redFlags": "涉嫌欺凌、歧视、骚扰或自伤风险时，应通过适当保护渠道处理，不能只靠一段漂亮话术。"
-  },
-  "partner": {
-    "goal": "保护情感连接，同时能具体地谈需求、责任和修复。",
-    "sequence": [
-      "先反映对方感受并确认理解是否准确；理解不是全部认同。",
-      "用“我观察到…我感到…我需要…”说明行为影响和具体请求。",
-      "协商一项可执行改变，情绪过强时约定暂停与返回时间。"
-    ],
-    "pushback": [
-      "“你每次都这么说”：提供可检查的小改变，而非空泛承诺。",
-      "“你就是不在乎”：听情绪与具体行为，避免互相贴标签。",
-      "“不答应就分手”：不把威胁当作谈判的正常工具。"
-    ],
-    "redFlags": "威胁、限制人身自由、暴力或持续控制时，安全与现实支持优先，不要求受害者通过更好沟通修复伤害。"
-  },
-  "parents": {
-    "goal": "尊重长辈关切又不放弃成年人的自主权。",
-    "sequence": [
-      "准确复述长辈担心（安全、稳定、孤独、经验）并表达感谢。",
-      "简短陈述自己的事实、决定及不可妥协的边界，不无限解释。",
-      "提出可协商的联系频率、通知方式或照护分工。"
-    ],
-    "pushback": [
-      "“养你这么大”：感谢付出，不以牺牲全部自主权交换关系。",
-      "“我是为你好”：请对方谈可验证的具体担忧，而非标签。",
-      "“不照做就断绝关系”：不在威胁下作决定，必要时寻求支持。"
-    ],
-    "redFlags": "对长辈的尊重不等于默认其有权侵犯隐私、财产或人身安全。"
-  },
-  "children": {
-    "goal": "给孩子被听见的安全感，也让行为边界清晰且适龄。",
-    "sequence": [
-      "蹲下或放慢语速，反映孩子听到的事实与情绪，给回应空间。",
-      "把“情绪可以有”与“伤人行为不可以”区分开，说明少量清晰规则。",
-      "在安全边界内提供二选一或共同制定小步骤，鼓励自主承担。"
-    ],
-    "pushback": [
-      "“你不爱我”：先确认爱与接纳，再重复具体规则。",
-      "“大家都可以”：承认差异，回到自家约定及安全理由。",
-      "“我不想活了”：这属于现实安全风险，停止常规口才练习并联系专业危机支持。"
-    ],
-    "redFlags": "禁止羞辱、打骂、威胁和不符合年龄能力的责任转嫁。急性安全危机先寻求帮助。"
-  },
-  "friends": {
-    "goal": "让友情建立在真诚、可靠、互惠和自愿的边界上。",
-    "sequence": [
-      "先听对方真实需求：倾诉、建议、陪伴、帮助还是借钱。",
-      "清楚说出自己可以和不可以做的事；拒绝不需要长篇辩护。",
-      "提供自愿而可兑现的回应，尊重对方不同选择。"
-    ],
-    "pushback": [
-      "“这都不帮还算朋友”：确认关系价值，但明确拒绝事项。",
-      "“你变了”：描述生活节奏变化与真实联络意愿。",
-      "“你一定替我保密”：涉及现实伤害或危险时不作绝对保密承诺。"
-    ],
-    "redFlags": "切勿编造证言、泄露他人隐私或为了维持友情承担无法负荷的风险。"
-  },
-  "clients": {
-    "goal": "明确真正采购动机、真实承诺边界和双方确认的交付标准。",
-    "sequence": [
-      "先问具体使用场景、成功标准、最优先顾虑和决策人。",
-      "以证据区别已验证能力、可能方案和尚不确定的信息。",
-      "确认范围、时间、成本、验收标准与变更流程，书面复述。"
-    ],
-    "pushback": [
-      "“别人更便宜”：先比较范围、支持和总体成本。",
-      "“先做再补合同”：解释可逆准备和正式开工的边界。",
-      "“现在就保证”：不承诺无法验证的日期和功能。"
-    ],
-    "redFlags": "不欺瞒客户、不伪造验收、不泄露第三方商业信息，不绕开隐私合规要求。"
-  },
-  "conflicts": {
-    "goal": "降温后识别真正利益，用双方能接受的标准形成约定。",
-    "sequence": [
-      "确认是否安全；若有威胁先退出。否则停止攻击性措辞并概括可核实事实。",
-      "问双方立场背后的关切：成本、尊严、安全、时间、风险；区分人和问题。",
-      "列选项、客观标准、各自替代方案（BATNA）、责任与回看节点。"
-    ],
-    "pushback": [
-      "“现在必须答应”：确认时间压力，争取必要核查时间。",
-      "“你就是错”：拒绝人格攻击，回到事实与标准。",
-      "“不答应就报复”：停止单独争执并寻求正式安全支持。"
-    ],
-    "redFlags": "不能在暴力、胁迫、恐吓下继续协商；必要时联系现实法律、安全或紧急支持。"
-  }
-};
+const guides=Object.fromEntries(meta.map(c=>[c.id,c.guide]));
+
 const skillBody=function skillBody(c,platform){
  return `---
 name: communication-${c.id}
@@ -142,25 +16,25 @@ description: 当用户要练习${c.name}中的表达、回应质疑、设计多�
 # ${c.name} · 沟通教练 Skill
 
 ## 使用场景
-用户希望进行${c.name}的口才练习、复盘或新增教材时启用；无需将其他八种场景全部加载到上下文。
+用户希望进行${c.name}的口才练习、复盘或新增教材时启用；无需将其他类别的案例全部加载到上下文。
 
 ## 必须先读
 1. \`references/guide.md\`：当前场景的目标、步骤、反问与安全边界。
-2. 案例库：\`../../../data/cases/${c.id}.json\`（若该相对路径无法解析，从仓库根目录读取 \`data/cases/${c.id}.json\`）。
+2. 分类运行卡片：\`data/cases/${c.id}.json\`；独立内容源：\`data/entries/${c.id}/*.json\`；分类配置：\`data/categories/${c.id}.json\`。
 3. 需要写入新案例时，先读仓库根目录 \`data/README.md\`、\`AGENTS.md\` 和 \`scripts/validate.mjs\`。
 
 ## 模拟对话流程
-1. 选取案例（按 low/medium/high 难度；用户未指定则从基础开始），只呈现背景、已知事实、角色和本次目标。
+1. 选取案例（按 low/medium/high 难度；用户未指定则从本分类现有的最低难度开始），只呈现背景、已知事实、角色和本次目标。
 2. **一次只说对方一轮台词**，停下来等待学习者口头或书面回应；不提前泄露后续反问和示范答案。
-3. 根据学习者真实回应自然追问；案例中 \`dialogue\` 的第二、三轮反问是锚点，不要求机械逐字复读。
-4. 三轮后按 **结构清晰、理解对方、坚定尊重、行动落点** 各 25 分评分；指出一条有效表达、一条最该改进之处，给出约 20–40 秒可自然说出口的改进版本。
+3. 根据学习者真实回应自然追问；任意后续对方台词都是锚点。遵循案例的 \`roundCount\`（1轮、2轮、4轮及更多），不强制三轮。
+4. 完成案例规定的全部轮次后按 **结构清晰、理解对方、坚定尊重、行动落点** 各 25 分评分；指出一条有效表达、一条最该改进之处，给出约 20–40 秒可自然说出口的改进版本。
 5. 让学习者用自己的话再试一次，不鼓励逐字背诵。用户主动选择“全部展开”时才直接展示完整参考。
 
 ## 扩展案例
-- 先确认类别 ${c.id} 与难度，新增独特背景、明确冲突点、两次反问、可执行目标及具体事实。
+- 先确认类别 ${c.id} 与难度，新增 \`data/entries/${c.id}/<case-id>.json\`；写入具体背景、多个自然追问、明确目标与事实。
 - 不用真实姓名、个人隐私、未授权客户数据；避免制造只有一个“标准答案”的误导。
-- 当前种子为七字段行：标题 | 背景 | 开场 | 首次反问 | 再次追问 | 目标 | 已知事实。
-- **只能在对应种子文件末尾追加**，避免更改编号影响训练记录；执行 \`npm run build\` 后再审校生成的参考回答，必要时进一步人工改写。
+- 每份案例有独立的 ID、分类、难度、标签、轮次数量和交替的对方/学习者台词；具体协议见 \`data/README.md\`。
+- **不靠行号推导难度或 ID**；在新 JSON 文件明确指定这些元数据，已有 ID 永远不变。执行 \`npm run build && npm test\` 并审校实际问答。
 - 不得冒充治疗师、法律顾问或保证沟通必然成功；危急场景现实安全优先。
 
 ## 平台说明
@@ -176,7 +50,7 @@ const guideBody=function guideBody(c){
 ## 教学目标
 ${g.goal}
 
-## 三大支柱
+## 沟通核心动作
 ${c.pillars.map((p,i)=>`${i+1}. **${p}**`).join("\n")}
 
 ## 沟通流程
@@ -189,16 +63,16 @@ ${g.pushback.map(p=>`- ${p}`).join("\n")}
 ${g.redFlags}
 
 ## 课堂练习组织
-- 第一轮（观察）：读背景与开场，学习者先在 20–40 秒内给出自己的回应。
-- 第二轮（追问）：教练用第一轮反问测试共情和逻辑结构。
-- 第三轮（升级）：教练加入额外压力、目标冲突或边界问题，引导学习者形成行动。
+- 先读背景和开场，学习者用 20–40 秒尝试自然回应。
+- 后续依照案例的 \`roundCount\` 逐轮播放对方追问，每轮都等待学习者回应；一轮题不添加额外问题。
+- 随轮次推进具体的质疑、新约束和边界，而不是使用固定的“第三轮模板”。
 - 结束（复盘）：四维自评，每维 0–25 分；着重分析具体句子，不夸大“口才训练”效果。
 - 改写（迁移）：同一情境先分别用温和、坚定、简洁三种语气表达，内容保持真实。
 
 ## 在仓库中读取案例
-- 原始题目：\`data/seeds/${c.id}.txt\`
+- 单题内容源：\`data/entries/${c.id}/<case-id>.json\`
 - 结构化卡片：\`data/cases/${c.id}.json\`
-- 样例：\`${c.id}-001\`（基础） / \`${c.id}-011\`（进阶） / \`${c.id}-021\`（高压）
+- 当前题量：${c.count}；难度、标签、轮次由每题元数据独立指定，不能由 ID 推断
 - 数据格式和新增流程：\`data/README.md\`
 
 ## 理论延伸
@@ -210,25 +84,25 @@ ${c.method}。参考：${c.source}
 const umbrellaBody=function umbrellaBody(){
  return `---
 name: communication-coach
-description: 中文沟通表达与口才训练总教练。将职场、家庭、朋友、客户与利益冲突场景路由到九类专业沟通框架，开展三轮真实角色扮演、反馈评分和新案例整理。
+description: 中文沟通表达与口才训练总教练。根据动态类别配置自动路由不同场景，开展可变轮次角色扮演、反馈评分和新案例整理。
 ---
 
 # 言习 · 综合沟通教练
 
 ## 第一步：识别场景
-从 \`data/catalog.json\` 找到对应类别，然后**只读取相关的** \`references/<category>.md\` 和 \`data/cases/<category>.json\`。九种分类是：upward、collaboration、leadership、partner、parents、children、friends、clients、conflicts。
+从 \`data/catalog.json\` 找到对应类别，然后**只读取相关的** \`references/<category>.md\` 和 \`data/cases/<category>.json\`。当前已注册分类：${meta.map(c=>c.id+"（"+c.name+"）").join("、")}。后续新增类别自动注册，无需更改此技能模板。
 
 ## 第二步：确认练习方式
 默认隐藏参考、一次只展示一轮对方台词。用户可选择顺序、随机、低中高难度，或要求全部展开。一般不需要先问多轮配置问题，按用户提供的内容直接开始。
 
 ## 第三步：进行真实训练
-读出背景、角色、事实、目标；提出对方开场问题后等待学习者回答。继续进行至少两轮真实、逻辑连贯的反问；避免提前给标准话术。按每轮真实回答调整追问。
+读出背景、角色、事实、目标；提出对方开场问题后等待学习者回答。按案例的 \`roundCount\` 依次推进（可能只有一轮，也可能多于三轮）；避免提前给标准话术。按每轮真实回答调整追问。
 
 ## 第四步：严格而友善地反馈
 按结构清晰、理解对方、坚定尊重、行动落点，各0–25分提供有依据的总分。指出一个值得保留的表达与最优先修正的句子，提供自然、不官腔的替代话术，再让学习者脱稿重试。不要保证沟通成功，也不要把有风险的现实情境当成辩论比赛。
 
 ## 第五步：增量导入
-用户提供新的真实案例时，先匿名化，检查是否重复，判定类别和难度；按七字段新行追加到 \`data/seeds/<category>.txt\` 的**末尾**。运行 \`npm run build\`，人工检查三轮示范，保留既有案例ID与网站进度兼容性。仓库另有 \`AGENTS.md\`、\`data/README.md\` 和 \`docs/IMPORT_FROM_CHATGPT.md\`。
+用户提供新的真实案例时，先匿名化，检查是否重复，判定类别和难度；在 \`data/entries/<category>/<case-id>.json\` 中写入稳定 ID、难度、标签及完整多轮台词。新增类别先写 \`data/categories/<category>.json\`。运行 \`npm run build && npm test\` 并审校话术，保留既有案例 ID。仓库另有 \`AGENTS.md\`、\`data/README.md\` 和 \`docs/IMPORT_FROM_CHATGPT.md\`。
 
 ## 安全
 在急性自伤风险、现实威胁、暴力、欺凌或胁迫情境，先保障安全与现实支持，不继续一般的说服训练。
@@ -238,4 +112,17 @@ async function write(rel,body){const target=path.join(root,rel);await mkdir(path
 for(const p of [".codex",".pi",".opencode"]){for(const c of meta){await write(p+"/skills/communication-"+c.id+"/SKILL.md",skillBody(c,p));await write(p+"/skills/communication-"+c.id+"/references/guide.md",guideBody(c));}}
 await write(".agents/skills/communication-coach/SKILL.md",umbrellaBody());
 for(const c of meta)await write(".agents/skills/communication-coach/references/"+c.id+".md",guideBody(c));
+for(const c of meta){
+ const dir=path.join(root,"curriculum",c.id);
+ await mkdir(path.join(dir,"examples"),{recursive:true});
+ const readme=path.join(dir,"README.md");
+ try{await access(readme);}catch{
+  await write("curriculum/"+c.id+"/README.md",
+   "# "+c.name+"\n\n"+c.description+"\n\n## 沟通支柱\n\n"+
+   c.pillars.map((p,i)=>(i+1)+". "+p).join("\n")+"\n\n"+
+   "独立案例源：data/entries/"+c.id+"/；教练参考：.agents/skills/communication-coach/references/"+c.id+".md\n");
+ }
+ const keep=path.join(dir,"examples",".gitkeep");
+ try{await access(keep);}catch{await write("curriculum/"+c.id+"/examples/.gitkeep","");}
+}
 console.log("Synced "+meta.length+" category skills into Codex, Pi, OpenCode, plus repository agent skill");

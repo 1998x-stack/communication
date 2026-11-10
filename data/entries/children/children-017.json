@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "children-017",
+  "category": "children",
+  "title": "考试成绩不理想",
+  "level": 17,
+  "difficulty": "medium",
+  "background": "孩子拿到低于预期的成绩。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "失分集中在基础概念而非粗心"
+  ],
+  "objective": "先分析失分类型再定小目标",
+  "method": "反映式倾听 / 共同解决问题",
+  "pillars": [
+    "倾听接纳",
+    "清晰规则",
+    "培养自主"
+  ],
+  "steps": [
+    {
+      "name": "倾听接纳",
+      "instruction": "开场先围绕已知事实“失分集中在基础概念而非粗心”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "清晰规则",
+      "instruction": "听到“我已经尽力了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "培养自主",
+      "instruction": "遭遇“怎么才能补起来？”的再次追问后，争取一个明确落点：“先分析失分类型再定小目标”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你是不是要骂我？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "倾听接纳",
+      "text": "这次成绩低于预期，你可能担心我生气。我先不骂你，我们一起看哪些题不会，而不是先问为什么排名不好。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "我已经尽力了"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "清晰规则",
+      "text": "你尽力了，我愿意相信你。努力也需要有效的方法；这次失分主要在基础概念，我们可以找到几个最容易补上的点。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎么才能补起来？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "培养自主",
+      "text": "先挑两类常错概念，每天短时间练习并自己讲思路；一周后看看是否真正理解，必要时找老师帮助，不一次要求全补完。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "我已经尽力了",
+    "怎么才能补起来？"
+  ],
+  "coach": {
+    "focus": "让考试结果成为诊断信息而非孩子价值评判。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+  "tags": [
+    "children",
+    "medium",
+    "反映式倾听 / 共同解决问题"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-023",
+  "category": "leadership",
+  "title": "团队成员公开顶撞",
+  "level": 23,
+  "difficulty": "high",
+  "background": "会议上有人当众说你不懂业务。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "对方提出的业务风险有一部分确实成立"
+  ],
+  "objective": "允许专业异议但要求不使用人格攻击",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“对方提出的业务风险有一部分确实成立”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“你是不是不允许我反驳？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“还能讨论事实吗？”的再次追问后，争取一个明确落点：“允许专业异议但要求不使用人格攻击”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你根本不了解前线"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "你说我可能不了解一线，有些业务风险我确实需要你补充。我们先讨论这些事实；“你根本不懂”这种人身判断会让会议失焦。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你是不是不允许我反驳？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "我允许你反驳，而且不同意见很重要。要求的是把观点指向数据、客户场景和风险，不是取消你提出反对意见的权利。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "还能讨论事实吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "请你现在把关键风险具体列出来，我会安排相关人核实；会后我们单独谈会议表达边界，既不压住专业异议，也不容许互相羞辱。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你是不是不允许我反驳？",
+    "还能讨论事实吗？"
+  ],
+  "coach": {
+    "focus": "肯定有价值的异议同时维护讨论规则与尊严。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "high",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

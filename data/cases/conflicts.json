@@ -1,6 +1,6 @@
 [
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-001",
     "category": "conflicts",
     "title": "邻居噪音沟通",
@@ -115,10 +115,11 @@
       "low",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-002",
     "category": "conflicts",
     "title": "分担公共清洁",
@@ -233,10 +234,11 @@
       "low",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-003",
     "category": "conflicts",
     "title": "排队插队争执",
@@ -351,10 +353,11 @@
       "low",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-004",
     "category": "conflicts",
     "title": "停车位误会",
@@ -469,10 +472,11 @@
       "low",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-005",
     "category": "conflicts",
     "title": "聚餐谁付款",
@@ -587,10 +591,11 @@
       "low",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-006",
     "category": "conflicts",
     "title": "会议意见相反",
@@ -705,10 +710,11 @@
       "low",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-007",
     "category": "conflicts",
     "title": "被误解语气",
@@ -823,10 +829,11 @@
       "low",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-008",
     "category": "conflicts",
     "title": "借用物品争执",
@@ -941,10 +948,11 @@
       "low",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-009",
     "category": "conflicts",
     "title": "同事争议数据口径",
@@ -1059,10 +1067,11 @@
       "low",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-010",
     "category": "conflicts",
     "title": "小组决策平票",
@@ -1177,10 +1186,11 @@
       "low",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-011",
     "category": "conflicts",
     "title": "反复遭遇嘲讽",
@@ -1295,10 +1305,11 @@
       "medium",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-012",
     "category": "conflicts",
     "title": "边界被不断试探",
@@ -1413,10 +1424,11 @@
       "medium",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-013",
     "category": "conflicts",
     "title": "共享资源分配",
@@ -1531,10 +1543,11 @@
       "medium",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-014",
     "category": "conflicts",
     "title": "合同责任争议",
@@ -1649,10 +1662,11 @@
       "medium",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-015",
     "category": "conflicts",
     "title": "被公开指责懒惰",
@@ -1767,10 +1781,11 @@
       "medium",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-016",
     "category": "conflicts",
     "title": "讨论迟发奖金",
@@ -1885,10 +1900,11 @@
       "medium",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-017",
     "category": "conflicts",
     "title": "遇到情绪升级",
@@ -2003,10 +2019,11 @@
       "medium",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-018",
     "category": "conflicts",
     "title": "客户要求不合理赔偿",
@@ -2121,10 +2138,11 @@
       "medium",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-019",
     "category": "conflicts",
     "title": "被迫替人背锅",
@@ -2239,10 +2257,11 @@
       "medium",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-020",
     "category": "conflicts",
     "title": "面临群体压力",
@@ -2357,10 +2376,11 @@
       "medium",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-021",
     "category": "conflicts",
     "title": "遭遇持续语言攻击",
@@ -2475,10 +2495,11 @@
       "high",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-022",
     "category": "conflicts",
     "title": "谈薪资存在信息不对等",
@@ -2593,10 +2614,11 @@
       "high",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-023",
     "category": "conflicts",
     "title": "合作伙伴威胁断供",
@@ -2711,10 +2733,11 @@
       "high",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-024",
     "category": "conflicts",
     "title": "公司内部资源抢夺",
@@ -2829,10 +2852,11 @@
       "high",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-025",
     "category": "conflicts",
     "title": "邻里赔偿争议",
@@ -2947,10 +2971,11 @@
       "high",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-026",
     "category": "conflicts",
     "title": "商业合作分账冲突",
@@ -3065,10 +3090,11 @@
       "high",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-027",
     "category": "conflicts",
     "title": "面对威胁报复",
@@ -3183,10 +3209,11 @@
       "high",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-028",
     "category": "conflicts",
     "title": "重大错误归责",
@@ -3301,10 +3328,11 @@
       "high",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-029",
     "category": "conflicts",
     "title": "有权力差的施压",
@@ -3419,10 +3447,11 @@
       "high",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "conflicts-030",
     "category": "conflicts",
     "title": "人身安全受到威胁",
@@ -3537,6 +3566,7 @@
       "high",
       "Principled Negotiation / BATNA"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   }
 ]

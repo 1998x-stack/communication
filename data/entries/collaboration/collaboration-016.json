@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "collaboration-016",
+  "category": "collaboration",
+  "title": "修正公开误解",
+  "level": 16,
+  "difficulty": "medium",
+  "background": "群里有人误读了你的数据结论。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "原消息只指出样本不足并未否定方向"
+  ],
+  "objective": "发布一条包含口径与链接的澄清信息",
+  "method": "Closed-loop / RACI",
+  "pillars": [
+    "目标一致",
+    "责任清晰",
+    "执行闭环"
+  ],
+  "steps": [
+    {
+      "name": "目标一致",
+      "instruction": "开场先围绕已知事实“原消息只指出样本不足并未否定方向”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "责任清晰",
+      "instruction": "听到“那你的真实意思是什么？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "执行闭环",
+      "instruction": "遭遇“需要谁同步澄清？”的再次追问后，争取一个明确落点：“发布一条包含口径与链接的澄清信息”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你是不是在否定我们？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "目标一致",
+      "text": "我不是否定你们的方向。原消息只是说现有样本不足，暂时不能把观察当成确定结论，这和方案本身是否值得做是两件事。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "那你的真实意思是什么？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "责任清晰",
+      "text": "我的意思是继续验证，而不是宣布失败。我会补上样本范围、推断边界和建议补充的数据，避免一句话被单独转发后造成误解。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "需要谁同步澄清？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "执行闭环",
+      "text": "我今天在原群发澄清，附上原数据链接和统一口径；请相关负责人确认后再向更多团队同步，减少多版本解释。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "那你的真实意思是什么？",
+    "需要谁同步澄清？"
+  ],
+  "coach": {
+    "focus": "纠偏不等于反对，用样本边界和来源链接消除误解。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+  "tags": [
+    "collaboration",
+    "medium",
+    "Closed-loop / RACI"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

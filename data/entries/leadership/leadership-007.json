@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-007",
+  "category": "leadership",
+  "title": "协调工作量",
+  "level": 7,
+  "difficulty": "low",
+  "background": "成员主动反映本周任务过多。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "四项任务都被标为高优先级"
+  ],
+  "objective": "一起排序并调整非关键事项",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“四项任务都被标为高优先级”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“是不是说明我效率太低？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“能减少哪些任务？”的再次追问后，争取一个明确落点：“一起排序并调整非关键事项”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我真的做不完"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "四项任务都标了高优先级，任何人都很难同时保证完成。先别把工作量问题归结为你个人效率，我们一起看真实容量。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "是不是说明我效率太低？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "不一定是效率低；我们要看每项预计耗时、不可移动的截止日和依赖关系，也看是否有流程上的等待。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "能减少哪些任务？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "今天先保最关键的一到两项，其余和需求方协商顺延或移交。我负责对外解释调整，你负责及时标明新的阻塞。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "是不是说明我效率太低？",
+    "能减少哪些任务？"
+  ],
+  "coach": {
+    "focus": "让优先级真实体现取舍，不把超额工作转嫁成员自责。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "low",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

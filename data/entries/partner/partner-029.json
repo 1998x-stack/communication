@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-029",
+  "category": "partner",
+  "title": "双方价值观严重冲突",
+  "level": 29,
+  "difficulty": "high",
+  "background": "买房和赡养安排谈判陷入僵局。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "双方对责任比例存在根本分歧"
+  ],
+  "objective": "列出各自底线与财务数据再判断可否达成",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“双方对责任比例存在根本分歧”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“为什么要我承担更多？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“有没有透明的计算方法？”的再次追问后，争取一个明确落点：“列出各自底线与财务数据再判断可否达成”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你的方案只让你自己受益"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "你觉得我的方案偏向自己，我愿意核对具体数字。房屋出资与赡养义务都关乎长期权益，不应该凭一句“公平”就定比例。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "为什么要我承担更多？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "我不会默认你承担更多。我们分别列出收入、已有负担、照护时间和各自不能接受的底线，再看哪些部分能交换或重新安排。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "有没有透明的计算方法？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "先把财务数据和权责写清，有必要时各自咨询独立专业人士；如果核心条件无法共同接受，也要允许暂时不作买房决定。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "为什么要我承担更多？",
+    "有没有透明的计算方法？"
+  ],
+  "coach": {
+    "focus": "以透明信息和自愿底线检验方案是否真的可接受。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "high",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

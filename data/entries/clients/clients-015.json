@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-015",
+  "category": "clients",
+  "title": "客户提出不合理交期",
+  "level": 15,
+  "difficulty": "medium",
+  "background": "客户要求两天完成原本两周的工作。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "完整版本需经过设计实施验收多个阶段"
+  ],
+  "objective": "明确最小可交付范围与风险",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“完整版本需经过设计实施验收多个阶段”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“别家公司说可以做”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“你们最少能交什么？”的再次追问后，争取一个明确落点：“明确最小可交付范围与风险”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我就要后天看到全部"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "您希望后天就看到全部，我理解交付压力。但完整版本涉及设计、实施和验收多个阶段，两天内承诺全量不符合已知工作量。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "别家公司说可以做"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "其他公司能做的范围可能不同，我不评价对方。我们先确认您后天最需要展示的核心流程，明确哪些可提供样机、哪些不能当成正式上线。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "你们最少能交什么？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "两天内我们可以评估提供演示原型或最小可验证模块；完整功能仍需合理测试与验收。我会把可交付清单和风险写清供您选择。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "别家公司说可以做",
+    "你们最少能交什么？"
+  ],
+  "coach": {
+    "focus": "拒绝虚假交期，同时交付有价值且标识清楚的阶段成果。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "medium",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "parents-009",
+  "category": "parents",
+  "title": "父母代为收快递",
+  "level": 9,
+  "difficulty": "low",
+  "background": "父母未经允许拆了你的包裹。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "包裹含私人用品"
+  ],
+  "objective": "约定收到包裹只通知不拆封",
+  "method": "认可关切 / 坚定边界",
+  "pillars": [
+    "尊重关切",
+    "保持边界",
+    "协商安排"
+  ],
+  "steps": [
+    {
+      "name": "尊重关切",
+      "instruction": "开场先围绕已知事实“包裹含私人用品”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "保持边界",
+      "instruction": "听到“一家人还有什么隐私？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "协商安排",
+      "instruction": "遭遇“以后怎么处理快递？”的再次追问后，争取一个明确落点：“约定收到包裹只通知不拆封”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我只是帮你看看"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "尊重关切",
+      "text": "谢谢您帮我收快递，但包裹里有私人用品。我希望以后您收到时先告诉我，不要替我拆开。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "一家人还有什么隐私？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "保持边界",
+      "text": "一家人也有各自私人物品。保留包裹不被拆封的权利，不等于我有什么见不得人的东西。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "以后怎么处理快递？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "协商安排",
+      "text": "以后快递放到约定位置，您拍张外包装或发消息通知即可；需要代拆的包裹我会单独说，这样也方便您。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "一家人还有什么隐私？",
+    "以后怎么处理快递？"
+  ],
+  "coach": {
+    "focus": "把隐私边界转成低成本的家庭操作约定。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.nia.nih.gov/health/advance-care-planning",
+  "tags": [
+    "parents",
+    "low",
+    "认可关切 / 坚定边界"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

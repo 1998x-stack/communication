@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "parents-018",
+  "category": "parents",
+  "title": "面对长辈旧观念",
+  "level": 18,
+  "difficulty": "medium",
+  "background": "长辈坚持某性别应承担全部家务。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "家庭成员都需要兼顾工作"
+  ],
+  "objective": "按现实工作量而非性别划分家务",
+  "method": "认可关切 / 坚定边界",
+  "pillars": [
+    "尊重关切",
+    "保持边界",
+    "协商安排"
+  ],
+  "steps": [
+    {
+      "name": "尊重关切",
+      "instruction": "开场先围绕已知事实“家庭成员都需要兼顾工作”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "保持边界",
+      "instruction": "听到“你还想跟传统作对？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "协商安排",
+      "instruction": "遭遇“那实际家务谁负责？”的再次追问后，争取一个明确落点：“按现实工作量而非性别划分家务”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "以前家庭都是这样"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "尊重关切",
+      "text": "以前的家庭分工与当时的生活条件有关。现在家里成员都要工作，我认为家务应该按实际时间和能力分担，而不是先看性别。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你还想跟传统作对？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "保持边界",
+      "text": "我不是为了反对传统而反对，而是希望每个人的劳动都被看见。谁更有空、谁更擅长做什么，可以具体协商。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "那实际家务谁负责？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "协商安排",
+      "text": "我们列出做饭、清洁、照护等任务，按每个人的工作与身体状况分配，并定期调整，不让一种性别自动承担全部。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你还想跟传统作对？",
+    "那实际家务谁负责？"
+  ],
+  "coach": {
+    "focus": "将价值观争议转为公平、可执行的家庭任务安排。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.nia.nih.gov/health/advance-care-planning",
+  "tags": [
+    "parents",
+    "medium",
+    "认可关切 / 坚定边界"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

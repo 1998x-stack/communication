@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-017",
+  "category": "upward",
+  "title": "对不合理指标提疑问",
+  "level": 17,
+  "difficulty": "medium",
+  "background": "新季度指标比历史水平翻倍。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "过去三季度增长稳定，资源没有同步增加"
+  ],
+  "objective": "先按历史基线设阶段里程碑再复盘",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“过去三季度增长稳定，资源没有同步增加”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“你是不是不愿挑战？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“那你给出什么目标？”的再次追问后，争取一个明确落点：“先按历史基线设阶段里程碑再复盘”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "这个目标有问题吗？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "目标翻倍本身可以讨论，但过去三季度增长较稳定、资源也未增加，直接承诺翻倍缺少支撑。我建议先拆成阶段里程碑验证。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你是不是不愿挑战？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "我愿意挑战更高目标，质疑的是实现路径而非努力程度。我们可以列出必须新增的渠道、转化改善或资源投入，验证翻倍需要哪些条件。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "那你给出什么目标？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "建议保留长期挑战目标，同时先按历史基线设月度里程碑，逐月复盘；若验证出新的增长杠杆，再共同上调承诺值。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你是不是不愿挑战？",
+    "那你给出什么目标？"
+  ],
+  "coach": {
+    "focus": "区分挑战精神和无条件保证，用数据及资源约束谈目标。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "medium",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

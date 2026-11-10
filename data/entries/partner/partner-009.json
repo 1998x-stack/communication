@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-009",
+  "category": "partner",
+  "title": "对方情绪低落",
+  "level": 9,
+  "difficulty": "low",
+  "background": "伴侣最近不愿意沟通。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "对方连续加班，当前明显疲惫"
+  ],
+  "objective": "尊重暂停并约好明天的关心时间",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“对方连续加班，当前明显疲惫”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“你能不能别一直追问？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“明天再聊可以吗？”的再次追问后，争取一个明确落点：“尊重暂停并约好明天的关心时间”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我今天不想说话"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "你今天不想讲话，我听到了。你最近连续加班，可能很疲惫。我不再追问你现在必须解释什么。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你能不能别一直追问？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "好的，我先给你空间。我担心你，但不想把关心变成压力。如果需要吃的、喝的或一个人休息，告诉我就好。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "明天再聊可以吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "明天我们找个你精神好些的时间再聊。我今晚不逼你说，但你需要帮助可以随时叫我。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你能不能别一直追问？",
+    "明天再聊可以吗？"
+  ],
+  "coach": {
+    "focus": "尊重暂停权，保留可预期的再次沟通机会。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "low",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

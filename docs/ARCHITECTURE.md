@@ -1,50 +1,51 @@
-# 架构与增量设计
+# 言习 v2 · 独立元数据架构
 
-## 技术选择
-
-原生 HTML + CSS + 浏览器 JavaScript + JSON 数据，零运行时依赖；GitHub Pages 静态托管，无数据库和 API token，手机/桌面均可使用。
+## 单一内容源 → 确定性构建
 
 ```text
-data/seeds/*.txt --(node scripts/generate.mjs)--> data/cases/*.json
-        + data/overrides/*.json (人工精修三轮回应)
-                                      \-------> data/catalog.json
-                                                        |
-                                                assets/app.js fetch
-                                                        |
-                                           分类 / 过滤 / 多轮卡片
-                                                        |
-                                          localStorage (仅本机)
+data/categories/<category>.json ─┐
+                                 ├── scripts/generate.mjs ─── data/catalog.json
+data/entries/<category>/*.json ─┘                          └── data/cases/<category>.json
+                                                                    │
+                                                   ┌────────────────┴─────────────┐
+                                                   │                              │
+                                          assets/app.js                    scripts/sync-skills.mjs
+                                     动态分类/标签/轮次         .agents / .codex / .pi / .opencode
+                                                   │                              │
+                                        localStorage (仅本机)         curriculum 新类自动占位
 ```
 
-`scripts/sync-skills.mjs` 从 catalog 读取分类和教学指南，生成平台 Skill；`scripts/validate.mjs` 和 `scripts/audit.mjs` 确认内容和目录一致。
+**权威源**只有 `categories` 与 `entries`。生成产物 `catalog`、`cases` 和 Skills 不可人工编辑。原 `seeds/` 与 `overrides/` 为可审计的只读历史存档。零运行时依赖、静态 GitHub Pages 发布，无账号或服务端训练数据。
 
-## 标识与向后兼容
+## 分类和案例完全解耦
 
-- 案例 ID 是 `category-###`，**唯一且永久不变**。
-- 分类 ID 不要因翻译/营销文案更改。
-- localStorage key 是 `yanxi-training-v1`，内有完成记录、个人回答、收藏、评分和最近抽题历史。
-- 升级数据格式时同时提供迁移策略，不可把 ID 换成数组位置。
-- `data/catalog.json` 是网站唯一分类注册入口，新增同一分类的案例不用修改网页。
-- 此版本生成器基于固定九类 `meta`；增加第十类时需扩充 `scripts/generate.mjs` 与 `scripts/sync-skills.mjs`，并增加种子、课程指南与对应 Skill。后续可把元数据移入独立 `categories.source.json` 简化维护。
+- `categories/<id>.json`：决定类别名称、展示顺序、理论来源、沟通支柱和教学 `guide`，不需要在 JS 注册。
+- `entries/<category>/<id>.json`：一份案例包含稳定 ID、自由难度、标签、显式 `roundCount` 与对应的完整 `dialogue`，可选独立显示排序。
+- `generate` 自动发现所有类别与案例，拒绝目录与 ID 不匹配、重复 ID、未知分类、非法难度、空标签、轮次数不一致、角色顺序错误等情况。
+- 运行 `skills:sync` 时读取自动生成的目录并生成 Codex、Pi、OpenCode 分类技能和 `.agents` 总教练参考。新增类别默认生成 `curriculum/<id>/README.md` 和空案例目录。
+- 网页从 catalog 加载分类；标签筛选从实际案例动态收集；按 `roundCount` 逐轮解锁，不再假定 6 条对话或固定三轮。
 
-## 为什么保存种子与生成后的 JSON？
+## 向后兼容
 
-种子便于从 ChatGPT 中快速整理单个案例；生成后的 JSON 有完整的课堂卡片结构，可被网站和 Agent 直接读取。生成数据应与源同步，生成器要可复现。复杂案例可放入 `data/overrides/<case-id>.json`，覆盖三轮参考、教学步骤和复盘重点，生成器会在写入 `data/cases` 前合并并校验；这样人工精修不会被下一次生成冲掉。覆盖层当前不支持改写身份、难度、角色或任意分支树。
+原 270 题的 ID、难度和编辑后的话术都在 v2 原样保留。`level` 为可选的旧排序标记，新案例可以使用任意可读 ID 和 `order`。浏览器的 `localStorage` key 继续保持 `yanxi-training-v1`，收藏、文字、进度等以 ID 关联，旧记录无需迁移或重置。
 
-## 已支持 / 尚未支持
+所有 v2 案例必须声明自己的 `roundCount` 和 `difficulty`；旧数据导入已完成，不再通过 `seeds` 行号生成 ID。质量测试同时验证 270 份旧编辑覆盖文件与新独立源产物相同。后续新增案例可不改变旧题数量/顺序。
 
-**已支持：** 270 例、三档难度、顺序/随机、逐轮解锁对方反问、每日固定 3 题、跨日练习统计、270 份独立精修覆盖、个人输入、收藏、完成统计、浏览器语音朗读、仅当前页面的本地录音回放、复制题目到 ChatGPT、九类 Agent Skills。
+## 验证与发布
 
-**尚未支持：** 网站内真实 AI 对话评分、云端跨设备同步、WebRTC 远程对练、任意分支剧情编辑器、个人账号和服务端训练数据。不要把上述能力写成已上线。
+```bash
+npm run build   # 从独立来源生成 catalog / 训练卡并同步 Skills
+npm test        # 校验来源-产物一致、原270题保真、动态类别/轮次、UI约束
+```
 
-## 数据安全与隐私
+CI 额外执行 `git diff --exit-code` 确保生成内容已提交，Pages 从 `dist` 发布运行 JSON/HTML/CSS/JS，不公开原始编辑源或训练记录。未来新类别可以从仅一个案例开始，然后长期增长。
 
-训练答案由 localStorage 存储，没有服务器端上报。导入真实聊天要去标识化；公开内容不允许真实住址、联系方式、秘密或未经授权的截图。在多人共用浏览器上，localStorage 并非安全私密空间，适合一般练习记录，不适合保存敏感私人材料。
+## 能力边界
 
-## 扩展路线
+已支持：动态类别、独立案例元数据、自由难度与标签、任意正整数轮次的线性对话、顺序/随机练习、每日三题、逐轮隐藏、浏览器本地记录、静态 Skills 自动生成。
 
-1. 人工创作的多分支 JSON 案例与版本迁移；
-2. 录音回放后的仅本机语速/停顿辅助与手动下载；
-3. 每周训练回顾、弱项复习算法；
-4. 可审查的 ChatGPT 案例导入、难度校准与可追溯出处；
-5. 在用户主动授权下接入实时 AI 反馈，不隐性上传回答。
+暂未支持：由回答实时分支到不同剧情、云端账户同步、在线 AI 自动评分、服务端语音识别、数据导入编辑器或第三方专业认证。`roundCount` 是线性回合数，不表示已经有分支剧情引擎。
+
+## 安全与素材边界
+
+现实暴力/威胁/自伤等情境优先安全及现实专业支持，不把持续交涉当作唯一答案。新内容提交前需去标识化并保留创作版权，不能上传真实个人或公司的敏感资料。

@@ -1,6 +1,6 @@
 [
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-001",
     "category": "friends",
     "title": "朋友倾诉烦恼",
@@ -115,10 +115,11 @@
       "low",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-002",
     "category": "friends",
     "title": "拒绝临时聚会",
@@ -233,10 +234,11 @@
       "low",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-003",
     "category": "friends",
     "title": "朋友分享好消息",
@@ -351,10 +353,11 @@
       "low",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-004",
     "category": "friends",
     "title": "请朋友保守秘密",
@@ -469,10 +472,11 @@
       "low",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-005",
     "category": "friends",
     "title": "礼物太昂贵",
@@ -587,10 +591,11 @@
       "low",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-006",
     "category": "friends",
     "title": "朋友迟到",
@@ -705,10 +710,11 @@
       "low",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-007",
     "category": "friends",
     "title": "聊天被频繁打断",
@@ -823,10 +829,11 @@
       "low",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-008",
     "category": "friends",
     "title": "回应朋友求助",
@@ -941,10 +948,11 @@
       "low",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-009",
     "category": "friends",
     "title": "朋友圈误会",
@@ -1059,10 +1067,11 @@
       "low",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-010",
     "category": "friends",
     "title": "饭局账单分摊",
@@ -1177,10 +1186,11 @@
       "low",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-011",
     "category": "friends",
     "title": "朋友反复借小钱",
@@ -1295,10 +1305,11 @@
       "medium",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-012",
     "category": "friends",
     "title": "朋友当众开玩笑",
@@ -1413,10 +1424,11 @@
       "medium",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-013",
     "category": "friends",
     "title": "双方社交频率不同",
@@ -1531,10 +1543,11 @@
       "medium",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-014",
     "category": "friends",
     "title": "朋友求你站队",
@@ -1649,10 +1662,11 @@
       "medium",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-015",
     "category": "friends",
     "title": "拒绝无偿专业服务",
@@ -1767,10 +1781,11 @@
       "medium",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-016",
     "category": "friends",
     "title": "朋友情绪索取",
@@ -1885,10 +1900,11 @@
       "medium",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-017",
     "category": "friends",
     "title": "冷落朋友后修复",
@@ -2003,10 +2019,11 @@
       "medium",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-018",
     "category": "friends",
     "title": "友情中的竞争",
@@ -2121,10 +2138,11 @@
       "medium",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-019",
     "category": "friends",
     "title": "朋友借钱金额较大",
@@ -2239,10 +2257,11 @@
       "medium",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-020",
     "category": "friends",
     "title": "朋友未经允许上传合照",
@@ -2357,10 +2376,11 @@
       "medium",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-021",
     "category": "friends",
     "title": "朋友长期贬低",
@@ -2475,10 +2495,11 @@
       "high",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-022",
     "category": "friends",
     "title": "朋友要求保守违法秘密",
@@ -2593,10 +2614,11 @@
       "high",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-023",
     "category": "friends",
     "title": "共同创业友情冲突",
@@ -2711,10 +2733,11 @@
       "high",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-024",
     "category": "friends",
     "title": "朋友以人情施压",
@@ -2829,10 +2852,11 @@
       "high",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-025",
     "category": "friends",
     "title": "朋友公开泄露隐私",
@@ -2947,10 +2971,11 @@
       "high",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-026",
     "category": "friends",
     "title": "被朋友圈排挤",
@@ -3065,10 +3090,11 @@
       "high",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-027",
     "category": "friends",
     "title": "朋友要求你作虚假证言",
@@ -3183,10 +3209,11 @@
       "high",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-028",
     "category": "friends",
     "title": "朋友处于情绪危机",
@@ -3301,10 +3328,11 @@
       "high",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-029",
     "category": "friends",
     "title": "多年朋友关系破裂",
@@ -3419,10 +3447,11 @@
       "high",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "friends-030",
     "category": "friends",
     "title": "朋友在关键时刻失约",
@@ -3537,6 +3566,7 @@
       "high",
       "积极倾听 / 边界表达"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   }
 ]

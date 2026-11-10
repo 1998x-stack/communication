@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-025",
+  "category": "friends",
+  "title": "朋友公开泄露隐私",
+  "level": 25,
+  "difficulty": "high",
+  "background": "朋友将你私下说的话截图发群里。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "截图已让多位熟人知悉私人信息"
+  ],
+  "objective": "先要求停止传播并评估信任是否可恢复",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“截图已让多位熟人知悉私人信息”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“你不会真要绝交吧？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“你希望我怎么补救？”的再次追问后，争取一个明确落点：“先要求停止传播并评估信任是否可恢复”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我没想到会这么严重"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "你把我私下说的话截图发到群里，已经让多位熟人知道这件事。我现在受到影响，最急的是先停止继续传播。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你不会真要绝交吧？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "你可能没想到后果，但伤害已经发生。我需要先确认截图发到了哪里、谁看过，而不是被要求立刻决定还做不做朋友。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "你希望我怎么补救？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "请你主动删除并联系接收者请求不要再转发，之后我们再谈道歉和修复。我能否恢复信任需要时间，也可能需要调整我们分享隐私的方式。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你不会真要绝交吧？",
+    "你希望我怎么补救？"
+  ],
+  "coach": {
+    "focus": "信任受损先止损再评估修复，不接受“别绝交”代替行动。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "high",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,6 +1,6 @@
 [
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-001",
     "category": "collaboration",
     "title": "统一字段命名",
@@ -115,10 +115,11 @@
       "low",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-002",
     "category": "collaboration",
     "title": "会议后确认分工",
@@ -233,10 +234,11 @@
       "low",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-003",
     "category": "collaboration",
     "title": "请求同事核对",
@@ -351,10 +353,11 @@
       "low",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-004",
     "category": "collaboration",
     "title": "对齐交付格式",
@@ -469,10 +472,11 @@
       "low",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-005",
     "category": "collaboration",
     "title": "迟到的进度同步",
@@ -587,10 +591,11 @@
       "low",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-006",
     "category": "collaboration",
     "title": "交接未完成",
@@ -705,10 +710,11 @@
       "low",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-007",
     "category": "collaboration",
     "title": "同步需求变更",
@@ -823,10 +829,11 @@
       "low",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-008",
     "category": "collaboration",
     "title": "邀请跨部门参加会",
@@ -941,10 +948,11 @@
       "low",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-009",
     "category": "collaboration",
     "title": "明确验收条件",
@@ -1059,10 +1067,11 @@
       "low",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-010",
     "category": "collaboration",
     "title": "项目收尾致谢",
@@ -1177,10 +1186,11 @@
       "low",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-011",
     "category": "collaboration",
     "title": "同事连续拖延",
@@ -1295,10 +1305,11 @@
       "medium",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-012",
     "category": "collaboration",
     "title": "边界模糊的请求",
@@ -1413,10 +1424,11 @@
       "medium",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-013",
     "category": "collaboration",
     "title": "跨时区合作",
@@ -1531,10 +1543,11 @@
       "medium",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-014",
     "category": "collaboration",
     "title": "需求频繁反复",
@@ -1649,10 +1662,11 @@
       "medium",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-015",
     "category": "collaboration",
     "title": "团队资源冲突",
@@ -1767,10 +1781,11 @@
       "medium",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-016",
     "category": "collaboration",
     "title": "修正公开误解",
@@ -1885,10 +1900,11 @@
       "medium",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-017",
     "category": "collaboration",
     "title": "同事语气生硬",
@@ -2003,10 +2019,11 @@
       "medium",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-018",
     "category": "collaboration",
     "title": "联名任务归属",
@@ -2121,10 +2138,11 @@
       "medium",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-019",
     "category": "collaboration",
     "title": "会议讨论跑偏",
@@ -2239,10 +2257,11 @@
       "medium",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-020",
     "category": "collaboration",
     "title": "同事不同意方案",
@@ -2357,10 +2376,11 @@
       "medium",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-021",
     "category": "collaboration",
     "title": "被同事公开甩锅",
@@ -2475,10 +2495,11 @@
       "high",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-022",
     "category": "collaboration",
     "title": "被越级安排任务",
@@ -2593,10 +2614,11 @@
       "high",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-023",
     "category": "collaboration",
     "title": "涉及隐私的数据请求",
@@ -2711,10 +2733,11 @@
       "high",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-024",
     "category": "collaboration",
     "title": "团队信任受损",
@@ -2829,10 +2852,11 @@
       "high",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-025",
     "category": "collaboration",
     "title": "对方拒绝负责",
@@ -2947,10 +2971,11 @@
       "high",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-026",
     "category": "collaboration",
     "title": "协作利益不对等",
@@ -3065,10 +3090,11 @@
       "high",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-027",
     "category": "collaboration",
     "title": "供应商与内部扯皮",
@@ -3183,10 +3209,11 @@
       "high",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-028",
     "category": "collaboration",
     "title": "事故现场多方争执",
@@ -3301,10 +3328,11 @@
       "high",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-029",
     "category": "collaboration",
     "title": "同事泄露会议内容",
@@ -3419,10 +3447,11 @@
       "high",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "collaboration-030",
     "category": "collaboration",
     "title": "面对被孤立的协作",
@@ -3537,6 +3566,7 @@
       "high",
       "Closed-loop / RACI"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   }
 ]

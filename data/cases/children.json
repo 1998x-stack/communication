@@ -1,6 +1,6 @@
 [
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-001",
     "category": "children",
     "title": "收拾玩具",
@@ -115,10 +115,11 @@
       "low",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-002",
     "category": "children",
     "title": "早上起床磨蹭",
@@ -233,10 +234,11 @@
       "low",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-003",
     "category": "children",
     "title": "作业遇到困难",
@@ -351,10 +353,11 @@
       "low",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-004",
     "category": "children",
     "title": "想买新玩具",
@@ -469,10 +472,11 @@
       "low",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-005",
     "category": "children",
     "title": "兄弟姐妹争抢玩具",
@@ -587,10 +591,11 @@
       "low",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-006",
     "category": "children",
     "title": "孩子比赛失利",
@@ -705,10 +710,11 @@
       "low",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-007",
     "category": "children",
     "title": "晚上不肯睡觉",
@@ -823,10 +829,11 @@
       "low",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-008",
     "category": "children",
     "title": "说话打断别人",
@@ -941,10 +948,11 @@
       "low",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-009",
     "category": "children",
     "title": "不愿分享心情",
@@ -1059,10 +1067,11 @@
       "low",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-010",
     "category": "children",
     "title": "害怕打针",
@@ -1177,10 +1186,11 @@
       "low",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-011",
     "category": "children",
     "title": "孩子撒小谎",
@@ -1295,10 +1305,11 @@
       "medium",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-012",
     "category": "children",
     "title": "电子产品时间争执",
@@ -1413,10 +1424,11 @@
       "medium",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-013",
     "category": "children",
     "title": "被同学排斥",
@@ -1531,10 +1543,11 @@
       "medium",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-014",
     "category": "children",
     "title": "不愿去兴趣班",
@@ -1649,10 +1662,11 @@
       "medium",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-015",
     "category": "children",
     "title": "孩子顶嘴",
@@ -1767,10 +1781,11 @@
       "medium",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-016",
     "category": "children",
     "title": "孩子沉迷短视频",
@@ -1885,10 +1900,11 @@
       "medium",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-017",
     "category": "children",
     "title": "考试成绩不理想",
@@ -2003,10 +2019,11 @@
       "medium",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-018",
     "category": "children",
     "title": "同伴冲突与打人",
@@ -2121,10 +2138,11 @@
       "medium",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-019",
     "category": "children",
     "title": "孩子想自己做决定",
@@ -2239,10 +2257,11 @@
       "medium",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-020",
     "category": "children",
     "title": "孩子社交焦虑",
@@ -2357,10 +2376,11 @@
       "medium",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-021",
     "category": "children",
     "title": "发现网络欺凌",
@@ -2475,10 +2495,11 @@
       "high",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-022",
     "category": "children",
     "title": "青春期隐私争执",
@@ -2593,10 +2614,11 @@
       "high",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-023",
     "category": "children",
     "title": "关于成绩的权力斗争",
@@ -2711,10 +2733,11 @@
       "high",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-024",
     "category": "children",
     "title": "孩子表达身份困惑",
@@ -2829,10 +2852,11 @@
       "high",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-025",
     "category": "children",
     "title": "孩子发现父母争吵",
@@ -2947,10 +2971,11 @@
       "high",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-026",
     "category": "children",
     "title": "青少年要深夜外出",
@@ -3065,10 +3090,11 @@
       "high",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-027",
     "category": "children",
     "title": "涉及陌生人隐私风险",
@@ -3183,10 +3209,11 @@
       "high",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-028",
     "category": "children",
     "title": "出现持续逃学",
@@ -3301,10 +3328,11 @@
       "high",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-029",
     "category": "children",
     "title": "亲子矛盾伴随威胁",
@@ -3419,10 +3447,11 @@
       "high",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   },
   {
-    "schemaVersion": 1,
+    "schemaVersion": 2,
     "id": "children-030",
     "category": "children",
     "title": "孩子表达自伤念头",
@@ -3537,6 +3566,7 @@
       "high",
       "反映式倾听 / 共同解决问题"
     ],
-    "created": "2026-11-10"
+    "created": "2026-11-10",
+    "roundCount": 3
   }
 ]

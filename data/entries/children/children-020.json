@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "children-020",
+  "category": "children",
+  "title": "孩子社交焦虑",
+  "level": 20,
+  "difficulty": "medium",
+  "background": "孩子不敢在班上回答问题。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "孩子在熟人面前能清晰表达"
+  ],
+  "objective": "从两人练习逐步增加表达机会",
+  "method": "反映式倾听 / 共同解决问题",
+  "pillars": [
+    "倾听接纳",
+    "清晰规则",
+    "培养自主"
+  ],
+  "steps": [
+    {
+      "name": "倾听接纳",
+      "instruction": "开场先围绕已知事实“孩子在熟人面前能清晰表达”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "清晰规则",
+      "instruction": "听到“说错了怎么办？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "培养自主",
+      "instruction": "遭遇“能从小范围开始吗？”的再次追问后，争取一个明确落点：“从两人练习逐步增加表达机会”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "别人会笑我"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "倾听接纳",
+      "text": "担心同学笑你会让举手变得很难。我知道你在熟人面前能说清楚，这说明你不是没有想法，我们可以慢慢练陌生场合。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "说错了怎么办？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "清晰规则",
+      "text": "说错会难堪，但课堂也是练习的地方。不需要你明天就大胆面对全班；先练一句不确定时也能说的话，比如“我先说说我的想法”。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "能从小范围开始吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "培养自主",
+      "text": "我们先两个人练习，再尝试在小组里说一句，准备好了再增加人数；如果被嘲笑，我们会和老师讨论如何保护课堂氛围。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "说错了怎么办？",
+    "能从小范围开始吗？"
+  ],
+  "coach": {
+    "focus": "以逐步暴露和支持性反馈建立表达信心，不逼孩子突然当众表演。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+  "tags": [
+    "children",
+    "medium",
+    "反映式倾听 / 共同解决问题"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

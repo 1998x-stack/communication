@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-030",
+  "category": "clients",
+  "title": "客户以舆论施压",
+  "level": 30,
+  "difficulty": "high",
+  "background": "客户威胁在网络曝光换取额外赔偿。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "客户提出的补偿超出已核实损失"
+  ],
+  "objective": "按事实与合同记录处理并升级正式争议流程",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“客户提出的补偿超出已核实损失”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“你们怕不怕影响品牌？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“有没有正式解决渠道？”的再次追问后，争取一个明确落点：“按事实与合同记录处理并升级正式争议流程”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "不给补偿我就公开你们"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "您希望得到合理补偿，我们愿意根据可核实损失和合同认真处理。网络公开是您的选择，但我们不能在威胁下无依据地承诺额外赔偿。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你们怕不怕影响品牌？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "我理解您担心问题被忽视，品牌压力也不能代替事实核查。我们会保存事件记录，明确当前已确认的影响和仍需验证的损失。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "有没有正式解决渠道？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "建议通过正式投诉与争议处理渠道提交材料，指定负责人和处理时限；若双方仍有分歧，可按合同约定寻求调解或其他合法方式。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你们怕不怕影响品牌？",
+    "有没有正式解决渠道？"
+  ],
+  "coach": {
+    "focus": "不被舆论威胁带离事实和合同，保留正式争议解决渠道。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "high",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}
