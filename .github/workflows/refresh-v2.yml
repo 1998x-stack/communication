@@ -1,0 +1,29 @@
+name: Refresh independent v2 catalog and skills
+on:
+  push:
+    branches: [feat/metadata-v2-extensible-training]
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate and verify independent metadata
+        run: |
+          npm run build
+          npm test
+      - name: Commit derived catalog, cases, skills and curriculum placeholders
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/catalog.json data/cases .agents/skills .codex/skills .pi/skills .opencode/skills curriculum/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: regenerate v2 catalog, published cases and dynamic skills"
+            git push origin HEAD:feat/metadata-v2-extensible-training
+          fi
