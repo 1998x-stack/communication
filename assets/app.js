@@ -88,7 +88,7 @@ function renderCase(){
  const diff={low:"基础",medium:"进阶",high:"高压"}[c.difficulty],isFav=state.favorites.includes(c.id),complete=Boolean(state.completed[c.id]);
  const roundCount=c.roundCount||c.dialogue.length/2,visibleRounds=Math.min(roundCount,Math.max(1,state.rounds[c.id]||1));
  const displayNumber=String(c.level??c.order??"新题").padStart(2,"0");
- panel.innerHTML='<div class="case-top"><span class="case-path">SCENARIO / '+esc(name.toUpperCase())+' · '+displayNumber+'</span><div class="case-actions"><button class="light-button '+(isFav?"active":"")+'" data-action="favorite" aria-label="收藏或取消收藏">'+(isFav?"♥ 已收藏":"♡ 收藏")+'</button><span class="level-pill '+c.difficulty+'">'+diff+' / '+roundCount+'轮'</span></div></div>'+
+ panel.innerHTML='<div class="case-top"><span class="case-path">SCENARIO / '+esc(name.toUpperCase())+' · '+displayNumber+'</span><div class="case-actions"><button class="light-button '+(isFav?"active":"")+'" data-action="favorite" aria-label="收藏或取消收藏">'+(isFav?"♥ 已收藏":"♡ 收藏")+'</button><span class="level-pill '+c.difficulty+'">'+diff+' / '+roundCount+'轮</span></div></div>'+
  '<div class="case-headline"><div><h3>'+esc(c.title)+'</h3><div class="case-subtitle">'+esc(name)+' · '+esc(c.method)+' · '+roundCount+' 轮实战</div></div><div class="case-num">'+displayNumber+'</div></div>'+
  '<div class="case-tags">'+c.tags.slice(0,6).map(x=>'<span class="case-tag"># '+esc(x)+'</span>').join("")+'</div>'+
  '<div class="objective"><span class="mini-label">◎ 本次沟通的目标</span><p>'+esc(c.objective)+'</p></div>'+
