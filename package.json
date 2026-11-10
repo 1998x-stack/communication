@@ -7,7 +7,7 @@
   "scripts": {
     "generate": "node scripts/generate.mjs",
     "validate": "node scripts/validate.mjs",
-    "test": "node scripts/validate.mjs && node scripts/audit.mjs && node --check assets/app.js",
+    "test": "node scripts/validate.mjs && node scripts/quality.mjs && node scripts/audit.mjs && node --check assets/app.js && node --check scripts/generate.mjs",
     "build": "npm run generate && npm run validate && npm run skills:sync",
     "skills:sync": "node scripts/sync-skills.mjs"
   }

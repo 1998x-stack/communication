@@ -2,7 +2,7 @@
 import {access,readFile} from 'node:fs/promises';
 const root=new URL('../',import.meta.url);
 const catalog=JSON.parse(await readFile(new URL('data/catalog.json',root),'utf8'));
-const paths=['index.html','assets/app.js','assets/styles.css','.github/workflows/pages.yml','AGENTS.md','README.md'];
+const paths=['index.html','assets/app.js','assets/styles.css','.github/workflows/pages.yml','AGENTS.md','README.md','data/overrides/README.md','scripts/quality.mjs'];
 for(const c of catalog.categories){
  paths.push('curriculum/'+c.id+'/README.md','curriculum/'+c.id+'/examples/.gitkeep');
  for(const p of ['.codex','.pi','.opencode'])paths.push(p+'/skills/communication-'+c.id+'/SKILL.md',p+'/skills/communication-'+c.id+'/references/guide.md');
