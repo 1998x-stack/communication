@@ -8,7 +8,7 @@ const key="yanxi-training-v1";
 let state={category:"all",difficulty:"all",tag:"all",order:"sequential",visibility:"hidden",search:"",activeId:null,revealed:{},answers:{},ratings:{},completed:{},favorites:[],visited:[],rounds:{},practiceDays:{},recordings:[]};
 try{const raw=localStorage.getItem(key);if(raw){const stored=JSON.parse(raw);state={...state,...stored,revealed:{},rounds:stored.rounds||{},practiceDays:stored.practiceDays||{},visited:Array.isArray(stored.visited)?stored.visited:[]};if(!Object.keys(state.practiceDays).length){for(const v of Object.values(state.completed||{})){if(v?.date)state.practiceDays[v.date]=(state.practiceDays[v.date]||0)+1;}}}}catch{}
 let catalog=null,cases=[],currentRecording=null,recordChunks=[],mediaStream=null,currentAudio=null,notice="";
-const icons={all:"✦",upward:"▣",collaboration:"♙",leadership:"♜",partner:"♡",parents:"⌂",children:"❀",friends:"☕",clients:"◇",conflicts:"⚖","public-speaking":"🎙"};
+const icons={all:"✦",upward:"▣",collaboration:"♙",leadership:"♜",partner:"♡",parents:"⌂",children:"❀",friends:"☕",clients:"◇",conflicts:"⚖"};
 const save=()=>{try{const {recordings,...persist}=state;localStorage.setItem(key,JSON.stringify(persist));}catch{}};
 const filtered=()=>cases.filter(c=>(state.category==="all"||c.category===state.category)&&(state.difficulty==="all"||c.difficulty===state.difficulty)&&((state.tag==="all"||c.tags.includes(state.tag))&&(!state.search||(`${c.title} ${c.background} ${c.facts.join(" ")} ${c.tags.join(" ")}`).toLowerCase().includes(state.search.toLowerCase()))));
 const sorted=()=>filtered().sort((a,b)=>cases.indexOf(a)-cases.indexOf(b));
@@ -24,7 +24,7 @@ function renderStats(){
 }
 function renderCategories(){
  const catNav=$("#categoryNav");
- catNav.innerHTML='<div class="nav-list"><button class="nav-item '+(state.category==="all"?"active":"")+'" data-category="all"><span class="nav-icon">✦</span>全部练习<small>'+cases.length+'</small></button>'+catalog.categories.map(c=>'<button class="nav-item '+(state.category===c.id?"active":"")+'" data-category="'+esc(c.id)+'"><span class="nav-icon">'+(icons[c.id]||"◦")+'</span>'+esc(c.name)+'<small>'+c.count+'</small></button>').join("")+'</div>';
+ catNav.innerHTML='<div class="nav-list"><button class="nav-item '+(state.category==="all"?"active":"")+'" data-category="all"><span class="nav-icon">✦</span>全部练习<small>'+cases.length+'</small></button>'+catalog.categories.map(c=>'<button class="nav-item '+(state.category===c.id?"active":"")+'" data-category="'+esc(c.id)+'"><span class="nav-icon">'+esc(c.symbol||icons[c.id]||"◦")+'</span>'+esc(c.name)+'<small>'+c.count+'</small></button>').join("")+'</div>';
  $("#navCount").textContent=String(catalog.categories.length).padStart(2,"0");
  $("#categorySelect").innerHTML='<option value="all">全部场景</option>'+catalog.categories.map(c=>'<option value="'+esc(c.id)+'">'+esc(c.name)+'</option>').join("");
  $("#categorySelect").value=state.category;
