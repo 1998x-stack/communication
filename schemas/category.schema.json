@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Yanxi extensible category - v2",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "description",
+    "pillars",
+    "method",
+    "source",
+    "guide"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "description": {
+      "type": "string",
+      "minLength": 4
+    },
+    "icon": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "pillars": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "method": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "format": "uri"
+    },
+    "guide": {
+      "type": "object",
+      "required": [
+        "goal",
+        "sequence",
+        "pushback",
+        "redFlags"
+      ],
+      "properties": {
+        "goal": {
+          "type": "string"
+        },
+        "sequence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "pushback": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "redFlags": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}
