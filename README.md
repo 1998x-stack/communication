@@ -8,7 +8,7 @@
 
 **9 个场景 · 270 个独立情境 · 每题 3 轮实战 · 3 档难度**
 
-[体验训练网站（需启用 GitHub Pages）](https://1998x-stack.github.io/communication/) · [课程体系](docs/CURRICULUM.md) · [新增案例](docs/IMPORT_FROM_CHATGPT.md) · [架构说明](docs/ARCHITECTURE.md)
+[立即开始每日晨练](https://1998x-stack.github.io/communication/) · [课程体系](docs/CURRICULUM.md) · [新增案例](docs/IMPORT_FROM_CHATGPT.md) · [架构说明](docs/ARCHITECTURE.md)
 
 </div>
 
@@ -68,7 +68,7 @@ python3 -m http.server 4173
 
 ## GitHub Pages 发布
 
-已包含 `.github/workflows/pages.yml`，默认在 main 更新时构建和部署。**首次必须在仓库 Settings → Pages → Build and deployment → Source 选择 GitHub Actions。** 工作流成功后访问 [https://1998x-stack.github.io/communication/](https://1998x-stack.github.io/communication/)；是否已经公开可访问，请以 Pages 页面与 Actions 运行结果为准。
+已包含 `.github/workflows/pages.yml`，main 更新后自动构建和发布。GitHub Pages 已于 2026-11-10 通过 Actions 成功启用并完成首次部署：**[打开言习晨练网站](https://1998x-stack.github.io/communication/)**。可在仓库 Actions 的发布任务中查看当前部署状态；如果未来仓库设置发生变化，前往 Settings → Pages 检查发布来源为 GitHub Actions。
 
 ## 使用 Agent Skills
 
