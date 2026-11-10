@@ -13,3 +13,9 @@
 
 /* v2: tags and variable-length conversation layouts */
 .case-tags{display:flex;flex-wrap:wrap;gap:7px;margin:2px 0 16px}.case-tag{display:inline-flex;align-items:center;border:1px solid #d9e7dc;background:#f1f7f1;color:#496c59;font-size:10px;line-height:1.4;border-radius:999px;padding:4px 9px}.case-num{overflow-wrap:anywhere}.case-subtitle{overflow-wrap:anywhere}
+
+/* v2 filters: five selectors with a full-width search; responsive grids remain legible */
+.controls{grid-template-columns:repeat(5,minmax(0,1fr))}
+.controls>.search-group{grid-column:1/-1}
+@media(max-width:1300px){.controls{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:720px){.controls{grid-template-columns:repeat(2,minmax(0,1fr))}}

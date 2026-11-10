@@ -2,7 +2,7 @@
 
 ## 权威来源（唯一编辑入口）
 
-- **分类**：`data/categories/<category>.json`，文件名与 `id` 相同。配置名称、描述、展示顺序、方法、沟通支柱和完整 `guide`。
+- **分类**：`data/categories/<category>.json`，文件名与 `id` 相同。配置名称、描述、展示顺序、可选展示符号 `symbol`、方法、沟通支柱和完整 `guide`。
 - **案例**：`data/entries/<category>/<case-id>.json`，每题一份 JSON。文件名与 `id` 相同，目录名与 `category` 相同。
 - **生成输出**：`data/catalog.json` 和 `data/cases/<category>.json`。由 `npm run build` 自动生成，**不得直接编辑**。
 - **历史存档**：`data/seeds/` 与 `data/overrides/` 保留旧 270 题的来源和精修记录，v2 生成器不再读取；编辑它们不会改变网站。
