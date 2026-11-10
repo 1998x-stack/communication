@@ -2638,7 +2638,7 @@
         "turn": 2,
         "role": "learner",
         "stage": "控制升级",
-        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "text": "我愿意把分歧谈清楚。先回到可验证的事实：仓库还有短期安全库存。我建议核对合同并启用替代供应安排，不要把问题变成人身评价。",
         "isModel": true
       },
       {
@@ -2651,7 +2651,7 @@
         "turn": 4,
         "role": "learner",
         "stage": "寻找真实利益",
-        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "text": "我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。",
         "isModel": true
       },
       {
@@ -2664,7 +2664,7 @@
         "turn": 6,
         "role": "learner",
         "stage": "建立可执行方案",
-        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“核对合同并启用替代供应安排”。",
+        "text": "如果双方愿意继续讨论，就把核对合同并启用替代供应安排转成具体约定；若出现威胁，我会先离开并寻求安全支持。",
         "isModel": true
       }
     ],
@@ -2704,7 +2704,7 @@
         }
       ]
     },
-    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "safetyNote": null,
     "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
     "tags": [
       "conflicts",

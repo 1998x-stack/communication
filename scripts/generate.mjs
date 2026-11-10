@@ -139,7 +139,7 @@ const renderCases=function renderCases(seedText,cat) {
  clients:[[`我先确认您希望解决的关键问题。目前可核实的是{fact}。建议{goal}，同时明确验收条件。`,`您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。`,`我会把{goal}写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。`]],
  conflicts:[[`我愿意把分歧谈清楚。先回到可验证的事实：{fact}。我建议{goal}，不要把问题变成人身评价。`,`我听到了你的立场；我们可以进一步说说各自真正担心什么，并找双方认可的判断标准。`,`如果双方愿意继续讨论，就把{goal}转成具体约定；若出现威胁，我会先离开并寻求安全支持。`]]
  };
- const risky=({title,background,fact})=>/自伤|不想活|威胁|堵门|人身安全|情绪危机|安全危机|摔物|危机|报复|可能伤害自己/.test(`${title} ${background} ${fact}`);
+ const risky=({title,background,fact})=>/自伤|不想活|可能伤害自己|情绪危机|安全危机|人身安全|堵门|堵住门|摔物|摔东西|报复|暴力|强制控制|限制人身自由|现实的人身威胁/.test(`${title} ${background} ${fact}`);
  function safetyReplies({title,goal}) {
   if(/自伤|不想活|情绪危机|安全危机|可能伤害自己/.test(title))return [
   `我认真听到了你说的话，也很担心你的安全。谢谢你愿意告诉我。我会先陪着你，不责怪你。`,

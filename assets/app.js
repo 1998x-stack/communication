@@ -60,6 +60,7 @@ function renderCase(){
  (c.safetyNote?'<div class="safety">⚠ '+esc(c.safetyNote)+'</div>':'')+
  '<div class="chapter-label"><span class="chapter-icon">02</span> 多轮表达实战</div>'+
  '<p class="scene-text">对方会连续追问两次。每看到一句对方的话，先用声音说出你的应对；可在文本框记录要点。</p>'+
+ '<div class="voice-tools"><button type="button" class="secondary-button" data-action="record">● 开始录音</button><button type="button" class="secondary-button" data-action="stop">■ 停止录音</button><audio id="voicePlayback" controls hidden aria-label="回听自己的表达"></audio><span class="small-muted">仅在本页面回听 · 不上传</span></div>'+
  '<div class="dialogue">'+c.dialogue.map(t=>t.role==="learner"?modelTurn(c,t):opponentTurn(t)).join("")+'</div>'+
  '<div class="case-footer"><div class="btn-row"><button class="secondary-button" data-action="previous">← 上一题</button><button class="secondary-button" data-action="copy">复制题目</button><button class="solid-button" data-action="complete">'+(complete?"✓ 已完成 · 再练":"✓ 完成练习")+'</button><button class="solid-button" data-action="next">'+(state.order==="random"?"再随机一题 ↗":"下一题 →")+'</button></div><span class="mini-note">'+filtered().length+' 题符合筛选</span></div>'+
  '<div class="status-message" id="statusMessage" role="status">'+esc(notice)+'</div>';
@@ -76,6 +77,7 @@ function renderRail(c,complete){
  (complete?'<p class="tip">✓ 本题已记录完成。所有记录只保存在你当前浏览器中。</p>':'');
 }
 function move(direction){
+ stopRecording();
  const pool=sorted();if(!pool.length)return;let current=chosen(),next=null;
  if(state.order==="random"&&direction>0){
   let candidates=pool.filter(x=>x.id!==current?.id&&!state.visited.includes(x.id));
@@ -110,8 +112,39 @@ function sayLine(turn){
  const c=chosen(),t=c?.dialogue.find(x=>x.turn===turn);if(!t||!("speechSynthesis" in window)){notice="浏览器暂不支持语音朗读。";renderCase();return;}
  speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t.text);u.lang="zh-CN";u.rate=.94;speechSynthesis.speak(u);
 }
+async function startRecording(){
+ if(!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder){
+  const el=$("#statusMessage");if(el)el.textContent="当前浏览器不支持录音。建议使用支持麦克风的现代浏览器和 HTTPS 页面。";return;
+ }
+ if(currentRecording?.state==="recording")return;
+ try{
+  mediaStream=await navigator.mediaDevices.getUserMedia({audio:true});
+  recordChunks=[];
+  const recorder=new MediaRecorder(mediaStream);
+  currentRecording=recorder;
+  recorder.ondataavailable=e=>{if(e.data?.size)recordChunks.push(e.data);};
+  recorder.onstop=()=>{
+   if(currentAudio)URL.revokeObjectURL(currentAudio);
+   const clip=new Blob(recordChunks,{type:recorder.mimeType||"audio/webm"});
+   currentAudio=URL.createObjectURL(clip);
+   const audio=$("#voicePlayback");
+   if(audio){audio.src=currentAudio;audio.hidden=false;}
+   mediaStream?.getTracks().forEach(t=>t.stop());mediaStream=null;
+   const status=$("#statusMessage");if(status)status.textContent="录音完成。可以立即回听语速、停顿和第三轮回应；音频不会上传。";
+  };
+  recorder.start();
+  const status=$("#statusMessage");if(status)status.textContent="正在录音，请大声说出你的三轮回应…";
+ }catch{
+  mediaStream?.getTracks().forEach(t=>t.stop());mediaStream=null;
+  const status=$("#statusMessage");if(status)status.textContent="无法使用麦克风，请检查浏览器权限。";
+ }
+}
+function stopRecording(){
+ if(currentRecording?.state==="recording")currentRecording.stop();
+}
 function handleAction(action){
  if(action==="next")move(1);if(action==="previous")move(-1);if(action==="complete")complete();if(action==="favorite")switchFavorite();if(action==="copy")copyScenario();
+ if(action==="record")startRecording();if(action==="stop")stopRecording();
  if(action==="reset"){state.category="all";state.difficulty="all";state.search="";handleFilter();}
 }
 function bind(){

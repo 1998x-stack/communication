@@ -2520,7 +2520,7 @@
         "turn": 2,
         "role": "learner",
         "stage": "识别需求",
-        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是核心服务上周两次短时不可用。建议给出故障事实、责任人和有验收点的恢复方案，同时明确验收条件。",
         "isModel": true
       },
       {
@@ -2533,7 +2533,7 @@
         "turn": 4,
         "role": "learner",
         "stage": "建立可信度",
-        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
         "isModel": true
       },
       {
@@ -2546,7 +2546,7 @@
         "turn": 6,
         "role": "learner",
         "stage": "管理预期",
-        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“给出故障事实、责任人和有验收点的恢复方案”。",
+        "text": "我会把给出故障事实、责任人和有验收点的恢复方案写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
         "isModel": true
       }
     ],
@@ -2586,7 +2586,7 @@
         }
       ]
     },
-    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "safetyNote": null,
     "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
     "tags": [
       "clients",
@@ -2992,7 +2992,7 @@
         "turn": 2,
         "role": "learner",
         "stage": "识别需求",
-        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是事故调查尚在进行但影响时间可以核实。建议先确认影响范围并给出公开更新节奏，同时明确验收条件。",
         "isModel": true
       },
       {
@@ -3005,7 +3005,7 @@
         "turn": 4,
         "role": "learner",
         "stage": "建立可信度",
-        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
         "isModel": true
       },
       {
@@ -3018,7 +3018,7 @@
         "turn": 6,
         "role": "learner",
         "stage": "管理预期",
-        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“先确认影响范围并给出公开更新节奏”。",
+        "text": "我会把先确认影响范围并给出公开更新节奏写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
         "isModel": true
       }
     ],
@@ -3058,7 +3058,7 @@
         }
       ]
     },
-    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "safetyNote": null,
     "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
     "tags": [
       "clients",
@@ -3464,7 +3464,7 @@
         "turn": 2,
         "role": "learner",
         "stage": "识别需求",
-        "text": "我听见你说了什么，但当前最重要的是安全。我不打算继续在有威胁的环境里争论。",
+        "text": "我先确认您希望解决的关键问题。目前可核实的是客户提出的补偿超出已核实损失。建议按事实与合同记录处理并升级正式争议流程，同时明确验收条件。",
         "isModel": true
       },
       {
@@ -3477,7 +3477,7 @@
         "turn": 4,
         "role": "learner",
         "stage": "建立可信度",
-        "text": "我会先保持距离、离开危险情境，并联系可信赖的人或当地紧急服务。",
+        "text": "您的顾虑很合理。对于尚未验证的部分，我不能给出没有依据的保证，但可以说明条件和备选方案。",
         "isModel": true
       },
       {
@@ -3490,7 +3490,7 @@
         "turn": 6,
         "role": "learner",
         "stage": "管理预期",
-        "text": "等所有人都安全、且具备平等自愿的条件后，才能再考虑是否沟通“按事实与合同记录处理并升级正式争议流程”。",
+        "text": "我会把按事实与合同记录处理并升级正式争议流程写进会议纪要，列明范围、责任人、风险与下次反馈时间，供您确认。",
         "isModel": true
       }
     ],
@@ -3530,7 +3530,7 @@
         }
       ]
     },
-    "safetyNote": "涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。",
+    "safetyNote": null,
     "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
     "tags": [
       "clients",
