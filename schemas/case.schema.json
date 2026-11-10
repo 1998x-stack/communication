@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Yanxi communication training case",
+  "type": "object",
+  "required": [
+    "id",
+    "category",
+    "title",
+    "level",
+    "difficulty",
+    "background",
+    "facts",
+    "objective",
+    "steps",
+    "dialogue",
+    "coach",
+    "source"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+-[0-9]{3,}$"
+    },
+    "category": {
+      "type": "string",
+      "minLength": 2
+    },
+    "title": {
+      "type": "string",
+      "minLength": 2
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "difficulty": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "background": {
+      "type": "string",
+      "minLength": 10
+    },
+    "facts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "objective": {
+      "type": "string",
+      "minLength": 4
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "instruction"
+        ]
+      }
+    },
+    "dialogue": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "turn",
+          "role",
+          "text"
+        ],
+        "properties": {
+          "turn": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "role": {
+            "enum": [
+              "counterpart",
+              "learner"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "coach": {
+      "type": "object",
+      "required": [
+        "rubric",
+        "selfCheck"
+      ]
+    },
+    "source": {
+      "type": "string",
+      "format": "uri"
+    },
+    "safetyNote": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
