@@ -31,9 +31,9 @@
 - 改写（迁移）：同一情境先分别用温和、坚定、简洁三种语气表达，内容保持真实。
 
 ## 在仓库中读取案例
-- 原始题目：`data/seeds/parents.txt`
+- 单题内容源：`data/entries/parents/<case-id>.json`
 - 结构化卡片：`data/cases/parents.json`
-- 样例：`parents-001`（基础） / `parents-011`（进阶） / `parents-021`（高压）
+- 当前题量：30；难度、标签、轮次由每题元数据独立指定，不能由 ID 推断
 - 数据格式和新增流程：`data/README.md`
 
 ## 理论延伸
