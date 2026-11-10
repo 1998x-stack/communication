@@ -5,19 +5,19 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,x=>({"&":"&amp;","<":"&lt;",">":"&
 const today=()=>new Date().toLocaleDateString("sv-SE");
 const fmtDate=()=>new Intl.DateTimeFormat("zh-CN",{month:"long",day:"numeric",weekday:"long"}).format(new Date());
 const key="yanxi-training-v1";
-let state={category:"all",difficulty:"all",order:"sequential",visibility:"hidden",search:"",activeId:null,revealed:{},answers:{},ratings:{},completed:{},favorites:[],visited:[],recordings:[]};
-try{const raw=localStorage.getItem(key);if(raw){const stored=JSON.parse(raw);state={...state,...stored,revealed:{},visited:Array.isArray(stored.visited)?stored.visited:[]};}}catch{}
+let state={category:"all",difficulty:"all",order:"sequential",visibility:"hidden",search:"",activeId:null,revealed:{},answers:{},ratings:{},completed:{},favorites:[],visited:[],rounds:{},practiceDays:{},recordings:[]};
+try{const raw=localStorage.getItem(key);if(raw){const stored=JSON.parse(raw);state={...state,...stored,revealed:{},rounds:stored.rounds||{},practiceDays:stored.practiceDays||{},visited:Array.isArray(stored.visited)?stored.visited:[]};if(!Object.keys(state.practiceDays).length){for(const v of Object.values(state.completed||{})){if(v?.date)state.practiceDays[v.date]=(state.practiceDays[v.date]||0)+1;}}}}catch{}
 let catalog=null,cases=[],currentRecording=null,recordChunks=[],mediaStream=null,currentAudio=null,notice="";
 const icons={all:"✦",upward:"▣",collaboration:"♙",leadership:"♜",partner:"♡",parents:"⌂",children:"❀",friends:"☕",clients:"◇",conflicts:"⚖"};
 const save=()=>{try{const {recordings,...persist}=state;localStorage.setItem(key,JSON.stringify(persist));}catch{}};
 const filtered=()=>cases.filter(c=>(state.category==="all"||c.category===state.category)&&(state.difficulty==="all"||c.difficulty===state.difficulty)&&(!state.search||(`${c.title} ${c.background} ${c.facts.join(" ")}`).toLowerCase().includes(state.search.toLowerCase())));
 const sorted=()=>filtered().sort((a,b)=>cases.indexOf(a)-cases.indexOf(b));
 const chosen=()=>filtered().find(c=>c.id===state.activeId)||sorted()[0]||null;
-function streak(){const dates=new Set(Object.values(state.completed).map(v=>v.date).filter(Boolean));let cursor=new Date(),count=0;const dayMs=86400000;const format=d=>new Intl.DateTimeFormat("sv-SE").format(d);if(!dates.has(format(cursor)))cursor=new Date(cursor.valueOf()-dayMs);for(;count<366&&dates.has(format(cursor));count++)cursor=new Date(cursor.valueOf()-dayMs);return count;}
+function streak(){const dates=new Set(Object.keys(state.practiceDays).filter(k=>state.practiceDays[k]>0));let cursor=new Date(),count=0;const format=d=>new Intl.DateTimeFormat("sv-SE").format(d);if(!dates.has(format(cursor)))cursor.setDate(cursor.getDate()-1);for(;count<366&&dates.has(format(cursor));count++)cursor.setDate(cursor.getDate()-1);return count;}
 function renderStats(){
  const done=Object.keys(state.completed).length,now=today();
  $("#completedCount").innerHTML=done+' <small>题</small>';
- $("#todayCount").innerHTML=Object.values(state.completed).filter(v=>v.date===now).length+' <small>题</small>';
+ $("#todayCount").innerHTML=(state.practiceDays[now]||0)+' <small>题</small>';
  $("#streakCount").innerHTML=streak()+' <small>天</small>';
  $("#totalCount").textContent=cases.length+" 个训练案例";
  $("#todayLabel").textContent=fmtDate();
@@ -36,6 +36,29 @@ function renderControls(){
  $("#visibilitySelect").value=state.visibility;
  $("#searchInput").value=state.search;
 }
+
+function dateHash(s){let h=2166136261;for(const ch of s){h=Math.imul(h^ch.charCodeAt(0),16777619)}return h>>>0;}
+function dailyPlan(){
+ if(!catalog)return [];
+ const day=today(),categories=catalog.categories,levels=["low","medium","high"];
+ return levels.map((difficulty,i)=>{
+  const cat=categories[(dateHash(day)%categories.length+i*3)%categories.length];
+  const pool=cases.filter(c=>c.category===cat.id&&c.difficulty===difficulty);
+  return pool.length?pool[dateHash(day+"|"+cat.id+"|"+difficulty)%pool.length]:null;
+ }).filter(Boolean);
+}
+function renderDailyPlan(){
+ const root=$("#dailyPlanPanel");if(!root)return;
+ const plan=dailyPlan(),done=plan.filter(c=>state.completed[c.id]?.date===today()).length;
+ root.innerHTML='<div class="rail-kicker">MORNING ROUTINE</div><h3>今日 3 题晨练 <span class="daily-count">'+done+'/3</span></h3><p>从清晰表达，到回应质疑，再到高压收束。每天固定一组题目，答完再复盘。</p><div class="daily-scenarios">'+plan.map((c,i)=>'<button type="button" class="daily-scenario '+(state.activeId===c.id?"current":"")+'" data-daily="'+esc(c.id)+'"><span class="daily-index">'+(state.completed[c.id]?.date===today()?"✓":String(i+1).padStart(2,"0"))+'</span><span class="daily-copy"><strong>'+esc(c.title)+'</strong><small>'+esc(catalog.categories.find(x=>x.id===c.category)?.name||"")+' · '+["基础","进阶","高压"][i]+'</small></span><span aria-hidden="true">↗</span></button>').join("")+'</div><p class="small-muted">每日计划按本地日期生成，进度仅保存在本机。</p>';
+}
+function selectDaily(id){
+ if(!cases.some(c=>c.id===id))return;
+ state.category="all";state.difficulty="all";state.search="";state.activeId=id;state.revealed={};notice="";
+ save();renderCategories();renderControls();renderCase();
+ $("#casePanel").scrollIntoView({behavior:"smooth",block:"start"});
+}
+
 function modelTurn(c,turn){
  const round=turn.turn/2, id=c.id+"-"+round,open=state.visibility==="expanded"||state.revealed[id],answer=state.answers[id]||"";
  return '<div class="turn learner"><div class="avatar">我</div><div class="bubble '+(!open?"covered":"")+'"><span class="bubble-label">'+esc(turn.stage)+' · 第'+round+'轮应对</span>'+
@@ -50,7 +73,7 @@ function opponentTurn(turn){
 function renderCase(){
  const c=chosen(), panel=$("#casePanel");
  if(!c){panel.innerHTML='<div class="empty-state"><h3>没有找到符合条件的案例</h3><p>换一个场景、难度或搜索词试试。</p><button class="secondary-button" data-action="reset">重置筛选</button></div>';$("#lessonPanel").innerHTML="";$("#reflectionPanel").innerHTML="";return;}
- state.activeId=c.id;save();
+ state.activeId=c.id;save();renderDailyPlan();
  const name=catalog.categories.find(x=>x.id===c.category)?.name||"练习";
  const diff={low:"基础",medium:"进阶",high:"高压"}[c.difficulty],isFav=state.favorites.includes(c.id),complete=Boolean(state.completed[c.id]);
  panel.innerHTML='<div class="case-top"><span class="case-path">SCENARIO / '+esc(name.toUpperCase())+' · '+String(c.level).padStart(2,"0")+'</span><div class="case-actions"><button class="light-button '+(isFav?"active":"")+'" data-action="favorite" aria-label="收藏或取消收藏">'+(isFav?"♥ 已收藏":"♡ 收藏")+'</button><span class="level-pill '+c.difficulty+'">'+diff+' / '+c.level+'</span></div></div>'+
@@ -61,8 +84,10 @@ function renderCase(){
  '<div class="chapter-label"><span class="chapter-icon">02</span> 多轮表达实战</div>'+
  '<p class="scene-text">对方会连续追问两次。每看到一句对方的话，先用声音说出你的应对；可在文本框记录要点。</p>'+
  '<div class="voice-tools"><button type="button" class="secondary-button" data-action="record">● 开始录音</button><button type="button" class="secondary-button" data-action="stop">■ 停止录音</button><audio id="voicePlayback" controls hidden aria-label="回听自己的表达"></audio><span class="small-muted">仅在本页面回听 · 不上传</span></div>'+
- '<div class="dialogue">'+c.dialogue.map(t=>t.role==="learner"?modelTurn(c,t):opponentTurn(t)).join("")+'</div>'+
- '<div class="case-footer"><div class="btn-row"><button class="secondary-button" data-action="previous">← 上一题</button><button class="secondary-button" data-action="copy">复制题目</button><button class="solid-button" data-action="complete">'+(complete?"✓ 已完成 · 再练":"✓ 完成练习")+'</button><button class="solid-button" data-action="next">'+(state.order==="random"?"再随机一题 ↗":"下一题 →")+'</button></div><span class="mini-note">'+filtered().length+' 题符合筛选</span></div>'+
+ '<div class="round-progress"><span>训练进度 · 第 '+Math.min(3,state.rounds[c.id]||1)+' / 3 轮</span><span>'+(state.visibility==="expanded"?"学习模式 · 全部可见":"实战模式 · 后续追问已隐藏")+'</span></div>'+
+  '<div class="dialogue">'+c.dialogue.filter(t=>state.visibility==="expanded"||t.turn<=Math.min(3,state.rounds[c.id]||1)*2).map(t=>t.role==="learner"?modelTurn(c,t):opponentTurn(t)).join("")+'</div>'+
+  (state.visibility==="hidden"&&(state.rounds[c.id]||1)<3?'<button type="button" class="round-next" data-action="advance">我已回应 · 解锁下一轮追问 <span>↗</span></button>':'')+
+ '<div class="case-footer"><div class="btn-row"><button class="secondary-button" data-action="restart">↺ 重练本题</button><button class="secondary-button" data-action="previous">← 上一题</button><button class="secondary-button" data-action="copy">复制题目</button><button class="solid-button" data-action="complete" '+(state.visibility==="hidden"&&(state.rounds[c.id]||1)<3?"disabled":"")+'>'+(complete?"✓ 再次完成":"✓ 完成练习")+'</button><button class="solid-button" data-action="next">'+(state.order==="random"?"再随机一题 ↗":"下一题 →")+'</button></div><span class="mini-note">'+filtered().length+' 题符合筛选</span></div>'+
  '<div class="status-message" id="statusMessage" role="status">'+esc(notice)+'</div>';
  renderRail(c,complete);
 }
@@ -104,8 +129,9 @@ async function copyScenario(){
 }
 function complete(){
  const c=chosen();if(!c)return;
- state.completed[c.id]={date:today(),at:Date.now()};
- save();renderStats();notice="练习完成。推荐脱稿再说一遍，重点训练第三轮追问。";renderCase();
+ if(state.completed[c.id]?.date!==today())state.practiceDays[today()]=(state.practiceDays[today()]||0)+1;
+  state.completed[c.id]={date:today(),at:Date.now()};
+ save();renderStats();renderDailyPlan();notice="练习完成。推荐脱稿再说一遍，重点训练第三轮追问。";renderCase();
 }
 function switchFavorite(){const id=chosen()?.id;if(!id)return;state.favorites=state.favorites.includes(id)?state.favorites.filter(x=>x!==id):[...state.favorites,id];save();renderCase();}
 function sayLine(turn){
@@ -145,6 +171,8 @@ function stopRecording(){
 function handleAction(action){
  if(action==="next")move(1);if(action==="previous")move(-1);if(action==="complete")complete();if(action==="favorite")switchFavorite();if(action==="copy")copyScenario();
  if(action==="record")startRecording();if(action==="stop")stopRecording();
+  if(action==="advance"){const id=chosen()?.id;if(id){state.rounds[id]=Math.min(3,(state.rounds[id]||1)+1);state.revealed={};save();renderCase();}}
+  if(action==="restart"){const id=chosen()?.id;if(id){state.rounds[id]=1;state.revealed={};notice="已回到第一轮，后续追问不会提前出现。";save();renderCase();}}
  if(action==="reset"){state.category="all";state.difficulty="all";state.search="";handleFilter();}
 }
 function bind(){
@@ -160,7 +188,8 @@ function bind(){
  });
  $("#casePanel").addEventListener("input",e=>{if(e.target.matches("[data-answer]")){state.answers[e.target.dataset.answer]=e.target.value;save();}});
  $("#reflectionPanel").addEventListener("change",e=>{if(!e.target.matches("[data-rating]"))return;const c=chosen();if(!c)return;const ratings=state.ratings[c.id]||{};ratings[e.target.dataset.rating]=Number(e.target.value);state.ratings[c.id]=ratings;save();renderRail(c,Boolean(state.completed[c.id]));});
- $("#dailyStart").addEventListener("click",()=>$("#casePanel").scrollIntoView({behavior:"smooth",block:"start"}));
+ $("#dailyPlanPanel").addEventListener("click",e=>{const b=e.target.closest("[data-daily]");if(b)selectDaily(b.dataset.daily);});
+  $("#dailyStart").addEventListener("click",()=>{const plan=dailyPlan();const next=plan.find(c=>state.completed[c.id]?.date!==today())||plan[0];if(next)selectDaily(next.id);else $("#casePanel").scrollIntoView({behavior:"smooth",block:"start"});});
  $("#menuButton").addEventListener("click",()=>{const opened=$("#sidebar").classList.toggle("open");$("#menuButton").setAttribute("aria-expanded",String(opened));});
  document.addEventListener("keydown",e=>{if(["INPUT","TEXTAREA","SELECT"].includes(e.target.tagName))return;if(e.key==="ArrowRight")move(1);if(e.key==="ArrowLeft")move(-1);});
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Canonical generator: edit data/seeds/*.txt then run npm run generate.
-import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -169,10 +169,42 @@ const renderCases=function renderCases(seedText,cat) {
   return {schemaVersion:1,id:`${cat.id}-${String(level).padStart(3,"0")}`,category:cat.id,title,level,difficulty,background:`${background}。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。`,facts:[fact],objective:goal,method:cat.method,pillars:focus,steps:lessonSteps,dialogue,pushbacks:[pushback,reversal],coach:{focus:`让对话最终朝“${goal}”推进，不一定要求当场达成一致。`,pitfalls:["不要一开始就长篇解释，忽略对方真实关切。","不要把事实、推测和个人感受混在一起。","不要用虚假承诺或人格攻击换取表面同意。"],selfCheck:["我是否先听懂对方的问题？","我是否把事实和立场说得足够清楚？","我是否回应了反问而不是机械背稿？","我是否给出明确行动、边界或下一步？"],rubric:[{name:"结构清楚",weight:25},{name:"理解对方",weight:25},{name:"坚定尊重",weight:25},{name:"行动落点",weight:25}]},safetyNote:risky({title,background,fact})?"涉及现实威胁、危机或可能的伤害时，立即优先保障安全并寻求可信现实支持，话术训练不能代替紧急帮助。":null,source:cat.source,tags:[cat.id,difficulty,cat.method],created:"2026-11-10"};
  });
 };
+
+const overrideDir=path.join(root,'data/overrides');
+async function readOverrides(){
+ await mkdir(overrideDir,{recursive:true});
+ const map=new Map(),names=await readdir(overrideDir);
+ for(const name of names.filter(x=>x.endsWith('.json')).sort()){
+  const raw=await readFile(path.join(overrideDir,name),'utf8');
+  const o=JSON.parse(raw),id=name.slice(0,-5);
+  if(o.id!==id||!/^[a-z]+-[0-9]{3,}$/.test(id))throw Error('Invalid override ID: '+name);
+  if(Object.keys(o).some(k=>!['id','responses','steps','focus'].includes(k)))throw Error('Unknown override field: '+name);
+  if(!Array.isArray(o.responses)||o.responses.length!==3||o.responses.some(s=>typeof s!=='string'||s.trim().length<8))throw Error('Need three substantive responses: '+name);
+  if(o.steps!==undefined&&(!Array.isArray(o.steps)||o.steps.length!==3||o.steps.some(s=>typeof s!=='string'||!s.trim())))throw Error('Invalid steps: '+name);
+  if(o.focus!==undefined&&(typeof o.focus!=='string'||!o.focus.trim()))throw Error('Invalid focus: '+name);
+  if(map.has(id))throw Error('Duplicate override: '+id);
+  map.set(id,o);
+ }
+ return map;
+}
+function applyOverrides(cases,overrides,used){
+ return cases.map(c=>{
+  const o=overrides.get(c.id);if(!o)return c;
+  used.add(c.id);
+  let n=0;
+  return {...c,
+   dialogue:c.dialogue.map(t=>t.role==='learner'?{...t,text:o.responses[n++]}:t),
+   steps:o.steps?c.steps.map((s,i)=>({...s,instruction:o.steps[i]})):c.steps,
+   coach:{...c.coach,focus:o.focus||c.coach.focus}};
+ });
+}
+
 async function main(){
  const catalog={schemaVersion:1,updated:"2026-11-10",totalCases:0,difficulties:[{id:"low",name:"基础",range:"1–10"},{id:"medium",name:"进阶",range:"11–20"},{id:"high",name:"高压",range:"21–30"}],categories:[]};
  await mkdir(path.join(root,"data/cases"),{recursive:true});
- for(const c of meta){const seed=await readFile(path.join(root,"data/seeds",c.id+".txt"),"utf8");const cases=renderCases(seed,c);catalog.totalCases+=cases.length;catalog.categories.push({...c,file:"data/cases/"+c.id+".json",count:cases.length});await writeFile(path.join(root,"data/cases",c.id+".json"),JSON.stringify(cases,null,2)+"\n");}
+ const overrides=await readOverrides(),used=new Set();
+ for(const c of meta){const seed=await readFile(path.join(root,"data/seeds",c.id+".txt"),"utf8");const cases=applyOverrides(renderCases(seed,c),overrides,used);catalog.totalCases+=cases.length;catalog.categories.push({...c,file:"data/cases/"+c.id+".json",count:cases.length});await writeFile(path.join(root,"data/cases",c.id+".json"),JSON.stringify(cases,null,2)+"\n");}
+ for(const id of overrides.keys())if(!used.has(id))throw Error("Orphan override: "+id);
  await writeFile(path.join(root,"data/catalog.json"),JSON.stringify(catalog,null,2)+"\n");
  console.log("Generated "+catalog.totalCases+" scenario cards in "+catalog.categories.length+" categories");
 }
