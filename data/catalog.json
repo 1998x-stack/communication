@@ -369,6 +369,7 @@
         ],
         "redFlags": "不要在演讲或答疑中编造统计数据、夸大风险或用羞辱阻止听众追问。"
       },
+      "symbol": "🎙",
       "file": "data/cases/public-speaking.json",
       "count": 1,
       "difficultyCounts": {
