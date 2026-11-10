@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "parents-003",
+  "category": "parents",
+  "title": "周末回家安排",
+  "level": 3,
+  "difficulty": "low",
+  "background": "母亲希望你每个周末都回去。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "你需要安排休息与个人生活"
+  ],
+  "objective": "商量每月一次固定探访",
+  "method": "认可关切 / 坚定边界",
+  "pillars": [
+    "尊重关切",
+    "保持边界",
+    "协商安排"
+  ],
+  "steps": [
+    {
+      "name": "尊重关切",
+      "instruction": "开场先围绕已知事实“你需要安排休息与个人生活”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "保持边界",
+      "instruction": "听到“工作有那么忙吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "协商安排",
+      "instruction": "遭遇“下次什么时候回来？”的再次追问后，争取一个明确落点：“商量每月一次固定探访”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "这周怎么又不回来？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "尊重关切",
+      "text": "这周不回家不是不想见您，是我需要安排休息和个人生活。一直每周往返对我有点难持续，想跟您商量更稳定的见面频率。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "工作有那么忙吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "保持边界",
+      "text": "工作不是唯一原因，我也需要给自己留恢复精力的时间。我希望回去时能好好陪您，而不是每周匆忙赶路。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "下次什么时候回来？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "协商安排",
+      "text": "我们先约每月固定一个周末回家，平时找时间视频或通话；下个月的具体日期我们今天一起定，遇到特殊情况提前调整。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "工作有那么忙吗？",
+    "下次什么时候回来？"
+  ],
+  "coach": {
+    "focus": "用可兑现的陪伴频率回应思念，而非无限许诺。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.nia.nih.gov/health/advance-care-planning",
+  "tags": [
+    "parents",
+    "low",
+    "认可关切 / 坚定边界"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

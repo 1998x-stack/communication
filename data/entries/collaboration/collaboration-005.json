@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "collaboration-005",
+  "category": "collaboration",
+  "title": "迟到的进度同步",
+  "level": 5,
+  "difficulty": "low",
+  "background": "同事未及时更新任务状态。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "任务卡连续三天没有状态更新"
+  ],
+  "objective": "每天傍晚在看板更新风险与状态",
+  "method": "Closed-loop / RACI",
+  "pillars": [
+    "目标一致",
+    "责任清晰",
+    "执行闭环"
+  ],
+  "steps": [
+    {
+      "name": "目标一致",
+      "instruction": "开场先围绕已知事实“任务卡连续三天没有状态更新”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "责任清晰",
+      "instruction": "听到“难道还要天天汇报？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "执行闭环",
+      "instruction": "遭遇“要怎么更新才不费劲？”的再次追问后，争取一个明确落点：“每天傍晚在看板更新风险与状态”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我以为你已经知道了"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "目标一致",
+      "text": "我确实以为你知道，但任务卡连续三天没有状态更新，其他同事无法判断能否接着做。我们需要一个轻量的同步办法。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "难道还要天天汇报？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "责任清晰",
+      "text": "不用每天写长报告。只要在关键节点或傍晚更新“进行中、阻塞、预计完成”三项，遇到风险及时提示即可。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "要怎么更新才不费劲？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "执行闭环",
+      "text": "我们试一周：每天傍晚在看板更新，出现延迟风险则当日提醒依赖方。你看哪种格式最顺手，我来建模板。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "难道还要天天汇报？",
+    "要怎么更新才不费劲？"
+  ],
+  "coach": {
+    "focus": "尊重对方时间，降低同步成本，同时保留风险可见性。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+  "tags": [
+    "collaboration",
+    "low",
+    "Closed-loop / RACI"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

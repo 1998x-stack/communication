@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-023",
+  "category": "friends",
+  "title": "共同创业友情冲突",
+  "level": 23,
+  "difficulty": "high",
+  "background": "朋友合伙做项目却始终不记账。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "双方已投入真实资金和时间"
+  ],
+  "objective": "将资金和职责形成正式记录",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“双方已投入真实资金和时间”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“你不信我就算了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“怎么透明分账？”的再次追问后，争取一个明确落点：“将资金和职责形成正式记录”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "兄弟之间算那么细干嘛"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "我们是朋友，也已经共同投入了真金白银和时间，记账不是把关系算薄，而是避免以后谁都说不清投入与回报。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你不信我就算了"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "我愿意信任你，但合作需要让双方都看得见资金去向。透明记录保护的不只是我，也保护你的贡献。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎么透明分账？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "从今天起列清每笔出资、费用、职责和收益分配，并由双方确认；现有不清楚的账目先核对，有必要再请独立财务或法律人士帮助。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你不信我就算了",
+    "怎么透明分账？"
+  ],
+  "coach": {
+    "focus": "友情创业要用清晰账务与职责保护信任。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "high",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

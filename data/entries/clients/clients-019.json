@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-019",
+  "category": "clients",
+  "title": "客户公开批评团队",
+  "level": 19,
+  "difficulty": "medium",
+  "background": "客户在大群里说你们不专业。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "本次问题可追溯到明确的配置失误"
+  ],
+  "objective": "私下核实事实并公开同步整改节点",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“本次问题可追溯到明确的配置失误”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“换人会不会更好？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“谁来给我一个解释？”的再次追问后，争取一个明确落点：“私下核实事实并公开同步整改节点”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你们怎么老出问题？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "这次问题确实来自我们可追溯的配置失误，给您造成困扰。我先承认事实，并安排负责人立即检查受影响范围。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "换人会不会更好？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "换人是否有帮助需要看原因，不能靠换个姓名就保证不再发生。我们会核对具体失误是操作、复核还是上线控制的问题。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "谁来给我一个解释？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "我建议先私下详细对齐损失和整改要求，再在群里公开同步问题范围、负责人、修复节点和验证结果，确保相关方都有一致信息。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "换人会不会更好？",
+    "谁来给我一个解释？"
+  ],
+  "coach": {
+    "focus": "接受公开质疑但不在群里互怼，以可验证整改回应。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "medium",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

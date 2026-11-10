@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "collaboration-003",
+  "category": "collaboration",
+  "title": "请求同事核对",
+  "level": 3,
+  "difficulty": "low",
+  "background": "你做完报告希望同事复核。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "报告将于后天交付，数据由对方团队维护"
+  ],
+  "objective": "请同事明天下午前核对数据摘要",
+  "method": "Closed-loop / RACI",
+  "pillars": [
+    "目标一致",
+    "责任清晰",
+    "执行闭环"
+  ],
+  "steps": [
+    {
+      "name": "目标一致",
+      "instruction": "开场先围绕已知事实“报告将于后天交付，数据由对方团队维护”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "责任清晰",
+      "instruction": "听到“为什么一定要我看？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "执行闭环",
+      "instruction": "遭遇“最迟什么时候需要？”的再次追问后，争取一个明确落点：“请同事明天下午前核对数据摘要”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我现在手头有其他工作"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "目标一致",
+      "text": "我知道你手头有任务，想请你帮我核对数据摘要，因为这些数据由你们团队维护，而报告后天就要交付。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "为什么一定要我看？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "责任清晰",
+      "text": "不是要你替我写报告；我负责结论和排版，只请你确认关键数字、口径是否与源表一致，控制在摘要范围。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "最迟什么时候需要？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "执行闭环",
+      "text": "最迟希望明天下午前收到核对结果。如果时间冲突，你能否指定另一位熟悉数据的同事，我今天先发核对清单？",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "为什么一定要我看？",
+    "最迟什么时候需要？"
+  ],
+  "coach": {
+    "focus": "请求协作要说明为何找对方、工作边界和最晚时间。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+  "tags": [
+    "collaboration",
+    "low",
+    "Closed-loop / RACI"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

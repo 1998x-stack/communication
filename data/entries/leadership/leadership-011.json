@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-011",
+  "category": "leadership",
+  "title": "员工总是寻求批准",
+  "level": 11,
+  "difficulty": "medium",
+  "background": "能力不错但事事请示。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "多数请示属于低风险常规操作"
+  ],
+  "objective": "定义可自主决策范围和升级条件",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“多数请示属于低风险常规操作”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“你不是说大事要请示吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“边界在哪里？”的再次追问后，争取一个明确落点：“定义可自主决策范围和升级条件”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我怕做错"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "担心出错是认真负责，但低风险常规事项一直等批准会拖慢你。我们把决策分级：可逆、影响小且规则明确的事情，你可以自己定；涉及成本、合规或外部承诺的要升级。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你不是说大事要请示吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "你说得对，大事需要请示；问题是我们还没定义什么算大事。我先给出判断标准：是否不可逆、是否影响其他团队、是否超出授权范围。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "边界在哪里？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "从下周开始，你自行处理常规低风险事项，并在周会上汇总；触及预算、客户承诺或合规风险立即找我。我把边界写下来，试行一周后一起修订。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你不是说大事要请示吗？",
+    "边界在哪里？"
+  ],
+  "coach": {
+    "focus": "用可逆性、风险与授权范围划定自主决策边界。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "medium",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

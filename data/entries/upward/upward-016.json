@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-016",
+  "category": "upward",
+  "title": "向上争取资源",
+  "level": 16,
+  "difficulty": "medium",
+  "background": "项目范围增加而人手未变。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "新增功能使测试用例增加近一倍"
+  ],
+  "objective": "协调一名测试同事支援三天",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“新增功能使测试用例增加近一倍”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“别的组也很忙”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“你能接受什么替代方案？”的再次追问后，争取一个明确落点：“协调一名测试同事支援三天”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "为什么一定要加人？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "新增功能后测试用例接近翻倍，但人手没变。需求不是笼统“多加人”，而是协调一名测试同事支援三天，覆盖最关键的回归。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "别的组也很忙"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "其他组也忙，我理解不能无限调资源。可以先协调短时支援，或者减少非关键测试范围；但关键风险不能假装已经覆盖。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "你能接受什么替代方案？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "替代方案有两种：临时借调三天，或调整交付日期和测试范围。请您决定能接受哪种取舍，我据此重新排计划。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "别的组也很忙",
+    "你能接受什么替代方案？"
+  ],
+  "coach": {
+    "focus": "把资源请求量化，并准备不增加人力时的真实备选项。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "medium",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-004",
+  "category": "friends",
+  "title": "请朋友保守秘密",
+  "level": 4,
+  "difficulty": "low",
+  "background": "想和朋友分享私人困扰。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "内容涉及你不愿公开的家庭情况"
+  ],
+  "objective": "明确不传播私事的边界",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“内容涉及你不愿公开的家庭情况”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“我只是跟最好的朋友说”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“你这么不信任我？”的再次追问后，争取一个明确落点：“明确不传播私事的边界”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "这事我能告诉别人吗？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "我愿意告诉你这段家庭困扰，是因为信任你。不过这件事我不想让其他人知道，包括我们共同的朋友。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "我只是跟最好的朋友说"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "即使只告诉最好的朋友，也会变成超出我控制范围的传播。我希望你在听之前就知道这条边界；如果你觉得难做到，我们可以先不谈细节。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "你这么不信任我？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "不是不信任你这个人，而是信息敏感。如果你愿意保密我再继续说；确实需要求助时我们先商量向谁说、说到什么程度。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "我只是跟最好的朋友说",
+    "你这么不信任我？"
+  ],
+  "coach": {
+    "focus": "披露隐私前先明确保密同意和可接受的例外。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "low",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

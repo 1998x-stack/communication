@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-024",
+  "category": "upward",
+  "title": "向上反对风险决策",
+  "level": 24,
+  "difficulty": "high",
+  "background": "领导计划跳过必要测试赶上线。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "关键链路尚未测试，线上故障代价可能高"
+  ],
+  "objective": "坚持关键支付链路测试并提出灰度方案",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“关键链路尚未测试，线上故障代价可能高”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“我们真的没有时间了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“如果延期客户会非常不满”的再次追问后，争取一个明确落点：“坚持关键支付链路测试并提出灰度方案”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你是在否定我的决定？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "我理解您希望如期上线，不是在否定这个目标；我担心的是关键支付链路还没测试，直接全量上线可能让客户承担不可接受的故障风险。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "我们真的没有时间了"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "时间确实紧。我的建议不是把所有测试再做一遍，而是至少验证支付关键路径，并把可独立运行的低风险部分先灰度发布。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "如果延期客户会非常不满"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "如果按期交付承诺不能变，我们需要向客户解释灰度范围和验证节点，而不是用未经测试的支付功能去赌。请批准最小关键测试和分阶段上线方案。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "我们真的没有时间了",
+    "如果延期客户会非常不满"
+  ],
+  "coach": {
+    "focus": "在进度压力下坚持底线，同时提供缩范围的可行方案。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "high",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

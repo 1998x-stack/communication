@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-011",
+  "category": "partner",
+  "title": "争论双方父母探访",
+  "level": 11,
+  "difficulty": "medium",
+  "background": "双方父母都希望节假日一起过。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "今年假期有限且两边都要长途出行"
+  ],
+  "objective": "双方家庭轮流探访并提前规划",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“今年假期有限且两边都要长途出行”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“我爸妈也在等我们”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“有没有轮换办法？”的再次追问后，争取一个明确落点：“双方家庭轮流探访并提前规划”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你是不是只考虑你家？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "我听出你担心你的家人总被放在后面，我不想这样。两边父母都希望节假日见面，而今年假期有限、路途又远，我们需要一起做决定。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "我爸妈也在等我们"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "你爸妈的期待和我爸妈一样值得重视。我不想用谁更重要来比较；我们先列出两边可探访日期、路程和上次见面的情况。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "有没有轮换办法？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "可以试行轮换：这次先去一边，下次优先另一边；如果有重要家庭事件再共同调整。今晚我们一起把日期定下来，分别告知父母。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "我爸妈也在等我们",
+    "有没有轮换办法？"
+  ],
+  "coach": {
+    "focus": "将双方父母的尊重转成可执行的轮换日程，而非争谁更重要。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "medium",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

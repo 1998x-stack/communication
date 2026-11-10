@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "collaboration-030",
+  "category": "collaboration",
+  "title": "面对被孤立的协作",
+  "level": 30,
+  "difficulty": "high",
+  "background": "长期合作群中有人故意不通知你。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "多次关键会议未邀请你却要求你承担结果"
+  ],
+  "objective": "要求关键决策进入共享记录并指定同步人",
+  "method": "Closed-loop / RACI",
+  "pillars": [
+    "目标一致",
+    "责任清晰",
+    "执行闭环"
+  ],
+  "steps": [
+    {
+      "name": "目标一致",
+      "instruction": "开场先围绕已知事实“多次关键会议未邀请你却要求你承担结果”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "责任清晰",
+      "instruction": "听到“这不是我们的责任”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "执行闭环",
+      "instruction": "遭遇“之后谁保证信息同步？”的再次追问后，争取一个明确落点：“要求关键决策进入共享记录并指定同步人”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "群消息你自己不会看吗？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "目标一致",
+      "text": "问题不是我会不会翻群，而是几次关键会议没有通知我，事后却要求我承担这些决定的结果。我们需要统一决策信息的来源。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "这不是我们的责任"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "责任清晰",
+      "text": "即使每个人有责任关注消息，未参加的成员也需要看到已经确认的决策、期限和依赖。否则大家对“谁知道什么”没有一致依据。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "之后谁保证信息同步？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "执行闭环",
+      "text": "建议关键决策必须进入共享记录，明确负责人和受影响人员，并指定同步人；未确认到的任务先核对要求，再安排交付。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "这不是我们的责任",
+    "之后谁保证信息同步？"
+  ],
+  "coach": {
+    "focus": "用可追溯决策和同步责任修复长期信息排除问题。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+  "tags": [
+    "collaboration",
+    "high",
+    "Closed-loop / RACI"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

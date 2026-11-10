@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-020",
+  "category": "friends",
+  "title": "朋友未经允许上传合照",
+  "level": 20,
+  "difficulty": "medium",
+  "background": "对方在平台公开了你不喜欢的照片。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "照片暴露了你的实时位置"
+  ],
+  "objective": "请求删除照片并约定发布前确认",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“照片暴露了你的实时位置”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“大家都发了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“下次怎样征求同意？”的再次追问后，争取一个明确落点：“请求删除照片并约定发布前确认”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "这有什么关系？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "这张照片已经公开了我的实时位置，我不愿意让这些信息出现在平台上。请你先把照片删除或设置为不可见。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "大家都发了"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "其他人愿意发是他们的选择，里面也有我的影像和位置。是否公开需要每个人同意，不能因为大家都发就替我决定。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "下次怎样征求同意？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "以后含有我的照片或位置，发布前先发给我确认；这次先删除现有内容，如果已被转发我们再一起查看能否限制传播。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "大家都发了",
+    "下次怎样征求同意？"
+  ],
+  "coach": {
+    "focus": "把肖像与实时位置的风险具体说清，先止住传播。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "medium",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

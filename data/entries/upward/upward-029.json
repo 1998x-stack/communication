@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-029",
+  "category": "upward",
+  "title": "拒绝伪造业务数据",
+  "level": 29,
+  "difficulty": "high",
+  "background": "上级暗示你美化季度数字。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "原始数据与拟发布数字存在实质差异"
+  ],
+  "objective": "按真实数据汇报并补充口径说明",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“原始数据与拟发布数字存在实质差异”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“大家都是这样汇报的”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“你是不是不支持团队？”的再次追问后，争取一个明确落点：“按真实数据汇报并补充口径说明”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "稍微调整一下不就行了？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "原始数据和拟发布数字存在实质差异，我不能把未经说明的调整当成真实业绩上报。可以解释统计口径，但不能伪造结果。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "大家都是这样汇报的"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "即使别人曾这样做，也不能证明这次真实或合规。我会保留原始数据和计算过程，请财务或合规同事核验口径。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "你是不是不支持团队？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "支持团队的方式是让决策建立在可信数字上。我会如实报告，并补充指标差距的原因与改善计划；如果继续要求修改原始事实，我会按流程升级。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "大家都是这样汇报的",
+    "你是不是不支持团队？"
+  ],
+  "coach": {
+    "focus": "坚定拒绝数据造假，提供真实说明与合规升级路径。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "high",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

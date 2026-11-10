@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "children-019",
+  "category": "children",
+  "title": "孩子想自己做决定",
+  "level": 19,
+  "difficulty": "medium",
+  "background": "孩子希望独立选择课外活动。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "活动安排不会影响基本学习与安全"
+  ],
+  "objective": "限定预算范围让孩子先试一个月",
+  "method": "反映式倾听 / 共同解决问题",
+  "pillars": [
+    "倾听接纳",
+    "清晰规则",
+    "培养自主"
+  ],
+  "steps": [
+    {
+      "name": "倾听接纳",
+      "instruction": "开场先围绕已知事实“活动安排不会影响基本学习与安全”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "清晰规则",
+      "instruction": "听到“我的兴趣总被否定”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "培养自主",
+      "instruction": "遭遇“能给我试试吗？”的再次追问后，争取一个明确落点：“限定预算范围让孩子先试一个月”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你为什么不信我？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "倾听接纳",
+      "text": "你希望自己选课外活动，我知道你想被认真对待。既然不会影响基本学习和安全，我们可以从你最想试的一项开始讨论。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "我的兴趣总被否定"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "清晰规则",
+      "text": "你的兴趣不应该总被一句“没用”否定。我也需要考虑预算、交通和持续时间，不是对你个人能力的不信任。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "能给我试试吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "培养自主",
+      "text": "我们先在可承受预算内选一个项目试一个月，你负责了解课程和安排，我们月底一起决定是否继续。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "我的兴趣总被否定",
+    "能给我试试吗？"
+  ],
+  "coach": {
+    "focus": "给予孩子有限资源内真实的决策权和后续评估机会。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+  "tags": [
+    "children",
+    "medium",
+    "反映式倾听 / 共同解决问题"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

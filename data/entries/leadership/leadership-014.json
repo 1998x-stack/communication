@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-014",
+  "category": "leadership",
+  "title": "拒绝成员不合理加薪预期",
+  "level": 14,
+  "difficulty": "medium",
+  "background": "员工希望立刻加薪百分之五十。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "当前薪资调整有固定预算周期"
+  ],
+  "objective": "明确薪酬依据与下次评估节点",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“当前薪资调整有固定预算周期”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“你是不是不认可我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“那怎样才能加薪？”的再次追问后，争取一个明确落点：“明确薪酬依据与下次评估节点”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "别人跳槽都涨很多"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "我听到你希望加薪百分之五十，也能理解你拿外部机会作比较。现在的薪酬调整受固定预算周期约束，我不能当场承诺这个幅度。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你是不是不认可我？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "没有立刻答应不等于不认可你。我们应分别看岗位市场数据、实际贡献和组织政策；我会把可公开的评估依据讲清楚。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "那怎样才能加薪？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "我们约定下次薪酬评估节点，提前明确你可以准备的业绩证据和适用标准；若你希望了解其他发展机会，我也愿意讨论。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你是不是不认可我？",
+    "那怎样才能加薪？"
+  ],
+  "coach": {
+    "focus": "尊重期待但不给无法兑现的薪酬保证，提供透明路径。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "medium",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

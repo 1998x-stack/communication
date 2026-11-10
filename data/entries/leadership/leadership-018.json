@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-018",
+  "category": "leadership",
+  "title": "远程员工存在感低",
+  "level": 18,
+  "difficulty": "medium",
+  "background": "远程成员常在会议中沉默。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "远程成员贡献记录并不低"
+  ],
+  "objective": "设置轮流发言和异步意见渠道",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“远程成员贡献记录并不低”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“我的建议经常被跳过”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“能调整会议方式吗？”的再次追问后，争取一个明确落点：“设置轮流发言和异步意见渠道”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我不知道什么时候插话"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "如果你不知道什么时候插话，这是会议安排需要改进，不是你不积极。记录显示你有不少实质贡献，我希望让大家更容易听到。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "我的建议经常被跳过"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "意见被跳过会让人降低表达意愿。我会先在议程里留远程发言时段，并在需要决定时逐个询问，避免现场声音大的人占满时间。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "能调整会议方式吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "从下次会议起实行轮流发言和会前异步意见收集，主持人要回复每条关键建议是否采纳及原因。一个月后看看效果。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "我的建议经常被跳过",
+    "能调整会议方式吗？"
+  ],
+  "coach": {
+    "focus": "改变会议结构而不是要求远程成员“更主动抢话”。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "medium",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

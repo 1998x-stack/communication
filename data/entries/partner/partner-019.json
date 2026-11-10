@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-019",
+  "category": "partner",
+  "title": "伴侣与你家人关系紧张",
+  "level": 19,
+  "difficulty": "medium",
+  "background": "家人一句话让伴侣感到不被尊重。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "当时你沉默让伴侣误以为你认同评价"
+  ],
+  "objective": "在不冒犯家人的前提下明确维护伴侣边界",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“当时你沉默让伴侣误以为你认同评价”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“是不是你永远站在他们那边？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“下次你会怎么办？”的再次追问后，争取一个明确落点：“在不冒犯家人的前提下明确维护伴侣边界”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你为什么不替我说话？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "那天家人的话让你不被尊重，我当时沉默，确实容易让你觉得我认同他们的评价。对不起，我没有及时站出来说明立场。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "是不是你永远站在他们那边？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "不是在你和家人之间选边站，而是在有人被不公平评价时表达边界。尊重家人不等于默许伤害你的话。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "下次你会怎么办？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "下次出现类似评价，我会当场礼貌打断，说明我们不接受这样评价伴侣；会后再私下和家人沟通，避免把你放到独自应对的位置。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "是不是你永远站在他们那边？",
+    "下次你会怎么办？"
+  ],
+  "coach": {
+    "focus": "伴侣边界需要由自己向原生家庭具体传达。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "medium",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

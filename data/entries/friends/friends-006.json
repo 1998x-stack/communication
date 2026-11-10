@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-006",
+  "category": "friends",
+  "title": "朋友迟到",
+  "level": 6,
+  "difficulty": "low",
+  "background": "朋友连续两次约会迟到。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "每次都让你等待超过半小时"
+  ],
+  "objective": "约定迟到提前通知与等候上限",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“每次都让你等待超过半小时”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“你这么在意时间？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“下次怎样安排？”的再次追问后，争取一个明确落点：“约定迟到提前通知与等候上限”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "堵车没办法啊"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "我知道堵车可能难预测，但最近两次见面我都等了超过半小时，安排被打乱了。我想一起商量以后怎么处理迟到。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你这么在意时间？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "我在意时间不是要你每分钟都准点，而是希望互相知道有没有变化。如果提前说，我就能调整自己的行程。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "下次怎样安排？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "以后预计迟到就尽早发消息和新到达时间；超过我们约定的等候上限，我会先做自己的事或改约，不当场埋怨。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你这么在意时间？",
+    "下次怎样安排？"
+  ],
+  "coach": {
+    "focus": "区分不可控交通与可做到的提前通知。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "low",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

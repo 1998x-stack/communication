@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-016",
+  "category": "clients",
+  "title": "客户对人员变动不满",
+  "level": 16,
+  "difficulty": "medium",
+  "background": "核心对接人离职后客户焦虑。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "项目资料已归档但客户关系主要在原负责人手里"
+  ],
+  "objective": "安排双人交接及一次联合回顾",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“项目资料已归档但客户关系主要在原负责人手里”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“新同事会不会不熟悉？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“怎样保证连续性？”的再次追问后，争取一个明确落点：“安排双人交接及一次联合回顾”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "是不是没人管我们了？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "对接人变化确实会让您担心信息断层。项目资料已归档，但原负责人掌握的一些客户决策背景需要专项交接。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "新同事会不会不熟悉？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "新同事不应该靠猜测接手。我建议安排原负责人、接任人和您一起过一次关键决策与未闭事项，确认理解一致。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎样保证连续性？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "接下来实施双人交接和短期并行跟进，发给您联系人、升级方式及进度表；有遗漏您能直接指出，我们当天补齐记录。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "新同事会不会不熟悉？",
+    "怎样保证连续性？"
+  ],
+  "coach": {
+    "focus": "人员变动应把隐性客户知识转为可核对的交接资料。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "medium",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

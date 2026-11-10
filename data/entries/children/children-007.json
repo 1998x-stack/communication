@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "children-007",
+  "category": "children",
+  "title": "晚上不肯睡觉",
+  "level": 7,
+  "difficulty": "low",
+  "background": "孩子到了睡前还要看视频。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "之前约定九点半关屏"
+  ],
+  "objective": "关屏后让孩子选睡前故事",
+  "method": "反映式倾听 / 共同解决问题",
+  "pillars": [
+    "倾听接纳",
+    "清晰规则",
+    "培养自主"
+  ],
+  "steps": [
+    {
+      "name": "倾听接纳",
+      "instruction": "开场先围绕已知事实“之前约定九点半关屏”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "清晰规则",
+      "instruction": "听到“你太严格了”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "培养自主",
+      "instruction": "遭遇“明天能不能继续看？”的再次追问后，争取一个明确落点：“关屏后让孩子选睡前故事”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "再看一集嘛"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "倾听接纳",
+      "text": "这一集很有趣，我知道你还想看。我们之前约好九点半关屏，现在到了，需要先停下来准备睡觉。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你太严格了"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "清晰规则",
+      "text": "你可以觉得规则严格，也可以跟我说想看多少。但睡眠时间不能靠每晚临时争论改变，我们明天找时间重新讨论是否合理。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "明天能不能继续看？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "培养自主",
+      "text": "明天在约定的观看时段可以继续。现在你来选一本睡前故事，或先告诉我这一集最精彩的地方再去洗漱。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你太严格了",
+    "明天能不能继续看？"
+  ],
+  "coach": {
+    "focus": "在守住睡眠规则的同时给予过渡和选择。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+  "tags": [
+    "children",
+    "low",
+    "反映式倾听 / 共同解决问题"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

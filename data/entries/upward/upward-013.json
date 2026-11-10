@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-013",
+  "category": "upward",
+  "title": "数据口径遭质疑",
+  "level": 13,
+  "difficulty": "medium",
+  "background": "会上两份报表呈现不同数字。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "两份报表分别统计自然日与工作日"
+  ],
+  "objective": "由数据组统一定义后重新发布报表",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“两份报表分别统计自然日与工作日”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“哪份才值得相信？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“今天给我一个统一口径”的再次追问后，争取一个明确落点：“由数据组统一定义后重新发布报表”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "为什么两个数据不一样？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "两份报表统计口径不同：一份按自然日，一份按工作日，所以数字不能直接对照。当前问题是定义不统一，不宜马上认定哪份错。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "哪份才值得相信？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "两份都可能在各自口径下成立，但用于同一次决策必须有统一定义。我建议先由数据组核对指标定义、时间范围和样本，再决定采用哪一份。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "今天给我一个统一口径"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "今天先由数据组确认唯一口径并重新出表；在核准前，我会给现有报表标记“口径不同，不供直接比较”，避免会议继续传播误读。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "哪份才值得相信？",
+    "今天给我一个统一口径"
+  ],
+  "coach": {
+    "focus": "解释差异不是辩护，先统一定义再重新发布。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "medium",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-004",
+  "category": "partner",
+  "title": "伴侣需要倾诉",
+  "level": 4,
+  "difficulty": "low",
+  "background": "对方工作受挫向你抱怨。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "你刚才急于分析问题忽略了情绪"
+  ],
+  "objective": "先听完对方经历再问是否需要建议",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“你刚才急于分析问题忽略了情绪”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“你怎么只会给建议？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“能先陪我说说吗？”的再次追问后，争取一个明确落点：“先听完对方经历再问是否需要建议”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "今天领导又批评我了"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "今天被领导批评肯定很难受。刚才我急着帮你分析，可能让你觉得我没有听见你的委屈。你愿意从头讲讲吗？",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你怎么只会给建议？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "你说得对，你现在可能只需要有人陪着。我先把建议放下，听你讲领导具体说了什么、你当时是什么感受。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "能先陪我说说吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "可以，我在这里陪你。你说完后如果想一起想办法就告诉我；今天只想被理解也没关系。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你怎么只会给建议？",
+    "能先陪我说说吗？"
+  ],
+  "coach": {
+    "focus": "先确认情绪陪伴需求，避免过早“解决问题”。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "low",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-021",
+  "category": "clients",
+  "title": "客户要求违规采集数据",
+  "level": 21,
+  "difficulty": "high",
+  "background": "客户希望绕过用户同意导出信息。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "请求的数据包含未获授权的个人信息"
+  ],
+  "objective": "采用授权范围内的数据与脱敏报告",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“请求的数据包含未获授权的个人信息”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“你们是不是不肯配合？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“有没有合法替代方案？”的再次追问后，争取一个明确落点：“采用授权范围内的数据与脱敏报告”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "别人都能导出来"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "您希望拿到更完整的数据来分析业务，我理解。但这批数据包含未获用户授权的个人信息，我们不能直接导出，也不能因为别人这么做就跳过授权。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你们是不是不肯配合？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "不是不愿配合，而是要确保您拿到的数据能合法、安全地使用。我们可以先确认分析目标，再看哪些字段在现有授权范围内，哪些需要额外征得用户同意。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "有没有合法替代方案？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "我建议先交付授权范围内的汇总或脱敏报告，同时列出需要补授权的字段和审批路径。我们共同确认报告口径，不会提供未经授权的个人明细。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你们是不是不肯配合？",
+    "有没有合法替代方案？"
+  ],
+  "coach": {
+    "focus": "坚守个人信息授权边界，同时提供合法、可交付的业务替代方案。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "high",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

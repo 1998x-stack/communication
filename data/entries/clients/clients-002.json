@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-002",
+  "category": "clients",
+  "title": "客户描述模糊需求",
+  "level": 2,
+  "difficulty": "low",
+  "background": "第一次需求会上对方只说想更方便。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "“更好用”尚未对应具体用户行为"
+  ],
+  "objective": "先通过三个用户任务确认成功标准",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实““更好用”尚未对应具体用户行为”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“你们不是专家吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“从哪里开始定义好用？”的再次追问后，争取一个明确落点：“先通过三个用户任务确认成功标准”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你们能做得更好用吗？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "可以优化，但“更好用”还不是可执行的需求。我想先了解是谁在什么任务里觉得不方便，具体卡在哪一步。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你们不是专家吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "我们可以提供专业建议，不过专家也需要真实使用场景来判断。先不急着讨论页面长什么样，先确认用户最想完成的事情。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "从哪里开始定义好用？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "建议从三个高频用户任务开始：现在怎样做、哪里耗时、改进后如何判断成功。我们把每个任务的完成时间或出错率作为验收依据。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你们不是专家吗？",
+    "从哪里开始定义好用？"
+  ],
+  "coach": {
+    "focus": "将抽象形容词转成用户任务和可量化成功标准。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "low",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "collaboration-001",
+  "category": "collaboration",
+  "title": "统一字段命名",
+  "level": 1,
+  "difficulty": "low",
+  "background": "两人共同整理客户表单。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "两份表格对同一字段用了不同名称"
+  ],
+  "objective": "共同确认字段词典并更新共享文档",
+  "method": "Closed-loop / RACI",
+  "pillars": [
+    "目标一致",
+    "责任清晰",
+    "执行闭环"
+  ],
+  "steps": [
+    {
+      "name": "目标一致",
+      "instruction": "开场先围绕已知事实“两份表格对同一字段用了不同名称”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "责任清晰",
+      "instruction": "听到“我这里叫用户ID”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "执行闭环",
+      "instruction": "遭遇“怎么确保下次不混？”的再次追问后，争取一个明确落点：“共同确认字段词典并更新共享文档”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你说的“客户号”是哪一列？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "目标一致",
+      "text": "我们在说同一个客户标识，但两份表用的名字不同。我指的是表里用来关联同一客户的那一列；先把两份样例对照确认，避免凭名字猜。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "我这里叫用户ID"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "责任清晰",
+      "text": "你那边叫用户ID，我这边叫客户号。先核实它们是否真指同一个字段、取值规则是否一致；确认前不直接改代码或改表。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎么确保下次不混？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "执行闭环",
+      "text": "我提议今天共同更新共享字段词典：标准字段名、含义、来源表、示例值和负责人各写清楚。以后新增字段先过词典，再由双方确认。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "我这里叫用户ID",
+    "怎么确保下次不混？"
+  ],
+  "coach": {
+    "focus": "先验证两个字段语义相同，再统一术语；不能只凭命名猜测。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+  "tags": [
+    "collaboration",
+    "low",
+    "Closed-loop / RACI"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

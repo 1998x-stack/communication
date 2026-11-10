@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "children-026",
+  "category": "children",
+  "title": "青少年要深夜外出",
+  "level": 26,
+  "difficulty": "high",
+  "background": "孩子要求参加没有成年人在场的深夜聚会。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "聚会地点与接送方案尚未确认"
+  ],
+  "objective": "依据安全信息协商活动与返家安排",
+  "method": "反映式倾听 / 共同解决问题",
+  "pillars": [
+    "倾听接纳",
+    "清晰规则",
+    "培养自主"
+  ],
+  "steps": [
+    {
+      "name": "倾听接纳",
+      "instruction": "开场先围绕已知事实“聚会地点与接送方案尚未确认”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "清晰规则",
+      "instruction": "听到“你是不是不相信我？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "培养自主",
+      "instruction": "遭遇“满足哪些条件才可以？”的再次追问后，争取一个明确落点：“依据安全信息协商活动与返家安排”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "大家都去为什么我不能？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "倾听接纳",
+      "text": "我知道你很想和同学一起去，不被允许会失望。现在还没确认聚会地点、陪同成年人和接送方案，我不能直接同意深夜外出。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你是不是不相信我？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "清晰规则",
+      "text": "这不是简单“不相信你”，而是这些信息还不足以判断安全。你可以参与核实，也可以提出更早结束或其他时间的替代安排。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "满足哪些条件才可以？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "培养自主",
+      "text": "先确认地点、组织人、交通、返家时间及紧急联系人；条件合适我们再讨论，无法确认安全就不参加深夜活动。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你是不是不相信我？",
+    "满足哪些条件才可以？"
+  ],
+  "coach": {
+    "focus": "高风险外出需依据实情审查，不靠同伴压力作决定。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+  "tags": [
+    "children",
+    "high",
+    "反映式倾听 / 共同解决问题"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

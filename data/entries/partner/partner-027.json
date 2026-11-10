@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-027",
+  "category": "partner",
+  "title": "遭受持续羞辱",
+  "level": 27,
+  "difficulty": "high",
+  "background": "伴侣在争执时多次使用侮辱性称呼。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "侮辱性语言已重复出现而非偶发误会"
+  ],
+  "objective": "明确停止辱骂的边界并寻求可信支持",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“侮辱性语言已重复出现而非偶发误会”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“我生气就会这样”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“你是不是又要走？”的再次追问后，争取一个明确落点：“明确停止辱骂的边界并寻求可信支持”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你怎么这么玻璃心？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "你说我玻璃心，但那些侮辱性称呼已经重复发生。我愿意讨论分歧，却不接受被辱骂；现在我需要先暂停这段对话。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "我生气就会这样"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "生气可以被理解，但不能把伤人的语言当成理所当然。我不会在辱骂继续时解释自己是不是“太敏感”，我会先离开争执现场。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "你是不是又要走？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "如果你继续辱骂，我会结束沟通并联系可信赖的朋友或支持资源。只有在尊重和安全得到保障时，我们才考虑后续是否谈关系问题。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "我生气就会这样",
+    "你是不是又要走？"
+  ],
+  "coach": {
+    "focus": "持续羞辱不是普通拌嘴，明确退出权与外部支持。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "high",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

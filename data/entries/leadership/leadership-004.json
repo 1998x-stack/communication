@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-004",
+  "category": "leadership",
+  "title": "询问任务阻塞",
+  "level": 4,
+  "difficulty": "low",
+  "background": "成员一直没有更新进度。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "任务已超过预估用时但成果尚未可见"
+  ],
+  "objective": "共同梳理阻塞与下一检查点",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“任务已超过预估用时但成果尚未可见”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“不知道哪里算卡点”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“需要什么支持？”的再次追问后，争取一个明确落点：“共同梳理阻塞与下一检查点”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我还在做"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "你说还在做我听到了，但任务已经超过预估用时，也还没有可检查成果。我想先确定卡在需求、资料还是执行步骤。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "不知道哪里算卡点"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "卡点不必等到完全停下才算。比如需要别人确认、关键数据没有、工作量超出原计划，都值得提早同步。我们一起列出来。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "需要什么支持？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "今天先确认一份可见的中间成果和下个检查点；如果是资源问题我来协调，你负责在新风险出现时及时提醒。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "不知道哪里算卡点",
+    "需要什么支持？"
+  ],
+  "coach": {
+    "focus": "让“还在做”变成可观察的进展与可求助的阻塞。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "low",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

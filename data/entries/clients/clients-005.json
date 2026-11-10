@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-005",
+  "category": "clients",
+  "title": "客户问额外功能",
+  "level": 5,
+  "difficulty": "low",
+  "background": "客户询问合同外的小功能。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "需求会新增开发与测试工作"
+  ],
+  "objective": "记录变更并提供费用时间影响",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“需求会新增开发与测试工作”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“改这么点也要收费？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“如果要做需要什么流程？”的再次追问后，争取一个明确落点：“记录变更并提供费用时间影响”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "这个顺便做一下吧"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "这个功能我先记录下来，它目前不在合同范围内，而且会新增开发和测试工作。我们可以评估，不宜直接当作免费小修。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "改这么点也要收费？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "理解您觉得改动不大，但用户看到的一个按钮也可能影响相关流程。我们先确认需求细节，再估算实际工作量，避免双方都有误判。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "如果要做需要什么流程？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "我会提交变更说明，列清实现范围、费用和时间影响；双方书面确认后安排实施，原有合同事项仍按约推进。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "改这么点也要收费？",
+    "如果要做需要什么流程？"
+  ],
+  "coach": {
+    "focus": "将看似微小的新增功能纳入透明变更管理。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "low",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

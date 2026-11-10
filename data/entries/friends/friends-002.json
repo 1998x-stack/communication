@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-002",
+  "category": "friends",
+  "title": "拒绝临时聚会",
+  "level": 2,
+  "difficulty": "low",
+  "background": "朋友当天突然邀请你出门。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "你今天需要独处休息"
+  ],
+  "objective": "礼貌拒绝今天并提供可选时间",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“你今天需要独处休息”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“你现在怎么这么宅？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“下次什么时候有空？”的再次追问后，争取一个明确落点：“礼貌拒绝今天并提供可选时间”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "出来玩嘛"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "谢谢你约我，今天我确实想独处休息一下，就不出门了。不是不想见你，我想让自己恢复点精力。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你现在怎么这么宅？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "最近待在家是我调整节奏的一种方式，不是对大家没兴趣。等我状态好些，我们可以找个两边都轻松的活动。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "下次什么时候有空？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "下周我有个晚上可能方便，等我确认安排再和你定；今天先不临时赶过去，祝你们玩得开心。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你现在怎么这么宅？",
+    "下次什么时候有空？"
+  ],
+  "coach": {
+    "focus": "礼貌拒绝当日邀请，避免把合理独处解释成关系破裂。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "low",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

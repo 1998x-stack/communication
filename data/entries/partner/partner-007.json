@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-007",
+  "category": "partner",
+  "title": "消费习惯差异",
+  "level": 7,
+  "difficulty": "low",
+  "background": "伴侣为一笔非必要购买感到担忧。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "这笔购买未提前说明且超过月度预算"
+  ],
+  "objective": "约定超预算开支先共同讨论",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“这笔购买未提前说明且超过月度预算”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“我们不是说要存钱吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“以后大额消费怎么决定？”的再次追问后，争取一个明确落点：“约定超预算开支先共同讨论”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你为什么又买这么贵的东西？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "这笔购买超过月度预算，我没有提前跟你商量。你担心我们存钱的计划被影响，我能理解，也应该先把账目说明白。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "我们不是说要存钱吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "我们确实说好存钱，不能因为我喜欢就当作共同承诺没了。我会把这笔支出列出来，看看是否需要退货或削减其他非必要开支。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "以后大额消费怎么决定？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "以后超过共同约定金额的非必要消费先讨论；个人可自由支配的额度也说清楚。这次先一起核对预算缺口，决定怎么补。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "我们不是说要存钱吗？",
+    "以后大额消费怎么决定？"
+  ],
+  "coach": {
+    "focus": "认领越过预算的事实，建立共同财务规则而非只争购买价值。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "low",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "children-028",
+  "category": "children",
+  "title": "出现持续逃学",
+  "level": 28,
+  "difficulty": "high",
+  "background": "孩子多次拒绝上学并情绪崩溃。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "孩子近期有明显睡眠困难和强烈恐惧"
+  ],
+  "objective": "先排查校园压力并联系学校及专业支持",
+  "method": "反映式倾听 / 共同解决问题",
+  "pillars": [
+    "倾听接纳",
+    "清晰规则",
+    "培养自主"
+  ],
+  "steps": [
+    {
+      "name": "倾听接纳",
+      "instruction": "开场先围绕已知事实“孩子近期有明显睡眠困难和强烈恐惧”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "清晰规则",
+      "instruction": "听到“你逼我只会更难受”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "培养自主",
+      "instruction": "遭遇“能不能先了解发生了什么？”的再次追问后，争取一个明确落点：“先排查校园压力并联系学校及专业支持”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我真的去不了"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "倾听接纳",
+      "text": "你说真的去不了，我相信现在去学校对你很难。我们先弄清你在害怕什么，不把你当成只是不听话。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你逼我只会更难受"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "清晰规则",
+      "text": "逼你立刻进校门可能让恐惧更严重。最近睡眠也明显受影响，需要同时了解学校里是否有欺凌、学习压力或其他安全问题。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "能不能先了解发生了什么？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "培养自主",
+      "text": "今天先确保你在安全环境里，和学校可信任的老师沟通，并视情况寻求合适的身心健康专业支持；之后一起制定分阶段返校计划。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你逼我只会更难受",
+    "能不能先了解发生了什么？"
+  ],
+  "coach": {
+    "focus": "持续拒学伴随强烈恐惧时先评估安全与心理压力，不以惩罚催返校。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html",
+  "tags": [
+    "children",
+    "high",
+    "反映式倾听 / 共同解决问题"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

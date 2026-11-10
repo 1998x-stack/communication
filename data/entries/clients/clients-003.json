@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-003",
+  "category": "clients",
+  "title": "确认会议纪要",
+  "level": 3,
+  "difficulty": "low",
+  "background": "商务会议结束后双方理解不同。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "会上讨论了价格和交付顺序"
+  ],
+  "objective": "用纪要确认范围与下一步负责人",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“会上讨论了价格和交付顺序”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“还需要写一份吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“具体确认什么内容？”的再次追问后，争取一个明确落点：“用纪要确认范围与下一步负责人”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "刚才不是说好了吗？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "会上的方向有共识，但我们对价格和交付顺序的理解似乎还有差别。我想用简短纪要把一致与待确认部分写明白。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "还需要写一份吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "写一份不是增加手续，而是避免双方按照不同理解安排预算和资源。我先拟稿，您只需圈出不准确的地方。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "具体确认什么内容？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "纪要重点确认报价范围、交付先后、双方责任人、待决事项和下次回复时间；确认后我们据此执行，不再各自口头解释。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "还需要写一份吗？",
+    "具体确认什么内容？"
+  ],
+  "coach": {
+    "focus": "用会后核对闭环保护合同范围与履约顺序。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "low",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

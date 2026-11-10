@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-001",
+  "category": "leadership",
+  "title": "安排新员工任务",
+  "level": 1,
+  "difficulty": "low",
+  "background": "新员工刚入职不清楚期望。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "首周任务要在三天内完成基础资料整理"
+  ],
+  "objective": "给新员工一份任务清单与验收标准",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“首周任务要在三天内完成基础资料整理”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“做到什么程度算好？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“有问题我找谁？”的再次追问后，争取一个明确落点：“给新员工一份任务清单与验收标准”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我今天先做什么？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "今天先整理基础资料清单中的第一部分。你入职第一周，最重要的是熟悉来源和整理规则；首周目标是在三天内完成基础资料整理。我会给你示例，先做一份给我看。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "做到什么程度算好？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "标准有三条：资料来源可追溯、字段完整、命名统一。完成第一份后我们一起检查，确认理解一致，再批量推进，不让你靠猜。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "有问题我找谁？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "遇到不清楚的字段先记下来，随时找我或清单上的协作同事。今天下午我们留十分钟对齐，你不需要把疑问攒到最后一天。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "做到什么程度算好？",
+    "有问题我找谁？"
+  ],
+  "coach": {
+    "focus": "给新员工可核验的完成标准和求助通道，不用笼统的‘尽快熟悉’。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "low",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

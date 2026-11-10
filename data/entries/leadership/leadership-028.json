@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-028",
+  "category": "leadership",
+  "title": "关键骨干提出离职",
+  "level": 28,
+  "difficulty": "high",
+  "background": "骨干在产品发布前突然提离职。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "离职会影响关键系统但员工有合法选择权"
+  ],
+  "objective": "尊重决定并讨论可接受的交接周期",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“离职会影响关键系统但员工有合法选择权”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“为什么以前不重视我的诉求？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“交接怎样对双方公平？”的再次追问后，争取一个明确落点：“尊重决定并讨论可接受的交接周期”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你是不是要道德绑架我？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "你有权选择下一步职业发展。我知道临近发布离职会让团队紧张，但我不会用项目风险要求你牺牲决定。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "为什么以前不重视我的诉求？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "以前没有及时回应你的诉求，这可能让你失望，我愿意听具体原因并承担应改进的部分；不是今天才想用关心挽留你。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "交接怎样对双方公平？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "我们按合同和制度讨论可接受的最后工作日、文档交接与接替人选；我负责组织备份，避免你离职后被无限追问。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "为什么以前不重视我的诉求？",
+    "交接怎样对双方公平？"
+  ],
+  "coach": {
+    "focus": "尊重离职决定，承认管理欠缺，推动公平交接。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "high",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

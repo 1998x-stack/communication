@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "friends-029",
+  "category": "friends",
+  "title": "多年朋友关系破裂",
+  "level": 29,
+  "difficulty": "high",
+  "background": "双方因利益冲突已半年没有来往。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "旧争执包含金钱与长期误解"
+  ],
+  "objective": "承认自身责任并尊重对方是否继续交往",
+  "method": "积极倾听 / 边界表达",
+  "pillars": [
+    "真诚理解",
+    "相互回应",
+    "尊重分寸"
+  ],
+  "steps": [
+    {
+      "name": "真诚理解",
+      "instruction": "开场先围绕已知事实“旧争执包含金钱与长期误解”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "相互回应",
+      "instruction": "听到“你先把以前的话解释清楚”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "尊重分寸",
+      "instruction": "遭遇“还有恢复关系的可能吗？”的再次追问后，争取一个明确落点：“承认自身责任并尊重对方是否继续交往”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你现在找我有什么用？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "真诚理解",
+      "text": "半年没联系，是因为当年的金钱争执和误解一直没有认真解决。我现在来找你，不是要求你马上重新做朋友，而是想为自己的部分负责。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你先把以前的话解释清楚"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "相互回应",
+      "text": "你希望我解释，我愿意。我们可以先逐件核对当时的钱款、承诺和我说过的话；哪些是事实、哪些是误会，不能用“过去了”一笔带过。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "还有恢复关系的可能吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "尊重分寸",
+      "text": "如果你愿意，我们先解决具体未清账目和道歉问题，再看是否继续联系；若你不愿恢复关系，我也尊重，不再用旧友情施压。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你先把以前的话解释清楚",
+    "还有恢复关系的可能吗？"
+  ],
+  "coach": {
+    "focus": "修复旧关系先处理财务事实与责任，尊重对方不和解的决定。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+  "tags": [
+    "friends",
+    "high",
+    "积极倾听 / 边界表达"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "collaboration-013",
+  "category": "collaboration",
+  "title": "跨时区合作",
+  "level": 13,
+  "difficulty": "medium",
+  "background": "海外同事经常凌晨发消息。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "双方工作时间只有两小时重叠"
+  ],
+  "objective": "约定重叠时段和紧急联系机制",
+  "method": "Closed-loop / RACI",
+  "pillars": [
+    "目标一致",
+    "责任清晰",
+    "执行闭环"
+  ],
+  "steps": [
+    {
+      "name": "目标一致",
+      "instruction": "开场先围绕已知事实“双方工作时间只有两小时重叠”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "责任清晰",
+      "instruction": "听到“时差不是理由吧？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "执行闭环",
+      "instruction": "遭遇“怎么保证紧急事项响应？”的再次追问后，争取一个明确落点：“约定重叠时段和紧急联系机制”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你怎么总不及时回复？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "目标一致",
+      "text": "我们工作时间只有两小时重叠，凌晨消息无法保证即时回复。我理解你担心任务被卡，我希望建立不依赖深夜在线的规则。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "时差不是理由吧？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "责任清晰",
+      "text": "时差确实不该成为交付借口，但它影响同步方式。普通问题可以提前留言，重叠时段集中确认；只有明确的紧急事件使用升级渠道。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎么保证紧急事项响应？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "执行闭环",
+      "text": "约定每天共同在线的两小时用于决策，紧急事项走指定值班联系人，并标明时区和响应预期。这样双方都有可执行的承诺。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "时差不是理由吧？",
+    "怎么保证紧急事项响应？"
+  ],
+  "coach": {
+    "focus": "区分异步沟通与真正的紧急升级，不要求全天候在线。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+  "tags": [
+    "collaboration",
+    "medium",
+    "Closed-loop / RACI"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

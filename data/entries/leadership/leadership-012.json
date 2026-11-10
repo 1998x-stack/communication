@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-012",
+  "category": "leadership",
+  "title": "优秀员工职业发展",
+  "level": 12,
+  "difficulty": "medium",
+  "background": "骨干员工感到没有成长空间。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "该成员绩效稳定但近半年没有新职责"
+  ],
+  "objective": "制定成长目标并提供一次跨职能机会",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“该成员绩效稳定但近半年没有新职责”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“公司还有机会吗？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“能安排有挑战的项目吗？”的再次追问后，争取一个明确落点：“制定成长目标并提供一次跨职能机会”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "每天都是重复工作"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "你稳定交付了现有工作，近半年却没有新职责，这种停滞感我理解。我想和你讨论真正希望拓展的能力，而不只是再加工作量。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "公司还有机会吗？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "不能随口保证公司一定有晋升或新岗位。但我们可以查清现有项目机会和岗位要求，找到与你目标匹配的实践空间。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "能安排有挑战的项目吗？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "我建议共同制定一个阶段成长目标，并争取一次范围清晰的跨职能任务；同时约定复盘日期，确认它是否真有学习价值。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "公司还有机会吗？",
+    "能安排有挑战的项目吗？"
+  ],
+  "coach": {
+    "focus": "区分成长机会与晋升承诺，设计有反馈的挑战任务。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "medium",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

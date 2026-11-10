@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-012",
+  "category": "clients",
+  "title": "客户临时改需求",
+  "level": 12,
+  "difficulty": "medium",
+  "background": "合同执行中客户提出新范围。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "增加功能需要重新测试关联模块"
+  ],
+  "objective": "评估新增范围并确认取舍",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“增加功能需要重新测试关联模块”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“你们不能灵活一点？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“怎么不影响原交期？”的再次追问后，争取一个明确落点：“评估新增范围并确认取舍”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "我们现在就需要这个"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "新功能的业务价值我愿意一起评估，但它会影响关联模块重新测试。我们先确认范围和必须达到的效果，再讨论时间。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你们不能灵活一点？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "灵活不等于在原工期内无条件增加工作。我们可以加速评估，但需要您选择增援、范围缩减或交期调整中的合理方案。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎么不影响原交期？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "如果原交期不能变，建议先完成原合同关键功能，新需求分阶段交；我会提供变更影响清单，双方确认后再安排。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你们不能灵活一点？",
+    "怎么不影响原交期？"
+  ],
+  "coach": {
+    "focus": "把“急需”落实到范围、资源和时间的可选取舍。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "medium",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

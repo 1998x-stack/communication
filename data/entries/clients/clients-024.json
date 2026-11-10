@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "clients-024",
+  "category": "clients",
+  "title": "多方采购利益冲突",
+  "level": 24,
+  "difficulty": "high",
+  "background": "技术负责人与财务负责人需求相反。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "安全基础项无法在不增加风险情况下删除"
+  ],
+  "objective": "依据风险等级设计分阶段采购方案",
+  "method": "澄清式提问 / 期望管理",
+  "pillars": [
+    "识别需求",
+    "建立可信度",
+    "管理预期"
+  ],
+  "steps": [
+    {
+      "name": "识别需求",
+      "instruction": "开场先围绕已知事实“安全基础项无法在不增加风险情况下删除”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "建立可信度",
+      "instruction": "听到“安全项不能删”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "管理预期",
+      "instruction": "遭遇“怎么做权衡？”的再次追问后，争取一个明确落点：“依据风险等级设计分阶段采购方案”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "预算必须再砍一半"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "识别需求",
+      "text": "预算需要控制，安全要求也必须守住。已知基础安全项不能直接删，否则风险会上升，所以要从范围与交付阶段寻找压缩空间。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "安全项不能删"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "建立可信度",
+      "text": "技术和财务关心的是不同风险。我们可以把项目拆成必需安全底座、可延后功能和可选服务，分别写清成本与业务后果。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "怎么做权衡？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "管理预期",
+      "text": "建议第一阶段保留最低安全合规能力，暂缓非关键模块；请财务与技术负责人共同确认预算上限、接受的风险与后续追加节点。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "安全项不能删",
+    "怎么做权衡？"
+  ],
+  "coach": {
+    "focus": "在预算冲突中先守安全底线，再讨论可延后的价值。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+  "tags": [
+    "clients",
+    "high",
+    "澄清式提问 / 期望管理"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

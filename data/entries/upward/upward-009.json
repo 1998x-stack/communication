@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-009",
+  "category": "upward",
+  "title": "报备个人请假",
+  "level": 9,
+  "difficulty": "low",
+  "background": "负责关键节点时需要请假。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "请假当天是非上线日，已整理风险联系人"
+  ],
+  "objective": "由搭档代管并提前发交接清单",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“请假当天是非上线日，已整理风险联系人”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“出了事怎么办？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“工作交接什么时候完成？”的再次追问后，争取一个明确落点：“由搭档代管并提前发交接清单”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你不在谁来处理？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "请假当天不是上线日。我已整理风险联系人，准备由搭档代管日常问题；关键事项我会在离开前逐项交接。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "出了事怎么办？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "如果有异常，搭档按清单先判断和处置；超出授权或涉及生产风险时，按现有升级路径联系相关负责人，不把解决方案建立在我随时在线上。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "工作交接什么时候完成？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "我会在请假前完成交接清单并与搭档走一遍，附上待办、决策权限和联系人，再向您确认是否还有遗漏。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "出了事怎么办？",
+    "工作交接什么时候完成？"
+  ],
+  "coach": {
+    "focus": "提前设计代理人、异常升级和交接验收，而非仅说“请假也能联系”。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "low",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

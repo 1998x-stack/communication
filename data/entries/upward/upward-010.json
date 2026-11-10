@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "upward-010",
+  "category": "upward",
+  "title": "总结阶段成果",
+  "level": 10,
+  "difficulty": "low",
+  "background": "主管让你讲项目阶段收获。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "新流程试点后平均耗时下降约两成"
+  ],
+  "objective": "继续优化转化漏斗的第二步",
+  "method": "SBAR / 结论先行",
+  "pillars": [
+    "结论先行",
+    "提供方案",
+    "明确决策请求"
+  ],
+  "steps": [
+    {
+      "name": "结论先行",
+      "instruction": "开场先围绕已知事实“新流程试点后平均耗时下降约两成”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "提供方案",
+      "instruction": "听到“能不能用数据证明？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "明确决策请求",
+      "instruction": "遭遇“下阶段重点是什么？”的再次追问后，争取一个明确落点：“继续优化转化漏斗的第二步”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "这段时间最重要的成绩是什么？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "结论先行",
+      "text": "阶段最明显的成果是新流程试点后平均耗时下降约两成。它说明效率有改善，但还需要观察质量和后续转化。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "能不能用数据证明？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "提供方案",
+      "text": "目前能用试点前后的平均耗时作证据；我也会补充样本范围和统计口径，避免把耗时下降误说成整体业务增长。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "下阶段重点是什么？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "明确决策请求",
+      "text": "下一步建议优先优化转化漏斗第二步，设定基线和观察周期，再报告是否真正改善转化。请您确认这项重点。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "能不能用数据证明？",
+    "下阶段重点是什么？"
+  ],
+  "coach": {
+    "focus": "量化成果、交代边界，并把复盘连接到下一步实验。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
+  "tags": [
+    "upward",
+    "low",
+    "SBAR / 结论先行"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

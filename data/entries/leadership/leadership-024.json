@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "leadership-024",
+  "category": "leadership",
+  "title": "员工持续低绩效",
+  "level": 24,
+  "difficulty": "high",
+  "background": "辅导多次后表现仍未改善。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "关键交付连续三个周期未达约定标准"
+  ],
+  "objective": "形成事实记录、明确支持和评估期限",
+  "method": "SBI / 双向反馈",
+  "pillars": [
+    "期望明确",
+    "安全表达",
+    "具体反馈"
+  ],
+  "steps": [
+    {
+      "name": "期望明确",
+      "instruction": "开场先围绕已知事实“关键交付连续三个周期未达约定标准”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "安全表达",
+      "instruction": "听到“你之前也没给资源”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "具体反馈",
+      "instruction": "遭遇“我还能怎样达标？”的再次追问后，争取一个明确落点：“形成事实记录、明确支持和评估期限”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "是不是准备开除我？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "期望明确",
+      "text": "关键交付连续三个周期未达标准，我们需要认真讨论表现差距和支持措施。现在尚未作出任何人事决定，我会按正式制度进行评估，不提前吓你。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "你之前也没给资源"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "安全表达",
+      "text": "你指出资源不足可能有影响，我们会把曾提供什么、还缺什么和你提出过哪些阻塞一并核对，不只拿最终结果归因个人。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "我还能怎样达标？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "具体反馈",
+      "text": "接下来书面明确具体达标指标、可用资源、检查频率和评估期限；任何后续处理都遵守流程与适用规则，并给你陈述实际困难的机会。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "你之前也没给资源",
+    "我还能怎样达标？"
+  ],
+  "coach": {
+    "focus": "高风险绩效沟通坚持证据、支持、公平程序与明确期限。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/",
+  "tags": [
+    "leadership",
+    "high",
+    "SBI / 双向反馈"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}

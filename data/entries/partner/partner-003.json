@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "id": "partner-003",
+  "category": "partner",
+  "title": "忘记重要纪念日",
+  "level": 3,
+  "difficulty": "low",
+  "background": "你忘了两个人约好的纪念日安排。你是这次沟通的一方，不能预知对方后续的反问，需要在尊重与清晰之间作出选择。",
+  "facts": [
+    "当天临时加班却未提前沟通"
+  ],
+  "objective": "主动补一次约会并设置共同提醒",
+  "method": "积极倾听 / 我陈述 / 修复尝试",
+  "pillars": [
+    "情绪理解",
+    "需求表达",
+    "冲突修复"
+  ],
+  "steps": [
+    {
+      "name": "情绪理解",
+      "instruction": "开场先围绕已知事实“当天临时加班却未提前沟通”作清楚表达，避免猜测对方动机。"
+    },
+    {
+      "name": "需求表达",
+      "instruction": "听到“道歉有什么用？”时，先识别顾虑，再坚持可验证事实或个人边界。"
+    },
+    {
+      "name": "冲突修复",
+      "instruction": "遭遇“你准备怎样补救？”的再次追问后，争取一个明确落点：“主动补一次约会并设置共同提醒”。"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 1,
+      "role": "counterpart",
+      "stage": "起始提问",
+      "text": "你连这一天都不记得？"
+    },
+    {
+      "turn": 2,
+      "role": "learner",
+      "stage": "情绪理解",
+      "text": "我忘了我们约好的纪念日安排，还临时加班却没提前说，让你一个人等。这不是你太在意，是我失约了。对不起。",
+      "isModel": true
+    },
+    {
+      "turn": 3,
+      "role": "counterpart",
+      "stage": "第一轮反问",
+      "text": "道歉有什么用？"
+    },
+    {
+      "turn": 4,
+      "role": "learner",
+      "stage": "需求表达",
+      "text": "你说得对，光道歉不能把那天补回来。我想先听你原本期待怎样度过，再一起商量能否安排一次真正留出时间的约会。",
+      "isModel": true
+    },
+    {
+      "turn": 5,
+      "role": "counterpart",
+      "stage": "第二轮追问",
+      "text": "你准备怎样补救？"
+    },
+    {
+      "turn": 6,
+      "role": "learner",
+      "stage": "冲突修复",
+      "text": "这周我负责挑选并预约一个双方都方便的时间，也会把重要日期放进共同提醒。你不必马上原谅我，我会用行动改善。",
+      "isModel": true
+    }
+  ],
+  "pushbacks": [
+    "道歉有什么用？",
+    "你准备怎样补救？"
+  ],
+  "coach": {
+    "focus": "对纪念日失约具体担责，不要求对方因补偿就立即释怀。",
+    "pitfalls": [
+      "不要一开始就长篇解释，忽略对方真实关切。",
+      "不要把事实、推测和个人感受混在一起。",
+      "不要用虚假承诺或人格攻击换取表面同意。"
+    ],
+    "selfCheck": [
+      "我是否先听懂对方的问题？",
+      "我是否把事实和立场说得足够清楚？",
+      "我是否回应了反问而不是机械背稿？",
+      "我是否给出明确行动、边界或下一步？"
+    ],
+    "rubric": [
+      {
+        "name": "结构清楚",
+        "weight": 25
+      },
+      {
+        "name": "理解对方",
+        "weight": 25
+      },
+      {
+        "name": "坚定尊重",
+        "weight": 25
+      },
+      {
+        "name": "行动落点",
+        "weight": 25
+      }
+    ]
+  },
+  "safetyNote": null,
+  "source": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/",
+  "tags": [
+    "partner",
+    "low",
+    "积极倾听 / 我陈述 / 修复尝试"
+  ],
+  "created": "2026-11-10",
+  "roundCount": 3
+}
