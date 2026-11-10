@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#132a32" />
+  <meta name="description" content="言习 · 每日15分钟，练习职场、家庭、社交与冲突中的真实多轮对话。270个循序渐进案例，隐藏答案、随机抽题、口才复盘。" />
+  <meta property="og:title" content="言习｜每天练一点，说得更从容" />
+  <meta property="og:description" content="9类场景 · 270个案例 · 3轮反问 · 每日口才训练" />
+  <title>言习 · Communication Lab｜晨间表达练习</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <script src="./assets/app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="./" aria-label="言习首页"><span class="brand-mark">言</span><span class="brand-names"><strong>言习</strong><small>COMMUNICATION LAB</small></span></a>
+      <div class="sidebar-intro">一句话改变表达方式，<br/>一点点积累从容的底气。</div>
+      <div class="nav-caption">练习场景 <span id="navCount">09</span></div>
+      <nav id="categoryNav" aria-label="场景导航"><div class="skeleton">正在加载训练场景…</div></nav>
+      <div class="sidebar-bottom">
+        <div class="quote-mark">“</div>
+        <p>沟通的目标不是赢过对方，<br/>而是把理解变成行动。</p>
+        <span>— 每日训练提醒</span>
+        <a class="repo-link" href="https://github.com/1998x-stack/communication" target="_blank" rel="noopener">开源仓库 ↗</a>
+      </div>
+    </aside>
+    <div class="main-shell">
+      <header class="topbar">
+        <button id="menuButton" class="icon-button mobile-only" aria-label="打开场景导航" aria-expanded="false">☰</button>
+        <div class="breadcrumb"><span>PERSONAL GROWTH</span><span class="crumb-divider">/</span>每日表达训练</div>
+        <div class="topbar-right"><span class="live-dot"></span><span id="todayLabel">今天，适合好好表达</span><span class="topbar-divider"></span><a href="https://github.com/1998x-stack/communication" target="_blank" rel="noopener" class="top-link">GitHub ↗</a></div>
+      </header>
+      <main class="content">
+        <section class="hero">
+          <div class="hero-orbit orb-one"></div><div class="hero-orbit orb-two"></div><div class="hero-orbit orb-three"></div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> THE ART OF COMMUNICATION <span class="eyebrow-line"></span></div>
+          <h1>把每一次对话，<br/><em>练成你的底气。</em></h1>
+          <p>给自己一刻钟。从清楚表达，到从容应对反问，<br class="desktop-only" />在真实场景里，让沟通能力慢慢长出来。</p>
+          <div class="hero-actions"><button class="primary-button" id="dailyStart">开始今日练习 <span>↗</span></button><span class="hero-meta"><span class="sparkle">✳</span> 每天 15 分钟 · 不必完美，只需开始</span></div>
+          <div class="hero-decoration"><span class="soundbar s1"></span><span class="soundbar s2"></span><span class="soundbar s3"></span><span class="soundbar s4"></span><span class="soundbar s5"></span><span class="soundbar s6"></span><span class="soundbar s7"></span><span class="soundbar s8"></span><span class="soundbar s9"></span></div>
+        </section>
+        <section class="metrics" aria-label="练习统计">
+          <div class="metric"><span class="metric-symbol">◉</span><div><span class="metric-label">累计完成</span><strong id="completedCount">0 <small>题</small></strong></div><span class="metric-hint">Practice makes progress</span></div>
+          <div class="metric"><span class="metric-symbol symbol-green">↗</span><div><span class="metric-label">连续练习</span><strong id="streakCount">0 <small>天</small></strong></div><span class="metric-hint">One day at a time</span></div>
+          <div class="metric"><span class="metric-symbol symbol-gold">✦</span><div><span class="metric-label">今日已练</span><strong id="todayCount">0 <small>题</small></strong></div><span class="metric-hint" id="totalCount">270 个训练案例</span></div>
+        </section>
+        <section class="section-heading"><div><span class="overline">YOUR DAILY PRACTICE</span><h2>今日训练台 <span class="heading-stroke">✧</span></h2></div><p>先说自己的话，再看参考答案。</p></section>
+        <section class="controls" aria-label="训练选项">
+          <div class="control-group"><label for="categorySelect">训练场景</label><select id="categorySelect"><option value="all">全部场景</option></select></div>
+          <div class="control-group"><label for="difficultySelect">挑战难度</label><select id="difficultySelect"><option value="all">全部难度</option><option value="low">基础 · 1—10</option><option value="medium">进阶 · 11—20</option><option value="high">高压 · 21—30</option></select></div>
+          <div class="control-group"><label for="orderSelect">出题方式</label><select id="orderSelect"><option value="sequential">顺序模式</option><option value="random">随机模式</option></select></div>
+          <div class="control-group"><label for="visibilitySelect">答案展示</label><select id="visibilitySelect"><option value="hidden">隐藏参考答案</option><option value="expanded">全部展开</option></select></div>
+          <div class="search-group"><label for="searchInput">检索案例</label><input id="searchInput" type="search" placeholder="搜索具体情境…" autocomplete="off" /></div>
+        </section>
+        <section class="workspace">
+          <div id="casePanel" class="case-panel" aria-live="polite"><div class="loading"><div class="loading-mark">言</div>正在为你准备今天的训练…</div></div>
+          <aside class="right-rail"><div id="lessonPanel" class="rail-card"><h3>训练方法</h3><p>加载中…</p></div><div id="reflectionPanel" class="rail-card"><h3>自我复盘</h3><p>完成一题后回顾表达。</p></div></aside>
+        </section>
+        <footer class="footer"><span>言习 <b>·</b> 一个人的沟通练习室</span><span>数据留在你的浏览器 · 无账号 · 无追踪</span><a href="https://github.com/1998x-stack/communication" target="_blank" rel="noopener">为案例库添一笔 ↗</a></footer>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
