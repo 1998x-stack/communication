@@ -8,11 +8,18 @@
 
 **10 个场景 · 272 个案例 · 自由轮次 · 独立难度与标签**
 
-[立即开始每日晨练](https://1998x-stack.github.io/communication/) · [课程体系](docs/CURRICULUM.md) · [新增案例](docs/IMPORT_FROM_CHATGPT.md) · [架构说明](docs/ARCHITECTURE.md)
+[立即开始每日晨练](https://1998x-stack.github.io/communication/) · [知识文章库](https://1998x-stack.github.io/communication/knowledge/) · [课程体系](docs/CURRICULUM.md) · [新增案例](docs/IMPORT_FROM_CHATGPT.md) · [架构说明](docs/ARCHITECTURE.md)
 
 </div>
 
 ---
+
+## 沟通知识库
+
+网站新增独立的长文知识库，采用“一级领域 → 二级主题 → 文章”的内容组织方式。目前包含 **12 篇结构化文章、5 个知识领域、11 个二级主题**，配套原创 SVG 图解、来源证据账本、交互拆解、阅读路径、主题地图、文章归档与 RSS。文章不替代练习：每篇都能跳转到对应案例，按实际轮次进行隐藏答案训练。
+
+- [打开知识文章库](https://1998x-stack.github.io/communication/knowledge/) · [主题地图](https://1998x-stack.github.io/communication/knowledge/topics/) · [文章归档](https://1998x-stack.github.io/communication/knowledge/archive/) · [RSS](https://1998x-stack.github.io/communication/knowledge/feed.xml)
+- 内容唯一清单：`content/posts.json`；分类唯一来源：`content/categories.json`；文章正文：`posts/<category>/<slug>/index.html`；证据：每篇文章的 `evidence.json`。
 
 ## 这是什么？
 
@@ -37,7 +44,7 @@
 
 ## 网站具备什么？
 
-- **每日晨练：** 每天自动编排基础、进阶、高压 3 题，保持当日题组固定；累计完成、今日进度、跨日练习记录与连续天数。
+- **知识文章：** 12 篇从问题、机制、真实案例、交互拆解到边界与来源的长文；支持领域、主题、搜索、阅读路径、归档和 RSS。\n- **每日晨练：** 每天自动编排基础、进阶、高压 3 题，保持当日题组固定；累计完成、今日进度、跨日练习记录与连续天数。
 - **抽题方式：** 顺序训练、随机训练（优先避开当前轮已出现过的题目）。
 - **训练筛选：** 动态场景、低/中/高难度、独立标签以及标题、背景和关键词检索。
 - **回答显示：** “全部展开”用于学习，“隐藏参考”用于脱稿；实战模式只显示当前轮，回答后主动解锁下一次反问，绝不提前剧透；每轮可单独揭示参考。
@@ -109,7 +116,7 @@ python3 -m http.server 4173
 ├── .codex/skills/              # Codex 场景 Skill 镜像
 ├── .pi/skills/                 # Pi 场景 Skill
 ├── .opencode/skills/           # OpenCode 场景 Skill
-├── scripts/                    # 生成、校验、审计、Skill 同步
+├── scripts/                    # 训练数据、知识站点、浏览器 QA 与 Skill 同步
 ├── schemas/                    # 案例数据契约
 ├── docs/                       # 课程、来源、架构、扩展说明
 ├── .github/workflows/          # 校验与 Pages 部署

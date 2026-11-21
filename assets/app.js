@@ -7,6 +7,7 @@ const fmtDate=()=>new Intl.DateTimeFormat("zh-CN",{month:"long",day:"numeric",we
 const key="yanxi-training-v1";
 let state={category:"all",difficulty:"all",tag:"all",order:"sequential",visibility:"hidden",search:"",activeId:null,revealed:{},answers:{},ratings:{},completed:{},favorites:[],visited:[],rounds:{},practiceDays:{},recordings:[]};
 try{const raw=localStorage.getItem(key);if(raw){const stored=JSON.parse(raw);state={...state,...stored,revealed:{},rounds:stored.rounds||{},practiceDays:stored.practiceDays||{},visited:Array.isArray(stored.visited)?stored.visited:[]};if(!Object.keys(state.practiceDays).length){for(const v of Object.values(state.completed||{})){if(v?.date)state.practiceDays[v.date]=(state.practiceDays[v.date]||0)+1;}}}}catch{}
+const urlParams=new URLSearchParams(window.location.search),requestedCase=urlParams.get('case'),requestedCategory=urlParams.get('category');
 let catalog=null,cases=[],currentRecording=null,recordChunks=[],mediaStream=null,currentAudio=null,notice="";
 const icons={all:"✦",upward:"▣",collaboration:"♙",leadership:"♜",partner:"♡",parents:"⌂",children:"❀",friends:"☕",clients:"◇",conflicts:"⚖"};
 const save=()=>{try{const {recordings,...persist}=state;localStorage.setItem(key,JSON.stringify(persist));}catch{}};
@@ -172,7 +173,7 @@ async function startRecording(){
    const status=$("#statusMessage");if(status)status.textContent="录音完成。可以立即回听语速、停顿和第三轮回应；音频不会上传。";
   };
   recorder.start();
-  const status=$("#statusMessage");if(status)status.textContent="正在录音，请大声说出你的三轮回应…";
+  const status=$("#statusMessage");if(status)status.textContent="正在录音，请大声说出本题的多轮回应…";
  }catch{
   mediaStream?.getTracks().forEach(t=>t.stop());mediaStream=null;
   const status=$("#statusMessage");if(status)status.textContent="无法使用麦克风，请检查浏览器权限。";
@@ -213,8 +214,11 @@ async function init(){
   catalog=await res.json();
   const data=await Promise.all(catalog.categories.map(async c=>{const r=await fetch("./"+c.file,{cache:"no-cache"});if(!r.ok)throw Error(c.file+" HTTP "+r.status);return await r.json();}));
   cases=data.flat();if(!cases.length)throw Error("场景数据为空");
+  if(requestedCase){const linked=cases.find(c=>c.id===requestedCase);if(linked){state.category=linked.category;state.difficulty="all";state.tag="all";state.search="";state.activeId=linked.id;}}
+  else if(requestedCategory&&catalog.categories.some(c=>c.id===requestedCategory)){state.category=requestedCategory;state.activeId=null;}
   if(!catalog.categories.some(c=>c.id===state.category))state.category="all";
   renderCategories();renderControls();renderStats();renderCase();
+  if(requestedCase&&location.hash==="#practice")requestAnimationFrame(()=>$("#practice")?.scrollIntoView({block:"start"}));
  }catch(error){$("#casePanel").innerHTML='<div class="empty-state"><h3>暂时无法读取案例库</h3><p>请通过网站 URL 或本地 HTTP 服务打开页面（直接双击 HTML 可能受浏览器文件权限限制）。</p><p>'+esc(error.message)+'</p><button class="secondary-button" onclick="location.reload()">重试加载</button></div>';$("#lessonPanel").innerHTML="";$("#reflectionPanel").innerHTML="";}
 }
 init();
