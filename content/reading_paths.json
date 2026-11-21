@@ -1,0 +1,43 @@
+[
+  {
+    "slug": "start-here",
+    "title": "从零开始：建立沟通闭环",
+    "description": "先掌握通用沟通模型，再用短练习把方法变成自己的表达。",
+    "posts": [
+      "communication-loop",
+      "deliberate-practice",
+      "upward-briefing"
+    ]
+  },
+  {
+    "slug": "workplace",
+    "title": "职场沟通：汇报、协作与反馈",
+    "description": "从个人汇报到团队交付，再到管理反馈。",
+    "posts": [
+      "upward-briefing",
+      "collaboration-loop",
+      "feedback-management"
+    ]
+  },
+  {
+    "slug": "relationships",
+    "title": "关系沟通：亲密关系、代际与社交",
+    "description": "在情绪理解与边界表达之间找到可持续的做法。",
+    "posts": [
+      "partner-dialogue",
+      "intergenerational-boundaries",
+      "parent-child-communication",
+      "friendship-boundaries"
+    ]
+  },
+  {
+    "slug": "high-stakes",
+    "title": "复杂场景：客户、冲突与公众表达",
+    "description": "处理信息不确定、利益分歧和现场追问。",
+    "posts": [
+      "client-expectation",
+      "principled-negotiation",
+      "public-speaking"
+    ]
+  }
+]

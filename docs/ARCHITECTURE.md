@@ -49,3 +49,8 @@ CI 额外执行 `git diff --exit-code` 确保生成内容已提交，Pages 从 `
 ## 安全与素材边界
 
 现实暴力/威胁/自伤等情境优先安全及现实专业支持，不把持续交涉当作唯一答案。新内容提交前需去标识化并保留创作版权，不能上传真实个人或公司的敏感资料。
+
+
+## 沟通知识文章系统
+
+知识文章采用独立于案例数据的内容层：`content/categories.json` 注册一级领域和二级主题，`content/posts.json` 注册文章状态/摘要/标签/来源/封面/关联案例，`content/reading_paths.json` 编排学习路径。文章正文位于 `posts/<category>/<slug>/index.html`，每篇有原创 SVG 与 `evidence.json`。`scripts/build-knowledge.mjs` 生成 `knowledge/` 首页、分类页、主题地图、归档、RSS 与 Sitemap；训练首页仅提供入口，不改变案例训练数据和本地进度。Pages 将 `posts/`、`site/` 与 `knowledge/` 一同发布。

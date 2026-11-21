@@ -1,0 +1,392 @@
+[
+  {
+    "slug": "communication-loop",
+    "title": "沟通闭环：从听懂到行动",
+    "subtitle": "沟通不是把话说完，而是让事实、理解、请求与下一步形成闭环",
+    "category": "foundations",
+    "topic": "communication-loop",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 15,
+    "tags": [
+      "沟通模型",
+      "积极倾听",
+      "事实与判断",
+      "行动确认"
+    ],
+    "summary": "从常见误会切入，拆解理解、表达、确认、行动四个环节；区分被听见、被同意和形成可执行约定。",
+    "related_cases": [
+      "upward-001",
+      "friends-001",
+      "conflicts-001"
+    ],
+    "sources": [
+      {
+        "title": "AHRQ TeamSTEPPS · SBAR",
+        "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html"
+      },
+      {
+        "title": "AHRQ TeamSTEPPS · Teamwork / Check-Back",
+        "url": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html"
+      },
+      {
+        "title": "Harvard Program on Negotiation · Principled Negotiation",
+        "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "沟通闭环：从听懂到行动：从核心问题到可执行的表达动作"
+    }
+  },
+  {
+    "slug": "deliberate-practice",
+    "title": "表达训练：从背话术到刻意练习",
+    "subtitle": "用真实回应、针对性反馈和重复演练，逐步建立可迁移的表达能力",
+    "category": "foundations",
+    "topic": "deliberate-practice",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 13,
+    "tags": [
+      "刻意练习",
+      "口头表达",
+      "即时复盘",
+      "训练设计"
+    ],
+    "summary": "解释为什么只读标准答案不等于训练，给出一轮一目标、先答后看、针对性复盘与间隔重练的实践闭环。",
+    "related_cases": [
+      "upward-001",
+      "collaboration-001",
+      "public-speaking-townhall-qa"
+    ],
+    "sources": [
+      {
+        "title": "Ericsson, Krampe & Tesch-Römer (1993) · The Role of Deliberate Practice in the Acquisition of Expert Performance",
+        "url": "https://doi.org/10.1037/0033-295X.100.3.363"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "表达训练：从背话术到刻意练习：从核心问题到可执行的表达动作"
+    }
+  },
+  {
+    "slug": "upward-briefing",
+    "title": "向上汇报：让问题、风险与决策一眼可见",
+    "subtitle": "从时间流水账转向结论、选项与明确决策请求",
+    "category": "workplace",
+    "topic": "upward-reporting",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 14,
+    "tags": [
+      "向上管理",
+      "SBAR",
+      "风险同步",
+      "决策请求"
+    ],
+    "summary": "拆解结论先行、方案比较和决策请求；说明如何区分已完成、待验证与需要上级拍板的事项。",
+    "related_cases": [
+      "upward-001",
+      "upward-briefing-4round"
+    ],
+    "sources": [
+      {
+        "title": "AHRQ TeamSTEPPS · SBAR",
+        "url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "向上汇报：让问题、风险与决策一眼可见：从核心问题到可执行的表达动作"
+    }
+  },
+  {
+    "slug": "collaboration-loop",
+    "title": "同事协作：把口头配合变成执行闭环",
+    "subtitle": "共同目标、清晰责任与复述确认，减少“我以为你会做”的落差",
+    "category": "workplace",
+    "topic": "collaboration",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 13,
+    "tags": [
+      "团队协作",
+      "责任分工",
+      "Check-back",
+      "RACI"
+    ],
+    "summary": "说明如何对齐共同成功标准、明确交付与责任，再用确认回路避免双方理解不一致。",
+    "related_cases": [
+      "collaboration-001"
+    ],
+    "sources": [
+      {
+        "title": "AHRQ TeamSTEPPS · Check-Back",
+        "url": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "同事协作：把口头配合变成执行闭环：从核心问题到可执行的表达动作"
+    }
+  },
+  {
+    "slug": "feedback-management",
+    "title": "管理反馈：把评价变成可观察的下一步",
+    "subtitle": "清楚表达期望，也让下属能解释、提问和报告风险",
+    "category": "workplace",
+    "topic": "leadership-feedback",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 15,
+    "tags": [
+      "管理沟通",
+      "SBI反馈",
+      "心理安全",
+      "任务标准"
+    ],
+    "summary": "解释情境—行为—影响的反馈结构、双向澄清和支持责任，避免人格评价与单向命令。",
+    "related_cases": [
+      "leadership-001"
+    ],
+    "sources": [
+      {
+        "title": "Center for Creative Leadership · SBI Feedback",
+        "url": "https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "管理反馈：把评价变成可观察的下一步：从核心问题到可执行的表达动作"
+    }
+  },
+  {
+    "slug": "partner-dialogue",
+    "title": "亲密关系沟通：先理解感受，再表达需求",
+    "subtitle": "让情绪被听见，同时把模糊抱怨转成可讨论的具体请求",
+    "category": "family",
+    "topic": "partner-dialogue",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 15,
+    "tags": [
+      "伴侣沟通",
+      "积极倾听",
+      "我陈述",
+      "关系修复"
+    ],
+    "summary": "区分情绪确认、具体行为、个人需要和修复安排；强调暂停、返回与安全边界。",
+    "related_cases": [
+      "partner-001"
+    ],
+    "sources": [
+      {
+        "title": "The Gottman Institute · Repair Attempts",
+        "url": "https://www.gottman.com/blog/repair-secret-weapon-emotionally-connected-couples/"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "亲密关系沟通：先理解感受，再表达需求：从核心问题到可执行的表达动作"
+    }
+  },
+  {
+    "slug": "intergenerational-boundaries",
+    "title": "与父母沟通：尊重关切，也保留自主边界",
+    "subtitle": "把关心与控制分开，把不可协商的决定和可协商的安排说清楚",
+    "category": "family",
+    "topic": "intergenerational-boundaries",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 13,
+    "tags": [
+      "代际沟通",
+      "边界表达",
+      "尊重",
+      "自主决定"
+    ],
+    "summary": "练习承认关切、说明自己的判断并提出新的互动安排，不用争输赢证明独立。",
+    "related_cases": [
+      "parents-001"
+    ],
+    "sources": [
+      {
+        "title": "National Institute on Aging · Advance Care Planning",
+        "url": "https://www.nia.nih.gov/health/advance-care-planning"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "与父母沟通：尊重关切，也保留自主边界：从核心问题到可执行的表达动作"
+    }
+  },
+  {
+    "slug": "parent-child-communication",
+    "title": "亲子沟通：接住情绪，守住规则，给出选择",
+    "subtitle": "让孩子感到被理解，同时把安全规则说得具体、稳定且适龄",
+    "category": "family",
+    "topic": "parent-child-communication",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 15,
+    "tags": [
+      "亲子沟通",
+      "反映式倾听",
+      "规则边界",
+      "自主能力"
+    ],
+    "summary": "区分情绪接纳与行为边界，用少量规则和有限选择支持孩子参与解决问题。",
+    "related_cases": [
+      "children-001",
+      "children-030"
+    ],
+    "sources": [
+      {
+        "title": "CDC · Active Listening",
+        "url": "https://www.cdc.gov/parenting-toddlers/communication/active-listening.html"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "亲子沟通：接住情绪，守住规则，给出选择：从核心问题到可执行的表达动作"
+    }
+  },
+  {
+    "slug": "friendship-boundaries",
+    "title": "朋友与社交：先听需求，再决定如何帮助",
+    "subtitle": "真诚回应不等于立即给建议，更不等于无条件答应",
+    "category": "social-business",
+    "topic": "friendship-boundaries",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 13,
+    "tags": [
+      "朋友关系",
+      "积极倾听",
+      "互惠",
+      "拒绝与边界"
+    ],
+    "summary": "识别对方此刻需要倾听、建议还是实际帮助，并练习在真诚支持中保留可持续边界。",
+    "related_cases": [
+      "friends-001",
+      "friends-027"
+    ],
+    "sources": [
+      {
+        "title": "Greater Good Science Center · Keys to Good Friendship",
+        "url": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "朋友与社交：先听需求，再决定如何帮助：从核心问题到可执行的表达动作"
+    }
+  },
+  {
+    "slug": "client-expectation",
+    "title": "客户沟通：用证据管理需求与预期",
+    "subtitle": "把“能不能做”拆成范围、标准、风险、时间与责任",
+    "category": "social-business",
+    "topic": "client-expectation",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 15,
+    "tags": [
+      "客户沟通",
+      "需求澄清",
+      "交付预期",
+      "可信承诺"
+    ],
+    "summary": "说明如何识别成功标准、区分已验证与待确认能力，并把时间、验收和变更流程写成共同预期。",
+    "related_cases": [
+      "clients-001",
+      "clients-025"
+    ],
+    "sources": [
+      {
+        "title": "Harvard Program on Negotiation · Principled Negotiation",
+        "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "客户沟通：用证据管理需求与预期：从核心问题到可执行的表达动作"
+    }
+  },
+  {
+    "slug": "principled-negotiation",
+    "title": "利益冲突：从立场对抗转向可执行协商",
+    "subtitle": "先降温和确认安全，再区分立场、利益、选项与客观标准",
+    "category": "conflict-public",
+    "topic": "principled-negotiation",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 17,
+    "tags": [
+      "冲突管理",
+      "原则性谈判",
+      "BATNA",
+      "客观标准",
+      "安全边界"
+    ],
+    "summary": "从邻里噪音分歧切入，拆解事实描述、利益澄清、选项生成和约定回看；明确威胁与暴力不属于继续协商的场景。",
+    "related_cases": [
+      "conflicts-001",
+      "conflicts-027"
+    ],
+    "sources": [
+      {
+        "title": "Harvard Program on Negotiation · Principled Negotiation",
+        "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "利益冲突：从立场对抗转向可执行协商：从核心问题到可执行的表达动作"
+    }
+  },
+  {
+    "slug": "public-speaking",
+    "title": "公众表达：让观点清楚，也让追问有落点",
+    "subtitle": "从听众问题出发，用核心观点、可核实依据与诚实边界组织发言",
+    "category": "conflict-public",
+    "topic": "public-speaking",
+    "status": "published",
+    "published": "2026-11-21",
+    "updated": "2026-11-21",
+    "reading_minutes": 15,
+    "tags": [
+      "公众表达",
+      "即兴发言",
+      "结构化表达",
+      "现场问答"
+    ],
+    "summary": "从试点汇报被追问数据依据切入，练习听众导向、观点与证据的对应关系，以及面对未知时的诚实收束。",
+    "related_cases": [
+      "public-speaking-townhall-qa"
+    ],
+    "sources": [
+      {
+        "title": "Toastmasters International",
+        "url": "https://www.toastmasters.org/"
+      }
+    ],
+    "cover": {
+      "src": "assets/00-cover.svg",
+      "caption": "公众表达：让观点清楚，也让追问有落点：从核心问题到可执行的表达动作"
+    }
+  }
+]

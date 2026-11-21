@@ -1,0 +1,20 @@
+[
+  {
+    "id": "E01",
+    "kind": "research",
+    "claim": "该研究讨论刻意练习与专家表现发展之间的关系；本站的每日训练时长和四维自评是本项目自行设计，并非论文验证的固定处方。",
+    "source_url": "https://doi.org/10.1037/0033-295X.100.3.363",
+    "locator": "Psychological Review 100(3), 363–406",
+    "status": "verified",
+    "notes": "只引用来源实际涉及的范围；跨场景使用和练习编排属于本项目教学改编。"
+  },
+  {
+    "id": "D01",
+    "kind": "derived",
+    "claim": "本文将沟通原则组织为可练习的步骤。",
+    "source_url": "https://github.com/1998x-stack/communication",
+    "locator": "posts/foundations/deliberate-practice/index.html",
+    "status": "derived",
+    "notes": "本项目原创教学组织方式，不是单一研究提出的标准模型。"
+  }
+]

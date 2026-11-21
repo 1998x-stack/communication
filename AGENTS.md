@@ -75,3 +75,12 @@
 - 人工审查至少检查：事实与猜测是否分开；对方追问是否真的被回答；是否有明确动作/时间/责任/停止条件；口头表达是否自然；是否回避操控、威胁或虚假保证。
 - 严重安全风险、儿童心理危机、疑似暴力或违法事项要优先现实安全支持，不能把继续对话作为成功标准；必要时更新 `safetyNote` 的来源逻辑。
 - CI 在 `scripts/quality.mjs` 中保证首批 270 题的覆盖层不会在后续生成时回退，不能替代真实课堂试听或外部专业审稿。
+
+
+## 沟通知识文章（Olah-style / xm-posts editorial contract）
+- 知识文章的分类、主题、文章清单与阅读路径分别以 `content/categories.json`、`content/posts.json`、`content/reading_paths.json` 为唯一源；正文位于 `posts/<category>/<slug>/index.html`，每篇维护 `evidence.json` 和独立 `assets/*.svg`。
+- 新文章采用“具体问题 → 常见误区 → 核心机制 → 多轮案例 → 交互拆解 → 失败模式/安全边界 → 训练落点 → 来源说明”的因果叙事；每篇至少三幅原创 SVG、七个 H2、一个真实案例和一个渐进式交互。
+- 文章需标注外部来源支持范围；项目原创教学模型用 `derived`，示例用 `illustrative`，不能把四维自评或训练时长说成经过验证的心理测量/固定处方。
+- `knowledge/` 是生成产物，不手工编辑。运行 `npm run build && npm test`；发布前还要 `python scripts/validate_articles.py` 和 `python scripts/browser_knowledge.py --output reports/knowledge`。
+- 桌面、平板、390px 与 360px 均须检查；图解需有移动版，页面不能横向溢出；交互支持键盘、ARIA、减少动态效果与打印。
+- 上游参考：[Olah-style-posts skill](https://github.com/1998x-stack/Olah-style-posts/tree/main/skills/olah-style-paper-posts)；内容结构参考 [xm-posts](https://github.com/1998x-stack/xm-posts)。只借鉴叙事和质量方法，不复制文章、图形、品牌或代码。

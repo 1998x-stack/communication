@@ -13,6 +13,7 @@ for(const c of catalog.categories){
 }
 paths.push(".agents/skills/communication-coach/SKILL.md");
 for(const p of paths){try{await access(new URL(p,root))}catch{throw Error("Missing: "+p)}}
+paths.push("content/categories.json","content/posts.json","content/reading_paths.json","docs/EDITORIAL.md","docs/TAXONOMY.md","knowledge/index.html","knowledge/archive/index.html","knowledge/topics/index.html","knowledge/feed.xml","knowledge/sitemap.xml","site/assets/article.css","site/assets/article.js","site/assets/knowledge.css","site/assets/knowledge.js","scripts/build-knowledge.mjs","scripts/validate-knowledge.mjs");
 const app=await readFile(new URL("assets/app.js",root),"utf8");
 for(const term of ["orderSelect","visibilitySelect","localStorage","data/catalog.json","data-reveal","rating","tagSelect","roundCount"])
  if(!app.includes(term))throw Error("Missing UI behavior: "+term);

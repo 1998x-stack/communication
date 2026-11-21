@@ -19,3 +19,6 @@
 .controls>.search-group{grid-column:1/-1}
 @media(max-width:1300px){.controls{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:720px){.controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Editorial knowledge-library entry point */
+.knowledge-promo{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;margin:18px 0 28px;padding:22px 26px;border:1px solid #dce8e4;border-radius:15px;background:linear-gradient(120deg,#f0f7f1,#fff8f1)}.knowledge-promo h2{font-family:var(--serif);font-size:22px;color:#1e4b43;margin:7px 0}.knowledge-promo p{font-size:12px;line-height:1.9;color:#627a72;margin:0;max-width:760px}.knowledge-promo .overline{font-size:9px;letter-spacing:1.6px;color:#47816e;font-weight:800}.knowledge-promo .secondary-button{white-space:nowrap;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}@media(max-width:720px){.knowledge-promo{padding:18px;align-items:flex-start}.knowledge-promo .secondary-button{width:100%}}

@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="theme-color" content="#132a32" />
-  <meta name="description" content="言习 · 每日15分钟，练习职场、家庭、社交与冲突中的真实多轮对话。持续扩展的循序渐进案例，隐藏答案、随机抽题、口才复盘。" />
+  <meta name="description" content="言习 · 每日15分钟中文沟通表达训练，配套12篇结构化知识文章、原创图解与272道真实多轮案例。" />
   <meta property="og:title" content="言习｜每天练一点，说得更从容" />
   <meta property="og:description" content="可扩展场景 · 独立案例元数据 · 自由轮次 · 每日口才训练" />
   <title>言习 · Communication Lab｜晨间表达练习</title>
@@ -30,7 +30,7 @@
       <header class="topbar">
         <button id="menuButton" class="icon-button mobile-only" aria-label="打开场景导航" aria-expanded="false">☰</button>
         <div class="breadcrumb"><span>PERSONAL GROWTH</span><span class="crumb-divider">/</span>每日表达训练</div>
-        <div class="topbar-right"><span class="live-dot"></span><span id="todayLabel">今天，适合好好表达</span><span class="topbar-divider"></span><a href="https://github.com/1998x-stack/communication" target="_blank" rel="noopener" class="top-link">GitHub ↗</a></div>
+        <div class="topbar-right"><span class="live-dot"></span><span id="todayLabel">今天，适合好好表达</span><span class="topbar-divider"></span><a href="./knowledge/" class="top-link">知识文章 ↗</a><a href="https://github.com/1998x-stack/communication" target="_blank" rel="noopener" class="top-link">GitHub ↗</a></div>
       </header>
       <main class="content">
         <section class="hero">
@@ -46,7 +46,11 @@
           <div class="metric"><span class="metric-symbol symbol-green">↗</span><div><span class="metric-label">连续练习</span><strong id="streakCount">0 <small>天</small></strong></div><span class="metric-hint">One day at a time</span></div>
           <div class="metric"><span class="metric-symbol symbol-gold">✦</span><div><span class="metric-label">今日已练</span><strong id="todayCount">0 <small>题</small></strong></div><span class="metric-hint" id="totalCount">训练案例加载中</span></div>
         </section>
-        <section class="section-heading"><div><span class="overline">YOUR DAILY PRACTICE</span><h2>今日训练台 <span class="heading-stroke">✧</span></h2></div><p>先说自己的话，再看参考答案。</p></section>
+        <section class="knowledge-promo" aria-label="沟通知识文章">
+  <div><span class="overline">COMMUNICATION KNOWLEDGE LIBRARY</span><h2>先理解方法，再进入真实对话。</h2><p>从倾听、表达、边界到协商，阅读结构化文章，理解方法背后的逻辑，再回到案例中逐轮练习。</p></div>
+  <a class="secondary-button" href="./knowledge/">浏览 12 篇知识文章 ↗</a>
+</section>
+<section class="section-heading"><div><span class="overline">YOUR DAILY PRACTICE</span><h2>今日训练台 <span class="heading-stroke">✧</span></h2></div><p>先说自己的话，再看参考答案。</p></section>
         <section class="controls" aria-label="训练选项">
           <div class="control-group"><label for="categorySelect">训练场景</label><select id="categorySelect"><option value="all">全部场景</option></select></div>
           <div class="control-group"><label for="difficultySelect">挑战难度</label><select id="difficultySelect"><option value="all">全部难度</option><option value="low">基础</option><option value="medium">进阶</option><option value="high">高压</option></select></div>
@@ -55,11 +59,11 @@
           <div class="control-group"><label for="visibilitySelect">答案展示</label><select id="visibilitySelect"><option value="hidden">隐藏参考答案</option><option value="expanded">全部展开</option></select></div>
           <div class="search-group"><label for="searchInput">检索案例</label><input id="searchInput" type="search" placeholder="搜索具体情境…" autocomplete="off" /></div>
         </section>
-        <section class="workspace">
+        <section class="workspace" id="practice">
           <div id="casePanel" class="case-panel" aria-live="polite"><div class="loading"><div class="loading-mark">言</div>正在为你准备今天的训练…</div></div>
           <aside class="right-rail"><div id="dailyPlanPanel" class="rail-card"><h3>今日 3 题晨练</h3><p>正在编排练习…</p></div><div id="lessonPanel" class="rail-card"><h3>训练方法</h3><p>加载中…</p></div><div id="reflectionPanel" class="rail-card"><h3>自我复盘</h3><p>完成一题后回顾表达。</p></div></aside>
         </section>
-        <footer class="footer"><span>言习 <b>·</b> 一个人的沟通练习室</span><span>数据留在你的浏览器 · 无账号 · 无追踪</span><a href="https://github.com/1998x-stack/communication" target="_blank" rel="noopener">为案例库添一笔 ↗</a></footer>
+        <footer class="footer"><span>言习 <b>·</b> 一个人的沟通练习室</span><span>数据留在你的浏览器 · 无账号 · 无追踪</span><a href="./knowledge/">阅读沟通知识库 ↗</a><a href="https://github.com/1998x-stack/communication" target="_blank" rel="noopener">为案例库添一笔 ↗</a></footer>
       </main>
     </div>
   </div>

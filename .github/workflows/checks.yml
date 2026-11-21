@@ -1,4 +1,4 @@
-name: Validate curriculum and UI
+name: Validate curriculum, knowledge articles and UI
 on:
   push:
     branches: [main]
@@ -17,4 +17,21 @@ jobs:
           package-manager-cache: false
       - run: npm run build
       - run: npm test
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install article QA tools
+        run: |
+          python -m pip install -r requirements-knowledge.txt
+          python -m playwright install --with-deps chromium
+      - name: Validate editorial structure
+        run: python scripts/validate_articles.py
+      - name: Browser QA at desktop, tablet and mobile sizes
+        run: python scripts/browser_knowledge.py --output reports/knowledge
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: knowledge-browser-qa
+          path: reports/knowledge/
+          if-no-files-found: ignore
       - run: git diff --exit-code

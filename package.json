@@ -7,8 +7,9 @@
   "scripts": {
     "generate": "node scripts/generate.mjs",
     "validate": "node scripts/validate.mjs",
-    "test": "node scripts/validate.mjs && node scripts/quality.mjs && node scripts/test-metadata-v2.mjs && node scripts/audit.mjs && node --check assets/app.js && node --check scripts/generate.mjs && node --check scripts/sync-skills.mjs",
-    "build": "npm run generate && npm run validate && npm run skills:sync",
-    "skills:sync": "node scripts/sync-skills.mjs"
+    "test": "node scripts/validate.mjs && node scripts/quality.mjs && node scripts/test-metadata-v2.mjs && node scripts/audit.mjs && node --check assets/app.js && node --check scripts/generate.mjs && node --check scripts/sync-skills.mjs && node scripts/validate-knowledge.mjs && node --check scripts/build-knowledge.mjs && node --check scripts/validate-knowledge.mjs && node --check site/assets/article.js && node --check site/assets/knowledge.js",
+    "build": "npm run generate && npm run validate && npm run skills:sync && npm run knowledge:build",
+    "skills:sync": "node scripts/sync-skills.mjs",
+    "knowledge:build": "node scripts/normalize-mobile-svg.mjs && node scripts/build-knowledge.mjs"
   }
 }
