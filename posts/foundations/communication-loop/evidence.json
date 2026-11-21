@@ -6,25 +6,25 @@
     "source_url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
     "locator": "SBAR communication tool",
     "status": "verified",
-    "notes": "跨场景使用属于本项目教学改编；不将框架描述为万能公式或效果保证。"
+    "notes": "只引用来源实际涉及的范围；跨场景使用和练习编排属于本项目教学改编。"
   },
   {
     "id": "E02",
     "kind": "framework",
-    "claim": "本文将AHRQ TeamSTEPPS · SBAR用于解释相关沟通动作；来源支持的是其原始框架或指导范围，不代表本文所有案例话术都经过该来源实验验证。",
-    "source_url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
-    "locator": "SBAR communication tool",
+    "claim": "本文将AHRQ TeamSTEPPS · Teamwork / Check-Back用于解释相关沟通动作；来源支持的是其原始框架或指导范围，不代表本文所有案例话术都经过该来源实验验证。",
+    "source_url": "https://www.ahrq.gov/hai/cusp/modules/implement/teamwork.html",
+    "locator": "Teamwork tools and closed-loop communication",
     "status": "verified",
-    "notes": "跨场景使用属于本项目教学改编；不将框架描述为万能公式或效果保证。"
+    "notes": "只引用来源实际涉及的范围；跨场景使用和练习编排属于本项目教学改编。"
   },
   {
     "id": "E03",
     "kind": "framework",
-    "claim": "本文将AHRQ TeamSTEPPS · SBAR用于解释相关沟通动作；来源支持的是其原始框架或指导范围，不代表本文所有案例话术都经过该来源实验验证。",
-    "source_url": "https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/sbar.html",
-    "locator": "SBAR communication tool",
+    "claim": "本文将Harvard Program on Negotiation · Principled Negotiation用于解释相关沟通动作；来源支持的是其原始框架或指导范围，不代表本文所有案例话术都经过该来源实验验证。",
+    "source_url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/principled-negotiation-focus-interests-create-value/",
+    "locator": "Focus on interests and create value",
     "status": "verified",
-    "notes": "跨场景使用属于本项目教学改编；不将框架描述为万能公式或效果保证。"
+    "notes": "只引用来源实际涉及的范围；跨场景使用和练习编排属于本项目教学改编。"
   },
   {
     "id": "D01",
