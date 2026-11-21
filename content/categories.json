@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "foundations",
+    "title": "沟通基础",
+    "english": "Communication Foundations",
+    "description": "从理解对方、表达事实与需求，到确认行动和复盘，建立可迁移的沟通底层能力。",
+    "topics": [
+      {
+        "slug": "communication-loop",
+        "title": "沟通闭环与目标"
+      },
+      {
+        "slug": "deliberate-practice",
+        "title": "表达训练与复盘"
+      }
+    ]
+  },
+  {
+    "slug": "workplace",
+    "title": "职场沟通",
+    "english": "Workplace Communication",
+    "description": "向上汇报、同事协作与管理反馈：把目标、责任、风险和决策说清楚。",
+    "topics": [
+      {
+        "slug": "upward-reporting",
+        "title": "向上汇报与决策请求"
+      },
+      {
+        "slug": "collaboration",
+        "title": "跨角色协作与闭环"
+      },
+      {
+        "slug": "leadership-feedback",
+        "title": "管理反馈与心理安全"
+      }
+    ]
+  },
+  {
+    "slug": "family",
+    "title": "家庭沟通",
+    "english": "Family Communication",
+    "description": "在亲密关系、代际关系与亲子教育中，兼顾情绪理解、个人边界和可执行安排。",
+    "topics": [
+      {
+        "slug": "partner-dialogue",
+        "title": "伴侣沟通与关系修复"
+      },
+      {
+        "slug": "intergenerational-boundaries",
+        "title": "代际沟通与自主边界"
+      },
+      {
+        "slug": "parent-child-communication",
+        "title": "亲子倾听与规则"
+      }
+    ]
+  },
+  {
+    "slug": "social-business",
+    "title": "社交与商务",
+    "english": "Social & Business Communication",
+    "description": "在朋友关系与客户合作中，识别真实需求、回应方式和承诺边界。",
+    "topics": [
+      {
+        "slug": "friendship-boundaries",
+        "title": "朋友关系与互惠边界"
+      },
+      {
+        "slug": "client-expectation",
+        "title": "客户需求与预期管理"
+      }
+    ]
+  },
+  {
+    "slug": "conflict-public",
+    "title": "冲突与公众表达",
+    "english": "Conflict & Public Speaking",
+    "description": "面对利益分歧和公开提问，回到事实、听众需求、客观标准与行动落点。",
+    "topics": [
+      {
+        "slug": "principled-negotiation",
+        "title": "利益协商与冲突降级"
+      },
+      {
+        "slug": "public-speaking",
+        "title": "结构表达与现场问答"
+      }
+    ]
+  }
+]

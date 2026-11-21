@@ -1,0 +1,20 @@
+[
+  {
+    "id": "E01",
+    "kind": "framework",
+    "claim": "本文将Greater Good Science Center · Keys to Good Friendship用于解释相关沟通动作；来源支持的是其原始框架或指导范围，不代表本文所有案例话术都经过该来源实验验证。",
+    "source_url": "https://greatergood.berkeley.edu/article/item/what_are_the_keys_to_good_friendship",
+    "locator": "Friendship, responsiveness and support",
+    "status": "verified",
+    "notes": "跨场景使用属于本项目教学改编；不将框架描述为万能公式或效果保证。"
+  },
+  {
+    "id": "D01",
+    "kind": "derived",
+    "claim": "本文将沟通原则组织为可练习的步骤。",
+    "source_url": "https://github.com/1998x-stack/communication",
+    "locator": "posts/social-business/friendship-boundaries/index.html",
+    "status": "derived",
+    "notes": "本项目原创教学组织方式，不是单一研究提出的标准模型。"
+  }
+]
